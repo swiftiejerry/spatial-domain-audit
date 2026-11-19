@@ -1,0 +1,32 @@
+{
+  "batch": 0,
+  "layers": [
+    {
+      "layer": 0,
+      "n_spatial_edges": 336,
+      "source_input_l2_mean": 2.055926561355591,
+      "weighted_message_l2_mean": 0.040617551654577255
+    },
+    {
+      "layer": 1,
+      "n_spatial_edges": 336,
+      "source_input_l2_mean": 10.187748908996582,
+      "weighted_message_l2_mean": 0.20715318620204926
+    },
+    {
+      "layer": 2,
+      "n_spatial_edges": 336,
+      "source_input_l2_mean": 10.19743537902832,
+      "weighted_message_l2_mean": 0.18988417088985443
+    }
+  ],
+  "spatial_relation_msg_gradient_norms": [
+    0.011159177869558334,
+    0.01622871868312359,
+    0.014143820852041245
+  ],
+  "enabled_minus_disabled_max_abs": 1.3569509983062744,
+  "disabled_minus_Astar_max_abs": 0.0,
+  "eval_repeat_bitwise_equal": true,
+  "dropout_disabled": true
+}

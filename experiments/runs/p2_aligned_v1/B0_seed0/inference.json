@@ -1,0 +1,7 @@
+{
+  "n_spots": 3484,
+  "n_genes": 18085,
+  "spot_gene_edges": 69680,
+  "spatial_edges": 38624,
+  "eval_mode": true
+}

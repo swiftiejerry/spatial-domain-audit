@@ -1,0 +1,44 @@
+# Prototype-refresh dynamic clustering configuration
+
+data:
+  input_path: data/raw/human_lymph_node_A1/adata_RNA.h5ad
+  n_spots: 3484
+  n_genes: 18085
+  label_key: final_annot
+  spatial_key: obsm/spatial
+
+seeds: [0, 1, 42]
+
+model:
+  n_hidden: 104
+  n_heads: 8
+  n_layers: 3
+
+training:
+  epochs: 100
+  warmup_epochs: 30
+  update_interval: 10
+  optimizer: AdamW
+  learning_rate: 0.0005
+  weight_decay: 0.1
+  deterministic: true
+
+batching:
+  sampler: spatial_median_bisection_with_one_hop_halo
+  cell_size: 30
+
+dynamic_clustering:
+  init_source: warmup_leiden
+  leiden_resolution: 0.5
+  free_k0: true
+  preserve_k: true
+  center_embedding: false
+  delta_mode: absolute
+  delta: 0.8
+  tau: 0.005
+  lambda_proto: 1.0
+  objective: "L_KL + lambda_proto * L_proto (replaces fixed classification and intra-cluster terms)"
+
+arms:
+  C: { spatial_relation: false, dynamic_clustering: true }
+  D: { spatial_relation: true,  dynamic_clustering: true }

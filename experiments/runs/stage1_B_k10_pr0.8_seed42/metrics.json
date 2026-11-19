@@ -1,0 +1,171 @@
+{
+  "run_id": "stage1_B_k10_pr0.8_seed42",
+  "stage": "1",
+  "arm": "B",
+  "experiment": "B (expression + spot-spot kNN k=10)",
+  "h5ad": "data/raw/human_lymph_node_A1/adata_RNA.h5ad",
+  "h5ad_sha256": "7cdd2ab1a09d8796f9810aa3c09d6377994e2f17806a9dba6fd263ff84e4db68",
+  "label_key": "final_annot",
+  "n_spots": 3484,
+  "n_genes": 18085,
+  "seed": 42,
+  "deterministic": true,
+  "hyperparams": {
+    "cell_size": 30,
+    "n_hidden": 104,
+    "n_heads": 8,
+    "n_layers": 3,
+    "lr": 0.0005,
+    "weight_decay": 0.1,
+    "labsm": 0.1,
+    "epochs": 100
+  },
+  "batching": {
+    "sampler": "spatial_median_bisection_with_one_hop_halo",
+    "n_batches": 117,
+    "core_sizes": {
+      "min": 29,
+      "max": 30
+    },
+    "batch_sizes_with_halo": {
+      "min": 55,
+      "max": 76
+    }
+  },
+  "spatial": {
+    "relation_enabled": true,
+    "num_relations": 3,
+    "mode": "knn",
+    "k": 10,
+    "weighted": false,
+    "n_directed_edges": 38624,
+    "core_incident_retention": 1.0,
+    "total_spatial_edges_in_batches": 38624,
+    "min_per_batch": 312,
+    "max_per_batch": 348
+  },
+  "scformer": {
+    "ari": 0.2860102840761549,
+    "nmi": 0.4070615514645023,
+    "n_clusters": 8,
+    "ari_vs_pseudo": 0.9972826785473048,
+    "rare_f1": 0.3894736842105263,
+    "rare_precision": 0.74,
+    "rare_recall": 0.2642857142857143,
+    "n_true_rare": 280,
+    "n_pred_rare": 100,
+    "rare_types": [
+      "follicle",
+      "medulla vessels",
+      "subcapsular sinus",
+      "hilum",
+      "trabeculae"
+    ],
+    "n_rare_clusters": 1
+  },
+  "rare_per_type": {
+    "follicle": {
+      "n_cells": 96,
+      "n_in_rare_cluster": 73,
+      "recall": 0.7604166666666666
+    },
+    "medulla vessels": {
+      "n_cells": 80,
+      "n_in_rare_cluster": 0,
+      "recall": 0.0
+    },
+    "subcapsular sinus": {
+      "n_cells": 73,
+      "n_in_rare_cluster": 1,
+      "recall": 0.0136986301369863
+    },
+    "hilum": {
+      "n_cells": 23,
+      "n_in_rare_cluster": 0,
+      "recall": 0.0
+    },
+    "trabeculae": {
+      "n_cells": 8,
+      "n_in_rare_cluster": 0,
+      "recall": 0.0
+    }
+  },
+  "leiden_baseline": {
+    "ari": 0.286688799821834,
+    "nmi": 0.40679120453609424,
+    "n_clusters": 8,
+    "resolution": 0.8,
+    "resolution_source": "cli --pseudo-resolution",
+    "n_neighbors": 10,
+    "rare_f1": 0.39267015706806285,
+    "rare_precision": 0.7352941176470589,
+    "rare_recall": 0.26785714285714285,
+    "n_true_rare": 280,
+    "n_pred_rare": 102,
+    "rare_types": [
+      "follicle",
+      "medulla vessels",
+      "subcapsular sinus",
+      "hilum",
+      "trabeculae"
+    ],
+    "n_rare_clusters": 1
+  },
+  "truth_distribution": {
+    "medulla cords": 1166,
+    "medulla sinuses": 794,
+    "cortex": 722,
+    "pericapsular adipose tissue": 320,
+    "capsule": 202,
+    "follicle": 96,
+    "medulla vessels": 80,
+    "subcapsular sinus": 73,
+    "hilum": 23,
+    "trabeculae": 8
+  },
+  "history_tail": [
+    {
+      "epoch": 96,
+      "loss": -2.566868351565467,
+      "reconstruction_loss": 0.011910354650905754,
+      "cluster_loss": 0.8104060231110989,
+      "intra_similarity": 3.389184727628007
+    },
+    {
+      "epoch": 97,
+      "loss": -2.562714119242807,
+      "reconstruction_loss": 0.012163506749157723,
+      "cluster_loss": 0.8137852325398698,
+      "intra_similarity": 3.3886628563587484
+    },
+    {
+      "epoch": 98,
+      "loss": -2.576946908592159,
+      "reconstruction_loss": 0.012124432453837914,
+      "cluster_loss": 0.8012325050484421,
+      "intra_similarity": 3.3903038517022743
+    },
+    {
+      "epoch": 99,
+      "loss": -2.5874893925128837,
+      "reconstruction_loss": 0.012059085361627687,
+      "cluster_loss": 0.7942106683030088,
+      "intra_similarity": 3.393759145695939
+    },
+    {
+      "epoch": 100,
+      "loss": -2.589284174462669,
+      "reconstruction_loss": 0.012135690233359734,
+      "cluster_loss": 0.7928066849708557,
+      "intra_similarity": 3.3942265515653496
+    }
+  ],
+  "runtime_sec": 2017.1,
+  "train_sec": 1982.8,
+  "peak_gpu_mem_gb": 2.109,
+  "env": {
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  }
+}

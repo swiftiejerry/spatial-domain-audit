@@ -1,0 +1,24 @@
+# Reference baseline configuration matching upstream scFormer (no spatial coordinates)
+
+data:
+  input_path: data/raw/human_lymph_node_A1/adata_RNA.h5ad
+  n_spots: 3484
+  n_genes: 18085
+  label_key: final_annot
+  spatial_used: false
+
+model:
+  n_hidden: 104
+  n_heads: 8
+  n_layers: 3
+
+training:
+  epochs: 100
+  optimizer: AdamW
+  learning_rate: 0.0005
+  weight_decay: 0.1
+  label_smoothing: 0.1
+  cell_size: 30
+  pseudo_resolution: 0.5
+  deterministic: true
+  seeds: [0, 1, 42]

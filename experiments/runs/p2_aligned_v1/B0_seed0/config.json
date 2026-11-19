@@ -1,0 +1,99 @@
+{
+  "arm": "B0",
+  "seed": 0,
+  "protocol": {
+    "stage": "P2",
+    "parent_protocol": "configs/aligned_warmup_protocol.json",
+    "parent_sha256": "09b64880db81ccdb4d19cf8519d778a09f79998085c920c4123656dd83a7f3c9",
+    "registration_scope": "Written after native B0 seed 0/1 began, before aligned runs; not a prospective preregistration of the entire study",
+    "seeds": [
+      0,
+      1,
+      42
+    ],
+    "epochs": 30,
+    "cell_size": 30,
+    "topz_k": 20,
+    "spatial_k": 10,
+    "training_loss": "L_KL_only",
+    "kl_reduction": "mean_as_P1",
+    "initialization": "Astar native 2-relation initialization; copy all shared parameters and relation rows 0/1 into B0; restore post-Astar-init RNG before training",
+    "training_inputs": "unchanged P1 spot scanpy Z ddof1, gene Z ddof0, Top-Z K20, paper-X KL, spatial tile plus one-hop halo; KL includes halo",
+    "inference": {
+      "primary": "eval full spot/gene graph",
+      "P1_replay": "eval original core mini-batches"
+    },
+    "clustering": "P1 frozen Leiden target-K=5 resolution sweep 0.10..3.00 step0.05; closest K if no exact hit; no truth selection",
+    "primary_endpoint": "rare binary F1 at truth <=5%, predicted cluster <=5%",
+    "secondary_endpoint": "truth <5%, predicted cluster <4.5%",
+    "null_tests": {
+      "coordinate_permutation": "frozen checkpoint full-graph inference with spot-coordinate association permuted, without changing expression or training batches",
+      "degree_rewire": "frozen checkpoint full-graph inference with undirected degree-preserving double-edge swaps, no self loops",
+      "message_block_holdout": "train a paired B0 with edges touching leftmost 20% coordinate-x spots removed; restore full spatial graph at eval; expression/Z and losses remain transductive, not an unseen-tissue benchmark"
+    },
+    "success_gate": {
+      "paired_primary": "all three rare-F1 differences >0 and mean > sample sd of Astar; also exceed empirical change from within-checkpoint relation-off diagnostic",
+      "null": "coordinate-permuted and rewired checkpoint inferences must not retain same primary improvement; diagnostic necessity evidence only, not retrained causal null",
+      "geometry": "no all-three decrease of effective rank with all-three increase of neighbour cosine; continuous values reported",
+      "safety": "no all-three decrease of boundary F1 or rare enrichment",
+      "on_failure": "do not advance to refinement; record no stable spatial benefit under tested protocol"
+    },
+    "artifacts": [
+      "config.json",
+      "initial_state.pth",
+      "checkpoint.pth",
+      "history.json",
+      "batches.json",
+      "selection.npy",
+      "spatial_edges.npy",
+      "spot_embedding.npy",
+      "gene_embedding.npy",
+      "pred.npy",
+      "evaluation.json",
+      "manifest.json",
+      "wiring.json"
+    ],
+    "limitations": [
+      "Single A1 transductive dataset",
+      "Three seeds give descriptive variability, not population confidence",
+      "P1 native source/data/graph hashes and checkpoints were not recorded; regenerated Astar must match saved P1 embedding to validate replay"
+    ]
+  },
+  "protocol_sha256": "636fb2e6c7b223d2805d27d877fd345de882946aceb24f61a95866c994992c66",
+  "model": {
+    "n_hidden": 104,
+    "n_heads": 8,
+    "n_layers": 3,
+    "dropout": 0.3,
+    "labsm": 0.1,
+    "lr": 0.0005,
+    "weight_decay": 0.1,
+    "epochs": 30,
+    "spatial_relation": true,
+    "kl_target": "paper_x",
+    "edge_source": "per_spot_selection",
+    "gene_input": "paper_z",
+    "kl_only": true
+  },
+  "initialization": {
+    "Astar_shared_initial_sha256": "d2796b3b48ff360cac6c9287e066b11078c5776e3cfefcd154f37af18949474a",
+    "B0_shared_initial_sha256": "d2796b3b48ff360cac6c9287e066b11078c5776e3cfefcd154f37af18949474a",
+    "all_shared_parameters_equal": true,
+    "post_init_rng_restored": true
+  },
+  "training_spatial_edges": {
+    "total_spatial_edges_in_batches": 38624,
+    "min_per_batch": 312,
+    "max_per_batch": 348
+  },
+  "argv": [
+    "<local_path_omitted>",
+    "--arm",
+    "B0",
+    "--seed",
+    "0"
+  ],
+  "source_paths": [
+    "<local_path_omitted>"
+  ]
+}

@@ -1,0 +1,3485 @@
+spot_id	final_annot
+s1-AACACTTGGCAAGGAA-1	medulla sinuses
+s1-AACAGGATTCATAGTT-1	medulla sinuses
+s1-AACAGGTTATTGCACC-1	medulla cords
+s1-AACAGGTTCACCGAAG-1	medulla cords
+s1-AACAGTCAGGCTCCGC-1	cortex
+s1-AACAGTCGTGTCGCGG-1	pericapsular adipose tissue
+s1-AACATACTCATATGCG-1	follicle
+s1-AACATAGTCTATCTAC-1	medulla sinuses
+s1-AACATATTCTTGCGAA-1	pericapsular adipose tissue
+s1-AACATCGCGTGACCAC-1	pericapsular adipose tissue
+s1-AACATCTAATGACCGG-1	capsule
+s1-AACATGACGCAGCGTG-1	medulla cords
+s1-AACCAAGGTATCAGGC-1	medulla sinuses
+s1-AACCAATCTGGTTGGC-1	medulla cords
+s1-AACCACTAACATGATT-1	capsule
+s1-AACCACTGCCATAGCC-1	medulla cords
+s1-AACCAGAATCAGACGT-1	medulla sinuses
+s1-AACCATGAATTGCCTT-1	pericapsular adipose tissue
+s1-AACCGCCAGACTACTT-1	medulla cords
+s1-AACCGTGCTTATGTTG-1	cortex
+s1-AACCTAAGATACTGAG-1	medulla cords
+s1-AACCTACAGAGGTAGT-1	cortex
+s1-AACCTACTGTAACTCA-1	medulla vessels
+s1-AACCTGACAGTGCCGC-1	cortex
+s1-AACCTTAGCGTCCGGT-1	medulla cords
+s1-AACGAAGCGTGGAAGT-1	cortex
+s1-AACGAATTGACCGGTT-1	medulla sinuses
+s1-AACGAGCCTCTTCGGC-1	medulla cords
+s1-AACGAGCTAATAACTA-1	follicle
+s1-AACGGCACAGAATATT-1	capsule
+s1-AACGGTAATCGACCTG-1	follicle
+s1-AACTAACGAACTAGAT-1	pericapsular adipose tissue
+s1-AACTAGCACTGTTCGA-1	medulla sinuses
+s1-AACTAGCATCACGTAC-1	medulla sinuses
+s1-AACTAGCCTAATAGCA-1	pericapsular adipose tissue
+s1-AACTAGCCTTGCAATA-1	medulla cords
+s1-AACTAGGCCTGACACC-1	medulla cords
+s1-AACTATCGTCATAGTC-1	medulla cords
+s1-AACTATCTAGCAGTAT-1	cortex
+s1-AACTATGCTGCATTCG-1	hilum
+s1-AACTATGTGCTTGTTA-1	medulla sinuses
+s1-AACTATTCTGCGGCCT-1	cortex
+s1-AACTCAACCTTGACCA-1	medulla cords
+s1-AACTCAACTTGACAGC-1	medulla sinuses
+s1-AACTCACCGAACTTAT-1	cortex
+s1-AACTCACCTCGGTGTT-1	medulla cords
+s1-AACTCACGGAGTACGT-1	medulla cords
+s1-AACTCAGATCCATGCC-1	capsule
+s1-AACTGCAACGTCCTGG-1	medulla sinuses
+s1-AACTGCCTCGATAGGT-1	medulla cords
+s1-AACTGCGAACCTTACC-1	cortex
+s1-AACTGCGATCGACTAA-1	pericapsular adipose tissue
+s1-AACTGCGGTCCGAAGC-1	follicle
+s1-AACTGCTACCTCGATA-1	medulla cords
+s1-AACTTCAAGGATAATC-1	medulla vessels
+s1-AACTTCAGATACTACC-1	medulla sinuses
+s1-AACTTCAGCATGGCCG-1	capsule
+s1-AACTTCATCTTCTGGT-1	cortex
+s1-AACTTCGCTTAGTCAG-1	medulla sinuses
+s1-AACTTGCAACTTGGAC-1	medulla cords
+s1-AACTTGGTTAATACTA-1	capsule
+s1-AACTTGGTTACATAAC-1	cortex
+s1-AAGAATTCTGGCTGCA-1	medulla sinuses
+s1-AAGACAATCTCCTGCA-1	medulla cords
+s1-AAGACTAAGGAGATCC-1	medulla cords
+s1-AAGACTCAAGGCTCCA-1	cortex
+s1-AAGACTGTCATAGTGC-1	medulla vessels
+s1-AAGAGCAGATGTGCCA-1	cortex
+s1-AAGATACAGGCGAACG-1	pericapsular adipose tissue
+s1-AAGATAGGCTTGCTTA-1	medulla cords
+s1-AAGATATTGGACGTCC-1	medulla sinuses
+s1-AAGATCTGTAACTTGT-1	medulla sinuses
+s1-AAGATGAAGGTCATCG-1	pericapsular adipose tissue
+s1-AAGATGGCCGCTAGTT-1	capsule
+s1-AAGATTAGGCTGTCTA-1	pericapsular adipose tissue
+s1-AAGATTATCTAGCATA-1	medulla cords
+s1-AAGCAGCGGACACGTG-1	medulla cords
+s1-AAGCAGTATCAGAATC-1	medulla cords
+s1-AAGCAGTGAGTGCGAC-1	medulla sinuses
+s1-AAGCAGTGGCATCACT-1	medulla sinuses
+s1-AAGCAGTGGCTCATCC-1	cortex
+s1-AAGCAGTGTAGAATCT-1	cortex
+s1-AAGCATCAAGCGTGAT-1	medulla cords
+s1-AAGCATTGAGTGGTTG-1	medulla cords
+s1-AAGCCACCATTCAAGA-1	medulla sinuses
+s1-AAGCCACTATGTCTAA-1	cortex
+s1-AAGCCAGATATCAGAA-1	pericapsular adipose tissue
+s1-AAGCCAGATCCAACAT-1	medulla sinuses
+s1-AAGCCAGGCCGACGTG-1	medulla sinuses
+s1-AAGCCAGGCTGCTTGA-1	capsule
+s1-AAGCCAGGTTACGAAC-1	medulla cords
+s1-AAGCCATCCGTGCTAT-1	medulla cords
+s1-AAGCCATCGCGATATG-1	cortex
+s1-AAGCCATTATCGAAGG-1	subcapsular sinus
+s1-AAGCCATTATCTGCCA-1	medulla sinuses
+s1-AAGCGAGGAAGTGAAC-1	cortex
+s1-AAGCGTTCGTCTGTCC-1	cortex
+s1-AAGGACATAACCGCAC-1	pericapsular adipose tissue
+s1-AAGGACCAACATGGCT-1	follicle
+s1-AAGGAGGCACTCAATT-1	cortex
+s1-AAGGCAGTCTGATCAC-1	medulla cords
+s1-AAGGCATGAACAGCTC-1	cortex
+s1-AAGGCCAATTCAATAA-1	medulla sinuses
+s1-AAGGCCAGTCGCAATT-1	medulla cords
+s1-AAGGCCGACCTACCTG-1	medulla sinuses
+s1-AAGGCCGACTATGTAA-1	cortex
+s1-AAGGCCGATTCTGAGC-1	medulla sinuses
+s1-AAGGCCTCGCGAGGAA-1	medulla sinuses
+s1-AAGGCGAACTAGTAGA-1	medulla vessels
+s1-AAGGCGACGGTGTCGG-1	medulla sinuses
+s1-AAGGCGAGGTTCATGT-1	cortex
+s1-AAGGCGCCGACAATCT-1	pericapsular adipose tissue
+s1-AAGGTGATCCGTGACG-1	pericapsular adipose tissue
+s1-AAGGTGCCGCTAAGGT-1	cortex
+s1-AAGGTGGATATGATCG-1	medulla sinuses
+s1-AAGGTTCATGCGGTGC-1	pericapsular adipose tissue
+s1-AAGGTTGCAGAAGCAG-1	capsule
+s1-AAGGTTGCTGAGTTGA-1	cortex
+s1-AAGTACTAAGGTTACG-1	medulla sinuses
+s1-AAGTACTACAGTAGAA-1	follicle
+s1-AAGTACTGGATGCGCA-1	medulla cords
+s1-AAGTATTGTAGGTCGC-1	capsule
+s1-AAGTCGCTATCCTGTC-1	medulla sinuses
+s1-AAGTCGGACACTTCAG-1	medulla cords
+s1-AAGTCTACCGGTTGGA-1	cortex
+s1-AAGTCTGTCAATTCTT-1	medulla sinuses
+s1-AAGTCTTAAGTTGCCA-1	medulla sinuses
+s1-AAGTGAGCCTGTTACA-1	medulla sinuses
+s1-AAGTGGACGAATCTAC-1	cortex
+s1-AAGTGGCGAAGTTAAT-1	medulla sinuses
+s1-AAGTGGCGAGTGTACA-1	cortex
+s1-AAGTGGTTCCTCGCGT-1	cortex
+s1-AAGTTAAGCACTATAA-1	medulla cords
+s1-AAGTTACTATTACATC-1	medulla sinuses
+s1-AAGTTCCTATTGCTGG-1	medulla cords
+s1-AATAACATGTGCTATG-1	medulla vessels
+s1-AATAACATGTTACGTC-1	medulla sinuses
+s1-AATAACGTAACTGTGA-1	medulla vessels
+s1-AATAACGTATTGAACA-1	pericapsular adipose tissue
+s1-AATAACTCTACGATGT-1	cortex
+s1-AATAACTTCATACGGA-1	medulla sinuses
+s1-AATACGAGAACACTCG-1	follicle
+s1-AATACGGTACGGCCTA-1	cortex
+s1-AATACGTAGACAGTTA-1	medulla cords
+s1-AATACTAACCACTTAT-1	medulla cords
+s1-AATAGATAGCCTAACC-1	medulla cords
+s1-AATAGCACGGAAGCGA-1	pericapsular adipose tissue
+s1-AATAGTATAGTTGTCG-1	medulla cords
+s1-AATAGTCGTTATCTAG-1	medulla cords
+s1-AATAGTGCTCATAGAA-1	medulla sinuses
+s1-AATAGTGGAAGAGCAT-1	medulla cords
+s1-AATAGTTGGTGCTCAG-1	medulla cords
+s1-AATATTAGGCTTCTGG-1	medulla cords
+s1-AATCCGACCACGGTCC-1	capsule
+s1-AATCCGCCGACCTGAG-1	medulla cords
+s1-AATCCGCCTGGTCAAT-1	medulla cords
+s1-AATCCGGAGCTTGTCT-1	cortex
+s1-AATCCTCGTCACAGGC-1	cortex
+s1-AATCGAACGGACGGAG-1	medulla sinuses
+s1-AATCGACTATCGCTAG-1	pericapsular adipose tissue
+s1-AATCTTAGCCTCTGTC-1	cortex
+s1-AATGAACTACGTCCAG-1	capsule
+s1-AATGAAGACGGTTCAG-1	medulla vessels
+s1-AATGAAGAGGATGTAT-1	pericapsular adipose tissue
+s1-AATGAATCGGAAGGCA-1	medulla cords
+s1-AATGATCTTGACAGCG-1	cortex
+s1-AATGATTACAACCTAA-1	medulla cords
+s1-AATGCAATCACTGTCG-1	cortex
+s1-AATGCCGACGAGCAAC-1	medulla sinuses
+s1-AATGCGAACCTCGCGT-1	subcapsular sinus
+s1-AATGGACATCCTACTC-1	medulla cords
+s1-AATGGAGGACCTGGTG-1	medulla sinuses
+s1-AATGGCATAGTATCAT-1	medulla cords
+s1-AATGGTCGATACTCGG-1	cortex
+s1-AATGGTCTCGAGCGCT-1	cortex
+s1-AATGGTGCGTCCTAAC-1	cortex
+s1-AATGGTTATTCTAGCT-1	cortex
+s1-AATGGTTGAGTCGGAA-1	pericapsular adipose tissue
+s1-AATGTACTTAACATCA-1	medulla cords
+s1-AATGTAGTCTTACGAG-1	medulla cords
+s1-AATGTCAGGTCATTAC-1	medulla sinuses
+s1-AATTAGCAACCGTTCC-1	follicle
+s1-AATTAGCTTAGGTGTA-1	cortex
+s1-AATTCTCAGACGCAAC-1	cortex
+s1-AATTCTCGCACCAGTA-1	medulla sinuses
+s1-AATTCTTGGATACGGA-1	medulla cords
+s1-AATTGAATTCACTAGA-1	capsule
+s1-AATTGCATTGAAGAAT-1	medulla cords
+s1-AATTGCGGTGCTAATA-1	medulla cords
+s1-AATTGCGTCAGACACT-1	cortex
+s1-AATTGGACGGCATCGT-1	cortex
+s1-AATTGGAGACATGGAG-1	cortex
+s1-AATTGGCTTGAGTTGC-1	medulla cords
+s1-AATTGGTTATGATACA-1	medulla cords
+s1-AATTGTAGAATCCTAG-1	medulla cords
+s1-ACAACCTTGGTGTCAA-1	capsule
+s1-ACAACGAGCGATCTGA-1	subcapsular sinus
+s1-ACAACGCCGATAGTAT-1	medulla cords
+s1-ACAACGTGGAGCTACT-1	medulla sinuses
+s1-ACAACTAAGGTGTTAT-1	medulla cords
+s1-ACAACTAAGTGGCGCT-1	medulla sinuses
+s1-ACAACTGAATCCAGTC-1	pericapsular adipose tissue
+s1-ACAACTGTCGTGGATA-1	medulla sinuses
+s1-ACAATACACTTCCATC-1	capsule
+s1-ACAATACAGGCGCCGT-1	medulla cords
+s1-ACAATACGCCTTATTC-1	cortex
+s1-ACAATTGGTCGCGTAA-1	medulla cords
+s1-ACAGAATAAGAACCAT-1	medulla sinuses
+s1-ACAGAATAAGATAGTG-1	medulla cords
+s1-ACAGAATCCGTTGCTT-1	medulla sinuses
+s1-ACAGAATCTTGATAAG-1	medulla sinuses
+s1-ACAGAATGTCTTATTG-1	medulla sinuses
+s1-ACAGAATGTTGAGTCC-1	capsule
+s1-ACAGATCTGAAGTATC-1	cortex
+s1-ACAGCCAGGCATAAGC-1	cortex
+s1-ACAGGAACTACAGAAC-1	medulla cords
+s1-ACAGGACTGAGCCGAT-1	medulla cords
+s1-ACAGGATACCGGATTC-1	cortex
+s1-ACAGGCACGCGAGGAT-1	cortex
+s1-ACAGGCATTGAACCAT-1	cortex
+s1-ACAGGTACCAAGGAAG-1	pericapsular adipose tissue
+s1-ACAGGTTCAGTGAACG-1	medulla sinuses
+s1-ACAGTACGCACTACCT-1	medulla sinuses
+s1-ACATAAGCAATGCGGT-1	cortex
+s1-ACATCGCCACAAGAGG-1	cortex
+s1-ACATCGGCTTACAAGG-1	medulla sinuses
+s1-ACATCGTAGACAGGTT-1	medulla sinuses
+s1-ACATCGTCGGTCTACC-1	medulla sinuses
+s1-ACATCTATCCGAACCA-1	pericapsular adipose tissue
+s1-ACATCTCGACAACCAC-1	medulla sinuses
+s1-ACATCTCGCATAGAAT-1	pericapsular adipose tissue
+s1-ACATGGATGCGTAAGC-1	medulla sinuses
+s1-ACATGTTCACCGGCAG-1	medulla cords
+s1-ACATGTTCCACTGATA-1	medulla cords
+s1-ACATGTTCCAGGACGT-1	medulla sinuses
+s1-ACATGTTGCTTGATCT-1	medulla sinuses
+s1-ACATTCCTGAGTTCCG-1	hilum
+s1-ACATTGAAGGCGGTGC-1	cortex
+s1-ACATTGAATACGCATA-1	capsule
+s1-ACATTGATCGTAATCC-1	pericapsular adipose tissue
+s1-ACATTGCAGTTCGGCA-1	pericapsular adipose tissue
+s1-ACATTGGTTCACAGTG-1	medulla cords
+s1-ACATTGGTTCTGCCGT-1	medulla cords
+s1-ACATTGTACATTCTTG-1	medulla sinuses
+s1-ACCAAGCACTTGCGCA-1	cortex
+s1-ACCAAGGCTTCGCTAG-1	pericapsular adipose tissue
+s1-ACCAAGTGATGGTGAG-1	subcapsular sinus
+s1-ACCAAGTGGCTGTATG-1	medulla cords
+s1-ACCAATCATGGTTCAT-1	capsule
+s1-ACCAATGAGCCTCATC-1	medulla sinuses
+s1-ACCAATGATCGCGGCC-1	pericapsular adipose tissue
+s1-ACCACGGCCTCGCACC-1	medulla sinuses
+s1-ACCAGTATGAAGTTCC-1	medulla vessels
+s1-ACCATAACTCCTCGTA-1	cortex
+s1-ACCATCCGTTCGAGTG-1	pericapsular adipose tissue
+s1-ACCATTAGATCGTGGC-1	medulla sinuses
+s1-ACCGAAGATGTCGGCA-1	medulla cords
+s1-ACCGAAGCCGAATTAA-1	medulla cords
+s1-ACCGAGGTGATACCGA-1	medulla sinuses
+s1-ACCGATTCCGGATACT-1	capsule
+s1-ACCGATTGAGGATCTG-1	pericapsular adipose tissue
+s1-ACCGCAGGTCGAGTTG-1	capsule
+s1-ACCGGACGCCAAGCGT-1	cortex
+s1-ACCGGCACCATACTGC-1	medulla sinuses
+s1-ACCGGCACGTACGAAC-1	medulla sinuses
+s1-ACCGGCCGACCTGCAC-1	medulla cords
+s1-ACCGGCCTCAGGAGTT-1	cortex
+s1-ACCGGCTATCGTGCGG-1	cortex
+s1-ACCGTACACGACCGTC-1	medulla cords
+s1-ACCGTACTATCGGAGG-1	medulla sinuses
+s1-ACCGTAGGCGGAGGTT-1	cortex
+s1-ACCTAAGTAGAACAGA-1	capsule
+s1-ACCTAAGTGATAATCA-1	pericapsular adipose tissue
+s1-ACCTAATGTTACCAAT-1	medulla sinuses
+s1-ACCTAATTGTCGCTGA-1	medulla sinuses
+s1-ACCTATAACGAACTAC-1	medulla sinuses
+s1-ACCTATGCTACCGGAT-1	medulla cords
+s1-ACCTCCACAGAACTCA-1	pericapsular adipose tissue
+s1-ACCTCCGATTATAAGA-1	pericapsular adipose tissue
+s1-ACCTCCTAGAGGCATG-1	cortex
+s1-ACCTCGCACTAAGAGC-1	cortex
+s1-ACCTGCCACTATCAAT-1	cortex
+s1-ACCTGCTTATAGTTCG-1	medulla sinuses
+s1-ACCTGCTTGAGCCTGG-1	cortex
+s1-ACCTGCTTGCTACGAC-1	medulla sinuses
+s1-ACCTGTCTGCGGTTGT-1	medulla sinuses
+s1-ACCTGTGGTCACCTCG-1	medulla sinuses
+s1-ACCTTCAGACCTCGGT-1	subcapsular sinus
+s1-ACCTTCGGTGCTACGA-1	cortex
+s1-ACCTTGGCTCTGTAAG-1	follicle
+s1-ACGAACATAGGATCGG-1	subcapsular sinus
+s1-ACGAACGCACGAGCAC-1	medulla sinuses
+s1-ACGAAGCTCATCCTCG-1	cortex
+s1-ACGACAAGCACTTCAC-1	medulla sinuses
+s1-ACGACTGAAGACTTAC-1	medulla cords
+s1-ACGAGGACCTGCTAGT-1	medulla cords
+s1-ACGAGTGCGTGCGTTC-1	hilum
+s1-ACGATGACTATTAGAT-1	medulla sinuses
+s1-ACGATGCGAAGGAGCA-1	medulla sinuses
+s1-ACGATGCTCCAATACA-1	medulla cords
+s1-ACGATGTCGCACAATC-1	medulla sinuses
+s1-ACGATGTCGTTGCCAA-1	medulla sinuses
+s1-ACGATGTTACCTCATT-1	medulla cords
+s1-ACGCAACGAAGAGTAT-1	cortex
+s1-ACGCAACGTGTAATTG-1	cortex
+s1-ACGCAAGGCATAAGTC-1	cortex
+s1-ACGCAATAGTATACGA-1	trabeculae
+s1-ACGCACATTGTAAGTA-1	medulla sinuses
+s1-ACGCCGGCATCACTGG-1	medulla sinuses
+s1-ACGCGGAAGAGTTCCG-1	medulla sinuses
+s1-ACGCGTAGACTCAACT-1	capsule
+s1-ACGCGTCGGTGAGGTT-1	medulla sinuses
+s1-ACGCTCAGTGCTATTC-1	medulla cords
+s1-ACGCTGCGATTAACGA-1	medulla cords
+s1-ACGGCCGGAACGCTAG-1	cortex
+s1-ACGGCCGTCAACGTAT-1	medulla sinuses
+s1-ACGGCCGTGACATTAA-1	medulla cords
+s1-ACGGCCTTGCCAGAAC-1	medulla cords
+s1-ACGGCTATGGCATACC-1	medulla sinuses
+s1-ACGGCTTAACGATAGT-1	cortex
+s1-ACGGCTTACGTATGCC-1	cortex
+s1-ACGGCTTATTGGTATG-1	medulla sinuses
+s1-ACGGCTTCAGGTACCG-1	cortex
+s1-ACGGCTTCCATCGGAA-1	medulla cords
+s1-ACGGCTTGTTCAATCG-1	cortex
+s1-ACGGTCGGACAGGCGA-1	pericapsular adipose tissue
+s1-ACGGTGATAATGTTAC-1	cortex
+s1-ACGGTGTACGGTGCCA-1	medulla cords
+s1-ACGGTTACATCCGAAG-1	cortex
+s1-ACGGTTCACCTTCCGG-1	medulla cords
+s1-ACGGTTCGCAAGTAAC-1	hilum
+s1-ACGGTTCGTACAGTTG-1	medulla cords
+s1-ACGGTTCGTCCGACCG-1	cortex
+s1-ACGTCAGATTACTTCG-1	follicle
+s1-ACGTGCAATTATTCGG-1	medulla vessels
+s1-ACGTTAATACAATGAC-1	medulla sinuses
+s1-ACGTTAGGCTCAAGCC-1	pericapsular adipose tissue
+s1-ACGTTCACATGATCTG-1	cortex
+s1-ACGTTCACGACTAGGT-1	medulla cords
+s1-ACGTTCCATTACCTCA-1	subcapsular sinus
+s1-ACGTTCGTCCGCCTAT-1	hilum
+s1-ACGTTCTATGCACGAC-1	medulla cords
+s1-ACGTTCTGCCATAATC-1	medulla cords
+s1-ACTAATAGTCAACATA-1	cortex
+s1-ACTAATCGGCCACCGA-1	cortex
+s1-ACTAGATCTGAAGCGG-1	medulla sinuses
+s1-ACTATGAGGTTCTGTC-1	follicle
+s1-ACTATTACCAGGTGCT-1	medulla cords
+s1-ACTATTAGACAGGCTG-1	cortex
+s1-ACTATTGCGAGCTAGA-1	cortex
+s1-ACTCAGCTCGAGTGTC-1	cortex
+s1-ACTCAGCTTCTGAGAC-1	cortex
+s1-ACTCAGGCCTGCAACT-1	medulla sinuses
+s1-ACTCAGTGAGCCTCCA-1	medulla cords
+s1-ACTCCACGTTCGCTAC-1	cortex
+s1-ACTCCAGGCCGAAGAC-1	cortex
+s1-ACTCCAGTAGCTCCAG-1	cortex
+s1-ACTCCTATGTTCCTAC-1	medulla sinuses
+s1-ACTCGAACGTTCGTTA-1	capsule
+s1-ACTCGAGTCCAAGTTG-1	pericapsular adipose tissue
+s1-ACTCGATTGATATCCA-1	cortex
+s1-ACTCGTATTGTCAGAA-1	medulla cords
+s1-ACTCTAAGCTTGCGCC-1	medulla cords
+s1-ACTCTACTTCCGCATT-1	medulla sinuses
+s1-ACTCTTGCGGAGAACC-1	medulla cords
+s1-ACTGACGGCGAATAGT-1	medulla cords
+s1-ACTGACGTGATATTGG-1	medulla cords
+s1-ACTGACTCTGCTGGCC-1	capsule
+s1-ACTGACTGTCATCTAC-1	medulla cords
+s1-ACTGAGCGATTACTAA-1	pericapsular adipose tissue
+s1-ACTGAGCGCAACTCAT-1	medulla sinuses
+s1-ACTGATACTCCATTAC-1	pericapsular adipose tissue
+s1-ACTGATAGCACGGTCT-1	medulla sinuses
+s1-ACTGCCGTTGGTGAGC-1	subcapsular sinus
+s1-ACTGGTAAGGCCTCAG-1	pericapsular adipose tissue
+s1-ACTGGTGATTCCGATC-1	cortex
+s1-ACTGGTTCTGAACGAT-1	medulla cords
+s1-ACTGTACAATTCTACT-1	cortex
+s1-ACTGTACATCCGATAC-1	medulla cords
+s1-ACTGTAGACAAGGAAT-1	medulla cords
+s1-ACTGTAGCAGCTTCTG-1	cortex
+s1-ACTGTATGATCCTCAT-1	medulla sinuses
+s1-ACTGTATTCTAGTCCA-1	cortex
+s1-ACTTAAGCCAGTAGGA-1	medulla sinuses
+s1-ACTTCGACGGATCATT-1	medulla cords
+s1-ACTTGAAGCGAGCGGT-1	medulla cords
+s1-ACTTGAATTAACTTAG-1	cortex
+s1-ACTTGAGCCGTTCTTA-1	medulla cords
+s1-AGAACAGGAGCATGGA-1	cortex
+s1-AGAACTTCGATGCGTA-1	medulla cords
+s1-AGAAGCAATGAGGAAC-1	pericapsular adipose tissue
+s1-AGAAGCAGCCTAAGCT-1	medulla cords
+s1-AGAAGCGATGTTCTAA-1	pericapsular adipose tissue
+s1-AGAAGGATGGTATGAA-1	follicle
+s1-AGAAGGCGTAGAATAG-1	medulla cords
+s1-AGAAGTTAACCAGAGC-1	cortex
+s1-AGAAGTTGAGCGCAAG-1	cortex
+s1-AGAATTCTGTTGACAA-1	cortex
+s1-AGACAAGACGTATCGC-1	cortex
+s1-AGACATCTTAGCACCT-1	medulla cords
+s1-AGACCGAACCGATGTC-1	cortex
+s1-AGACCGACCGCAGACA-1	medulla sinuses
+s1-AGACCGCCGGCCAATG-1	medulla sinuses
+s1-AGACCGGACTGTCCAT-1	medulla vessels
+s1-AGACCGGAGCAACGCT-1	cortex
+s1-AGACCGGTATCCGTGG-1	medulla sinuses
+s1-AGACCGTCACTGAGCT-1	follicle
+s1-AGACCGTCATTAGTTA-1	medulla cords
+s1-AGACCTATCCTTATAG-1	medulla sinuses
+s1-AGACCTCAGCGAGGTG-1	medulla sinuses
+s1-AGACCTTCGCGTGAAC-1	medulla cords
+s1-AGACGCGTGATGCATC-1	follicle
+s1-AGACGCTTGGCCTCAC-1	pericapsular adipose tissue
+s1-AGACGGCCTTACGGAG-1	medulla sinuses
+s1-AGACGTAGGCGGACCG-1	medulla cords
+s1-AGACGTGGCGTTGAGT-1	medulla sinuses
+s1-AGACTACGTGCTCCAT-1	medulla sinuses
+s1-AGACTCAGACAGATAA-1	medulla cords
+s1-AGACTCATGACCTGGC-1	medulla sinuses
+s1-AGACTCATTGCGGACA-1	medulla cords
+s1-AGACTCCGCTTCGTAT-1	follicle
+s1-AGACTCCTGTATGGCG-1	medulla cords
+s1-AGACTCGACTCCTAAT-1	cortex
+s1-AGACTCTATTAGCGCT-1	capsule
+s1-AGACTGGTAAGGAGGT-1	medulla sinuses
+s1-AGATAACCAATACGCC-1	medulla sinuses
+s1-AGATAAGCCACTCATA-1	medulla cords
+s1-AGATCAACTCGCTATG-1	follicle
+s1-AGATCAGTCGATAGAA-1	medulla sinuses
+s1-AGATCATTCACGCTGT-1	pericapsular adipose tissue
+s1-AGATCTAACGAGCTCA-1	pericapsular adipose tissue
+s1-AGATCTCCGCCTTATT-1	medulla sinuses
+s1-AGATGAGGCGCCTCCA-1	cortex
+s1-AGATGCTCCGTCATCT-1	medulla cords
+s1-AGATTGAGTTAGGAAC-1	medulla sinuses
+s1-AGATTGCGCCTCGCTC-1	medulla cords
+s1-AGCAATAACAATTCCA-1	capsule
+s1-AGCACCTCCAATCACG-1	pericapsular adipose tissue
+s1-AGCACGAGATAACGGT-1	cortex
+s1-AGCACGATACCTAAGC-1	trabeculae
+s1-AGCACGCTCGATCTAA-1	medulla vessels
+s1-AGCACGGAGGCAGTCA-1	cortex
+s1-AGCACGTGCACCTCTG-1	capsule
+s1-AGCACGTGCACTGTAA-1	cortex
+s1-AGCACTCATACAGAAC-1	hilum
+s1-AGCACTGCATCCTAGC-1	pericapsular adipose tissue
+s1-AGCAGGTAAGTATCTG-1	trabeculae
+s1-AGCAGGTATGCCATTG-1	cortex
+s1-AGCAGGTGCAATGGTT-1	medulla cords
+s1-AGCATGAGCGAATATT-1	medulla sinuses
+s1-AGCATGCACCGCGTCA-1	medulla cords
+s1-AGCATTAGACGGATTG-1	pericapsular adipose tissue
+s1-AGCCAGATACTCGAAC-1	cortex
+s1-AGCCAGCGGCAAGCGT-1	medulla sinuses
+s1-AGCCATCCGTCAACTC-1	pericapsular adipose tissue
+s1-AGCCGATGTTCTACTC-1	medulla sinuses
+s1-AGCCGGCCTATTCCAG-1	medulla cords
+s1-AGCCGTAGTGGAGTGC-1	medulla sinuses
+s1-AGCCGTATCTTCGTCT-1	medulla sinuses
+s1-AGCCGTATTCAACCGT-1	medulla cords
+s1-AGCCTACGGTGACCAA-1	capsule
+s1-AGCCTCCGAACTACCA-1	medulla sinuses
+s1-AGCCTCGCATGGTCCT-1	medulla cords
+s1-AGCCTCTATGCAGCAA-1	capsule
+s1-AGCGACAGCTACATCG-1	cortex
+s1-AGCGACATCCTTCTAA-1	pericapsular adipose tissue
+s1-AGCGACATTCGATCTG-1	medulla sinuses
+s1-AGCGACCGTTCTATAC-1	pericapsular adipose tissue
+s1-AGCGACTATGTATCTT-1	pericapsular adipose tissue
+s1-AGCGAGAACAGATTCT-1	medulla sinuses
+s1-AGCGAGGAACTGGTCC-1	medulla cords
+s1-AGCGCATCGTGGTCGA-1	medulla cords
+s1-AGCGGAATGTCGCTGT-1	medulla cords
+s1-AGCGGTACGCCGAGAA-1	medulla cords
+s1-AGCGGTGAGTGACATG-1	medulla cords
+s1-AGCGGTGCAGGCATCT-1	medulla cords
+s1-AGCGGTTAATCGAAGT-1	cortex
+s1-AGCGGTTACAATACGC-1	medulla sinuses
+s1-AGCGGTTAGACTCGCC-1	medulla cords
+s1-AGCGTGCGCCTGATCG-1	medulla sinuses
+s1-AGCGTGCTTCGCTCAT-1	medulla cords
+s1-AGCGTGGCACCGACAA-1	medulla sinuses
+s1-AGCGTGTATGTACGGT-1	follicle
+s1-AGCGTTATACCTGTTG-1	medulla sinuses
+s1-AGCGTTGGCTCACGAT-1	follicle
+s1-AGCTACCAGCGTTACT-1	follicle
+s1-AGCTAGCGTACAGTAA-1	cortex
+s1-AGCTATAAGTCCAGCA-1	medulla sinuses
+s1-AGCTATAGAATAGTCT-1	medulla cords
+s1-AGCTCAACATCGTCCG-1	medulla sinuses
+s1-AGCTCACTATGCAGTT-1	medulla sinuses
+s1-AGCTCGACAGGCGATA-1	medulla cords
+s1-AGCTCGCATTAGGATT-1	pericapsular adipose tissue
+s1-AGCTGACGTAACGCTG-1	medulla sinuses
+s1-AGCTGTACGCTGACTC-1	capsule
+s1-AGCTGTCCAGATGCTA-1	capsule
+s1-AGCTGTTCCGGTGATT-1	medulla cords
+s1-AGCTGTTGAAGGCCTT-1	pericapsular adipose tissue
+s1-AGCTTGAGTCAGGCCG-1	medulla sinuses
+s1-AGCTTGGATGCAAGCC-1	capsule
+s1-AGGAATTACGGTGACG-1	medulla vessels
+s1-AGGACCAGTAACCTAA-1	cortex
+s1-AGGACCAGTGCGCCAG-1	medulla sinuses
+s1-AGGACCGCAATAGTTA-1	medulla cords
+s1-AGGACCGTAGATGCTA-1	medulla cords
+s1-AGGACCTGTACCATTC-1	medulla cords
+s1-AGGACGAAGCCTCCTT-1	cortex
+s1-AGGACGAATGCTTCAA-1	medulla cords
+s1-AGGACGTATCGCCGTA-1	medulla cords
+s1-AGGACGTCGGCACGAA-1	medulla cords
+s1-AGGACTAGGACCGCAG-1	cortex
+s1-AGGACTGAAGTGCCTT-1	medulla cords
+s1-AGGACTGGATGAAGAC-1	medulla sinuses
+s1-AGGAGCAGCGTTAATA-1	pericapsular adipose tissue
+s1-AGGAGCATAATCCACT-1	medulla cords
+s1-AGGAGCATCACTCAGC-1	cortex
+s1-AGGAGCATCTTAACTC-1	pericapsular adipose tissue
+s1-AGGAGCCGCTGAGTAG-1	medulla cords
+s1-AGGAGCCTCGAACGTT-1	pericapsular adipose tissue
+s1-AGGATAACCGGTCGGA-1	medulla sinuses
+s1-AGGATACCTCCGAGCG-1	pericapsular adipose tissue
+s1-AGGATAGGCTCAGTTG-1	medulla cords
+s1-AGGATATCGCGAATAC-1	medulla cords
+s1-AGGATCAACATTCGTT-1	follicle
+s1-AGGATCCGTGAGGCGG-1	medulla sinuses
+s1-AGGATCTTAATGGTGA-1	medulla sinuses
+s1-AGGATTCTACGCCTAG-1	medulla cords
+s1-AGGCAACTAGCGTACC-1	medulla sinuses
+s1-AGGCAATGTCAGCTGG-1	medulla cords
+s1-AGGCATGCATGGAATT-1	medulla cords
+s1-AGGCATTAAGTCTGGC-1	medulla cords
+s1-AGGCATTACTATAGTA-1	medulla cords
+s1-AGGCCGCAGAATAACG-1	follicle
+s1-AGGCCTGTCTAGTGGC-1	follicle
+s1-AGGCGATTCCACTTCT-1	capsule
+s1-AGGCTGCAGCTCAGGC-1	medulla cords
+s1-AGGCTGCGCAGCAACT-1	pericapsular adipose tissue
+s1-AGGCTTAACCGATTGT-1	medulla sinuses
+s1-AGGCTTAGCATTAACC-1	medulla cords
+s1-AGGTACAGCTATGATA-1	cortex
+s1-AGGTACCAGACGCCAG-1	capsule
+s1-AGGTACTCTGCCACCG-1	pericapsular adipose tissue
+s1-AGGTCTCACGCCAATA-1	medulla cords
+s1-AGGTCTTCCATCGCCG-1	medulla cords
+s1-AGGTGAAGTGACGACT-1	medulla cords
+s1-AGGTGAATCCACAACC-1	pericapsular adipose tissue
+s1-AGGTGAGCAATGTCTT-1	medulla sinuses
+s1-AGGTGAGGTAGAATAC-1	medulla sinuses
+s1-AGGTGATTGGCGGTAT-1	medulla sinuses
+s1-AGGTGGCACTTGTCAG-1	follicle
+s1-AGGTGGCTGTCGCCAA-1	subcapsular sinus
+s1-AGGTTACATTCCACGC-1	cortex
+s1-AGGTTAGTGGCCATAG-1	cortex
+s1-AGGTTCCACGCCGAAG-1	medulla sinuses
+s1-AGGTTGAGTAGGAGAT-1	medulla cords
+s1-AGTAAGCTCGGCCAAT-1	medulla cords
+s1-AGTACATATGTAGGAA-1	capsule
+s1-AGTACCGAACCGCAAT-1	subcapsular sinus
+s1-AGTACCGTTGTACGCC-1	medulla cords
+s1-AGTAGACAGTAAGGAG-1	medulla sinuses
+s1-AGTAGAGCATGGACGT-1	medulla sinuses
+s1-AGTATTACGGTATTCG-1	cortex
+s1-AGTATTAGCTGATCGA-1	medulla sinuses
+s1-AGTATTCAGCTGAATG-1	medulla sinuses
+s1-AGTATTCGTCGGTATC-1	medulla sinuses
+s1-AGTATTGATTGAGTCA-1	medulla cords
+s1-AGTATTGGTATGTCTA-1	capsule
+s1-AGTCACTTATTCAAGG-1	medulla sinuses
+s1-AGTCCGTGATCACTAC-1	medulla cords
+s1-AGTCGCAGGAACGAGT-1	cortex
+s1-AGTCGCCACTCGGCGA-1	medulla sinuses
+s1-AGTCGGACCGTGCTTA-1	medulla sinuses
+s1-AGTCGGTCTAATCTGT-1	medulla cords
+s1-AGTCGGTTATACATAG-1	medulla sinuses
+s1-AGTCGGTTGGTTGGCG-1	cortex
+s1-AGTCGTTGCCTTACCT-1	cortex
+s1-AGTCTAGGATTGTCAC-1	cortex
+s1-AGTGAGGTCTGTGCTC-1	capsule
+s1-AGTGAGTATTCTAAGT-1	medulla cords
+s1-AGTGCAATAACTAACA-1	medulla cords
+s1-AGTGCCAGATGCTCTG-1	medulla cords
+s1-AGTGCGCAACATGCGT-1	medulla sinuses
+s1-AGTGGTATGTCCAAGT-1	medulla cords
+s1-AGTGTAAGCCTGCAAG-1	pericapsular adipose tissue
+s1-AGTGTACCTCTGTATG-1	subcapsular sinus
+s1-AGTGTCATGGTTGTGG-1	medulla cords
+s1-AGTGTCGTGGCATGTT-1	subcapsular sinus
+s1-AGTGTCTAGGCTAATA-1	cortex
+s1-AGTGTCTTAAGCTTGT-1	cortex
+s1-AGTGTTCGAGGATGAA-1	medulla vessels
+s1-AGTTAACGAGCCACTC-1	subcapsular sinus
+s1-AGTTAAGACTGGCTCC-1	medulla cords
+s1-AGTTACCTCACCAGCA-1	medulla cords
+s1-AGTTAGAAGGACGAAT-1	cortex
+s1-AGTTATCCTGAACGAA-1	medulla cords
+s1-AGTTCGGCACATACGG-1	cortex
+s1-AGTTCGTCTAGTGCAG-1	medulla sinuses
+s1-AGTTCGTGCAGACCTT-1	medulla vessels
+s1-AGTTCGTGCATGTCGA-1	follicle
+s1-AGTTGGCAACGTTGTC-1	medulla cords
+s1-AGTTGGCACCAGTTAC-1	medulla cords
+s1-AGTTGTACTTAATGGA-1	medulla cords
+s1-AGTTGTCCACAGACCA-1	medulla sinuses
+s1-ATAACCTAGAACCTGC-1	medulla cords
+s1-ATAACGAAGAGCACGC-1	follicle
+s1-ATAAGAATCATGCATC-1	medulla cords
+s1-ATAAGACCAATCGCGG-1	cortex
+s1-ATAAGGAATAGAACAT-1	medulla cords
+s1-ATAAGGCGGACAAGTT-1	cortex
+s1-ATAAGTACCACGAGTT-1	medulla cords
+s1-ATAATCGTAGTTATTC-1	cortex
+s1-ATAATTAGTTCTACGG-1	medulla sinuses
+s1-ATACAAGGTCAGTAGA-1	medulla sinuses
+s1-ATACAATTGCGGTATT-1	medulla cords
+s1-ATACATCAAGGATTGC-1	medulla sinuses
+s1-ATACATCACGCCTTCT-1	medulla cords
+s1-ATACATCACTGTCCGG-1	cortex
+s1-ATACATCATGCACCAA-1	follicle
+s1-ATACCGTTCCAGTCCA-1	capsule
+s1-ATACGACATCTAGACC-1	medulla cords
+s1-ATACGCGGTGAAGCCG-1	pericapsular adipose tissue
+s1-ATACGCTGAGATCAGA-1	medulla vessels
+s1-ATACGGCACGTTACGA-1	capsule
+s1-ATACGGCGACTGGTCT-1	medulla cords
+s1-ATACTAGCCACTTCGC-1	medulla sinuses
+s1-ATACTAGCCATTAGTT-1	subcapsular sinus
+s1-ATACTAGTAACTGAGT-1	follicle
+s1-ATACTATCAACTTGTA-1	cortex
+s1-ATACTATGGTTACATT-1	medulla cords
+s1-ATACTGACTTCGGCAC-1	capsule
+s1-ATACTGGACCACAGCC-1	pericapsular adipose tissue
+s1-ATACTGGAGGATAACG-1	medulla cords
+s1-ATAGAACCTCTACCGA-1	capsule
+s1-ATAGAACGTTCGATCT-1	cortex
+s1-ATAGAATTCTAGGCCG-1	cortex
+s1-ATAGACATGGCTATGG-1	medulla cords
+s1-ATAGATGCCTAAGCAC-1	medulla cords
+s1-ATAGATTGAGTTCGAG-1	medulla sinuses
+s1-ATAGCACCTGCTGTCT-1	cortex
+s1-ATAGCGGCGAGTAATT-1	capsule
+s1-ATAGCTATTCGCACTC-1	medulla cords
+s1-ATAGCTTCACAACCGT-1	medulla sinuses
+s1-ATAGCTTCGTGGAACG-1	capsule
+s1-ATAGGCCGATAGAAGT-1	medulla cords
+s1-ATAGGCCGATGATCTA-1	pericapsular adipose tissue
+s1-ATAGTACTATGGTTCT-1	medulla cords
+s1-ATAGTCCGCCGTTGGC-1	medulla sinuses
+s1-ATAGTCGCTAAGGTAT-1	pericapsular adipose tissue
+s1-ATAGTGAGTGAGGATT-1	medulla cords
+s1-ATAGTGTCAGATGTAG-1	capsule
+s1-ATAGTTAAGCCTGCCG-1	medulla sinuses
+s1-ATAGTTAAGGCACGAG-1	medulla sinuses
+s1-ATAGTTAGTCCTTAAT-1	follicle
+s1-ATAGTTCATCGGATCT-1	cortex
+s1-ATAGTTCGCAGCCGTG-1	medulla cords
+s1-ATAGTTCGGTTCCAGA-1	cortex
+s1-ATCAAGGAGCTTACAT-1	pericapsular adipose tissue
+s1-ATCAATCTGCAGGACC-1	capsule
+s1-ATCACCAGTTCGGCGA-1	cortex
+s1-ATCACGTTCAATGATA-1	medulla cords
+s1-ATCAGATACCAGCTGT-1	medulla sinuses
+s1-ATCAGTAAGCTCGCCG-1	medulla cords
+s1-ATCATTCACCAGATTG-1	medulla cords
+s1-ATCATTCCAACTTCGC-1	cortex
+s1-ATCATTGTCCATGCCA-1	medulla sinuses
+s1-ATCCAACGCCACATCG-1	cortex
+s1-ATCCACATGTTGGACC-1	cortex
+s1-ATCCACTCGTACTCGG-1	capsule
+s1-ATCCGAGTACAGGAAT-1	cortex
+s1-ATCCGAGTACCACGTG-1	cortex
+s1-ATCCGAGTCACTTGTA-1	medulla sinuses
+s1-ATCCGATGACCTCGGA-1	medulla sinuses
+s1-ATCCGATGTCTGTCAC-1	medulla sinuses
+s1-ATCCGGATCGCCGTAT-1	medulla sinuses
+s1-ATCCGGATGACGTAAC-1	medulla cords
+s1-ATCCGGTACCGTCCTT-1	capsule
+s1-ATCCGGTATCACAAGT-1	medulla sinuses
+s1-ATCCGTAGCTTCAGTA-1	medulla cords
+s1-ATCCGTAGTGTCGCTC-1	cortex
+s1-ATCCGTGGAACTTCAA-1	medulla cords
+s1-ATCCTCCAGCCATTGT-1	medulla sinuses
+s1-ATCCTCGTTCCAGGCC-1	medulla cords
+s1-ATCGAACATGCTAAGC-1	medulla sinuses
+s1-ATCGAACTCGTCCGGC-1	cortex
+s1-ATCGACAGCGGCAACA-1	cortex
+s1-ATCGACCGGAGTATCG-1	medulla cords
+s1-ATCGATGTCAGATAGA-1	cortex
+s1-ATCGCAATGCACTAAC-1	medulla cords
+s1-ATCGCAGTAACTTATT-1	medulla cords
+s1-ATCGCAGTAATATCAG-1	pericapsular adipose tissue
+s1-ATCGCAGTCTATGGCA-1	medulla cords
+s1-ATCGCATCACGCATCT-1	pericapsular adipose tissue
+s1-ATCGGCTCTATGCCTC-1	medulla sinuses
+s1-ATCGTAACTACCTCTT-1	medulla cords
+s1-ATCGTAATCCACATGC-1	cortex
+s1-ATCGTACAACTGGCTA-1	cortex
+s1-ATCGTACACCTATGCC-1	medulla sinuses
+s1-ATCGTACCGCGTACGC-1	subcapsular sinus
+s1-ATCGTAGCATGTAGAT-1	medulla sinuses
+s1-ATCGTATTACTCGGAG-1	medulla cords
+s1-ATCGTCACCATGTCAC-1	medulla sinuses
+s1-ATCGTCAGTTAGTCCA-1	medulla sinuses
+s1-ATCGTCCTAGTACGAA-1	pericapsular adipose tissue
+s1-ATCGTCTTAACGAAGG-1	medulla sinuses
+s1-ATCTACAGGAGTGCAC-1	cortex
+s1-ATCTACCATATTCCAG-1	medulla cords
+s1-ATCTACTCACATCTCC-1	medulla sinuses
+s1-ATCTCCTTGCGATACA-1	medulla sinuses
+s1-ATCTGAAGTATGCACG-1	medulla cords
+s1-ATCTGACCGGAGTCCT-1	medulla cords
+s1-ATCTGAGGAACGGTTG-1	medulla cords
+s1-ATCTGATACTTCATTA-1	pericapsular adipose tissue
+s1-ATCTGCCGTCTACAGC-1	medulla cords
+s1-ATCTGGATCCTCAGAC-1	medulla sinuses
+s1-ATCTGTACGCGTCTCC-1	medulla cords
+s1-ATCTTAGACGCCTACT-1	medulla sinuses
+s1-ATCTTAGACTTGATCT-1	capsule
+s1-ATCTTAGATAGGTTCA-1	cortex
+s1-ATCTTAGTGGCATGGA-1	capsule
+s1-ATCTTCGGACATACTA-1	medulla vessels
+s1-ATCTTGGCTTCGTCCT-1	cortex
+s1-ATGAACAATCGATGCG-1	medulla cords
+s1-ATGAAGCTGAATCCAG-1	medulla sinuses
+s1-ATGACACTAATCGCAC-1	capsule
+s1-ATGACCAGACGGCCGG-1	medulla cords
+s1-ATGACCTCACTTAACC-1	medulla sinuses
+s1-ATGACGAGATCATTAA-1	pericapsular adipose tissue
+s1-ATGAGCTACATGGAAG-1	cortex
+s1-ATGAGCTATTCGAAGA-1	medulla cords
+s1-ATGAGTACGCTTCCTA-1	medulla cords
+s1-ATGAGTCTTAGGAAGG-1	pericapsular adipose tissue
+s1-ATGATAATTCCTTGCG-1	medulla cords
+s1-ATGATATCTAGTCTTA-1	medulla cords
+s1-ATGCATCCTGACTCAC-1	cortex
+s1-ATGCATGCCTGCGATG-1	medulla cords
+s1-ATGCATGGTTCCGCCT-1	medulla cords
+s1-ATGCATGGTTGCTGTA-1	follicle
+s1-ATGCATGTATGTGAGT-1	medulla cords
+s1-ATGCATGTCACTCGTG-1	medulla sinuses
+s1-ATGCATGTCGATGTGG-1	capsule
+s1-ATGCATTAGATATCCA-1	capsule
+s1-ATGCCAGCTGCCATCT-1	medulla sinuses
+s1-ATGCCGTCGATAAGAC-1	medulla sinuses
+s1-ATGCCGTTGTGAAGCG-1	medulla cords
+s1-ATGCCTTCGTAAGTTA-1	medulla sinuses
+s1-ATGCTACTGAATAGTA-1	medulla cords
+s1-ATGCTCATGCCTGCCT-1	medulla sinuses
+s1-ATGCTCCAACCTGGCC-1	medulla cords
+s1-ATGCTCCGTTCTACTG-1	medulla cords
+s1-ATGCTCGCCTCCAATT-1	cortex
+s1-ATGCTGAATGCAATAG-1	medulla sinuses
+s1-ATGCTGCGGATGGTTG-1	capsule
+s1-ATGCTGGCTTACTACA-1	medulla sinuses
+s1-ATGCTTACTCTAGGAA-1	medulla cords
+s1-ATGCTTGGACGAACTT-1	medulla sinuses
+s1-ATGGAGGCCACGGCTT-1	medulla cords
+s1-ATGGAGGTTCACCGGT-1	pericapsular adipose tissue
+s1-ATGGAGTAATCGGACC-1	medulla sinuses
+s1-ATGGAGTCTTCGCAGT-1	cortex
+s1-ATGGCATTATGGCTCG-1	cortex
+s1-ATGGTAACGGACCGGA-1	medulla cords
+s1-ATGTAAGAGCCACCTC-1	cortex
+s1-ATGTAATTGTCGTTCG-1	medulla cords
+s1-ATGTACAGTGCCTATG-1	medulla cords
+s1-ATGTACATCGTGGTTA-1	cortex
+s1-ATGTACATGAACTCCG-1	medulla cords
+s1-ATGTACCATTATTGTC-1	cortex
+s1-ATGTACCGATCCAGAA-1	medulla cords
+s1-ATGTACTACCGACTTC-1	medulla cords
+s1-ATGTACTCTGCAGCAC-1	medulla cords
+s1-ATGTAGAAGCGAATAG-1	medulla cords
+s1-ATGTAGCCGACCAAGG-1	medulla cords
+s1-ATGTAGGTAACCGTAC-1	medulla cords
+s1-ATGTAGGTTGGCGAGG-1	cortex
+s1-ATGTATCCAAGGTGGC-1	cortex
+s1-ATGTATCCATAAGTTG-1	medulla cords
+s1-ATGTATCGGAATACGG-1	medulla cords
+s1-ATGTATGAGTACCGGA-1	medulla sinuses
+s1-ATGTATGTTATTGAAG-1	medulla sinuses
+s1-ATGTCATACTTAGACC-1	capsule
+s1-ATGTCGGACTGAAGTA-1	cortex
+s1-ATGTCGGATAAGCCGA-1	medulla cords
+s1-ATGTCGGCTGTCGTAA-1	medulla sinuses
+s1-ATGTCGTTACCAGACG-1	medulla sinuses
+s1-ATGTCTAACTGGCGAA-1	pericapsular adipose tissue
+s1-ATGTCTGCGTTGCAGC-1	cortex
+s1-ATGTGAATCCATACGA-1	cortex
+s1-ATGTGAATTGCTGACC-1	medulla cords
+s1-ATGTGATCCGTCTAAC-1	medulla sinuses
+s1-ATGTGCGTCTGAACAG-1	medulla sinuses
+s1-ATGTGCTAACATCGAA-1	pericapsular adipose tissue
+s1-ATGTGCTTGTGCTACC-1	follicle
+s1-ATGTTAAGATTACTGA-1	medulla sinuses
+s1-ATGTTACGCCATTCCT-1	capsule
+s1-ATGTTAGACTATCTCA-1	medulla sinuses
+s1-ATGTTCGCAGAAGTCT-1	medulla cords
+s1-ATGTTCTGCCTTATCT-1	medulla sinuses
+s1-ATTAAGAACAGCTCCG-1	medulla sinuses
+s1-ATTAAGAATAACGCTT-1	medulla sinuses
+s1-ATTAAGCGTCCTGCCG-1	pericapsular adipose tissue
+s1-ATTAAGTGGCCTAAGG-1	medulla cords
+s1-ATTACATGTTATTGAC-1	subcapsular sinus
+s1-ATTACATTGAAGTATG-1	medulla cords
+s1-ATTACCTTCGCAGAAG-1	medulla cords
+s1-ATTACTCCGTGAAGCG-1	medulla cords
+s1-ATTACTGAGTGCCTCC-1	medulla cords
+s1-ATTACTGTACGCGGTG-1	medulla sinuses
+s1-ATTACTGTCGCATATT-1	medulla cords
+s1-ATTAGATAAGACGGCG-1	medulla vessels
+s1-ATTAGATTCGTACTCA-1	pericapsular adipose tissue
+s1-ATTAGCAGGATGTATT-1	cortex
+s1-ATTAGCCTCACTTCTA-1	medulla cords
+s1-ATTAGCCTCAGTAGAT-1	cortex
+s1-ATTAGCGAGCATGCTG-1	medulla sinuses
+s1-ATTAGTCGTGTTATGC-1	cortex
+s1-ATTAGTGAGGTATCGC-1	medulla sinuses
+s1-ATTAGTGCTTGGTCAT-1	medulla cords
+s1-ATTAGTTCACAGACTC-1	medulla vessels
+s1-ATTATCACAACTCGGC-1	cortex
+s1-ATTATCCAGGTGAAGT-1	medulla vessels
+s1-ATTATCCATTGTGACA-1	medulla sinuses
+s1-ATTATCGAAGCCTAAG-1	capsule
+s1-ATTATCGAGTGCAGAT-1	medulla sinuses
+s1-ATTATCTAGATTAACG-1	medulla cords
+s1-ATTATGATACTGCGCA-1	capsule
+s1-ATTATGCCATCGTTAA-1	medulla cords
+s1-ATTATGTTAAGGTAGT-1	pericapsular adipose tissue
+s1-ATTCAAGATTAGTTGC-1	medulla cords
+s1-ATTCACATAGGATGAG-1	medulla cords
+s1-ATTCACATCGTCACAG-1	pericapsular adipose tissue
+s1-ATTCACATCTTATTCT-1	medulla cords
+s1-ATTCACCTGACCAGTT-1	cortex
+s1-ATTCACGCTGTTATCG-1	cortex
+s1-ATTCACGTCGCAGGCT-1	medulla cords
+s1-ATTCACTCACGTGCAC-1	cortex
+s1-ATTCAGCTCCTACTAA-1	cortex
+s1-ATTCATAGCGAAGCGT-1	cortex
+s1-ATTCATAGTTCTAACT-1	capsule
+s1-ATTCCATTGTGAACGC-1	cortex
+s1-ATTCCGCAACGCCGCT-1	medulla cords
+s1-ATTCCGCTCCATCAGC-1	medulla sinuses
+s1-ATTCCGGTTACATACC-1	cortex
+s1-ATTCCGTAAGGATTCC-1	cortex
+s1-ATTCCTGCCTTAACAG-1	medulla cords
+s1-ATTCGCTCGCGGAGGC-1	medulla cords
+s1-ATTCGGAAGCTATTAC-1	medulla cords
+s1-ATTCGTTAGAATTCGG-1	pericapsular adipose tissue
+s1-ATTCTAACGCCTGTTA-1	medulla cords
+s1-ATTCTACAGCCAGCAC-1	capsule
+s1-ATTCTACGTGGCAGAT-1	medulla cords
+s1-ATTCTACTGGTCGTTC-1	medulla sinuses
+s1-ATTCTAGGACATCAGT-1	cortex
+s1-ATTCTAGTCCACAAGA-1	medulla cords
+s1-ATTCTGAGTACTGTAG-1	cortex
+s1-ATTCTTGAGGCGACGC-1	medulla sinuses
+s1-ATTCTTGGAGTGATAG-1	medulla sinuses
+s1-ATTGACGAGCAGCGAC-1	cortex
+s1-ATTGACGCATCTCAAC-1	medulla cords
+s1-ATTGACGCCACCTTCT-1	cortex
+s1-ATTGACGCCAGCCAAG-1	medulla cords
+s1-ATTGACTGAATACTAT-1	follicle
+s1-ATTGATAACACTAAGA-1	medulla sinuses
+s1-ATTGCACGACCACTTG-1	medulla cords
+s1-ATTGCAGTTCTTCATT-1	medulla cords
+s1-ATTGCATATTGTTATC-1	medulla sinuses
+s1-ATTGCATCACTGACTG-1	medulla cords
+s1-ATTGCCTGATGTGCGG-1	cortex
+s1-ATTGCCTTGTCTAAGT-1	pericapsular adipose tissue
+s1-ATTGCGTAGTTAGGAG-1	pericapsular adipose tissue
+s1-ATTGGCACCACGCCAT-1	medulla cords
+s1-ATTGGCCTAGGAATCG-1	pericapsular adipose tissue
+s1-ATTGGCCTTCCGTGCA-1	cortex
+s1-ATTGGCGAATTGCACT-1	pericapsular adipose tissue
+s1-ATTGGCTAACAGACAA-1	cortex
+s1-ATTGTTAAGTAGACTA-1	medulla sinuses
+s1-ATTGTTACGACTAGCG-1	medulla cords
+s1-ATTGTTATACTTCACG-1	medulla sinuses
+s1-CAACAGGTCAGAGGAC-1	cortex
+s1-CAACCGTACTGATCTT-1	cortex
+s1-CAACCGTATTACTGTA-1	medulla cords
+s1-CAACCGTTAACAGACC-1	medulla sinuses
+s1-CAACCGTTAATGTCAT-1	capsule
+s1-CAACGCTTGCTCCTAC-1	medulla cords
+s1-CAACGGCACTCAGTCC-1	medulla sinuses
+s1-CAACTGACAAGACAAG-1	medulla sinuses
+s1-CAACTGCAGTGCAATA-1	medulla sinuses
+s1-CAACTGCATTCGACTC-1	cortex
+s1-CAACTGCTGGAGTTAT-1	medulla cords
+s1-CAACTTGGACATAGAT-1	medulla cords
+s1-CAACTTGGTACGATGT-1	medulla cords
+s1-CAAGACCACTATCGAA-1	medulla sinuses
+s1-CAAGATAAGTGCAATG-1	cortex
+s1-CAAGATTACCGATCAT-1	cortex
+s1-CAAGATTAGATGAGTT-1	capsule
+s1-CAAGATTCGTCAGCTG-1	medulla cords
+s1-CAAGCCGCCATAGAGG-1	medulla sinuses
+s1-CAAGGTCTCAATACAG-1	medulla sinuses
+s1-CAAGTACTCCGCATCG-1	cortex
+s1-CAAGTACTTATTAAGC-1	medulla sinuses
+s1-CAAGTACTTCAATAGT-1	medulla cords
+s1-CAAGTAGCCTCGATCC-1	medulla cords
+s1-CAAGTATCGGCAACCA-1	pericapsular adipose tissue
+s1-CAAGTCCATCGGCGGT-1	pericapsular adipose tissue
+s1-CAAGTCCGCTACCGTT-1	medulla cords
+s1-CAAGTCTTGGCGATAG-1	capsule
+s1-CAAGTGAATTGGATGC-1	medulla cords
+s1-CAAGTGTTCGCCACGC-1	medulla sinuses
+s1-CAAGTGTTGACGGCCA-1	cortex
+s1-CAATAACTACATTAAC-1	medulla cords
+s1-CAATAACTCAAGGCAA-1	medulla sinuses
+s1-CAATAAGCGGCCAGAT-1	cortex
+s1-CAATAAGGTAACTCGT-1	cortex
+s1-CAATAATCGTAGGATA-1	cortex
+s1-CAATCCGAGGTGCTAG-1	subcapsular sinus
+s1-CAATCGTCGGAGCATG-1	medulla sinuses
+s1-CAATCTATGAGGTCAG-1	cortex
+s1-CAATGCATTGACGGCA-1	medulla sinuses
+s1-CAATGCGGATGCTGGT-1	medulla cords
+s1-CAATTACAGGTGTCAT-1	pericapsular adipose tissue
+s1-CAATTGAACCGGCTCG-1	medulla cords
+s1-CAATTGTTGACGTGAG-1	medulla cords
+s1-CACCAGGCACGCTATC-1	cortex
+s1-CACCATAAGCTGGCTG-1	medulla cords
+s1-CACCATAGGTAACCAG-1	pericapsular adipose tissue
+s1-CACCATTCTTACGAGC-1	medulla cords
+s1-CACCGAGTCTTGGACA-1	subcapsular sinus
+s1-CACCTACATGATTGAT-1	cortex
+s1-CACCTACCGCTACCTT-1	medulla cords
+s1-CACCTAGAATACTTCT-1	medulla cords
+s1-CACCTAGACGAGCCGG-1	medulla cords
+s1-CACCTATTACTCAGAT-1	medulla sinuses
+s1-CACCTCGAGCGATGCT-1	medulla sinuses
+s1-CACCTCGAGGACTCTA-1	pericapsular adipose tissue
+s1-CACCTTAGCTATTGTC-1	medulla sinuses
+s1-CACCTTGCGAGTTATG-1	pericapsular adipose tissue
+s1-CACGACCTCCGTCATA-1	medulla sinuses
+s1-CACGAGGCCATCCACT-1	medulla cords
+s1-CACGAGGTATAGGTAT-1	medulla cords
+s1-CACGATCATACAATTA-1	medulla cords
+s1-CACGCCACAATCGCAC-1	medulla sinuses
+s1-CACGCCACTCCTTCAT-1	pericapsular adipose tissue
+s1-CACGCTTATCAATCTT-1	medulla cords
+s1-CACGGATTCTCATCAC-1	medulla vessels
+s1-CACGGCGACGGTGCCT-1	medulla sinuses
+s1-CACGGCGATACATACG-1	medulla sinuses
+s1-CACGGCTGCGCTTGGC-1	medulla sinuses
+s1-CACGGCTTACTCCGTT-1	medulla sinuses
+s1-CACGGTCTTGGTTAAT-1	medulla cords
+s1-CACGTACGTAGCTCAT-1	medulla sinuses
+s1-CACGTAGGTAGGCTGA-1	medulla cords
+s1-CACGTCAAGTGCGATC-1	cortex
+s1-CACGTCCAATTCGACT-1	cortex
+s1-CACGTCCACGACCTAT-1	medulla cords
+s1-CACGTCCATCTACTGA-1	medulla sinuses
+s1-CACGTGGCGGCACTAG-1	subcapsular sinus
+s1-CACGTTGCACATACCG-1	medulla sinuses
+s1-CACTACAATATTGCGG-1	cortex
+s1-CACTACCTTCGCTTCA-1	hilum
+s1-CACTACTGCGGAATTG-1	medulla cords
+s1-CACTACTGGCTGAACC-1	cortex
+s1-CACTAGTCGACATCTA-1	medulla cords
+s1-CACTCAAGACCATGCA-1	pericapsular adipose tissue
+s1-CACTCAAGACGGACTA-1	capsule
+s1-CACTCAAGGCGGCACT-1	capsule
+s1-CACTCAATAAGCCGAA-1	medulla sinuses
+s1-CACTCAATGGTTCGGA-1	medulla sinuses
+s1-CACTCAGTACTCCGCT-1	cortex
+s1-CACTCAGTGGTCCTTC-1	cortex
+s1-CACTCATCACGTTACG-1	cortex
+s1-CACTCGTAGGCCACGG-1	cortex
+s1-CACTGGATCGATACGA-1	cortex
+s1-CACTGGCCAGCCAGAT-1	medulla sinuses
+s1-CACTGGCGGTAACACC-1	cortex
+s1-CACTGGTGAGACGCTT-1	medulla sinuses
+s1-CACTGGTGAGTTATCG-1	medulla cords
+s1-CACTTGACATTCAGAA-1	medulla cords
+s1-CAGAACATGATAGGAC-1	subcapsular sinus
+s1-CAGAACGTATCGACTT-1	medulla cords
+s1-CAGAAGTCGCGGTTAT-1	cortex
+s1-CAGAATTCTTGAACCA-1	medulla cords
+s1-CAGACACTTACAAGAC-1	medulla sinuses
+s1-CAGACAGTCGGATCTG-1	medulla sinuses
+s1-CAGACGAATGAGGAAC-1	medulla cords
+s1-CAGACGATACAGATCG-1	capsule
+s1-CAGACGCAGTAGGTCT-1	medulla sinuses
+s1-CAGAGGCACTTAAGTC-1	medulla cords
+s1-CAGAGGCGAATTGCCA-1	pericapsular adipose tissue
+s1-CAGAGTCATGTACAGG-1	medulla sinuses
+s1-CAGATACAGCACTCGT-1	cortex
+s1-CAGATTATCATAACGC-1	medulla sinuses
+s1-CAGATTCCGTATGCGA-1	medulla cords
+s1-CAGATTGCCTGTAAGT-1	medulla vessels
+s1-CAGCACGCTAATCAGA-1	medulla cords
+s1-CAGCATAGACTAGGCA-1	capsule
+s1-CAGCATCCTCGCCACT-1	cortex
+s1-CAGCCAACGATAGCTT-1	cortex
+s1-CAGCCAGTCCTGTCGG-1	medulla cords
+s1-CAGCCATGTCTGCCGT-1	medulla sinuses
+s1-CAGCCTCGTGGCTCAC-1	medulla cords
+s1-CAGCCTGGTTGAACTA-1	cortex
+s1-CAGCGATAACTGAACC-1	medulla cords
+s1-CAGCGATAATGCGATT-1	cortex
+s1-CAGCTCACGCACTAGA-1	medulla cords
+s1-CAGCTCCTCGGATTCT-1	medulla cords
+s1-CAGCTGGATGCGGCTA-1	medulla cords
+s1-CAGCTGGCGATAAGTG-1	cortex
+s1-CAGCTGTTGCCGGAGT-1	medulla cords
+s1-CAGCTTCACTACCGTG-1	cortex
+s1-CAGCTTGACGCCATTA-1	subcapsular sinus
+s1-CAGCTTGGTTCGGTCG-1	medulla cords
+s1-CAGGACAGAAGGCTGG-1	medulla cords
+s1-CAGGACATGGTAATGC-1	medulla cords
+s1-CAGGAGCGTATCGCAT-1	medulla sinuses
+s1-CAGGCCAACAGCGAGT-1	medulla cords
+s1-CAGGCCAACGGTCGTA-1	medulla vessels
+s1-CAGGCCGTATCTGTTA-1	medulla cords
+s1-CAGGCGAGGTCTTGGA-1	medulla sinuses
+s1-CAGGTACCACTCGCGG-1	cortex
+s1-CAGGTTCCACTAATCC-1	medulla cords
+s1-CAGTAATATCACTACG-1	cortex
+s1-CAGTACAGTTGTGGAA-1	medulla cords
+s1-CAGTAGATTGACGGAT-1	medulla sinuses
+s1-CAGTATCTTACACTAA-1	medulla cords
+s1-CAGTATGCGTGGCGCT-1	cortex
+s1-CAGTCAGCCGATCCGG-1	medulla cords
+s1-CAGTCTGGTAATCTAC-1	medulla sinuses
+s1-CAGTCTGTGGCGCTGC-1	cortex
+s1-CAGTGAACAGCAACGA-1	medulla sinuses
+s1-CAGTGAAGATACATAA-1	medulla cords
+s1-CAGTGATATTGATGTC-1	pericapsular adipose tissue
+s1-CAGTGCCTTGCGGTCT-1	medulla cords
+s1-CAGTTGCAACCGAGAT-1	cortex
+s1-CAGTTGCACGGACAGG-1	medulla cords
+s1-CAGTTGCGACTTCTCG-1	medulla cords
+s1-CAGTTGCTCACGTGTC-1	medulla sinuses
+s1-CATACAATGAGTAGCT-1	medulla sinuses
+s1-CATACCTCGATTGTTC-1	medulla sinuses
+s1-CATAGAACATTGAACA-1	medulla sinuses
+s1-CATATCCGTTCACCTC-1	capsule
+s1-CATATGTTGACTGGCG-1	medulla sinuses
+s1-CATATTCATCCGCATT-1	medulla sinuses
+s1-CATCAGATACTAATCG-1	medulla cords
+s1-CATCAGGTAGGACCGT-1	subcapsular sinus
+s1-CATCAGGTGCCTGATA-1	cortex
+s1-CATCAGTAATCAGACA-1	medulla sinuses
+s1-CATCCGAAGCGTATGG-1	medulla cords
+s1-CATCCGCCTAAGGAAC-1	medulla sinuses
+s1-CATCCGGTACCAACGA-1	hilum
+s1-CATCCGTGCGGTCTAC-1	medulla cords
+s1-CATCCGTGGTCGTAAG-1	cortex
+s1-CATCCTAGTGGTATGT-1	medulla sinuses
+s1-CATCCTGGTACCTGCT-1	cortex
+s1-CATCGCGGTCGGTGCG-1	medulla vessels
+s1-CATCGGATCCTACCTG-1	pericapsular adipose tissue
+s1-CATCGGCATGTCGAAG-1	cortex
+s1-CATCGGCCTGCATATC-1	medulla cords
+s1-CATCGGTAGCGTCCGA-1	pericapsular adipose tissue
+s1-CATCTGGCCATACTAG-1	medulla sinuses
+s1-CATGATACTCAGGATT-1	capsule
+s1-CATGATAGGCCATGAG-1	medulla sinuses
+s1-CATGATGCATGTGCTA-1	medulla cords
+s1-CATGATGCTAGCCATG-1	medulla cords
+s1-CATGCACGCCGACGGA-1	medulla cords
+s1-CATGCAGAAGTCAGGA-1	cortex
+s1-CATGCATATGACGTCG-1	cortex
+s1-CATGCATATTCTGCCT-1	cortex
+s1-CATGCGCTACTGGAGG-1	cortex
+s1-CATGCGGCCGGAATTC-1	pericapsular adipose tissue
+s1-CATGCTCATCTGAACG-1	medulla cords
+s1-CATGGCTACTGTACGT-1	pericapsular adipose tissue
+s1-CATGGTGAGGCAGCAT-1	pericapsular adipose tissue
+s1-CATGTCCACCTGCGTC-1	medulla cords
+s1-CATGTTACCGAAGGCG-1	medulla sinuses
+s1-CATGTTATTGATGCAG-1	medulla cords
+s1-CATTAACTATTGTTCC-1	medulla cords
+s1-CATTAGGATAGTGAAT-1	medulla cords
+s1-CATTAGGCAATGGTTA-1	medulla sinuses
+s1-CATTCTCCAGTCACCA-1	medulla cords
+s1-CATTGCAGCGAAGACC-1	capsule
+s1-CATTGCGTGCCACCTT-1	medulla cords
+s1-CATTGCTATGTTAGCT-1	medulla cords
+s1-CATTGGCGGTTGAGTC-1	medulla sinuses
+s1-CCAACAGGAACACGGT-1	cortex
+s1-CCAACTGGAGATTCAT-1	pericapsular adipose tissue
+s1-CCAACTTGCCACCGTA-1	medulla cords
+s1-CCAAGCCTGTATTAAT-1	medulla cords
+s1-CCAAGCTGGCCATTGC-1	medulla sinuses
+s1-CCAATACCAACACGCC-1	cortex
+s1-CCAATAGAAGACTTGG-1	capsule
+s1-CCAATAGCGGTACGTG-1	medulla cords
+s1-CCAATCTAACGTGACG-1	cortex
+s1-CCAATCTTGCCTATGG-1	medulla cords
+s1-CCAATTATGACACTGG-1	medulla cords
+s1-CCACAGGAAGATGTGC-1	capsule
+s1-CCACATGGCGACGTCT-1	medulla cords
+s1-CCACGAACGCTGCCGC-1	medulla cords
+s1-CCACGATCCTAATCCG-1	cortex
+s1-CCACGGTACACCAACC-1	medulla cords
+s1-CCACGTCAATCAACAT-1	pericapsular adipose tissue
+s1-CCACGTCGGTCGCTTC-1	medulla cords
+s1-CCACGTGCCACCTCAA-1	medulla vessels
+s1-CCACGTGGACTGCGGT-1	cortex
+s1-CCACTAATCACCGGTA-1	follicle
+s1-CCACTCCAGCACCTAC-1	cortex
+s1-CCACTCTGTAGTCGGA-1	medulla sinuses
+s1-CCAGAACCGTGCATCC-1	pericapsular adipose tissue
+s1-CCAGACAATATCGTTA-1	medulla sinuses
+s1-CCAGACAGAACCTAAG-1	medulla sinuses
+s1-CCAGACATCCGGTTCT-1	cortex
+s1-CCAGACATCGGCACGC-1	medulla sinuses
+s1-CCAGACCAGCGGCAAG-1	capsule
+s1-CCAGATAGACGAGGTG-1	medulla cords
+s1-CCAGATGATATGTAGG-1	medulla sinuses
+s1-CCAGATTGTAGCCTAC-1	medulla sinuses
+s1-CCAGCACTCGACTGAC-1	medulla cords
+s1-CCAGCGGATTCCGCTG-1	medulla cords
+s1-CCAGGTCCACATCCAT-1	cortex
+s1-CCAGGTTACGAGACTG-1	pericapsular adipose tissue
+s1-CCAGTGTCTAGCTACG-1	medulla sinuses
+s1-CCATAGCCGTACGCAC-1	medulla sinuses
+s1-CCATAGTATTGTCTGC-1	medulla cords
+s1-CCATAGTTCGAGTAAG-1	medulla cords
+s1-CCATCGGACAACCGTG-1	pericapsular adipose tissue
+s1-CCATCTGTGGCATCGT-1	medulla sinuses
+s1-CCATGAACAATGCTCC-1	cortex
+s1-CCATGAACATCGTTGG-1	pericapsular adipose tissue
+s1-CCATGGTTCCAATGTC-1	capsule
+s1-CCATTCCGGTTCTTCC-1	capsule
+s1-CCATTCGTCTGCTCTA-1	cortex
+s1-CCATTGGCAATTCTCA-1	cortex
+s1-CCGAAGCCAGGTTCAG-1	pericapsular adipose tissue
+s1-CCGACAACGTCATCGG-1	medulla sinuses
+s1-CCGACAAGACTGTACT-1	medulla sinuses
+s1-CCGACAGACTGTGCCT-1	medulla sinuses
+s1-CCGAGGATGACTCGTC-1	medulla cords
+s1-CCGATAATGGAGCCTT-1	medulla sinuses
+s1-CCGATGGAACATCAGC-1	medulla sinuses
+s1-CCGATTAGCGAGTGTA-1	medulla sinuses
+s1-CCGATTCCATAAGAGT-1	cortex
+s1-CCGATTCCTCACTACA-1	medulla sinuses
+s1-CCGCAAGGAAGGAGGC-1	cortex
+s1-CCGCAAGGTACCGTTG-1	medulla sinuses
+s1-CCGCAAGTAGCGGACT-1	cortex
+s1-CCGCAATCCGTGGTTG-1	medulla cords
+s1-CCGCAGTGATCACTGT-1	capsule
+s1-CCGCATAGTACAGGTT-1	subcapsular sinus
+s1-CCGCATGTAGTTAGAC-1	cortex
+s1-CCGCCACTGCGTTGGC-1	cortex
+s1-CCGCCATACTTCACCA-1	medulla cords
+s1-CCGCGAGGTGCGATGG-1	pericapsular adipose tissue
+s1-CCGCGTATCGTTGCAG-1	medulla sinuses
+s1-CCGCGTCGTTGGTCTG-1	medulla vessels
+s1-CCGCGTTACCTTGGCG-1	medulla sinuses
+s1-CCGCGTTGACGGAACG-1	pericapsular adipose tissue
+s1-CCGCTCAATCTGGAAC-1	cortex
+s1-CCGCTCATACAAGTCA-1	medulla cords
+s1-CCGCTCGCTAGTCTAA-1	medulla sinuses
+s1-CCGCTCTGCTGAATTC-1	medulla cords
+s1-CCGCTCTGGATATCGG-1	pericapsular adipose tissue
+s1-CCGCTGTCACCTGCAA-1	medulla cords
+s1-CCGCTGTTGCCATACG-1	medulla sinuses
+s1-CCGGAGAAGCTAACCA-1	medulla cords
+s1-CCGGAGACAAGAATAA-1	medulla sinuses
+s1-CCGGATCTCCGAAGCG-1	medulla cords
+s1-CCGGCAATGAAGTGAA-1	medulla cords
+s1-CCGGCATAGGCAAGTG-1	cortex
+s1-CCGGCGAACCGTGCAC-1	medulla cords
+s1-CCGGCGAATGTACAGG-1	medulla cords
+s1-CCGGCGCAGCATGCGA-1	medulla cords
+s1-CCGGCGCTAAGGATGA-1	medulla sinuses
+s1-CCGGCGTCCTCATTGT-1	cortex
+s1-CCGGCGTCTTAATAAG-1	medulla cords
+s1-CCGGTGGAGCTGGCTC-1	medulla cords
+s1-CCGTATAATCTGGCCG-1	medulla cords
+s1-CCGTCTTATGGACGAG-1	medulla cords
+s1-CCGTGAAGGATAACAG-1	medulla cords
+s1-CCGTGCACATCTGGCA-1	pericapsular adipose tissue
+s1-CCGTGCTGGCAATATG-1	capsule
+s1-CCGTGGCGTCGGTGCT-1	capsule
+s1-CCTAACGCGATTGCAT-1	pericapsular adipose tissue
+s1-CCTAACTACGAATATG-1	medulla sinuses
+s1-CCTAACTTATGTTGGA-1	cortex
+s1-CCTAAGCATGCCTTGT-1	cortex
+s1-CCTAAGGTTACAGTAA-1	medulla cords
+s1-CCTAATAGCGGACAGA-1	cortex
+s1-CCTAATCCACAAGGAT-1	medulla cords
+s1-CCTAATCGGCAGTCAC-1	pericapsular adipose tissue
+s1-CCTAATGGCACTGTTC-1	medulla cords
+s1-CCTACACCGACATTAC-1	medulla vessels
+s1-CCTACCACTCCAGTTA-1	medulla sinuses
+s1-CCTACCATCGCAGTAT-1	cortex
+s1-CCTACCATGTGATCAC-1	medulla cords
+s1-CCTACGAGCTGGCCGG-1	medulla cords
+s1-CCTAGCCTAGTACCGG-1	medulla sinuses
+s1-CCTAGCCTTCATCGGC-1	medulla cords
+s1-CCTAGTCAGCGAACCA-1	medulla cords
+s1-CCTAGTCAGTCCTTAT-1	medulla cords
+s1-CCTATCTATCAATCGC-1	medulla cords
+s1-CCTATGATGGTCAATG-1	capsule
+s1-CCTATGCCAGCAATCC-1	medulla cords
+s1-CCTATGCCGTCGGCAC-1	medulla cords
+s1-CCTATGCCTTCTTGTT-1	medulla cords
+s1-CCTATGTCTTACCGGC-1	medulla cords
+s1-CCTCACAATACAACTG-1	cortex
+s1-CCTCACATGTACCTGG-1	pericapsular adipose tissue
+s1-CCTCACATGTCTTACT-1	cortex
+s1-CCTCACCTAGTGGCAA-1	medulla cords
+s1-CCTCACGTTACTCGCA-1	cortex
+s1-CCTCACTTCCTTCCGA-1	medulla cords
+s1-CCTCATGATTATCTGA-1	medulla cords
+s1-CCTCCGAAGCTGTACC-1	pericapsular adipose tissue
+s1-CCTCGATAGAATAGGA-1	medulla cords
+s1-CCTCGGAAGGCATGCA-1	medulla sinuses
+s1-CCTCGGATCTTGCGGT-1	medulla cords
+s1-CCTCGGTATGACAGTA-1	medulla cords
+s1-CCTCTACCGTGATTGG-1	medulla cords
+s1-CCTCTAGCTGGTCCGC-1	medulla sinuses
+s1-CCTCTTCGAGCGGTTG-1	cortex
+s1-CCTGAAGCGTATAGCA-1	medulla cords
+s1-CCTGAAGTGCATGCAT-1	hilum
+s1-CCTGCTCGCCGTCCAG-1	medulla cords
+s1-CCTGGATCTAGAGCCA-1	pericapsular adipose tissue
+s1-CCTGGATTGCGTAACA-1	medulla cords
+s1-CCTGGCAACGAACGTC-1	follicle
+s1-CCTGGCTTATGGTCTG-1	medulla sinuses
+s1-CCTGTCCTCAGTTGTA-1	medulla cords
+s1-CCTGTCTAAGTAGGCT-1	cortex
+s1-CCTGTCTGATAGGTGA-1	medulla cords
+s1-CCTGTCTGCATAGGTC-1	medulla sinuses
+s1-CCTGTCTTACAATCCT-1	capsule
+s1-CCTTAGATCTGTAATA-1	subcapsular sinus
+s1-CCTTAGTCTGTCACTG-1	medulla sinuses
+s1-CCTTAGTTATACCAGA-1	cortex
+s1-CCTTATAGGTCTCAAC-1	pericapsular adipose tissue
+s1-CCTTCACCGACGGACA-1	follicle
+s1-CCTTCCAACCTTCAGA-1	medulla cords
+s1-CCTTCCGCTCCGGCAT-1	medulla cords
+s1-CCTTGTCTACTTAGAC-1	cortex
+s1-CCTTGTCTAGTTCTTG-1	medulla sinuses
+s1-CCTTGTCTTACGGTTC-1	medulla sinuses
+s1-CCTTGTGATGGTCTAG-1	medulla cords
+s1-CGAACCAGAAGTCTGG-1	medulla cords
+s1-CGAACGTGAAGTCCAA-1	pericapsular adipose tissue
+s1-CGAACTACAGATGTAA-1	medulla sinuses
+s1-CGAAGACCGCCAGGCG-1	medulla cords
+s1-CGAAGATCCGAAGGCA-1	pericapsular adipose tissue
+s1-CGAAGTCGTTGGCTCG-1	cortex
+s1-CGAATGGACCGTCTTG-1	medulla sinuses
+s1-CGAATTACTGCTCCGG-1	medulla sinuses
+s1-CGACAAGTACTCCTTA-1	medulla cords
+s1-CGACAAGTGATGCGCA-1	pericapsular adipose tissue
+s1-CGACAATCATACGCAC-1	cortex
+s1-CGACAATTATTCTGTC-1	medulla vessels
+s1-CGACAATTCGTCATGT-1	capsule
+s1-CGACATTGTATGGAGG-1	medulla cords
+s1-CGACCAGAACTGTCAT-1	cortex
+s1-CGACCAGAAGGATCCG-1	medulla cords
+s1-CGACCAGATTCAGTGA-1	medulla cords
+s1-CGACCAGCCTTGATTA-1	cortex
+s1-CGACCTATACTGACGT-1	cortex
+s1-CGACCTGCATCTGCAT-1	medulla cords
+s1-CGACCTTGGCGTTCTA-1	cortex
+s1-CGACGCAACATGGCGA-1	medulla sinuses
+s1-CGACGCAGCCTTAGTC-1	medulla cords
+s1-CGACGCCAAGGTGCAA-1	medulla sinuses
+s1-CGACGCCGCAAGTAGC-1	medulla cords
+s1-CGACGCTCCGCACGTG-1	medulla cords
+s1-CGACTAATGTTAGGCT-1	medulla cords
+s1-CGACTAGGAGATAAGC-1	medulla sinuses
+s1-CGACTAGGTCCTTAAC-1	medulla cords
+s1-CGACTATTGGTACTAT-1	pericapsular adipose tissue
+s1-CGACTGAACGAATGCT-1	cortex
+s1-CGACTTCACTCGGCAT-1	medulla cords
+s1-CGACTTCGCAAGCGGT-1	capsule
+s1-CGAGATGCCGCATCTT-1	pericapsular adipose tissue
+s1-CGAGATGCGGTATGCG-1	medulla sinuses
+s1-CGAGCCTGCAAGGTTA-1	medulla cords
+s1-CGAGCGAGCCACGCTA-1	medulla cords
+s1-CGAGCGGCACAGTAGG-1	cortex
+s1-CGAGCGTAATGGAGTG-1	medulla sinuses
+s1-CGAGCGTATGCCAGCG-1	pericapsular adipose tissue
+s1-CGAGCGTGAAGTTAGC-1	capsule
+s1-CGAGCGTGCATTGTGG-1	pericapsular adipose tissue
+s1-CGAGCGTGGACTGGAA-1	cortex
+s1-CGAGCTAAGGCCTGTA-1	cortex
+s1-CGAGCTATGTCCTCGC-1	cortex
+s1-CGAGCTTAGAATACCT-1	medulla cords
+s1-CGAGGAAGACTTAGAT-1	medulla sinuses
+s1-CGAGGACGTAATAGGC-1	pericapsular adipose tissue
+s1-CGAGGAGCGTTCGTTA-1	medulla sinuses
+s1-CGAGGAGTCTAAGGAT-1	medulla cords
+s1-CGAGGATTCGATCATA-1	medulla sinuses
+s1-CGAGGCATCCAAGTCC-1	cortex
+s1-CGAGTCACTCATAGAT-1	medulla sinuses
+s1-CGAGTCATCCGCACCA-1	medulla vessels
+s1-CGAGTCCATGTCAACA-1	pericapsular adipose tissue
+s1-CGAGTCCGTTGGAACT-1	medulla cords
+s1-CGAGTCTTGTACTGCC-1	pericapsular adipose tissue
+s1-CGAGTGCGGCTCGTGG-1	medulla cords
+s1-CGATAAGAATTCCAGT-1	medulla cords
+s1-CGATAAGGATAGGCAA-1	medulla sinuses
+s1-CGATAAGGTGCCTGAC-1	medulla cords
+s1-CGATGACCTCATCCTC-1	pericapsular adipose tissue
+s1-CGATGAGGCCAACGTA-1	medulla cords
+s1-CGATGATCAGCTATAA-1	medulla cords
+s1-CGATGCACCAGGCCTC-1	medulla cords
+s1-CGATGCCTGCTCACCG-1	medulla sinuses
+s1-CGATGTCCGACTACAG-1	medulla cords
+s1-CGATTAACTAATCTTA-1	pericapsular adipose tissue
+s1-CGATTGGAACAGGCCA-1	medulla cords
+s1-CGCAACCATGCACCGA-1	medulla cords
+s1-CGCAAGTAGAGCTTGA-1	capsule
+s1-CGCAATGTATCCAATG-1	cortex
+s1-CGCACGCAGGTAAGTC-1	medulla sinuses
+s1-CGCACGGCTGTCAGGT-1	cortex
+s1-CGCACGTAGCATTGTT-1	medulla cords
+s1-CGCACGTATGAAGGCC-1	medulla cords
+s1-CGCACGTGACTGTTGG-1	medulla cords
+s1-CGCACTAACTACCGGT-1	cortex
+s1-CGCACTCACCAGCACG-1	medulla sinuses
+s1-CGCACTGTGAGCCTGT-1	medulla sinuses
+s1-CGCACTTAAGGCATGC-1	medulla cords
+s1-CGCAGACACTGGCGTA-1	medulla sinuses
+s1-CGCAGAGCAGTCCGAG-1	cortex
+s1-CGCAGATAGATGTTCT-1	medulla cords
+s1-CGCAGATATGGACAGT-1	capsule
+s1-CGCAGATTCGACCGAA-1	medulla cords
+s1-CGCATCTTGACTTAGT-1	medulla sinuses
+s1-CGCATGAGGAGCGTCT-1	medulla sinuses
+s1-CGCATGGAATTCACGA-1	medulla cords
+s1-CGCCACAATAGCTCAA-1	cortex
+s1-CGCCACATGCGTCCAA-1	capsule
+s1-CGCCATGAGGCGATGA-1	medulla cords
+s1-CGCCGGTATCTAGCAC-1	medulla cords
+s1-CGCCTCGAGCCACTCG-1	medulla sinuses
+s1-CGCCTCGATAATGCGG-1	medulla cords
+s1-CGCCTCGGAACTGTGC-1	cortex
+s1-CGCCTCGTACGAAGGC-1	medulla cords
+s1-CGCCTCGTAGTCGTGA-1	subcapsular sinus
+s1-CGCCTCTAATTCGCGG-1	medulla cords
+s1-CGCCTCTACTCGGAAC-1	pericapsular adipose tissue
+s1-CGCCTCTGACTATTGT-1	pericapsular adipose tissue
+s1-CGCCTTACGAGTAGCG-1	cortex
+s1-CGCCTTAGCGGCCTCC-1	pericapsular adipose tissue
+s1-CGCCTTAGGATCGGCA-1	medulla cords
+s1-CGCCTTATCTTGGCGA-1	medulla sinuses
+s1-CGCCTTGACGTGAATC-1	cortex
+s1-CGCCTTGTGAAGTCTA-1	medulla sinuses
+s1-CGCTACTCAGCCATAG-1	capsule
+s1-CGCTAGACTTCATCAC-1	cortex
+s1-CGCTAGCCGCATGCAT-1	medulla sinuses
+s1-CGCTATAGCGATCGCC-1	pericapsular adipose tissue
+s1-CGCTATAGTCTTCATC-1	cortex
+s1-CGCTATGGTTGGTTAA-1	cortex
+s1-CGCTATTAATCTATAA-1	medulla sinuses
+s1-CGCTATTATGATACGT-1	medulla cords
+s1-CGCTCGCAATTGGCGA-1	medulla cords
+s1-CGCTCGGCCGGTTGTC-1	medulla sinuses
+s1-CGCTCGGTACTGCGAA-1	medulla cords
+s1-CGCTGCGAGTCCACAT-1	medulla sinuses
+s1-CGCTGCTATGACAGAC-1	cortex
+s1-CGCTGCTTCGCATACT-1	medulla cords
+s1-CGCTGTGACATAGGCA-1	medulla cords
+s1-CGCTTAGAATTCTTAC-1	medulla cords
+s1-CGCTTATGGTTAGGAT-1	medulla sinuses
+s1-CGCTTGCGTACGGCAC-1	cortex
+s1-CGCTTGGCTTGGATCT-1	cortex
+s1-CGGAACCGATTGAGTC-1	pericapsular adipose tissue
+s1-CGGACACTATGTATCA-1	medulla cords
+s1-CGGACTGTGAGTATAG-1	medulla cords
+s1-CGGAGCCATCTGGATA-1	pericapsular adipose tissue
+s1-CGGAGCCGCAATAGCC-1	medulla cords
+s1-CGGAGCGGTAAGACGC-1	medulla cords
+s1-CGGAGCTCACTTGCAT-1	cortex
+s1-CGGAGCTCTTCCAACG-1	pericapsular adipose tissue
+s1-CGGAGGCTAGTCGGCA-1	cortex
+s1-CGGAGTAAGTGCACAT-1	medulla cords
+s1-CGGAGTCTTACGTGAA-1	medulla sinuses
+s1-CGGAGTGGCGACTAAG-1	medulla cords
+s1-CGGAGTGGTCAAGTAT-1	medulla cords
+s1-CGGATGTTGAACCACG-1	medulla cords
+s1-CGGATTCCAGACGGTT-1	medulla cords
+s1-CGGATTGCGTCTACCT-1	medulla cords
+s1-CGGCAACCACTAGCAT-1	cortex
+s1-CGGCAACCTAAGTCCA-1	medulla sinuses
+s1-CGGCAAGATGCGTCGG-1	medulla cords
+s1-CGGCAATCAACGTGGA-1	medulla sinuses
+s1-CGGCACTCCGGTTCGC-1	medulla cords
+s1-CGGCACTCTAGCGGAA-1	pericapsular adipose tissue
+s1-CGGCATGGCCGCTTGT-1	medulla cords
+s1-CGGCATTATCGCGTGG-1	cortex
+s1-CGGCCATCAACCGGCG-1	medulla sinuses
+s1-CGGCCTAACGATAATG-1	medulla cords
+s1-CGGCCTGCGATCGATG-1	medulla cords
+s1-CGGCCTGTCTGTCTGT-1	follicle
+s1-CGGCGTAGCGCTAGGA-1	medulla cords
+s1-CGGCGTTGGTTGCAGC-1	cortex
+s1-CGGCTCGTGGAGTACT-1	medulla sinuses
+s1-CGGCTGACCGCTCGCA-1	subcapsular sinus
+s1-CGGCTGTACATGATGT-1	capsule
+s1-CGGCTTACGTGCACGA-1	cortex
+s1-CGGCTTATTCGCTAAT-1	follicle
+s1-CGGCTTCTACGATATG-1	capsule
+s1-CGGCTTGTGCCGGCCT-1	medulla cords
+s1-CGGTAGAACGTGACTT-1	medulla sinuses
+s1-CGGTAGATTCCTATGC-1	medulla cords
+s1-CGGTATAGGATGAGCG-1	medulla sinuses
+s1-CGGTCAACGGCGGATT-1	medulla sinuses
+s1-CGGTCATGGAGGACTC-1	medulla cords
+s1-CGGTCCATACTTGAGC-1	capsule
+s1-CGGTCCATGCGACTCC-1	capsule
+s1-CGGTCCATTACAACTA-1	medulla cords
+s1-CGGTCCGGTTCTTAGC-1	medulla cords
+s1-CGGTCTAGATCGAATG-1	medulla cords
+s1-CGGTCTGCGTATCTGG-1	medulla cords
+s1-CGGTCTGCTTGAATGA-1	follicle
+s1-CGGTCTTGCTATTCTA-1	medulla sinuses
+s1-CGGTGAACGGTTAGAT-1	medulla sinuses
+s1-CGGTGAACTCACATTG-1	medulla cords
+s1-CGGTGAACTCCACCAG-1	cortex
+s1-CGGTTACCATCAACCA-1	medulla sinuses
+s1-CGGTTACGTCCATGAA-1	pericapsular adipose tissue
+s1-CGGTTATCTGTCTTAA-1	medulla cords
+s1-CGGTTGATTGAGCGCC-1	subcapsular sinus
+s1-CGTAACATAAGTCATC-1	cortex
+s1-CGTAACATCGTTACGG-1	cortex
+s1-CGTAACATTCGCGATA-1	medulla sinuses
+s1-CGTAACATTGGCTGAG-1	cortex
+s1-CGTAACCGGTATGCTA-1	medulla cords
+s1-CGTAACCTGACATCGA-1	cortex
+s1-CGTAAGCCGACCGCTT-1	medulla sinuses
+s1-CGTAAGGATACGGCAC-1	pericapsular adipose tissue
+s1-CGTACAGACGAGGACC-1	cortex
+s1-CGTACAGGCCGCACTG-1	cortex
+s1-CGTACAGTAAGTAATG-1	cortex
+s1-CGTACATCACTGGATG-1	medulla cords
+s1-CGTAGCCAAGTCCGTC-1	medulla sinuses
+s1-CGTAGCCTTGAGCAAG-1	cortex
+s1-CGTAGTACAAGGTACT-1	cortex
+s1-CGTAGTACGCATAATG-1	medulla cords
+s1-CGTAGTGACTCAAGGA-1	medulla sinuses
+s1-CGTAGTTCGTTGGTAG-1	cortex
+s1-CGTCAAGGCGGAATGT-1	medulla vessels
+s1-CGTCAGAACGTTGCCG-1	medulla cords
+s1-CGTCCAATCTGCGTCC-1	medulla sinuses
+s1-CGTCCATAATCCGCTT-1	cortex
+s1-CGTCCATCCTAGCATC-1	medulla sinuses
+s1-CGTCCATCGTCCAATA-1	medulla cords
+s1-CGTCCATGTAGCGTCT-1	medulla sinuses
+s1-CGTCGGATCGCAGAAC-1	capsule
+s1-CGTCGGCAGACGGTAT-1	medulla cords
+s1-CGTCGGCGGTAGATCA-1	medulla cords
+s1-CGTGAATGGTCCTGCG-1	pericapsular adipose tissue
+s1-CGTGAGCAATGGACAT-1	cortex
+s1-CGTGAGCTGTTATCGT-1	medulla cords
+s1-CGTGCGGATTCATGTA-1	medulla cords
+s1-CGTGGCTACATCCATT-1	medulla cords
+s1-CGTGGCTCCTTGTCTT-1	medulla cords
+s1-CGTGTACGATGATTGT-1	medulla sinuses
+s1-CGTGTAGACACCTTCC-1	pericapsular adipose tissue
+s1-CGTGTATGAGGCCAGG-1	cortex
+s1-CGTGTTAACCTGAAGC-1	cortex
+s1-CGTGTTACCATATGTA-1	medulla sinuses
+s1-CGTGTTAGATGGTATC-1	medulla cords
+s1-CGTGTTGGACGTCTGG-1	subcapsular sinus
+s1-CGTTACAGTGCACTCA-1	cortex
+s1-CGTTACGTGCAGATGG-1	medulla cords
+s1-CGTTCCTGTCACCGTG-1	subcapsular sinus
+s1-CGTTCTCGAGGTTCGC-1	subcapsular sinus
+s1-CGTTGGTCGTCACTGT-1	medulla cords
+s1-CGTTGTGAGCAAGTGG-1	medulla cords
+s1-CTAACAGTATACCGGC-1	medulla cords
+s1-CTAACGTGAATGATGT-1	medulla cords
+s1-CTAACGTTAGGCAATG-1	medulla sinuses
+s1-CTAAGCGTGCCTGCAA-1	medulla sinuses
+s1-CTAAGCTCCACGATCA-1	medulla sinuses
+s1-CTAAGCTTACAGTACG-1	medulla cords
+s1-CTAAGTCAAGATCATG-1	medulla cords
+s1-CTAAGTGGCCGATTAG-1	medulla cords
+s1-CTAATCACTCCGAGAC-1	pericapsular adipose tissue
+s1-CTAATCTGGCCGTGTT-1	medulla cords
+s1-CTAATGACATCATTCT-1	cortex
+s1-CTAATGAGCGAGGCTA-1	cortex
+s1-CTAATTACGCAATGGA-1	pericapsular adipose tissue
+s1-CTAATTATGTTGCCGC-1	medulla sinuses
+s1-CTACAACCGCTGTCTA-1	medulla vessels
+s1-CTACAGAACCAGTTGA-1	cortex
+s1-CTACAGAATTAATGAC-1	medulla cords
+s1-CTACAGATCGGTCGCC-1	medulla sinuses
+s1-CTACAGATGGTCATAC-1	medulla cords
+s1-CTACAGCGTCTACACT-1	medulla sinuses
+s1-CTACAGGTAGAATTCC-1	medulla cords
+s1-CTACAGGTCGCTAAGC-1	medulla sinuses
+s1-CTACATCTACTGGCTT-1	medulla sinuses
+s1-CTACCAGACCTCTTAG-1	medulla cords
+s1-CTACCAGGAGACATCT-1	medulla cords
+s1-CTACCATCGATGAGAA-1	pericapsular adipose tissue
+s1-CTACCTGTAATAAGCA-1	pericapsular adipose tissue
+s1-CTACCTTATCAACTGA-1	medulla sinuses
+s1-CTACGAATCAGCCTGG-1	cortex
+s1-CTACGAATTGGCTGGT-1	medulla cords
+s1-CTACGAGCCGGACGGT-1	medulla cords
+s1-CTACGAGCCTGGAGAC-1	medulla cords
+s1-CTACGATGCGTCCGGC-1	medulla sinuses
+s1-CTACGCTACATCTGTT-1	cortex
+s1-CTACGCTTAGAAGTGC-1	cortex
+s1-CTACTGCTCCGACAGT-1	medulla sinuses
+s1-CTACTTATGAACATAA-1	cortex
+s1-CTAGACGATTGAGCTA-1	medulla vessels
+s1-CTAGCAACCAGTGCGG-1	medulla sinuses
+s1-CTAGCACGATCACTGT-1	medulla sinuses
+s1-CTAGCACGCCAAGCTT-1	capsule
+s1-CTAGCATAGAGCGAGC-1	medulla cords
+s1-CTAGCCGAAGATGGAC-1	trabeculae
+s1-CTAGCGCCTAGCTTAA-1	cortex
+s1-CTAGGACGCAAGCATT-1	cortex
+s1-CTAGGCCAGGAGTACG-1	medulla sinuses
+s1-CTAGTCAGGCGACAGT-1	cortex
+s1-CTAGTGTTCAGATCCG-1	cortex
+s1-CTAGTTATGTCCAAGG-1	cortex
+s1-CTAGTTCTACATGACG-1	medulla sinuses
+s1-CTATAACCAGCAGTAT-1	medulla sinuses
+s1-CTATAACTCCTGGAGG-1	cortex
+s1-CTATACCGACTCGCAT-1	medulla cords
+s1-CTATAGATCCACAAGC-1	cortex
+s1-CTATCCATAATCGATA-1	medulla sinuses
+s1-CTATCCATTAGCTCGA-1	medulla sinuses
+s1-CTATCCATTGAGCCAC-1	medulla sinuses
+s1-CTATCCGCTGCAATTG-1	cortex
+s1-CTATCGAGATGCCTAC-1	cortex
+s1-CTATCGATCTGCGTGA-1	cortex
+s1-CTATCGGATATCGGAG-1	medulla cords
+s1-CTATCGGCCGTCTGAC-1	cortex
+s1-CTATCGTATCAGCGTG-1	cortex
+s1-CTATCGTATGATAGGA-1	medulla sinuses
+s1-CTATCGTTACAACCTT-1	medulla cords
+s1-CTATCGTTATCCGTCG-1	cortex
+s1-CTATCGTTCCGCTCGT-1	pericapsular adipose tissue
+s1-CTATGCACCAATCCAG-1	cortex
+s1-CTATGCAGACCTCGCC-1	capsule
+s1-CTATGCCATGCGGACA-1	medulla sinuses
+s1-CTATGCCATTGGAGAA-1	pericapsular adipose tissue
+s1-CTATGCCGTACAGCGT-1	medulla cords
+s1-CTATGGCCAACGCCGG-1	capsule
+s1-CTATGTAGGCCGAACG-1	medulla cords
+s1-CTATGTCAGGAACCTC-1	cortex
+s1-CTATGTCGTTCCGCTA-1	capsule
+s1-CTATGTGCGGTTGACT-1	medulla cords
+s1-CTATTAAGCCAGCACT-1	hilum
+s1-CTATTACCGTCATATT-1	pericapsular adipose tissue
+s1-CTATTAGCGGCTTCGT-1	cortex
+s1-CTATTAGTACTGGCTC-1	medulla sinuses
+s1-CTATTATGAGATACGA-1	medulla cords
+s1-CTATTATGGCACCTCG-1	cortex
+s1-CTATTCCGGCCGTCGG-1	medulla sinuses
+s1-CTATTCCTTACCTAGG-1	capsule
+s1-CTATTCGTCTTACATA-1	medulla cords
+s1-CTATTCTGCAACGCAC-1	cortex
+s1-CTATTCTGTAGGACCT-1	medulla cords
+s1-CTCAAGATACAACGGA-1	capsule
+s1-CTCAATACGTTAACCG-1	medulla cords
+s1-CTCAATGACCATTAAG-1	medulla cords
+s1-CTCAATTGGCGATTCC-1	medulla cords
+s1-CTCACCAGGAATTGAC-1	pericapsular adipose tissue
+s1-CTCACCAGTGTAAGTT-1	capsule
+s1-CTCACCGCCTGTGAGT-1	pericapsular adipose tissue
+s1-CTCACCGCTCTAATCA-1	medulla cords
+s1-CTCACCGTGACTCGGA-1	medulla cords
+s1-CTCACCTGAGACTAAG-1	medulla sinuses
+s1-CTCACCTGCCGACTAA-1	medulla sinuses
+s1-CTCACCTGGCTTAGGT-1	pericapsular adipose tissue
+s1-CTCACCTTAATAAGAT-1	medulla sinuses
+s1-CTCACCTTATCTCCTT-1	capsule
+s1-CTCACCTTCTGAAGTA-1	cortex
+s1-CTCACGAGTAGATGAG-1	medulla cords
+s1-CTCACGATCTCCGGAG-1	medulla vessels
+s1-CTCACGTATTCAAGCG-1	medulla sinuses
+s1-CTCACGTTCGGTCTGC-1	medulla sinuses
+s1-CTCAGAAGACAACTCG-1	medulla sinuses
+s1-CTCAGGATACGCGGCA-1	medulla cords
+s1-CTCAGGCACGTCAGAC-1	medulla sinuses
+s1-CTCAGGTCACTACAGC-1	medulla cords
+s1-CTCAGGTCGTGCTCGC-1	medulla cords
+s1-CTCATAATAGCACCGT-1	pericapsular adipose tissue
+s1-CTCATAGCCAATGTCG-1	medulla sinuses
+s1-CTCATATGATAACTAT-1	capsule
+s1-CTCATATGTAACCGTG-1	pericapsular adipose tissue
+s1-CTCATCCTGGCAAGTC-1	medulla sinuses
+s1-CTCCAAGCGTCCTTCA-1	medulla cords
+s1-CTCCACGCTAGCTAGA-1	medulla cords
+s1-CTCCACTGGCTAATGG-1	medulla cords
+s1-CTCCAGAATATTACAT-1	follicle
+s1-CTCCATGGCGACCAGT-1	medulla cords
+s1-CTCCGCAGCCGCCTTC-1	cortex
+s1-CTCCGGATCCTCGCTC-1	medulla cords
+s1-CTCCGGCCTACAGCTT-1	medulla cords
+s1-CTCCGGTTCAGCGGAT-1	pericapsular adipose tissue
+s1-CTCCTACATTGTATCT-1	medulla cords
+s1-CTCCTACCTCGTGGTA-1	cortex
+s1-CTCCTACTTGAGTAAG-1	medulla sinuses
+s1-CTCCTGTCGAAGCCAA-1	medulla vessels
+s1-CTCCTTATCTTAAGAC-1	cortex
+s1-CTCCTTATGGAACCTT-1	medulla sinuses
+s1-CTCCTTGAATTGGCTA-1	subcapsular sinus
+s1-CTCGACAGCACTCGGA-1	medulla cords
+s1-CTCGACTCCTAATGGA-1	medulla cords
+s1-CTCGATGCGGTGTTAA-1	medulla cords
+s1-CTCGATGTTGAACGGC-1	medulla cords
+s1-CTCGATGTTGCTATGT-1	medulla cords
+s1-CTCGCATACTCAACTC-1	medulla cords
+s1-CTCGCTAGCACCATCT-1	medulla cords
+s1-CTCGCTGTTCATAGAT-1	cortex
+s1-CTCGGAATTCTTGATA-1	medulla sinuses
+s1-CTCGGACTAACGTGGC-1	cortex
+s1-CTCGGAGTCTTAAGGA-1	medulla cords
+s1-CTCGGATCGGAATACG-1	medulla sinuses
+s1-CTCGGTCTCCAACTGC-1	medulla cords
+s1-CTCGTCGCGATTAATT-1	medulla vessels
+s1-CTCGTTCTGTCACGTT-1	medulla cords
+s1-CTCGTTGCACCTTAGG-1	medulla sinuses
+s1-CTGAAGCGGTTGCCAA-1	capsule
+s1-CTGAAGGAGCCTCACT-1	medulla cords
+s1-CTGAAGGATCTGTACG-1	medulla cords
+s1-CTGAAGGTGCTCGAGG-1	medulla sinuses
+s1-CTGAAGTGCTATGGCG-1	cortex
+s1-CTGAAGTGCTGAACTG-1	medulla sinuses
+s1-CTGAAGTTGCAGACAT-1	medulla cords
+s1-CTGAATTCGCGTAAGG-1	medulla sinuses
+s1-CTGACCGCCAATTAGG-1	pericapsular adipose tissue
+s1-CTGACGTATCCGCCAC-1	pericapsular adipose tissue
+s1-CTGACTCCGAATCTGC-1	medulla cords
+s1-CTGACTCGAATTCGTG-1	medulla sinuses
+s1-CTGACTGATTAGGCTG-1	medulla cords
+s1-CTGACTGGTATGATAA-1	capsule
+s1-CTGACTGGTCTACCTT-1	pericapsular adipose tissue
+s1-CTGACTGTGGCCGGTT-1	cortex
+s1-CTGATTAACAGCGGCC-1	cortex
+s1-CTGATTAACGCAAGAA-1	capsule
+s1-CTGATTACAATGTCCA-1	cortex
+s1-CTGATTAGGTGCCGAA-1	medulla sinuses
+s1-CTGATTATCAATAGAC-1	medulla sinuses
+s1-CTGCATAATGGACCGC-1	medulla sinuses
+s1-CTGCATTGAGGAGCCG-1	pericapsular adipose tissue
+s1-CTGCCGATTGCGATGT-1	medulla cords
+s1-CTGCCGTGAAGTCGCA-1	medulla sinuses
+s1-CTGCCTAGTGAATAAG-1	capsule
+s1-CTGCCTCCAACACCAG-1	medulla vessels
+s1-CTGCCTGACACGGATT-1	medulla sinuses
+s1-CTGCCTGTGAGCCAGG-1	subcapsular sinus
+s1-CTGCTCATTAGAGTGC-1	medulla sinuses
+s1-CTGGAACAATAGACAG-1	medulla cords
+s1-CTGGAAGGCAACCGGA-1	cortex
+s1-CTGGAAGTCTAAGCTC-1	medulla sinuses
+s1-CTGGAATAGTGCAAGT-1	medulla cords
+s1-CTGGAATGGATCAGCA-1	medulla vessels
+s1-CTGGAATGTCCGGCCT-1	pericapsular adipose tissue
+s1-CTGGCACTTCTGCGTC-1	pericapsular adipose tissue
+s1-CTGGCCTTACCACTTA-1	medulla vessels
+s1-CTGGCCTTGCATTCGG-1	medulla sinuses
+s1-CTGGCGCACTTACTGA-1	cortex
+s1-CTGGCGCATATCCGTG-1	cortex
+s1-CTGGCGGACAACGCAC-1	medulla vessels
+s1-CTGGCTGGACGCTTGG-1	medulla cords
+s1-CTGGTAATTAATCTGG-1	capsule
+s1-CTGGTGATCCTGAAGG-1	medulla cords
+s1-CTGGTGATCGCCGTAG-1	medulla cords
+s1-CTGGTGCACGATCAAG-1	cortex
+s1-CTGGTGCGTTCACGAG-1	medulla cords
+s1-CTGGTGCTACAGTATT-1	follicle
+s1-CTGGTGCTTATGACCA-1	medulla cords
+s1-CTGGTGGCCAATAAGT-1	medulla sinuses
+s1-CTGGTGGCCTTCCGAC-1	medulla sinuses
+s1-CTGGTTGGACATCACC-1	cortex
+s1-CTGGTTGGCTTGTTAC-1	pericapsular adipose tissue
+s1-CTGTATCGAAGTGGAT-1	medulla cords
+s1-CTGTATCGGAAGCTCC-1	follicle
+s1-CTGTATCTTCGCCATA-1	medulla sinuses
+s1-CTGTATGGCTCAACAT-1	medulla cords
+s1-CTGTCACTCGGCCTTA-1	medulla cords
+s1-CTGTCAGATCGATGCG-1	subcapsular sinus
+s1-CTGTCAGGCTTCCTAA-1	pericapsular adipose tissue
+s1-CTGTCTATCCACATCT-1	medulla sinuses
+s1-CTGTGCGTGAGCCGTC-1	pericapsular adipose tissue
+s1-CTGTGGCTTGTCAGCT-1	cortex
+s1-CTGTGGTAAGCTAATA-1	medulla sinuses
+s1-CTGTTCCAGAAGCTGA-1	medulla cords
+s1-CTGTTCGTATGCACCA-1	medulla sinuses
+s1-CTGTTCTGCTCAGGAC-1	cortex
+s1-CTGTTGCTACTCACAG-1	cortex
+s1-CTTAATACGGCTAGCA-1	medulla sinuses
+s1-CTTACGAACTCCGTCC-1	medulla cords
+s1-CTTACGCAACTCAACG-1	capsule
+s1-CTTACGCCATGCACAG-1	medulla cords
+s1-CTTACGGTAAGCCGAA-1	medulla cords
+s1-CTTACGTCATCCTTAT-1	medulla sinuses
+s1-CTTAGCAACTAGGACC-1	medulla sinuses
+s1-CTTAGCAAGGACAGCC-1	medulla cords
+s1-CTTAGCACGACAGAAC-1	medulla cords
+s1-CTTAGCCTAATGGTAA-1	medulla cords
+s1-CTTAGCCTGTAAGACA-1	medulla sinuses
+s1-CTTAGCGTAGCGTGCG-1	cortex
+s1-CTTAGCTACCATCTCA-1	pericapsular adipose tissue
+s1-CTTAGCTACGCAAGGT-1	medulla cords
+s1-CTTAGCTATCCTTGCG-1	cortex
+s1-CTTAGCTTAGTTCTCG-1	cortex
+s1-CTTAGCTTCGCTGACC-1	medulla cords
+s1-CTTAGTAAGCGTGGCA-1	medulla cords
+s1-CTTAGTCCTCATAAGT-1	cortex
+s1-CTTAGTCTATCGAGAC-1	medulla cords
+s1-CTTAGTCTCGACAACT-1	cortex
+s1-CTTAGTCTGTGCATCC-1	cortex
+s1-CTTAGTCTTATTCGGA-1	medulla cords
+s1-CTTAGTGCGACCTATT-1	medulla cords
+s1-CTTAGTGCGTTGACGC-1	cortex
+s1-CTTAGTGGCTAAGACG-1	cortex
+s1-CTTAGTGGTACACGAC-1	medulla cords
+s1-CTTAGTTGAATCACCT-1	capsule
+s1-CTTAGTTGCTCGTTGT-1	cortex
+s1-CTTAGTTGGAGCGACC-1	pericapsular adipose tissue
+s1-CTTATTCACTAGCTGG-1	cortex
+s1-CTTCAAGTCGACCTTC-1	medulla cords
+s1-CTTCAATCGTACTACG-1	medulla sinuses
+s1-CTTCATGCCTAGACGG-1	cortex
+s1-CTTCATTGGATACCAC-1	cortex
+s1-CTTCCAATTGAAGATT-1	medulla cords
+s1-CTTCCACGATCCTGTA-1	pericapsular adipose tissue
+s1-CTTCCGACGCACAACC-1	medulla cords
+s1-CTTCCGTCGCTGCATC-1	medulla sinuses
+s1-CTTCGACCAAGCCGAG-1	medulla cords
+s1-CTTCGACTCCAGACTG-1	cortex
+s1-CTTCGATAACATTGGT-1	medulla cords
+s1-CTTCGATACTCCGACC-1	medulla cords
+s1-CTTCGATATGTAGGAG-1	cortex
+s1-CTTCGATGGACGTACC-1	cortex
+s1-CTTCGCCGCAACATTA-1	medulla cords
+s1-CTTCGGCTCACTACCT-1	cortex
+s1-CTTCGTATTAATACGG-1	medulla sinuses
+s1-CTTCGTCAAGACTCGT-1	medulla sinuses
+s1-CTTCTACTCAAGTCGT-1	cortex
+s1-CTTCTGAGCCAGGAAC-1	cortex
+s1-CTTCTGTACGGACATC-1	medulla sinuses
+s1-CTTGAACTTAGAGGAA-1	medulla sinuses
+s1-CTTGAGCCTTGTTCCA-1	medulla sinuses
+s1-CTTGAGTCCAAGGCTG-1	capsule
+s1-CTTGATGCAATCACAA-1	medulla cords
+s1-CTTGCCGGAAGACGCA-1	medulla sinuses
+s1-CTTGCGTAACAGCAGT-1	medulla cords
+s1-CTTGGACAGGTTAGAA-1	medulla sinuses
+s1-CTTGGACTTGTCTGTC-1	pericapsular adipose tissue
+s1-CTTGGAGGCCACCTGC-1	capsule
+s1-CTTGGTCGGAAGTAGC-1	subcapsular sinus
+s1-CTTGGTTAGAGTCATC-1	medulla vessels
+s1-CTTGTATCGTATGATT-1	capsule
+s1-CTTGTCAAGGCGTCAA-1	medulla cords
+s1-CTTGTCAGTTCGGTAA-1	cortex
+s1-GAACAAGGTCGAGCAA-1	medulla cords
+s1-GAACAGATAACCTTAA-1	medulla cords
+s1-GAACAGATCCGCTAGA-1	medulla sinuses
+s1-GAACATTCGACACGTA-1	medulla sinuses
+s1-GAACCGAACGAAGACT-1	cortex
+s1-GAACCTTAGTTGATTA-1	pericapsular adipose tissue
+s1-GAACGCCAGTGCATAC-1	medulla sinuses
+s1-GAACGCTAGAAGGCTA-1	medulla cords
+s1-GAACTAACTCTACGTG-1	medulla cords
+s1-GAACTACAAGTAGGAG-1	medulla cords
+s1-GAACTACCTTATCATA-1	medulla cords
+s1-GAACTCATAGTGAGTG-1	medulla sinuses
+s1-GAACTCCTCATACATA-1	medulla cords
+s1-GAACTCCTGGAGGCTC-1	medulla sinuses
+s1-GAACTGTAACTCAGGC-1	medulla sinuses
+s1-GAACTTGGTGAGGATA-1	medulla cords
+s1-GAAGCGATTGCCGAAT-1	cortex
+s1-GAAGCGGCTGATCAGT-1	medulla cords
+s1-GAAGCGTATCATCGTT-1	pericapsular adipose tissue
+s1-GAAGCGTCCATAGTTG-1	cortex
+s1-GAAGCTGTTCTACATC-1	medulla cords
+s1-GAAGGATGGTATACGT-1	pericapsular adipose tissue
+s1-GAATAAGGAGAACTAA-1	medulla sinuses
+s1-GAATACAGACGAACTG-1	medulla sinuses
+s1-GAATACCTGCCACGGC-1	pericapsular adipose tissue
+s1-GAATACTAAGGCGAAT-1	medulla cords
+s1-GAATCAATTACCGACC-1	cortex
+s1-GAATCATAGTCTGAAG-1	medulla cords
+s1-GAATCATGAACCAGTG-1	medulla cords
+s1-GAATGACAACTAGTCA-1	capsule
+s1-GAATGACACGACTAGG-1	medulla cords
+s1-GAATGACCACAATCGA-1	medulla sinuses
+s1-GAATGAGTATAGACCA-1	medulla cords
+s1-GAATGGCCAAGGAGGC-1	medulla cords
+s1-GAATGTATTGGATCAA-1	cortex
+s1-GAATGTGCCTAGCAGA-1	cortex
+s1-GAATTAACCTTCAATT-1	medulla sinuses
+s1-GAATTCACAACTGCAG-1	medulla cords
+s1-GACAACATCATGCCGC-1	medulla sinuses
+s1-GACAACCTAGGAGTCT-1	hilum
+s1-GACAACGGACTCAGCT-1	medulla sinuses
+s1-GACAACGGCGATGTTA-1	medulla cords
+s1-GACAACTTAACCAACC-1	medulla cords
+s1-GACAACTTGATTGTGA-1	medulla sinuses
+s1-GACAAGCCTCGTTAGT-1	pericapsular adipose tissue
+s1-GACAAGCTGAATCTGG-1	medulla sinuses
+s1-GACAATCTATTAGATT-1	medulla cords
+s1-GACAATGACAAGCTTA-1	follicle
+s1-GACAATTGTATGCTTC-1	medulla vessels
+s1-GACAGCAACTCAGAAC-1	follicle
+s1-GACAGTCACTTCGCTC-1	medulla cords
+s1-GACATCACCGTTGCGT-1	medulla sinuses
+s1-GACATCCTTCATTATC-1	capsule
+s1-GACATCTGCGGTCTTG-1	medulla cords
+s1-GACATTATCTTAATCT-1	cortex
+s1-GACCAATTGCGTCAGA-1	follicle
+s1-GACCACATTCTTGAAT-1	medulla cords
+s1-GACCACGGCGTACATA-1	medulla sinuses
+s1-GACCACTCCTGACGTT-1	cortex
+s1-GACCACTTAGACAGGT-1	medulla sinuses
+s1-GACCGAAGACTGGCAG-1	medulla cords
+s1-GACCGAATCTAATACG-1	medulla cords
+s1-GACCGACAATAGGAAT-1	follicle
+s1-GACCGAGGCAACGTTC-1	capsule
+s1-GACCGGCCATGTACCG-1	medulla cords
+s1-GACCGTATTAGACCGG-1	cortex
+s1-GACCTGCTGTACGAAG-1	medulla cords
+s1-GACGAGCTGCACTCGT-1	medulla cords
+s1-GACGCAGCGTCAAGTT-1	medulla sinuses
+s1-GACGCCTCGTCAGAGG-1	medulla cords
+s1-GACGCCTCTTGATTGT-1	cortex
+s1-GACGGCTTAGGTGCGA-1	cortex
+s1-GACGGTACCTGGCCGT-1	medulla vessels
+s1-GACGGTGGTTGATGTC-1	medulla sinuses
+s1-GACGTACAGGAACGCT-1	medulla sinuses
+s1-GACGTAGACTGCCGCA-1	pericapsular adipose tissue
+s1-GACGTCTTATCTCAGC-1	follicle
+s1-GACGTGGTGCTCCAGA-1	medulla cords
+s1-GACTACGAGTTCCATT-1	medulla cords
+s1-GACTACGCCTATAGCC-1	medulla sinuses
+s1-GACTAGATTAGCTAAC-1	trabeculae
+s1-GACTAGTAATCTTGCT-1	medulla cords
+s1-GACTGCCATAGAATAC-1	medulla cords
+s1-GACTGCGGTCTGCGTG-1	cortex
+s1-GACTTCATACCGCTGT-1	medulla cords
+s1-GACTTGAACGTCCGTA-1	medulla sinuses
+s1-GACTTGAAGCCATAGC-1	pericapsular adipose tissue
+s1-GAGCACCATTCGCTGT-1	pericapsular adipose tissue
+s1-GAGCAGACTAGTGGTA-1	pericapsular adipose tissue
+s1-GAGCATCTCCAGTCTG-1	pericapsular adipose tissue
+s1-GAGCCAAGCGATCGTA-1	medulla sinuses
+s1-GAGCCAGCTTACGGTA-1	medulla cords
+s1-GAGCCTCACGTATGTA-1	medulla sinuses
+s1-GAGCCTCCAGTACCGA-1	medulla sinuses
+s1-GAGCGAATCGGTAGAA-1	medulla sinuses
+s1-GAGCGATACTCCAGGC-1	cortex
+s1-GAGCGGCAATGGAATA-1	cortex
+s1-GAGCGGTGTTATCAAC-1	pericapsular adipose tissue
+s1-GAGCTAACCTACTTAC-1	cortex
+s1-GAGCTAAGGTTGCGTT-1	medulla cords
+s1-GAGCTACAAGATCAAG-1	medulla cords
+s1-GAGCTACAGCTCGGTA-1	medulla sinuses
+s1-GAGCTGCGGTGGTAAT-1	cortex
+s1-GAGGAAGGCAACGGCG-1	pericapsular adipose tissue
+s1-GAGGACAGATCGCCTA-1	medulla cords
+s1-GAGGACAGTGATCGGC-1	pericapsular adipose tissue
+s1-GAGGACGAGTCCTAGT-1	cortex
+s1-GAGGATACCAGGTACG-1	pericapsular adipose tissue
+s1-GAGGATCCAGAACTGG-1	medulla cords
+s1-GAGGATGAGGATCCTC-1	capsule
+s1-GAGGATGATAGGAAGG-1	medulla sinuses
+s1-GAGGCCACAAGGTGCA-1	cortex
+s1-GAGGCCACTTCTAGAT-1	cortex
+s1-GAGGCCAGCAGAGGTT-1	medulla cords
+s1-GAGGCGCTCCATTCCT-1	medulla sinuses
+s1-GAGGTAACATTCGATC-1	cortex
+s1-GAGGTAACTAGACAGT-1	cortex
+s1-GAGGTAACTGCGAGAC-1	medulla cords
+s1-GAGGTATTAATAGCGG-1	medulla cords
+s1-GAGGTCACTGTAAGCT-1	medulla cords
+s1-GAGGTGCATTCGGATC-1	medulla vessels
+s1-GAGGTGCCTCTTCGTG-1	medulla cords
+s1-GAGGTGCGGCTGACCA-1	follicle
+s1-GAGGTGGCTCGAGGTT-1	cortex
+s1-GAGGTGTAGCAACTCA-1	medulla sinuses
+s1-GAGTAACGTGGCTTGA-1	medulla vessels
+s1-GAGTAGACGCAGGCTC-1	medulla cords
+s1-GAGTAGATACGTCAAC-1	capsule
+s1-GAGTAGATTATGGTTC-1	cortex
+s1-GAGTAGGATGGTAGTC-1	medulla cords
+s1-GAGTCACGTCCTTAGA-1	follicle
+s1-GAGTCCACGCCTGAAG-1	medulla sinuses
+s1-GAGTCCACTCATAACA-1	medulla cords
+s1-GAGTCCTACCTCTGCA-1	medulla sinuses
+s1-GAGTCCTCTAGCGACA-1	medulla sinuses
+s1-GAGTCTCGAGATAGTC-1	medulla cords
+s1-GAGTCTGACTATAGAA-1	cortex
+s1-GAGTCTGGTGAATGAG-1	medulla sinuses
+s1-GAGTGCAGCGTCATCG-1	medulla cords
+s1-GAGTGCCGCATTAGGC-1	medulla cords
+s1-GAGTGCGGATACAGTC-1	pericapsular adipose tissue
+s1-GAGTGGAGCAAGCGCA-1	medulla sinuses
+s1-GAGTTAATCTCGTTAT-1	cortex
+s1-GAGTTAATTCCACTGG-1	medulla cords
+s1-GAGTTACTCAATGGAA-1	medulla sinuses
+s1-GAGTTAGCAGTAGATG-1	medulla cords
+s1-GAGTTCTATCGTGCCT-1	medulla cords
+s1-GAGTTGGTATTAATAG-1	follicle
+s1-GATAAGCACGTGCGTA-1	cortex
+s1-GATAAGTTGGCGATTA-1	medulla sinuses
+s1-GATAATCAGCTATTGT-1	medulla cords
+s1-GATACATAACGCATGT-1	pericapsular adipose tissue
+s1-GATACCTCGCGACTGC-1	capsule
+s1-GATACTTCACTCAGCA-1	medulla sinuses
+s1-GATACTTCTAGTGGAG-1	cortex
+s1-GATAGAGTCTGAATCG-1	medulla sinuses
+s1-GATAGAGTGATAAGCT-1	medulla sinuses
+s1-GATAGATGTTGAAGAT-1	medulla cords
+s1-GATAGCTAATGGATAG-1	medulla sinuses
+s1-GATAGTGACACTCCAA-1	medulla cords
+s1-GATATCCATATGAGGC-1	capsule
+s1-GATATCTTGTGACACG-1	medulla sinuses
+s1-GATATGCTCACGTTAC-1	medulla cords
+s1-GATCACGAACGTTGAG-1	pericapsular adipose tissue
+s1-GATCCACCGCGTGCAA-1	medulla cords
+s1-GATCCGGACATACACC-1	medulla cords
+s1-GATCGGAGATACGCAG-1	medulla sinuses
+s1-GATCGTAACATTAATA-1	cortex
+s1-GATCGTAAGAGTCGCA-1	cortex
+s1-GATCGTCATGCGGAGG-1	pericapsular adipose tissue
+s1-GATCGTGGCCACAACC-1	subcapsular sinus
+s1-GATCGTTGATGGATGC-1	capsule
+s1-GATCGTTGGAATGACA-1	pericapsular adipose tissue
+s1-GATCTATGAAGATGCG-1	medulla cords
+s1-GATCTTGTCATGATCT-1	medulla sinuses
+s1-GATGACTCTGAATCTT-1	cortex
+s1-GATGAGTGAACGGCTG-1	medulla cords
+s1-GATGCCAGACATAATG-1	cortex
+s1-GATGCCGACAGATATT-1	cortex
+s1-GATGCCTAGAGTCTGT-1	medulla cords
+s1-GATGGACCTGGACGGA-1	medulla cords
+s1-GATGGACGGCAGATGA-1	medulla cords
+s1-GATGTAGCGAGGTCCA-1	medulla sinuses
+s1-GATGTAGGAGTTGGCC-1	medulla vessels
+s1-GATGTTCTATAGGATA-1	capsule
+s1-GATTATGTGACATGAT-1	medulla cords
+s1-GATTCCAAGTCCTGTA-1	pericapsular adipose tissue
+s1-GATTCCATACTGAACC-1	medulla sinuses
+s1-GATTCCATTGAGTTGA-1	medulla cords
+s1-GATTCCGCTATCGGCT-1	cortex
+s1-GATTCCGCTGCAAGAT-1	medulla cords
+s1-GATTCCGTGCGTATAC-1	medulla cords
+s1-GATTCCTGCAGATCGT-1	medulla sinuses
+s1-GATTCGCCATGTATCA-1	medulla cords
+s1-GATTGACTCCATGCGA-1	medulla sinuses
+s1-GATTGTCGCAACGAGG-1	medulla cords
+s1-GCAACAGCGTGGATCA-1	follicle
+s1-GCAACAGCTCCTATGA-1	pericapsular adipose tissue
+s1-GCAACAGGCCATTGAC-1	medulla cords
+s1-GCAACATACATCAGCA-1	cortex
+s1-GCAACATCAGTCAAGT-1	pericapsular adipose tissue
+s1-GCAACATGGTTCTTCA-1	cortex
+s1-GCAAGAATGTTCCACC-1	medulla sinuses
+s1-GCAAGATAGGTTAACT-1	medulla cords
+s1-GCAAGCACTACCGCCA-1	cortex
+s1-GCAAGCTTATTGACGT-1	subcapsular sinus
+s1-GCAATACATGAGGACA-1	cortex
+s1-GCAATCAACTCCAGAT-1	pericapsular adipose tissue
+s1-GCAATCCTCGAGCGTT-1	medulla sinuses
+s1-GCAATCGTGACTCCAA-1	hilum
+s1-GCAATTAATCAACGTA-1	cortex
+s1-GCAATTCCTATCATAC-1	medulla cords
+s1-GCAATTCTGTGACAGA-1	medulla cords
+s1-GCACAGCTGTGGTTGA-1	medulla cords
+s1-GCACAGTCTTGATAGA-1	cortex
+s1-GCACATGCCGGTCTGG-1	capsule
+s1-GCACCGAAGATGTCTA-1	medulla sinuses
+s1-GCACCTAGCCGAATCT-1	medulla cords
+s1-GCACCTAGTAATTATC-1	cortex
+s1-GCACCTTAATCGGATA-1	pericapsular adipose tissue
+s1-GCACCTTACTGGCTAC-1	medulla sinuses
+s1-GCACCTTAGCCTCGCA-1	cortex
+s1-GCACGAGCAGTACCGA-1	cortex
+s1-GCACGAGCTATTGTCG-1	pericapsular adipose tissue
+s1-GCACGAGGTCACGGAC-1	pericapsular adipose tissue
+s1-GCACGCAACCATACCA-1	medulla cords
+s1-GCACGCATAGATTGCT-1	medulla vessels
+s1-GCACGCATAGGCGATC-1	medulla sinuses
+s1-GCACGCTTCGTTGTTC-1	medulla cords
+s1-GCACGGAAGGATAGTA-1	cortex
+s1-GCACTACACTATTGCG-1	medulla cords
+s1-GCACTCCGACTGGCGT-1	pericapsular adipose tissue
+s1-GCACTCTGTTGCCATA-1	medulla cords
+s1-GCACTCTTGCTACCGA-1	pericapsular adipose tissue
+s1-GCACTGAATATGACAG-1	medulla cords
+s1-GCACTGCCTCGATGCG-1	medulla cords
+s1-GCACTGGACGCAGCAC-1	cortex
+s1-GCACTGTTGCGGCCTT-1	medulla cords
+s1-GCAGACGCCTGGTTAT-1	medulla sinuses
+s1-GCAGATACGTTGAACG-1	medulla sinuses
+s1-GCAGATCCTAATGTGG-1	medulla cords
+s1-GCAGATCGGTAATTAT-1	pericapsular adipose tissue
+s1-GCAGCCGGATGCCGCA-1	cortex
+s1-GCAGCGACAGTTCGGT-1	capsule
+s1-GCAGCGATCTAACGAA-1	cortex
+s1-GCAGGCAGTGATCTAC-1	medulla vessels
+s1-GCAGGCCATTCCTGCC-1	medulla sinuses
+s1-GCAGGCTACCGTCCTT-1	medulla sinuses
+s1-GCAGGCTGGTTCCAAG-1	subcapsular sinus
+s1-GCAGGTCACTACCTCA-1	medulla cords
+s1-GCAGGTGCTGATGCTT-1	medulla cords
+s1-GCAGTAGATGTCCAAT-1	medulla cords
+s1-GCATAACCGAGGTGAT-1	medulla sinuses
+s1-GCATACTAGCATCGAA-1	medulla cords
+s1-GCATGACGGATTATCA-1	medulla cords
+s1-GCATGCTGAGACAGGT-1	medulla cords
+s1-GCATGTCGAGTGTCTT-1	medulla sinuses
+s1-GCATTACCTGTCAAGA-1	medulla cords
+s1-GCATTGACTACAGCGA-1	medulla cords
+s1-GCATTGCTGTTCCATC-1	pericapsular adipose tissue
+s1-GCATTGGTTACCAAGC-1	medulla sinuses
+s1-GCCAACGAGCGGCATA-1	follicle
+s1-GCCACGAAGGAATTCC-1	cortex
+s1-GCCACGCCTTAGTACG-1	follicle
+s1-GCCACTATAGACCATA-1	medulla cords
+s1-GCCACTCCGTCACCTC-1	cortex
+s1-GCCAGACAGACGCCTA-1	cortex
+s1-GCCAGACATCTATCAC-1	medulla sinuses
+s1-GCCAGGCTTAATGGCC-1	pericapsular adipose tissue
+s1-GCCAGTAGACGATACC-1	medulla vessels
+s1-GCCAGTTAATTCTTGC-1	medulla sinuses
+s1-GCCAGTTCCTCGTGCC-1	medulla cords
+s1-GCCATTCTCGTGTAGA-1	cortex
+s1-GCCATTGCATGTTAAC-1	capsule
+s1-GCCATTGTAACTGATC-1	medulla sinuses
+s1-GCCATTGTAATGTCTT-1	cortex
+s1-GCCGAGTCCTCGTCCA-1	medulla cords
+s1-GCCGATCGAGTGAAGT-1	cortex
+s1-GCCGATCTCGTGACTC-1	cortex
+s1-GCCGCACTTCGTCTAT-1	capsule
+s1-GCCGCTGATTGGCCAG-1	medulla cords
+s1-GCCGCTTCTAAGGTGA-1	cortex
+s1-GCCGGCAATAGGCAGG-1	medulla cords
+s1-GCCGGCATTCCGCCGA-1	cortex
+s1-GCCGGCGAACCATTGT-1	medulla cords
+s1-GCCGGCGTGAACTTGC-1	medulla sinuses
+s1-GCCGGTATGCTCATGC-1	medulla cords
+s1-GCCGTACCAGATCTAG-1	cortex
+s1-GCCGTATGCCAGTCTT-1	cortex
+s1-GCCTATAGCATACCTT-1	medulla sinuses
+s1-GCCTCATGCGAGCAGG-1	medulla cords
+s1-GCCTCCGTCTACCTCG-1	medulla sinuses
+s1-GCCTCCTGCGGCCGTT-1	cortex
+s1-GCCTGGAACGTCTGCT-1	cortex
+s1-GCCTGGACCTATTGTC-1	subcapsular sinus
+s1-GCCTGGAGCAAGTTAG-1	cortex
+s1-GCCTGGTACATGGTCG-1	medulla cords
+s1-GCCTGGTCAGGTTGCC-1	medulla sinuses
+s1-GCCTGTGAAGTCGGCG-1	medulla sinuses
+s1-GCCTGTGACACCAGAA-1	cortex
+s1-GCCTGTGATAGATTGG-1	cortex
+s1-GCCTGTTAACGGACGA-1	pericapsular adipose tissue
+s1-GCCTGTTAGGTTGTGA-1	capsule
+s1-GCCTTCGCTTATGTTC-1	medulla sinuses
+s1-GCCTTCTGATTCCGTC-1	medulla cords
+s1-GCCTTCTGTCACGCTC-1	medulla cords
+s1-GCCTTGAGATCTGAGC-1	cortex
+s1-GCCTTGCCACTTCTGA-1	medulla cords
+s1-GCCTTGGCGAACAATC-1	medulla vessels
+s1-GCGAAGTTGGCGTGCA-1	capsule
+s1-GCGAATAGTGGCTAAT-1	medulla sinuses
+s1-GCGAATCGAGAACACG-1	medulla cords
+s1-GCGAATGCAGTGTCAA-1	medulla cords
+s1-GCGAATTGGCTAGCCA-1	medulla cords
+s1-GCGACACTAAGCTAAG-1	medulla sinuses
+s1-GCGACAGTGCCGCACC-1	medulla cords
+s1-GCGACGTAGAGCGTTA-1	capsule
+s1-GCGAGCGGACCATAAC-1	medulla cords
+s1-GCGAGCGGTTGTCATG-1	cortex
+s1-GCGAGCTAACTCCTAG-1	pericapsular adipose tissue
+s1-GCGAGGATCGACCTTA-1	medulla sinuses
+s1-GCGAGTTGAACGTCGA-1	cortex
+s1-GCGATCTTGCTCACGC-1	medulla cords
+s1-GCGATGACCGTGTAAT-1	medulla cords
+s1-GCGATGTACTGCTATT-1	medulla cords
+s1-GCGATTCTAACAGTAA-1	capsule
+s1-GCGGCAAGTGTTATGT-1	medulla sinuses
+s1-GCGGTCCTGTAGTCTG-1	medulla cords
+s1-GCGGTCGTTGATCTTG-1	cortex
+s1-GCGGTGGCCGACGCAT-1	medulla cords
+s1-GCGGTTGCCTCGACGG-1	pericapsular adipose tissue
+s1-GCGTAACGTTACAGGT-1	capsule
+s1-GCGTACCGGAACGACA-1	cortex
+s1-GCGTACCGGATGGCTC-1	medulla cords
+s1-GCGTACCGTGTATCAG-1	medulla sinuses
+s1-GCGTACGAATCTAATC-1	medulla cords
+s1-GCGTCCAGCAATTGGC-1	cortex
+s1-GCGTCCTCTGCCGTTG-1	cortex
+s1-GCGTCGGAATGCTGCC-1	medulla sinuses
+s1-GCGTCGGTCACGCCAG-1	medulla cords
+s1-GCGTCTCGCAACTCAT-1	medulla cords
+s1-GCGTGAACGTGACTCA-1	cortex
+s1-GCGTTAATAGTCAGTA-1	capsule
+s1-GCGTTCGAGGCCACAA-1	cortex
+s1-GCGTTGTATCGGAGCT-1	medulla sinuses
+s1-GCTAACAGATTGGTAG-1	capsule
+s1-GCTAACCATAGGCGTT-1	medulla sinuses
+s1-GCTACATCTGTACTCA-1	medulla cords
+s1-GCTACCATCCTGTAGA-1	cortex
+s1-GCTACCTAGTCCGTTC-1	pericapsular adipose tissue
+s1-GCTACTTCTGACGCGA-1	medulla sinuses
+s1-GCTATGCGTGAACGGT-1	medulla sinuses
+s1-GCTCAACCACGGCAAC-1	medulla sinuses
+s1-GCTCATACAATTAGAC-1	medulla vessels
+s1-GCTCCGAGACTACATA-1	medulla sinuses
+s1-GCTCCGGCAACATGAT-1	medulla vessels
+s1-GCTCCTATGTCTTCGC-1	medulla cords
+s1-GCTCGATGCTCGCATG-1	cortex
+s1-GCTCGCATCGTCATTA-1	medulla sinuses
+s1-GCTCGGAGATGAATGT-1	medulla cords
+s1-GCTCGTAACGGAGCAC-1	pericapsular adipose tissue
+s1-GCTCGTCTGCCGCAAT-1	medulla cords
+s1-GCTGAATGACCGTGAG-1	medulla sinuses
+s1-GCTGACAGCCGGAGCG-1	medulla sinuses
+s1-GCTGACTTGTCTCAAT-1	medulla cords
+s1-GCTGAGGACAAGAAGT-1	medulla sinuses
+s1-GCTGAGTGTTCAACCG-1	medulla sinuses
+s1-GCTGCCGCCTATGTAG-1	medulla sinuses
+s1-GCTGCGCAATGGAAGC-1	pericapsular adipose tissue
+s1-GCTGCGTTATGTGGAC-1	medulla cords
+s1-GCTGGATGACTCTACC-1	medulla cords
+s1-GCTGTAGTGCTGTCGC-1	medulla cords
+s1-GCTGTCGCGATGGTAG-1	medulla sinuses
+s1-GCTGTTATGGTTGCCG-1	pericapsular adipose tissue
+s1-GCTGTTCAACCGAATA-1	capsule
+s1-GCTGTTCATCAGCGTC-1	medulla cords
+s1-GCTGTTGATAGTCTTA-1	medulla sinuses
+s1-GCTTAATAGAGGCGAG-1	cortex
+s1-GCTTACATGTTGCGCT-1	cortex
+s1-GCTTACCTCGTGCTAT-1	medulla cords
+s1-GCTTCGCTCAAGCGAT-1	medulla cords
+s1-GCTTCGGCATCAGAGT-1	medulla sinuses
+s1-GCTTCTAAGTCTGACG-1	cortex
+s1-GCTTCTAGCGTTCATT-1	medulla cords
+s1-GCTTCTCAGACCGCCT-1	subcapsular sinus
+s1-GCTTCTCCAGAACCGC-1	medulla cords
+s1-GCTTCTGTTACGAGAA-1	medulla cords
+s1-GCTTCTTGGACGAGCG-1	medulla cords
+s1-GCTTGAACTCCATCCA-1	subcapsular sinus
+s1-GCTTGAACTCGCCATG-1	pericapsular adipose tissue
+s1-GCTTGACCTCCGCTTC-1	medulla sinuses
+s1-GCTTGAGCTCTTGACA-1	trabeculae
+s1-GCTTGCAATACAAGGC-1	capsule
+s1-GCTTGCCATAGTGGAT-1	cortex
+s1-GCTTGCTTACTTAACG-1	medulla cords
+s1-GCTTGGATCCAACCGG-1	cortex
+s1-GCTTGGATGCTCGCTT-1	medulla cords
+s1-GCTTGGCTGCGGTAAC-1	medulla cords
+s1-GCTTGGTCAACCGTGG-1	medulla cords
+s1-GCTTGGTGTTCGAACA-1	hilum
+s1-GGAACATCGTGGAATC-1	medulla cords
+s1-GGAACTTCGACATGTC-1	medulla cords
+s1-GGAAGAATAACTAACC-1	cortex
+s1-GGAAGCATTAGAGGCA-1	medulla sinuses
+s1-GGAAGCTGAGATAAGG-1	pericapsular adipose tissue
+s1-GGAAGTCTTGTCGCAT-1	medulla sinuses
+s1-GGAATCCTTAGACTGT-1	medulla sinuses
+s1-GGAATGGCAACTTGGA-1	medulla cords
+s1-GGACAGTGCGGCAACA-1	medulla vessels
+s1-GGACCACTTATCGTTC-1	medulla sinuses
+s1-GGACCATCACCGCCAA-1	cortex
+s1-GGACCGATCTGGATTA-1	medulla cords
+s1-GGACCGCTTCCTGGCA-1	medulla cords
+s1-GGACGGCTATCGACCA-1	capsule
+s1-GGACGGTGCAGTAGGA-1	cortex
+s1-GGACGTACATACCAGA-1	hilum
+s1-GGACGTAGTGTAGAAG-1	cortex
+s1-GGACGTCGAACGGCTT-1	medulla sinuses
+s1-GGACGTCGAGGATTCA-1	medulla sinuses
+s1-GGACGTCGCACGAGAA-1	medulla cords
+s1-GGACGTTAGATATTAC-1	medulla cords
+s1-GGACGTTAGATTCAGG-1	medulla cords
+s1-GGACGTTGGAGGTGAT-1	medulla cords
+s1-GGACTCACGGTCCAAT-1	cortex
+s1-GGAGAAGCCAAGCGCT-1	medulla sinuses
+s1-GGAGATAGGAATGGTC-1	capsule
+s1-GGAGATCCGTAGGATA-1	medulla sinuses
+s1-GGAGATCCTGTACCAG-1	cortex
+s1-GGAGATGCGTGCAGTA-1	medulla cords
+s1-GGAGATGGCTCGAGAT-1	medulla vessels
+s1-GGAGCAATGCGGTGCA-1	pericapsular adipose tissue
+s1-GGAGCGAATTGGACGG-1	medulla cords
+s1-GGAGCGAGTGTAACTT-1	medulla cords
+s1-GGAGCGGCACCTCGTA-1	medulla cords
+s1-GGAGGCACATAGCGTA-1	cortex
+s1-GGAGGTCGTAGGAGCT-1	medulla sinuses
+s1-GGAGTCCAGATAGCTT-1	medulla cords
+s1-GGAGTCTAAGGCCGCT-1	cortex
+s1-GGAGTCTAAGTGGTCC-1	medulla cords
+s1-GGAGTGTCCATGTATT-1	cortex
+s1-GGATAAGTCAGGATAG-1	medulla sinuses
+s1-GGATAATTATGCTGGT-1	medulla cords
+s1-GGATAATTCAATGCTG-1	cortex
+s1-GGATCGAGTGTCCACT-1	subcapsular sinus
+s1-GGATCGATACCTCCGG-1	subcapsular sinus
+s1-GGATCGCTGGCATATT-1	medulla cords
+s1-GGATCGGACGTCTTGT-1	capsule
+s1-GGATGGATCACTCATA-1	medulla cords
+s1-GGATGTAACTAATCCG-1	follicle
+s1-GGATTCCGACGTGATG-1	medulla sinuses
+s1-GGATTCGATGTCCGGA-1	medulla sinuses
+s1-GGCAAGACAATCAGCT-1	medulla vessels
+s1-GGCAATGCGAACTTAA-1	cortex
+s1-GGCACGACGGACGTCG-1	cortex
+s1-GGCAGCCGGCACTTCC-1	medulla cords
+s1-GGCAGCGTATACGACT-1	medulla cords
+s1-GGCAGCTCCTGGACGG-1	medulla sinuses
+s1-GGCAGGAAGTCTTCTA-1	follicle
+s1-GGCATAATCCTATCGC-1	medulla sinuses
+s1-GGCATAATCCTTCATG-1	pericapsular adipose tissue
+s1-GGCATACATGGCTCAG-1	medulla vessels
+s1-GGCATTCCGATGCTCG-1	medulla sinuses
+s1-GGCATTGCTAAGAATG-1	medulla cords
+s1-GGCCAAGATGGATGGC-1	cortex
+s1-GGCCAATAACGCTACA-1	medulla cords
+s1-GGCCAGTAGGTATGAG-1	cortex
+s1-GGCCGCCAACTATTGC-1	medulla cords
+s1-GGCCGTCCAGTAGGAC-1	medulla cords
+s1-GGCCTGCGTTATGCCG-1	medulla cords
+s1-GGCCTTCGACCAGGTA-1	medulla sinuses
+s1-GGCCTTGGATGTTGTC-1	hilum
+s1-GGCGACCATAGCGTTA-1	medulla cords
+s1-GGCGACTTCTTGATGT-1	medulla cords
+s1-GGCGAGGCAGCCTACT-1	cortex
+s1-GGCGATCGGTCTGCTC-1	cortex
+s1-GGCGCCAAGGAGCGCT-1	medulla cords
+s1-GGCGCCACCGGAGCAA-1	medulla cords
+s1-GGCGCCACTGAACATC-1	medulla cords
+s1-GGCGCCGTCGGACATA-1	medulla sinuses
+s1-GGCGCCTTGGCCTAAG-1	pericapsular adipose tissue
+s1-GGCGCTAATATGCTCC-1	medulla sinuses
+s1-GGCGGAAGTCTTGTAG-1	medulla sinuses
+s1-GGCGGAGCACTGATAA-1	medulla vessels
+s1-GGCGGAGTTGAACTAT-1	medulla cords
+s1-GGCGGATACAACGCAC-1	medulla sinuses
+s1-GGCGGATATTGATTGA-1	medulla cords
+s1-GGCGTCGCCGTATGAT-1	medulla sinuses
+s1-GGCGTCGGTAGTGATA-1	medulla sinuses
+s1-GGCGTGGACCTTAGAT-1	medulla cords
+s1-GGCGTGGCACGGCACT-1	medulla cords
+s1-GGCGTGTAATTACTTA-1	medulla cords
+s1-GGCTCAATCAACATGA-1	medulla cords
+s1-GGCTGACGCCGAATCA-1	medulla sinuses
+s1-GGCTGCTAACTTCGCT-1	medulla cords
+s1-GGCTGCTCCATAGCTG-1	cortex
+s1-GGCTGTTCAATGTCAA-1	medulla cords
+s1-GGCTTGCCATAGGCTC-1	cortex
+s1-GGTAAGGCGACGATGA-1	medulla cords
+s1-GGTACCACCTATACCT-1	capsule
+s1-GGTACCAGGTAGTGTT-1	cortex
+s1-GGTACGAAGAACTCGA-1	follicle
+s1-GGTACGATCGACTTAA-1	medulla cords
+s1-GGTACGCTTACCTGCG-1	trabeculae
+s1-GGTACGGAGCATCAGC-1	cortex
+s1-GGTACGGTATGCTCCA-1	medulla cords
+s1-GGTACGTGCTCGGCAA-1	cortex
+s1-GGTACTGTGATCTTCC-1	medulla cords
+s1-GGTAGCCATCAATCCG-1	medulla sinuses
+s1-GGTAGCGTACATCTGT-1	capsule
+s1-GGTAGCTTAGCCAATC-1	medulla cords
+s1-GGTAGGTCTGGCTAAC-1	follicle
+s1-GGTAGGTTGTTACGGC-1	capsule
+s1-GGTAGGTTGTTCTAAG-1	medulla cords
+s1-GGTAGTACAGGTTAGA-1	medulla cords
+s1-GGTAGTACCGCAACAG-1	medulla cords
+s1-GGTATGCAACAGTGGC-1	medulla sinuses
+s1-GGTATGGTCAGGTTGG-1	follicle
+s1-GGTCACCGCATAACAA-1	medulla cords
+s1-GGTCATGCTCTGCCAA-1	subcapsular sinus
+s1-GGTCCTGCGAGTAGGT-1	medulla cords
+s1-GGTCTGAAGGTTCGAA-1	follicle
+s1-GGTCTGAAGTATGTCA-1	medulla sinuses
+s1-GGTCTGAGATCCGCCA-1	medulla cords
+s1-GGTCTGCGAACTGTAT-1	medulla cords
+s1-GGTCTGGTATGTGGCC-1	cortex
+s1-GGTCTGGTTGTAGAAC-1	follicle
+s1-GGTCTTATAGGCTGGC-1	medulla cords
+s1-GGTCTTCCGCACATCC-1	medulla cords
+s1-GGTCTTCCGGCTGGAC-1	medulla cords
+s1-GGTCTTGAACCGGCCA-1	medulla cords
+s1-GGTCTTGCACGTTGCG-1	medulla cords
+s1-GGTGCAATCAGACTTC-1	medulla cords
+s1-GGTGCACTCCGGTTCG-1	cortex
+s1-GGTGCAGGCACCGCGT-1	medulla cords
+s1-GGTGCAGTGGTCTTAT-1	cortex
+s1-GGTGCAGTTCCATATG-1	medulla sinuses
+s1-GGTGCGCAACTAACGG-1	subcapsular sinus
+s1-GGTGGCTTATTGCGTG-1	medulla sinuses
+s1-GGTGTCACCAGCGAAC-1	subcapsular sinus
+s1-GGTTACAGCCGGCCGG-1	cortex
+s1-GGTTACCAGACAACAT-1	medulla sinuses
+s1-GGTTACGGACGATTAA-1	subcapsular sinus
+s1-GGTTAGACTCACTAGC-1	medulla sinuses
+s1-GGTTAGACTCGGAGGT-1	cortex
+s1-GGTTAGCTTCATGAGT-1	cortex
+s1-GGTTAGTATGAGTGTC-1	medulla cords
+s1-GGTTAGTCGGCAGCGA-1	capsule
+s1-GGTTCAAGGTTAAGCC-1	follicle
+s1-GGTTCACCGACTCACG-1	medulla cords
+s1-GGTTCATTCCGGCCTC-1	medulla sinuses
+s1-GGTTCTATACCGCTTG-1	cortex
+s1-GGTTCTCCTATCAGTT-1	medulla vessels
+s1-GGTTCTCGTGATGTGA-1	cortex
+s1-GGTTCTGGAGTCTACC-1	cortex
+s1-GGTTGACCAAGACATG-1	pericapsular adipose tissue
+s1-GGTTGCGATTGAACAG-1	follicle
+s1-GTAACACCGAGCGTTA-1	medulla sinuses
+s1-GTAACATACACCTGTT-1	medulla sinuses
+s1-GTAACATCTTATAATG-1	follicle
+s1-GTAACCACCTACAACC-1	pericapsular adipose tissue
+s1-GTAACCTAGCGTCACG-1	follicle
+s1-GTAAGTAATTACAATC-1	capsule
+s1-GTAAGTATTGCTATCG-1	cortex
+s1-GTAAGTTGCGGAGCGT-1	medulla cords
+s1-GTAAGTTGCTGGTGGA-1	medulla cords
+s1-GTAATCACGCACAGCT-1	cortex
+s1-GTAATCAGGCGGACGG-1	medulla cords
+s1-GTAATCTTGTCTAGTT-1	medulla vessels
+s1-GTAATGACGGTCTACG-1	follicle
+s1-GTAATGATCACGTAAG-1	follicle
+s1-GTACAACTCGGCAGAA-1	medulla cords
+s1-GTACAGAACAGGACTC-1	follicle
+s1-GTACAGAACCGATTAT-1	capsule
+s1-GTACAGAACGCAGCGT-1	subcapsular sinus
+s1-GTACAGATGACATCGC-1	medulla cords
+s1-GTACAGCCGTTACAGA-1	medulla cords
+s1-GTACAGCTGAGCCGGA-1	pericapsular adipose tissue
+s1-GTACAGGAACGAATGG-1	capsule
+s1-GTACAGTATCGGAATT-1	medulla sinuses
+s1-GTACATAAGCTACGCC-1	medulla sinuses
+s1-GTACCTACAATACGAA-1	pericapsular adipose tissue
+s1-GTACCTGAAGTGAATG-1	medulla cords
+s1-GTACCTGTCTTACTGT-1	pericapsular adipose tissue
+s1-GTACCTTCATGTGCAA-1	cortex
+s1-GTACGAAGATTATCCG-1	medulla cords
+s1-GTACGAAGGATTATTG-1	cortex
+s1-GTACGAATTCTACCAA-1	medulla cords
+s1-GTACGAGGTAGTGCAC-1	cortex
+s1-GTACGATTAGTCTACA-1	medulla cords
+s1-GTACGCCATAGATGGT-1	pericapsular adipose tissue
+s1-GTACGCCTCGCTTCCA-1	medulla cords
+s1-GTACGCTCGCCAACAT-1	follicle
+s1-GTACGCTTGATACCAC-1	medulla sinuses
+s1-GTACTACCGTTAGGTG-1	cortex
+s1-GTACTGCATAAGGTTA-1	medulla vessels
+s1-GTACTTAACTTCAGCG-1	cortex
+s1-GTACTTACTTCATACC-1	medulla cords
+s1-GTACTTCTGATCCTCG-1	cortex
+s1-GTAGAAGGACATCATA-1	medulla sinuses
+s1-GTAGAAGTAAGCTGCG-1	medulla cords
+s1-GTAGACCAGAATACTC-1	medulla cords
+s1-GTAGACCTGTCAACCA-1	medulla sinuses
+s1-GTAGCAACGACCGTGG-1	medulla sinuses
+s1-GTAGCACGAGCTCAAG-1	cortex
+s1-GTAGCAGAACATGGTG-1	medulla cords
+s1-GTAGCAGAAGACTCTT-1	medulla cords
+s1-GTAGCAGAGCAATAGC-1	medulla sinuses
+s1-GTAGCATAGTTACAGG-1	capsule
+s1-GTAGCATCGAAGGTCT-1	pericapsular adipose tissue
+s1-GTAGCCAGTGCGGTTG-1	cortex
+s1-GTAGCCGCACTCCATC-1	medulla sinuses
+s1-GTAGCCTAAGGTTAGT-1	cortex
+s1-GTAGCGCCTGAACTCA-1	cortex
+s1-GTAGCGCTCATCAGGT-1	medulla sinuses
+s1-GTAGGAGCAACAGGCA-1	medulla cords
+s1-GTAGGTGATAATTCAC-1	medulla sinuses
+s1-GTAGTCAGACCAATGT-1	cortex
+s1-GTAGTCCAGCGGACAT-1	medulla sinuses
+s1-GTAGTCCATTGTTCGT-1	cortex
+s1-GTAGTGACATTACGAC-1	cortex
+s1-GTAGTTGTTCATGTAG-1	medulla cords
+s1-GTATACATTGGCTCAG-1	medulla cords
+s1-GTATACGATACCTTGT-1	medulla sinuses
+s1-GTATACGGTACACGCA-1	medulla cords
+s1-GTATACGGTTAAGATA-1	pericapsular adipose tissue
+s1-GTATCTACAGATCTCC-1	medulla cords
+s1-GTATCTAGCTACCAGC-1	medulla sinuses
+s1-GTATCTGTCAACGGTG-1	medulla sinuses
+s1-GTATCTGTGGCGTCTA-1	pericapsular adipose tissue
+s1-GTATCTGTGGTCCAGC-1	pericapsular adipose tissue
+s1-GTATGACATAAGACGG-1	cortex
+s1-GTATGATAGTATGGAT-1	cortex
+s1-GTATGATCACTTGACG-1	cortex
+s1-GTATGCCTATCTTGCG-1	medulla cords
+s1-GTATGCCTTACTCCAC-1	medulla sinuses
+s1-GTATGCGGTATCATGA-1	cortex
+s1-GTATGCTTGCGACTAA-1	cortex
+s1-GTATGGTGGAGCGGCC-1	pericapsular adipose tissue
+s1-GTATGTAGCAGGCATA-1	cortex
+s1-GTATGTAGCTCACCTT-1	medulla cords
+s1-GTATGTGCAAGCCGGA-1	medulla cords
+s1-GTATGTTAGTTCTACC-1	medulla cords
+s1-GTATGTTCTGGATCGC-1	medulla sinuses
+s1-GTATTACGAGTCAATC-1	cortex
+s1-GTATTACGGCCATTAT-1	cortex
+s1-GTATTACGGTATTGAG-1	medulla sinuses
+s1-GTATTAGGTTATCTGC-1	medulla sinuses
+s1-GTATTATGAGTTAGCG-1	medulla cords
+s1-GTATTCCAAGTTACCT-1	cortex
+s1-GTATTCCGCTCGGATG-1	cortex
+s1-GTATTCGTGACTTGAT-1	cortex
+s1-GTATTCTAAGTGCTGT-1	medulla cords
+s1-GTCAACAGACGCACGT-1	medulla cords
+s1-GTCAACAGCATAGATT-1	capsule
+s1-GTCAACAGCGCACCGA-1	medulla sinuses
+s1-GTCAACAGTTAAGTGA-1	medulla cords
+s1-GTCAACATGGTGCTAT-1	pericapsular adipose tissue
+s1-GTCAACCTGACGATAG-1	medulla sinuses
+s1-GTCACCAAGAGCGGTG-1	medulla sinuses
+s1-GTCACTAAGAGGAATA-1	medulla sinuses
+s1-GTCACTAAGCCAGCGG-1	medulla cords
+s1-GTCACTACTTAATGGA-1	medulla sinuses
+s1-GTCACTGAATCTCACC-1	medulla cords
+s1-GTCACTTACGTGTATG-1	subcapsular sinus
+s1-GTCACTTATCCAAGAC-1	medulla vessels
+s1-GTCACTTATGAATGCG-1	medulla sinuses
+s1-GTCACTTATGTCGTAT-1	medulla cords
+s1-GTCAGCCAACATCACG-1	medulla sinuses
+s1-GTCAGCCATTGTGCGG-1	cortex
+s1-GTCAGCCTCCGAACCT-1	medulla cords
+s1-GTCAGCGATGTAATTG-1	medulla cords
+s1-GTCAGCGATTGATTCA-1	medulla cords
+s1-GTCAGCTAGATCGACA-1	subcapsular sinus
+s1-GTCAGCTCAATCAAGG-1	medulla sinuses
+s1-GTCAGGACAAGCCATG-1	capsule
+s1-GTCAGGATCAACCAAC-1	capsule
+s1-GTCAGGTACGTGGCAT-1	medulla sinuses
+s1-GTCAGTAATCCAATTA-1	medulla cords
+s1-GTCAGTAGGTGACCGG-1	medulla cords
+s1-GTCAGTGAGGATCGTT-1	medulla sinuses
+s1-GTCAGTGCCAGAATAA-1	medulla cords
+s1-GTCAGTGCTGACAGCG-1	follicle
+s1-GTCAGTTCTGCCTGGA-1	medulla cords
+s1-GTCATCACGTGGTTCA-1	medulla cords
+s1-GTCATCACTATTGTGC-1	medulla cords
+s1-GTCATCAGTAGACCAG-1	medulla cords
+s1-GTCCATCTATACAAGG-1	medulla cords
+s1-GTCCGAATGCGGACAG-1	subcapsular sinus
+s1-GTCCGACAGCCGCATT-1	cortex
+s1-GTCCTGCTTACGGCTG-1	medulla sinuses
+s1-GTCCTTATACATTACG-1	pericapsular adipose tissue
+s1-GTCCTTCATCAGATCA-1	medulla cords
+s1-GTCCTTCATGGATTAG-1	pericapsular adipose tissue
+s1-GTCCTTCGGAACCTGC-1	medulla cords
+s1-GTCGAAGTCGTGTTCT-1	medulla cords
+s1-GTCGCAACGAGCTGAC-1	follicle
+s1-GTCGCACGCAGCCTGC-1	medulla cords
+s1-GTCGCAGATTACTGCA-1	medulla sinuses
+s1-GTCGCATGCGGTAGAT-1	medulla cords
+s1-GTCGCATTACCAGGCA-1	cortex
+s1-GTCGCTAAGTGAGGTT-1	medulla cords
+s1-GTCGGCCGTTGTGAAT-1	medulla sinuses
+s1-GTCGGCCTCCGGCATC-1	pericapsular adipose tissue
+s1-GTCGTAGACTGACAAG-1	cortex
+s1-GTCGTGCTAATGCCTT-1	cortex
+s1-GTCGTGTTCATGTCAG-1	medulla sinuses
+s1-GTCTAAGATCGGACTA-1	medulla cords
+s1-GTCTAAGCGGCACGCC-1	subcapsular sinus
+s1-GTCTAATACGGCTAAG-1	cortex
+s1-GTCTAGCATGGTACGT-1	cortex
+s1-GTCTAGCGTTGTGACC-1	capsule
+s1-GTCTAGGACAGGATAA-1	cortex
+s1-GTCTAGTCTAGCGACG-1	medulla sinuses
+s1-GTCTATAGAATCGAGC-1	medulla cords
+s1-GTCTATCAATGGATTA-1	medulla sinuses
+s1-GTCTATCAGTACTAAT-1	medulla cords
+s1-GTCTATCCAGGACGTC-1	cortex
+s1-GTCTATGGTGAAGAGC-1	subcapsular sinus
+s1-GTCTATGTTAATAGAA-1	cortex
+s1-GTCTATTAGTGAGGCC-1	cortex
+s1-GTCTATTGCGAGTTAC-1	medulla cords
+s1-GTCTCATGACTAGTTG-1	medulla sinuses
+s1-GTCTGATAGATTATAA-1	medulla cords
+s1-GTCTGATATCTGAATT-1	medulla sinuses
+s1-GTCTGCTCAACACCAA-1	medulla sinuses
+s1-GTCTGTGGATCTGACG-1	cortex
+s1-GTCTTCGATAGGTGTT-1	cortex
+s1-GTCTTCGGTAGCTACA-1	medulla cords
+s1-GTCTTGAACAATTACA-1	medulla sinuses
+s1-GTCTTGACAATAGCAA-1	medulla cords
+s1-GTCTTGACTTGCTCTG-1	subcapsular sinus
+s1-GTCTTGATTGCCACCT-1	medulla cords
+s1-GTCTTGCGATGAATGC-1	cortex
+s1-GTCTTGCGGCGATTCA-1	medulla cords
+s1-GTCTTGCTCAGATTAC-1	pericapsular adipose tissue
+s1-GTCTTGCTGGACGATA-1	cortex
+s1-GTCTTGTATTGTAGAT-1	medulla cords
+s1-GTGAACATTCAACGAT-1	medulla cords
+s1-GTGAACGGTTCTAACG-1	cortex
+s1-GTGAACTCGTGGTATC-1	pericapsular adipose tissue
+s1-GTGAACTGAGTTCGGC-1	subcapsular sinus
+s1-GTGAAGATGAGTGCCT-1	medulla cords
+s1-GTGAAGCCACAACCGG-1	cortex
+s1-GTGAAGTGATCGTGCT-1	medulla cords
+s1-GTGAATTAGACATTGC-1	cortex
+s1-GTGACAAGATGCTCAT-1	medulla cords
+s1-GTGACAATAGGTATGT-1	follicle
+s1-GTGACAATTGCGATAA-1	pericapsular adipose tissue
+s1-GTGACATACAGGTCCT-1	cortex
+s1-GTGACATAGTTAGCTG-1	pericapsular adipose tissue
+s1-GTGACATATGCTAGAT-1	cortex
+s1-GTGACATGCAATTAAT-1	capsule
+s1-GTGACATGTACCACCT-1	medulla sinuses
+s1-GTGACCGGAGTCATAC-1	medulla sinuses
+s1-GTGACCGTGGATTAGC-1	medulla sinuses
+s1-GTGACTATGGCATGGA-1	pericapsular adipose tissue
+s1-GTGACTGTCCTGGTAT-1	medulla cords
+s1-GTGACTTCAACATCCG-1	medulla cords
+s1-GTGACTTCCTCACGAC-1	cortex
+s1-GTGAGCACCAGCATCC-1	medulla sinuses
+s1-GTGAGGTACGCTGAGT-1	capsule
+s1-GTGATCTACGAGATCC-1	medulla cords
+s1-GTGATGGATTAGAACA-1	medulla cords
+s1-GTGCAACGACGGTGTT-1	medulla cords
+s1-GTGCAACTACTGTACG-1	medulla cords
+s1-GTGCACCAATCATAAC-1	capsule
+s1-GTGCACCGAATGTTAA-1	medulla cords
+s1-GTGCACTTGTAAGCAC-1	medulla sinuses
+s1-GTGCAGCCGGTCTGCA-1	cortex
+s1-GTGCAGGACTCCAAGG-1	pericapsular adipose tissue
+s1-GTGCAGGCACTCTAGG-1	medulla sinuses
+s1-GTGCAGGCTGGACATG-1	cortex
+s1-GTGCAGTGGTAGATTC-1	pericapsular adipose tissue
+s1-GTGCAGTTGTGGCGCT-1	medulla cords
+s1-GTGCATGGTTGAGTTC-1	cortex
+s1-GTGCATTCCTGTGGTC-1	cortex
+s1-GTGCATTGCAATGTTG-1	hilum
+s1-GTGCCACCTTGAGCAT-1	cortex
+s1-GTGCCGCATCCTTCCT-1	medulla cords
+s1-GTGCCGTCCTGTCAGC-1	medulla cords
+s1-GTGCCTGACACGTTGG-1	cortex
+s1-GTGCGTTCACGGATAA-1	cortex
+s1-GTGCTCAATGCAACCT-1	medulla cords
+s1-GTGCTCGCTTGATCGG-1	pericapsular adipose tissue
+s1-GTGGAACAGAAGTCGA-1	medulla sinuses
+s1-GTGGACCAACTAGGAG-1	pericapsular adipose tissue
+s1-GTGGATTAACAGCGGT-1	pericapsular adipose tissue
+s1-GTGGCGACCTAATATT-1	cortex
+s1-GTGGCGACTGATTAAC-1	medulla cords
+s1-GTGGCGAGGAAGGCTA-1	cortex
+s1-GTGGCGATAGGCAGAA-1	hilum
+s1-GTGGCGATCTGCGATA-1	medulla sinuses
+s1-GTGGCGCACCTGTTCC-1	medulla cords
+s1-GTGGCGCCACGCTGAG-1	medulla cords
+s1-GTGGCGCCACTACGCT-1	medulla sinuses
+s1-GTGGCGCCAGACTCGA-1	cortex
+s1-GTGGCGCCAGCTAACC-1	medulla cords
+s1-GTGGCTGAATGCGAGT-1	medulla cords
+s1-GTGGCTTCCTACCGTT-1	cortex
+s1-GTGGTAAGCCTCTTCG-1	pericapsular adipose tissue
+s1-GTGGTACTGTTGTAGC-1	cortex
+s1-GTGGTACTTGGTTGGA-1	cortex
+s1-GTGGTAGGTCTAAGAA-1	cortex
+s1-GTGGTCGCTCTGTAGC-1	medulla cords
+s1-GTGGTTACCTTGCGCA-1	capsule
+s1-GTGGTTGACAAGGAGC-1	cortex
+s1-GTGGTTGCCGCTTCAA-1	medulla cords
+s1-GTTAACAACTTCGGAT-1	medulla sinuses
+s1-GTTAACTCCGACCACT-1	medulla cords
+s1-GTTAATGGCGCAACGC-1	cortex
+s1-GTTACAGGTACATGGC-1	follicle
+s1-GTTAGACAATGGATGA-1	medulla cords
+s1-GTTAGAGGTGTTAAGA-1	medulla cords
+s1-GTTAGGAAGTATACGA-1	subcapsular sinus
+s1-GTTAGGCCTGAACATC-1	pericapsular adipose tissue
+s1-GTTAGGTACTAACTGG-1	cortex
+s1-GTTAGGTCCACTGGCG-1	capsule
+s1-GTTATGATACGATTAT-1	medulla cords
+s1-GTTATGTTGCTTAGAT-1	medulla sinuses
+s1-GTTATTCGGCCATTCG-1	medulla cords
+s1-GTTATTCGTAACGTCC-1	medulla vessels
+s1-GTTATTGCTGAATCCG-1	follicle
+s1-GTTCATACCTTGGTTA-1	medulla sinuses
+s1-GTTCATCTTACATTCC-1	medulla cords
+s1-GTTCCAGTGCCTTACC-1	medulla cords
+s1-GTTCCGATGAACCGGC-1	capsule
+s1-GTTCCGGCTGCAGTCA-1	medulla cords
+s1-GTTCCGTATGGTAACG-1	subcapsular sinus
+s1-GTTCCGTCATACGGCT-1	medulla cords
+s1-GTTCCGTCTTATCTTA-1	medulla cords
+s1-GTTCCTGAACCTTCAA-1	medulla cords
+s1-GTTCCTTGAGGAACGC-1	medulla cords
+s1-GTTCGAATCACGTACG-1	pericapsular adipose tissue
+s1-GTTCGAGCTCGCGAAT-1	pericapsular adipose tissue
+s1-GTTCGCTGGTATTAGA-1	medulla cords
+s1-GTTCGTAGGTAGTGAA-1	medulla sinuses
+s1-GTTCTACTATACGAAC-1	subcapsular sinus
+s1-GTTCTACTATCATATT-1	capsule
+s1-GTTCTACTTATGGTAG-1	pericapsular adipose tissue
+s1-GTTCTTACTGAAGTAT-1	capsule
+s1-GTTCTTGATCTGTTGA-1	medulla cords
+s1-GTTGAAGGAAGTCGGC-1	follicle
+s1-GTTGAATAAGTCAGCA-1	medulla sinuses
+s1-GTTGAATCAACCTGGC-1	capsule
+s1-GTTGAATGGTACAGTA-1	medulla cords
+s1-GTTGAATGTTGCTGCC-1	medulla cords
+s1-GTTGAATTATTCGGTG-1	cortex
+s1-GTTGAATTCATAAGAT-1	capsule
+s1-GTTGACATGAACCAAC-1	medulla cords
+s1-GTTGACGAACCAGAAC-1	medulla cords
+s1-GTTGACGGATAGCCAT-1	follicle
+s1-GTTGACGTCAGATTAG-1	medulla sinuses
+s1-GTTGACTAGAGCACGT-1	medulla cords
+s1-GTTGACTTCTATGCTG-1	pericapsular adipose tissue
+s1-GTTGAGAATCACGGAG-1	medulla sinuses
+s1-GTTGAGCTTCGTCCGG-1	medulla cords
+s1-GTTGCCACAAGTCATA-1	follicle
+s1-GTTGCCACGACAAGAA-1	medulla cords
+s1-GTTGCTACGTCTTAAT-1	medulla cords
+s1-GTTGCTAGATCGTTGA-1	pericapsular adipose tissue
+s1-GTTGCTTGCAATCACT-1	subcapsular sinus
+s1-GTTGGCGTGAGCGACC-1	cortex
+s1-GTTGGTCCGCCAATCT-1	medulla cords
+s1-GTTGTCCTGTGATGTA-1	medulla sinuses
+s1-GTTGTCGTAATATGGA-1	capsule
+s1-TAACAGCAGGCCTTAC-1	follicle
+s1-TAACAGGAACCGACAA-1	medulla cords
+s1-TAACAGGTCCATACCA-1	medulla cords
+s1-TAACAGTCTACTATGG-1	pericapsular adipose tissue
+s1-TAACAGTTCCACTTCG-1	subcapsular sinus
+s1-TAACATGCGTGCGAAC-1	medulla sinuses
+s1-TAACATGGCCACCTCC-1	cortex
+s1-TAACCAAGGTGCTCTA-1	capsule
+s1-TAACCAGATACGCTTC-1	cortex
+s1-TAACCGGATGGACAGG-1	medulla cords
+s1-TAACCTACGGACTCGT-1	pericapsular adipose tissue
+s1-TAACCTTGAGACTTCG-1	cortex
+s1-TAACGAATCCTAGATA-1	medulla cords
+s1-TAACGAATGCTCCAAT-1	subcapsular sinus
+s1-TAACGACCTTGCCTAT-1	medulla cords
+s1-TAACGAGCCGAAGGTC-1	medulla cords
+s1-TAACGAGCGTCTGGCC-1	pericapsular adipose tissue
+s1-TAACGAGTTGCCAACC-1	medulla sinuses
+s1-TAACGCATTGGTCCAA-1	medulla cords
+s1-TAACGCGTAATATGGC-1	medulla cords
+s1-TAACGCGTCCTACAAC-1	capsule
+s1-TAACGCTCACATTCTA-1	pericapsular adipose tissue
+s1-TAACGCTCATACGGCA-1	cortex
+s1-TAACGCTTATGCCATA-1	medulla sinuses
+s1-TAACGCTTCGGCACTT-1	medulla sinuses
+s1-TAACGTCACTATAATC-1	medulla vessels
+s1-TAACGTGATTCACTAG-1	cortex
+s1-TAACGTGCCATAGTTA-1	medulla sinuses
+s1-TAACGTTGCGTCGATG-1	follicle
+s1-TAACTCCAACATGGAC-1	medulla cords
+s1-TAACTCCAGGTAGGCT-1	medulla sinuses
+s1-TAACTTGCACGGCGGA-1	medulla cords
+s1-TAAGAACAGGTGTAAC-1	pericapsular adipose tissue
+s1-TAAGAATATGAGATAG-1	medulla sinuses
+s1-TAAGACCGAGTGAACA-1	medulla cords
+s1-TAAGACCTCAAGTGCC-1	subcapsular sinus
+s1-TAAGATTGAGATTACA-1	medulla cords
+s1-TAAGATTGCTCACTTC-1	medulla sinuses
+s1-TAAGATTGGCGGTCGT-1	pericapsular adipose tissue
+s1-TAAGCAAGTAATGTGG-1	medulla cords
+s1-TAAGCACGAGACCTAC-1	cortex
+s1-TAAGCAGTAGATACTC-1	medulla cords
+s1-TAAGCCACAATTGCCT-1	cortex
+s1-TAAGCCATACGACACG-1	capsule
+s1-TAAGCCTGGCTTCAGT-1	medulla cords
+s1-TAAGCCTGTAGCGTCC-1	medulla sinuses
+s1-TAAGCTCCTTCACGCC-1	cortex
+s1-TAAGGACGCCTGGTTG-1	medulla cords
+s1-TAAGGATCTGAAGATA-1	medulla cords
+s1-TAAGGATTGGAAGTGG-1	cortex
+s1-TAAGGTACGGATAGTG-1	pericapsular adipose tissue
+s1-TAAGGTATGAATGCTA-1	medulla sinuses
+s1-TAAGGTCCGTGACCGT-1	cortex
+s1-TAAGTGGCCGCTCACC-1	medulla sinuses
+s1-TAATACCGTTAATTGC-1	medulla sinuses
+s1-TAATAGCGCTGTACTC-1	medulla cords
+s1-TAATCGACATTGTTGG-1	cortex
+s1-TAATCTGATAAGATGT-1	cortex
+s1-TAATGACGAAGCGGCT-1	medulla cords
+s1-TAATGATCCGGTTATT-1	cortex
+s1-TAATGTGCACGATCTG-1	cortex
+s1-TAATTAAGGAGTACTG-1	cortex
+s1-TAATTACCGGTGCGAG-1	medulla cords
+s1-TAATTAGCTCGATTGT-1	medulla sinuses
+s1-TAATTCCTGCAGAAGG-1	capsule
+s1-TAATTGACGTCGTTCC-1	medulla cords
+s1-TAATTGATTCTGTCGC-1	medulla sinuses
+s1-TACAACGGACGGCTCA-1	medulla vessels
+s1-TACAAGCAGATCGTTG-1	follicle
+s1-TACAAGCGCCATCGGA-1	pericapsular adipose tissue
+s1-TACAAGCGCCTCTACA-1	medulla sinuses
+s1-TACAAGCGGAAGTACG-1	cortex
+s1-TACAAGGTTATGCGGT-1	subcapsular sinus
+s1-TACAAGTCGAATGCAA-1	capsule
+s1-TACAAGTGTCTGTCCG-1	cortex
+s1-TACACCAGTGCCGACA-1	cortex
+s1-TACACCTCGTACTCCA-1	medulla sinuses
+s1-TACACCTTGCGGCAGG-1	medulla cords
+s1-TACACTCAGTAGAATG-1	capsule
+s1-TACACTGCAGGTTAGA-1	medulla cords
+s1-TACACTGCGTCCGGAC-1	medulla cords
+s1-TACACTGTAGTCAACG-1	pericapsular adipose tissue
+s1-TACACTGTCGAACCAA-1	medulla sinuses
+s1-TACACTTCGAGGTGAC-1	cortex
+s1-TACACTTCGCACCGAT-1	medulla cords
+s1-TACAGTACTTAGTGTA-1	cortex
+s1-TACAGTCTCGGCACGG-1	cortex
+s1-TACATAGCAGACCAAG-1	capsule
+s1-TACATATGCACCAGTG-1	subcapsular sinus
+s1-TACATCGGACAACTGG-1	cortex
+s1-TACATCGTCAGCGGTT-1	cortex
+s1-TACATTGAATACGATC-1	pericapsular adipose tissue
+s1-TACATTGAATGAACGT-1	medulla cords
+s1-TACATTGACTGAGTCC-1	pericapsular adipose tissue
+s1-TACCACAGGCCATTGC-1	cortex
+s1-TACCAGACAACCTCAG-1	cortex
+s1-TACCTCAGGCAACAGA-1	medulla cords
+s1-TACCTGCGGTTGTCCT-1	medulla sinuses
+s1-TACCTGTTAACGGCCT-1	pericapsular adipose tissue
+s1-TACGACGCGATTCAAG-1	medulla cords
+s1-TACGACGTCTCATATT-1	medulla sinuses
+s1-TACGACTCTGAACACT-1	medulla sinuses
+s1-TACGAGATTGGTCTGT-1	cortex
+s1-TACGCCGGAGTTCTGA-1	medulla cords
+s1-TACGCCTTGCCGTGTT-1	cortex
+s1-TACGCTCCGGTTGGTA-1	medulla cords
+s1-TACGCTTCCGCAAGCT-1	medulla cords
+s1-TACGGAACAGACGCGG-1	cortex
+s1-TACGGAATACTCGTTC-1	medulla sinuses
+s1-TACGGAATTGAACCAA-1	medulla cords
+s1-TACGGAGGAAGCACCT-1	medulla cords
+s1-TACGGAGTCAACGAAG-1	capsule
+s1-TACGGATCAGCCATCC-1	medulla cords
+s1-TACGGATCCTTGCGAT-1	medulla sinuses
+s1-TACGGATCTTGCGATG-1	subcapsular sinus
+s1-TACGGCCTTGTAGGAG-1	cortex
+s1-TACGGTAGTTGCGTGA-1	medulla cords
+s1-TACGGTTAATGTACTA-1	medulla cords
+s1-TACGTAATCTAGTAAG-1	cortex
+s1-TACGTACACCTTAAGC-1	cortex
+s1-TACGTATCGAGGTTGT-1	medulla sinuses
+s1-TACGTGGAGGCATGGC-1	hilum
+s1-TACGTGGCATCATATG-1	pericapsular adipose tissue
+s1-TACGTGTACATCCGTG-1	pericapsular adipose tissue
+s1-TACGTTACTGGTAGCG-1	cortex
+s1-TACTAGGATCAATGGC-1	medulla sinuses
+s1-TACTAGTACCGGATGG-1	cortex
+s1-TACTATGTTGAATCTT-1	cortex
+s1-TACTCCGAAGTAGAAT-1	medulla cords
+s1-TACTCCGCCAATACAA-1	cortex
+s1-TACTCCTACATCAACT-1	medulla sinuses
+s1-TAGAATTCAACGTGGC-1	hilum
+s1-TAGACAGGAGATCATT-1	medulla sinuses
+s1-TAGACAGTTCAGATTA-1	cortex
+s1-TAGACATACGTCTAAT-1	medulla cords
+s1-TAGACATATGGCGAGG-1	cortex
+s1-TAGACATGGTTAGGTC-1	cortex
+s1-TAGACATTGACTTGCA-1	medulla cords
+s1-TAGACCAGGATATCGG-1	medulla cords
+s1-TAGACCAGGTACGATC-1	pericapsular adipose tissue
+s1-TAGACCATCGATTGAG-1	medulla sinuses
+s1-TAGACCATTGCTTAGA-1	hilum
+s1-TAGACCGAAGCAGAGC-1	cortex
+s1-TAGACCGCGGAAGGAC-1	medulla vessels
+s1-TAGACCGGCCAGTACG-1	medulla sinuses
+s1-TAGACCTGAGGAGCTG-1	medulla sinuses
+s1-TAGAGCAGACAGTCCA-1	capsule
+s1-TAGAGGCGATTGATTC-1	medulla cords
+s1-TAGATGAGCCGTCATT-1	pericapsular adipose tissue
+s1-TAGATGCGTGCCAGCG-1	medulla sinuses
+s1-TAGATGCTGTATCGTA-1	capsule
+s1-TAGATGGCTGTATGCC-1	medulla sinuses
+s1-TAGATGTCGAGGCCAG-1	medulla sinuses
+s1-TAGCAATTATGGACCG-1	medulla sinuses
+s1-TAGCAGTCGTCATGAA-1	cortex
+s1-TAGCAGTGATTCTGTC-1	medulla vessels
+s1-TAGCCGCAATACCTGC-1	follicle
+s1-TAGCCGTAGCCAGGTG-1	pericapsular adipose tissue
+s1-TAGCGGACCACTGTTA-1	capsule
+s1-TAGCGTACCTTGACAT-1	medulla cords
+s1-TAGCGTACGGAGCGCC-1	capsule
+s1-TAGCGTATAGCGCTAA-1	medulla cords
+s1-TAGCGTCACGACAGGC-1	medulla sinuses
+s1-TAGCGTCTCGGTCTAT-1	pericapsular adipose tissue
+s1-TAGCGTGGTATTGTGC-1	pericapsular adipose tissue
+s1-TAGCGTTATGACCTCC-1	capsule
+s1-TAGCTACCATACTGCT-1	medulla cords
+s1-TAGCTACCTGTAGGAT-1	cortex
+s1-TAGCTAGAAGCGATCA-1	cortex
+s1-TAGCTAGAGCACGCCG-1	medulla sinuses
+s1-TAGCTAGAGGCCTGAA-1	medulla cords
+s1-TAGCTATGTTGAGCAC-1	cortex
+s1-TAGCTCGAATCGTCCG-1	medulla cords
+s1-TAGCTTAAGCTGGCGT-1	medulla cords
+s1-TAGGACATCAGCATGG-1	medulla cords
+s1-TAGGACGGCCAGCCGA-1	medulla sinuses
+s1-TAGGACTTCATGTTAT-1	capsule
+s1-TAGGAGGCGTATTGCC-1	medulla cords
+s1-TAGGATGCACCGTTCA-1	medulla sinuses
+s1-TAGGCAGGCGGACGCC-1	medulla cords
+s1-TAGGCAGTGCGTAGAC-1	pericapsular adipose tissue
+s1-TAGGCATCGGAGCCTC-1	cortex
+s1-TAGGCATCTGCGGACC-1	medulla vessels
+s1-TAGGCGAGCGATCGGT-1	cortex
+s1-TAGGCGCATATCTAAC-1	medulla cords
+s1-TAGGCTCCGGCATACA-1	follicle
+s1-TAGGCTTATCTAGCTC-1	medulla sinuses
+s1-TAGGTCCGTAGCCTAT-1	capsule
+s1-TAGGTCTACTCGTGAA-1	cortex
+s1-TAGGTCTGCCTCTGTA-1	cortex
+s1-TAGGTCTTGGCTCGTC-1	medulla sinuses
+s1-TAGTAAGCGGTGGATA-1	medulla sinuses
+s1-TAGTATAACCTCGACA-1	cortex
+s1-TAGTATCCAATTACGT-1	cortex
+s1-TAGTATTGCCGAGTTG-1	cortex
+s1-TAGTCACTGGATAGGC-1	medulla sinuses
+s1-TAGTGAACATGCAGAT-1	medulla cords
+s1-TAGTGAATGTTCAGTG-1	medulla cords
+s1-TAGTGACCGTCGATTA-1	cortex
+s1-TAGTGACTCAATTGCT-1	medulla cords
+s1-TAGTGACTCGCTCCGC-1	medulla sinuses
+s1-TAGTGAGGACATGTTG-1	medulla sinuses
+s1-TAGTGAGGACGCGAAT-1	medulla cords
+s1-TAGTGAGGTATCGACC-1	cortex
+s1-TAGTGATGACTCCTGG-1	medulla sinuses
+s1-TAGTGCACTATTGTCA-1	medulla sinuses
+s1-TAGTGCAGCTGGCGTC-1	pericapsular adipose tissue
+s1-TAGTGCAGTGCGGTAG-1	medulla sinuses
+s1-TAGTGGTTGAACCAAT-1	medulla sinuses
+s1-TAGTTCAATCGACCTC-1	medulla cords
+s1-TAGTTCCGATAGAATC-1	medulla sinuses
+s1-TAGTTCGAATTAGCGG-1	medulla cords
+s1-TAGTTCGAGTAGGAAG-1	medulla vessels
+s1-TAGTTCGATCCTCACG-1	capsule
+s1-TAGTTCGTTGCTAATT-1	capsule
+s1-TAGTTGAGCCAGCCAG-1	medulla sinuses
+s1-TAGTTGAGTTCTGCAC-1	medulla cords
+s1-TAGTTGGCTTAGGCCT-1	medulla cords
+s1-TATCAACGAATATGAG-1	cortex
+s1-TATCAAGGCCGCGTGG-1	medulla sinuses
+s1-TATCAAGGCTCGTCGG-1	pericapsular adipose tissue
+s1-TATCAATCGCCGAGTG-1	capsule
+s1-TATCAATGCCGCTCAC-1	cortex
+s1-TATCACATAGCGAACT-1	medulla cords
+s1-TATCACCGGCATCGTG-1	medulla sinuses
+s1-TATCACTTCGAGCCGT-1	medulla sinuses
+s1-TATCATGGATGTTGCC-1	medulla vessels
+s1-TATCCAAGCGCCGTAG-1	medulla cords
+s1-TATCCAATACCGCAAT-1	medulla cords
+s1-TATCCACTTGCGTATC-1	medulla cords
+s1-TATCCGACGTCTAGAT-1	subcapsular sinus
+s1-TATCCGATCTTGGCGG-1	subcapsular sinus
+s1-TATCCTGCGGTTGATC-1	cortex
+s1-TATCTAATCACCTCGG-1	pericapsular adipose tissue
+s1-TATCTAGTCGCATGCA-1	cortex
+s1-TATCTAGTGAATGATC-1	medulla cords
+s1-TATCTAGTGCCATATT-1	medulla cords
+s1-TATGAACTACGCGGTG-1	cortex
+s1-TATGAAGCGACCGTCC-1	cortex
+s1-TATGACAAGTGGAAGA-1	pericapsular adipose tissue
+s1-TATGACAATGCTTGAA-1	medulla cords
+s1-TATGACAGCGAGAAGC-1	medulla sinuses
+s1-TATGACCGATGAAGTG-1	cortex
+s1-TATGACGCGTATGTCG-1	medulla cords
+s1-TATGACGGAGATTGGC-1	cortex
+s1-TATGAGCGATCCATTA-1	medulla cords
+s1-TATGAGGATCTACTGG-1	medulla cords
+s1-TATGAGTTCCGAGTGA-1	medulla sinuses
+s1-TATGCCACAGCCGGTG-1	cortex
+s1-TATGCGTACCTGAGTC-1	cortex
+s1-TATGCTCCTGGTTAGT-1	cortex
+s1-TATGGATATGGTGCGA-1	medulla sinuses
+s1-TATGGCAGTTCGTCTA-1	medulla cords
+s1-TATGGCCATAATAGAC-1	medulla cords
+s1-TATGGCCGGCGACACT-1	medulla sinuses
+s1-TATGGCCTCACGTACA-1	medulla cords
+s1-TATGTAGAGCTGATCA-1	medulla cords
+s1-TATGTCATAAGCGTCG-1	medulla cords
+s1-TATGTCGAGGTTGAAG-1	medulla cords
+s1-TATGTTAGGCCGAACC-1	pericapsular adipose tissue
+s1-TATGTTGCAGTCTAGG-1	medulla cords
+s1-TATGTTGGCGAGAACA-1	pericapsular adipose tissue
+s1-TATGTTGGTAGGTCGT-1	medulla vessels
+s1-TATGTTGGTCCAGTGA-1	medulla sinuses
+s1-TATTAACTTCCGCTCA-1	medulla sinuses
+s1-TATTAAGCAGCGCCGG-1	medulla cords
+s1-TATTAATAGAATGGCA-1	capsule
+s1-TATTAATATGTCGACT-1	pericapsular adipose tissue
+s1-TATTCCGGTTGTTAAT-1	medulla cords
+s1-TATTCGACAACCGTGA-1	medulla cords
+s1-TATTCGACATTACTAT-1	medulla sinuses
+s1-TATTCGATGATCTAGT-1	cortex
+s1-TATTCGGTGGAGATTC-1	medulla cords
+s1-TATTCGTGCGTTCTGG-1	cortex
+s1-TATTCGTTAATGCTCC-1	cortex
+s1-TATTCGTTATCGCCTG-1	medulla cords
+s1-TATTCTAAGGCTCATC-1	medulla sinuses
+s1-TATTCTAGAATCGGAC-1	medulla sinuses
+s1-TATTCTCAGCGGCTGG-1	medulla cords
+s1-TATTCTCCTATGATGG-1	medulla sinuses
+s1-TATTCTCGTGCTTGGC-1	pericapsular adipose tissue
+s1-TATTGAATCCGACTAA-1	medulla sinuses
+s1-TATTGAATTAAGCGTT-1	pericapsular adipose tissue
+s1-TATTGAGCATGGACCG-1	pericapsular adipose tissue
+s1-TATTGATCGTGATCTT-1	medulla sinuses
+s1-TATTGATCTACTTCGG-1	capsule
+s1-TCAACAATGGAGGCCT-1	medulla sinuses
+s1-TCAACACCAATCATTA-1	capsule
+s1-TCAACAGGACAGCAAC-1	follicle
+s1-TCAACAGGCCATGCCG-1	cortex
+s1-TCAACATGGATACAAC-1	cortex
+s1-TCAACCGGAGACCTCG-1	medulla sinuses
+s1-TCAAGGAACCTATTGC-1	cortex
+s1-TCAAGGACGTTAGGAG-1	medulla cords
+s1-TCAAGGCAACGCGGCT-1	medulla cords
+s1-TCAAGGCCATAGCCTG-1	cortex
+s1-TCAAGGCGTCTACTCC-1	medulla sinuses
+s1-TCAAGGTATCAACTTA-1	medulla cords
+s1-TCAAGGTCTGAATATG-1	medulla sinuses
+s1-TCAAGTGATGGTTAAT-1	medulla sinuses
+s1-TCAATATTCCGGTTAG-1	medulla sinuses
+s1-TCAATTAATAGAACCT-1	medulla sinuses
+s1-TCACAAGACTTAGCTT-1	subcapsular sinus
+s1-TCACAAGATGACTCGA-1	medulla sinuses
+s1-TCACAAGCTCGAGGCA-1	medulla sinuses
+s1-TCACAAGGAGAACAAG-1	medulla sinuses
+s1-TCACAGCACCAAGGTT-1	cortex
+s1-TCACATAAGCGTTGCC-1	medulla sinuses
+s1-TCACATAGACCTCCGT-1	cortex
+s1-TCACATCCTGTCGCGG-1	cortex
+s1-TCACATCCTTCTCAGT-1	medulla cords
+s1-TCACATTGTCGGTGAC-1	medulla cords
+s1-TCACCATAGATTGTTA-1	medulla sinuses
+s1-TCACCGTTGCTAATGG-1	medulla cords
+s1-TCACGACATCAGAAGG-1	cortex
+s1-TCACGATACCTAGCCA-1	medulla cords
+s1-TCACGCTATCCACTAC-1	medulla cords
+s1-TCACGTCTAAGACTAG-1	pericapsular adipose tissue
+s1-TCACTACCAAGCCTGT-1	pericapsular adipose tissue
+s1-TCACTACGACTCTGCG-1	cortex
+s1-TCACTCCGCTCACTGG-1	capsule
+s1-TCAGAATCGATATCAT-1	medulla sinuses
+s1-TCAGAATCTAATAGTC-1	medulla sinuses
+s1-TCAGATTACCAGGTTA-1	medulla cords
+s1-TCAGCGCCTAGTCTTA-1	medulla cords
+s1-TCAGCGTGACCTTACC-1	medulla cords
+s1-TCAGCTACCAACTCCG-1	cortex
+s1-TCAGCTAGGATGTACT-1	medulla sinuses
+s1-TCAGCTATTAATCGCT-1	medulla cords
+s1-TCAGCTCGCCAGGATG-1	medulla sinuses
+s1-TCAGGAGCAACGGTCG-1	medulla cords
+s1-TCAGGATACACTACAA-1	cortex
+s1-TCAGGTCTAGTAAGCA-1	pericapsular adipose tissue
+s1-TCAGTATGTAGGACAA-1	medulla cords
+s1-TCAGTCAGCGATCAGA-1	cortex
+s1-TCAGTCATTGCAAGTG-1	medulla cords
+s1-TCAGTCCAACGGAAGT-1	medulla sinuses
+s1-TCAGTCGAAGTATCTA-1	follicle
+s1-TCAGTCGCCAAGGTTG-1	medulla cords
+s1-TCAGTCGTGCCGGCAG-1	medulla cords
+s1-TCAGTGAAGAGTTCTA-1	capsule
+s1-TCAGTTCAGAATCTCG-1	cortex
+s1-TCAGTTCTCCGGACCG-1	medulla sinuses
+s1-TCAGTTGACAGTGCCA-1	medulla sinuses
+s1-TCATAGCTTCCAGTAC-1	medulla sinuses
+s1-TCATAGGTAGTGACGA-1	medulla sinuses
+s1-TCATAGGTGAGTCGAC-1	medulla cords
+s1-TCATAGTAGACTCATA-1	subcapsular sinus
+s1-TCATCCACGTGGTCAC-1	medulla cords
+s1-TCATCCATGCCAAGCG-1	medulla cords
+s1-TCATCGCTGTGCAACA-1	medulla sinuses
+s1-TCATCGGCCTGTGCGG-1	medulla sinuses
+s1-TCATCGTTATGTATCT-1	cortex
+s1-TCATCTATCCACGATT-1	medulla cords
+s1-TCATCTCCAACCACCT-1	medulla sinuses
+s1-TCATCTGCCGCTATTC-1	medulla sinuses
+s1-TCATCTTCCACGTATG-1	medulla vessels
+s1-TCATCTTCGACACCGT-1	pericapsular adipose tissue
+s1-TCATGAGGCTTGACGC-1	subcapsular sinus
+s1-TCATGAGGTTGATATG-1	medulla sinuses
+s1-TCATGAGTAAGACATC-1	capsule
+s1-TCATGATTCTGATACT-1	cortex
+s1-TCATGCAGCGCCTTCG-1	medulla cords
+s1-TCATTCACGCGAGCTC-1	pericapsular adipose tissue
+s1-TCATTCACTGTAATGG-1	medulla sinuses
+s1-TCATTGATAGACTTGC-1	medulla sinuses
+s1-TCATTGCAAGTGCTCA-1	capsule
+s1-TCATTGGCGACCGACG-1	medulla cords
+s1-TCATTGTTCAATGCGT-1	medulla cords
+s1-TCCAACAGATGCGGCA-1	pericapsular adipose tissue
+s1-TCCAACGAAGATGCTT-1	medulla sinuses
+s1-TCCAACGTGGTTGTTC-1	medulla cords
+s1-TCCAACTAAGACTCCA-1	medulla sinuses
+s1-TCCAACTGAATAAGGT-1	medulla cords
+s1-TCCAACTGCCGCCATA-1	medulla cords
+s1-TCCAACTGGCTGAAGA-1	cortex
+s1-TCCAAGACCGCTTGAT-1	medulla sinuses
+s1-TCCAATAACGTGCTAG-1	cortex
+s1-TCCAATACTATCTGTT-1	cortex
+s1-TCCAATACTGGAGCGT-1	medulla cords
+s1-TCCAATCCAGATACAT-1	medulla cords
+s1-TCCAATCTAACACGCA-1	medulla sinuses
+s1-TCCAATTAGCAATCAA-1	cortex
+s1-TCCAATTGGTTACAGT-1	medulla cords
+s1-TCCACCAAGTGACGAA-1	medulla sinuses
+s1-TCCAGAGGTCGACAGC-1	pericapsular adipose tissue
+s1-TCCAGATCTTCGCTTA-1	pericapsular adipose tissue
+s1-TCCAGTACCGAGCGCA-1	medulla sinuses
+s1-TCCAGTACGTGCTATG-1	medulla cords
+s1-TCCAGTCAGTACATTA-1	medulla cords
+s1-TCCAGTGATGCGTATC-1	cortex
+s1-TCCAGTGATTGGTGCT-1	medulla vessels
+s1-TCCAGTTGAAGTAGCA-1	medulla cords
+s1-TCCAGTTGCGGTGCAC-1	pericapsular adipose tissue
+s1-TCCATAGCGACTCAGT-1	cortex
+s1-TCCATCGGCTAGACGA-1	medulla sinuses
+s1-TCCATGATGTGATCAA-1	medulla cords
+s1-TCCATGCGTCCACCAG-1	cortex
+s1-TCCATGCGTCGGTTAC-1	follicle
+s1-TCCGAACATAGTCTGA-1	medulla cords
+s1-TCCGAACCTCAACCAT-1	medulla cords
+s1-TCCGAATACTCGCTGG-1	cortex
+s1-TCCGAATAGAAGCACC-1	medulla sinuses
+s1-TCCGAATCATGTTGTC-1	medulla vessels
+s1-TCCGAATCGCAGGTTC-1	medulla cords
+s1-TCCGAGTACGACTTAG-1	medulla sinuses
+s1-TCCGATGCGTATCCGG-1	medulla cords
+s1-TCCGCCAACATTGCTC-1	medulla cords
+s1-TCCGCCAAGGTCCGTT-1	medulla cords
+s1-TCCGCCAGTGATTAAT-1	medulla cords
+s1-TCCGCCGGTCTATTCA-1	medulla cords
+s1-TCCGCCTTGTTCTGAT-1	medulla cords
+s1-TCCGGCTATGCTCAGT-1	medulla cords
+s1-TCCGGCTCTATGGACA-1	medulla vessels
+s1-TCCGGTACGTGGCCTC-1	medulla sinuses
+s1-TCCGGTTCCGTTCTAG-1	medulla cords
+s1-TCCGTCCACTCGGAGC-1	cortex
+s1-TCCGTCGGTACAAGTT-1	medulla sinuses
+s1-TCCGTGTCTTACATAA-1	medulla cords
+s1-TCCGTGTTCTGTTCTG-1	medulla cords
+s1-TCCTAATTGCGGCCTG-1	medulla cords
+s1-TCCTAATTGCTCAACG-1	cortex
+s1-TCCTACAAGCTCGAAC-1	medulla cords
+s1-TCCTACCGATCGTGGC-1	pericapsular adipose tissue
+s1-TCCTACCGGTTCCTAG-1	cortex
+s1-TCCTACGTAAGCCAGA-1	medulla sinuses
+s1-TCCTAGGTATCTGATG-1	medulla cords
+s1-TCCTATCCTCGAATCA-1	cortex
+s1-TCCTATCCTGTCAATA-1	cortex
+s1-TCCTATGAGGATTGTT-1	medulla sinuses
+s1-TCCTATTGACTGTTGA-1	medulla cords
+s1-TCCTCAATGAGGAACG-1	medulla sinuses
+s1-TCCTCACGTGTAGACG-1	medulla sinuses
+s1-TCCTCAGTCGGATGCG-1	cortex
+s1-TCCTCATCGTGCTGGA-1	medulla cords
+s1-TCCTCATGGCACCGTT-1	pericapsular adipose tissue
+s1-TCCTGAAGCGTGCACT-1	medulla cords
+s1-TCCTGACACTTCACGG-1	cortex
+s1-TCCTGACAGGCAGCAA-1	pericapsular adipose tissue
+s1-TCCTGATAAGTGCCGT-1	medulla sinuses
+s1-TCCTGATCACCGGTCC-1	pericapsular adipose tissue
+s1-TCCTGCCGTGTCTAAG-1	capsule
+s1-TCCTGCTACATGCAGA-1	cortex
+s1-TCCTGGTGGCAATAGC-1	medulla cords
+s1-TCCTTACTCGCAATGA-1	follicle
+s1-TCCTTCCAACCGCAAC-1	cortex
+s1-TCCTTGAACAGGACCA-1	medulla cords
+s1-TCCTTGGCTCAAGAGT-1	medulla cords
+s1-TCGAATCTTGCGTTAC-1	medulla cords
+s1-TCGAATGGTTCCACGC-1	hilum
+s1-TCGAATTAGTTACTCC-1	medulla cords
+s1-TCGAATTGTACACTAT-1	medulla cords
+s1-TCGACCAATCCGGTTG-1	follicle
+s1-TCGACGAAGAGCAAGT-1	medulla cords
+s1-TCGACTTATTAATCCT-1	cortex
+s1-TCGAGCTGGTTGCCGA-1	pericapsular adipose tissue
+s1-TCGAGTGGTAGGTCAC-1	medulla cords
+s1-TCGATATTAGACATAC-1	medulla cords
+s1-TCGATATTGTCCTAAC-1	medulla cords
+s1-TCGATCCAGTCTGTAG-1	medulla cords
+s1-TCGATCGCACCTAATC-1	medulla sinuses
+s1-TCGATCGTTGTCTGAA-1	capsule
+s1-TCGATCTAATGTTAGT-1	medulla cords
+s1-TCGATCTAGCCGATTC-1	medulla cords
+s1-TCGCAATAGTGACGCA-1	capsule
+s1-TCGCAATGATAGTTCA-1	medulla sinuses
+s1-TCGCACGATTCGGTGG-1	capsule
+s1-TCGCACTCTTGGACAG-1	cortex
+s1-TCGCACTGCTGTGCTC-1	medulla sinuses
+s1-TCGCACTGTACGGCGA-1	medulla sinuses
+s1-TCGCACTTACTGAAGT-1	medulla cords
+s1-TCGCACTTGGTCCGTC-1	medulla sinuses
+s1-TCGCCAGGCATGCCTC-1	medulla cords
+s1-TCGCCGTATCATGCTT-1	medulla sinuses
+s1-TCGCCTAGATAATTAA-1	cortex
+s1-TCGCCTATCGACTCCT-1	medulla sinuses
+s1-TCGCCTGACGGCCACT-1	medulla sinuses
+s1-TCGCCTGCGTGCGTGG-1	medulla cords
+s1-TCGCCTGGTGGATTCT-1	cortex
+s1-TCGCGACGTGGTAAGT-1	pericapsular adipose tissue
+s1-TCGCGGTAGTATGATC-1	follicle
+s1-TCGCTTACTCGCAAGT-1	medulla cords
+s1-TCGCTTGTTCCAGTTG-1	medulla sinuses
+s1-TCGGAACGTCTGCAAG-1	medulla cords
+s1-TCGGAATCAGCCTAAC-1	cortex
+s1-TCGGACATTCTATGAG-1	medulla sinuses
+s1-TCGGACCAGGATCGCC-1	cortex
+s1-TCGGACGGCCGAGGAA-1	medulla cords
+s1-TCGGACGTTGCCTCAG-1	capsule
+s1-TCGGACTGCCACCTCC-1	medulla sinuses
+s1-TCGGAGCGTTACCTCG-1	medulla sinuses
+s1-TCGGAGTGGTACTTGC-1	follicle
+s1-TCGGAGTTGTCTTGTT-1	cortex
+s1-TCGGCACTGGCGCCGA-1	medulla cords
+s1-TCGGCGACCTCGCTGA-1	medulla vessels
+s1-TCGGCGCAGAATGTCT-1	medulla sinuses
+s1-TCGGCGCAGATAGATA-1	medulla sinuses
+s1-TCGGCGCTATCACGTG-1	follicle
+s1-TCGGCGTAAGGCCTTA-1	pericapsular adipose tissue
+s1-TCGGTAATTACGTGGA-1	medulla sinuses
+s1-TCGGTAGGCATCACGC-1	medulla sinuses
+s1-TCGGTATCGTAATTGG-1	pericapsular adipose tissue
+s1-TCGGTGATCGCCGGCC-1	medulla sinuses
+s1-TCGGTGTCAACAGGCA-1	medulla cords
+s1-TCGGTGTCTAACCAAG-1	cortex
+s1-TCGTAAGGCGTTCAGG-1	subcapsular sinus
+s1-TCGTATACAAGACGAG-1	pericapsular adipose tissue
+s1-TCGTATCAACAGCACC-1	cortex
+s1-TCGTATCACGTTATGA-1	medulla cords
+s1-TCGTATCCTGATGCAA-1	capsule
+s1-TCGTATCGGTCTCCTT-1	cortex
+s1-TCGTATGCCGGACGTT-1	medulla sinuses
+s1-TCGTATGTCGTGCCTA-1	medulla cords
+s1-TCGTATTAGATCCGGT-1	pericapsular adipose tissue
+s1-TCGTATTCTGAGTGGC-1	medulla cords
+s1-TCGTCAAGCCTAATCT-1	cortex
+s1-TCGTCAAGTCCAGGTT-1	medulla cords
+s1-TCGTCACGATGTTCGA-1	medulla sinuses
+s1-TCGTCAGAACAGCCAG-1	medulla cords
+s1-TCGTCCAGCATGGCTT-1	medulla cords
+s1-TCGTGCCTCGGTAGTT-1	cortex
+s1-TCGTTAGCCAGGCCAG-1	medulla cords
+s1-TCTAACAAGCCAATCC-1	cortex
+s1-TCTAACCGTGCTAGCT-1	medulla cords
+s1-TCTAACTCTATGTTCT-1	cortex
+s1-TCTACAACTGGAACTT-1	cortex
+s1-TCTACACTAATTACTC-1	medulla cords
+s1-TCTACACTGAGCTTCT-1	cortex
+s1-TCTACAGCACGTCCGA-1	medulla cords
+s1-TCTACAGGTACGCAGT-1	medulla cords
+s1-TCTACATGAACTATAC-1	medulla cords
+s1-TCTACATGAATCTGAT-1	medulla sinuses
+s1-TCTACATGTCCGACTT-1	medulla sinuses
+s1-TCTACATTGGAGTAAT-1	capsule
+s1-TCTACTATGCTAGCTC-1	medulla cords
+s1-TCTACTCCGACTCGGC-1	medulla cords
+s1-TCTACTCGAGCAGAGG-1	medulla cords
+s1-TCTACTGTCTCAATGA-1	medulla cords
+s1-TCTACTTAGGTTCTTA-1	medulla sinuses
+s1-TCTACTTCACCGTGGA-1	medulla sinuses
+s1-TCTAGAACTTCTTGCA-1	cortex
+s1-TCTAGAATTGCGGTTG-1	cortex
+s1-TCTAGAGTCTCCACGC-1	pericapsular adipose tissue
+s1-TCTAGATAAGGTTAGC-1	medulla cords
+s1-TCTAGCGACACCGAGC-1	medulla cords
+s1-TCTAGGCGGAAGGCAC-1	medulla sinuses
+s1-TCTATGATCGGTGCCT-1	medulla cords
+s1-TCTATTCCTTCCGGAA-1	hilum
+s1-TCTATTCTGCATTGGC-1	medulla cords
+s1-TCTGAGCGTAATTGTC-1	pericapsular adipose tissue
+s1-TCTGAGTCAGATCTTG-1	medulla vessels
+s1-TCTGATCATAATGATT-1	pericapsular adipose tissue
+s1-TCTGCAAGGACGGCAA-1	medulla sinuses
+s1-TCTGCAATTCACAAGA-1	medulla sinuses
+s1-TCTGCCTGGATGTCAG-1	medulla cords
+s1-TCTGCGCTTGCAGATA-1	pericapsular adipose tissue
+s1-TCTGCGTGCTATTCTA-1	medulla sinuses
+s1-TCTGCGTGCTTCAGAC-1	medulla cords
+s1-TCTGCGTTAGATAGGT-1	follicle
+s1-TCTGGACGCTAAGACA-1	pericapsular adipose tissue
+s1-TCTGGATATTAACCTA-1	medulla sinuses
+s1-TCTGGTAATCGTCCAA-1	capsule
+s1-TCTGGTATCTGTAGCC-1	cortex
+s1-TCTGGTCCTCCACTGT-1	cortex
+s1-TCTGTACGCTGTCCTC-1	medulla cords
+s1-TCTGTCACCGTTAATA-1	cortex
+s1-TCTTACATTACTTCGC-1	medulla sinuses
+s1-TCTTACCGCTCGTATG-1	medulla sinuses
+s1-TCTTACGAATCAGTGC-1	cortex
+s1-TCTTACGAGGAATAAG-1	medulla cords
+s1-TCTTACGAGGCCGACA-1	trabeculae
+s1-TCTTACGGCCGCAACA-1	medulla cords
+s1-TCTTACTCTGTATGCG-1	medulla cords
+s1-TCTTACTGAGACTAGT-1	medulla cords
+s1-TCTTAGATGCCTCCGA-1	medulla vessels
+s1-TCTTAGGCGACAGTCA-1	medulla sinuses
+s1-TCTTAGTCGCGGCAGA-1	cortex
+s1-TCTTAGTCGTCTCGGC-1	medulla vessels
+s1-TCTTAGTCTGCCATCA-1	capsule
+s1-TCTTCGAACAGCGTTA-1	medulla cords
+s1-TCTTCGAATTGTATAC-1	cortex
+s1-TCTTCGCCATTCGAAT-1	medulla cords
+s1-TCTTCGTCAGACCAGG-1	medulla sinuses
+s1-TCTTGAGTCATTATAC-1	medulla cords
+s1-TCTTGCACCAATCTAT-1	hilum
+s1-TCTTGCACGGTGAGCC-1	subcapsular sinus
+s1-TCTTGCACGTCTAATG-1	cortex
+s1-TCTTGCACTATTCAGA-1	medulla sinuses
+s1-TCTTGCACTGGTGCTC-1	medulla cords
+s1-TCTTGCATAGACAATA-1	pericapsular adipose tissue
+s1-TCTTGCCACGTTCACT-1	medulla sinuses
+s1-TCTTGCCATCGTTGTA-1	medulla cords
+s1-TCTTGCCGGCAGTCTA-1	medulla sinuses
+s1-TCTTGCTCCGTCGGCA-1	medulla cords
+s1-TCTTGCTGTCCTAGGC-1	medulla sinuses
+s1-TCTTGTTATTCTTGAT-1	medulla sinuses
+s1-TGAACGAATCTTAATT-1	cortex
+s1-TGAACGGACACGTATC-1	medulla cords
+s1-TGAACGGATCTGGTAC-1	medulla sinuses
+s1-TGAACGGATTCAAGTT-1	medulla sinuses
+s1-TGAAGATACAATCTGC-1	medulla sinuses
+s1-TGAAGCACCGTCATGA-1	medulla sinuses
+s1-TGAAGTATGATCGTGC-1	medulla cords
+s1-TGAATGCGGTTATGGA-1	medulla cords
+s1-TGAATGTACCTTCGTC-1	cortex
+s1-TGAATGTTGACATCGT-1	medulla cords
+s1-TGAATTATGCCGCAGT-1	medulla sinuses
+s1-TGAATTCGTGGTATAA-1	medulla sinuses
+s1-TGACAGTACTATTCTA-1	medulla cords
+s1-TGACATTACAACGCCG-1	medulla cords
+s1-TGACCAACAGATAGGT-1	cortex
+s1-TGACCAAGCTGCACAT-1	cortex
+s1-TGACCAAGTAAGGACC-1	medulla cords
+s1-TGACCAATCAGCCACG-1	medulla cords
+s1-TGACCAGCACTCCAGC-1	medulla cords
+s1-TGACCAGGCTCATGCA-1	follicle
+s1-TGACCAGGTATGACCT-1	cortex
+s1-TGACCATCCATCTGCT-1	pericapsular adipose tissue
+s1-TGACCATGTACACTCA-1	medulla cords
+s1-TGACCTCCTTCAGATT-1	medulla sinuses
+s1-TGACCTGTCTATCTCG-1	medulla cords
+s1-TGACGCCTGCTTGTGA-1	pericapsular adipose tissue
+s1-TGACGCTCACCAAGCC-1	cortex
+s1-TGACGCTCGCGGTAGT-1	medulla cords
+s1-TGACGCTGCGATAGTA-1	cortex
+s1-TGACGCTTACTAGACA-1	cortex
+s1-TGACGGAGCGCTATAC-1	medulla sinuses
+s1-TGACTCCAAGTCTACC-1	medulla sinuses
+s1-TGACTCGGCCGACCGA-1	medulla cords
+s1-TGACTCTGCTCGCACG-1	medulla cords
+s1-TGACTTAATGCGTTGG-1	follicle
+s1-TGACTTCGGCGTAACA-1	medulla cords
+s1-TGACTTGCACTCACGG-1	cortex
+s1-TGAGACAAGGACGACC-1	medulla cords
+s1-TGAGACAGAAGTGCTC-1	medulla cords
+s1-TGAGACTATTGAATCT-1	medulla sinuses
+s1-TGAGATGCTCTAATGA-1	cortex
+s1-TGAGCCGCGTGATCAT-1	medulla cords
+s1-TGAGGAATCCATAGAA-1	medulla sinuses
+s1-TGAGGACCACTGTTAC-1	capsule
+s1-TGAGGTAGGACTACTG-1	medulla cords
+s1-TGAGTAAGCGCAATCC-1	medulla sinuses
+s1-TGAGTACGCTGCTCAG-1	pericapsular adipose tissue
+s1-TGAGTATTCTAGGACT-1	medulla sinuses
+s1-TGAGTGACCTACTCGT-1	medulla cords
+s1-TGAGTGAGATCGCTAA-1	cortex
+s1-TGAGTGAGGCACGCCT-1	medulla cords
+s1-TGAGTGCAGAGGACCA-1	cortex
+s1-TGAGTTGTTAGCACCG-1	medulla cords
+s1-TGATAAGCAGTAAGAA-1	medulla sinuses
+s1-TGATAGGAGCATCAAC-1	medulla sinuses
+s1-TGATCCGCACTCCTTA-1	medulla cords
+s1-TGATCGGACCTGGATG-1	medulla cords
+s1-TGATGGAACTAACGAA-1	medulla sinuses
+s1-TGATGGATGATCACGG-1	medulla sinuses
+s1-TGATGGCCGGCATCGC-1	medulla cords
+s1-TGATGGCTGCGACGAT-1	medulla cords
+s1-TGATGGTTCCACTGAT-1	medulla cords
+s1-TGATTAGAATGACATA-1	medulla cords
+s1-TGATTCAAGATCGAGC-1	cortex
+s1-TGATTCGTCTGGATCT-1	medulla cords
+s1-TGCAACAGTGAAGCTC-1	medulla cords
+s1-TGCAACGTTACCTGGT-1	medulla cords
+s1-TGCACCGGTCACCTCC-1	cortex
+s1-TGCACGAGTAGAGTTA-1	cortex
+s1-TGCACGAGTGTCAGCC-1	medulla cords
+s1-TGCACGCTCCTATCCG-1	cortex
+s1-TGCACGGCTGAGACTT-1	medulla cords
+s1-TGCACGGCTGGTAAGG-1	pericapsular adipose tissue
+s1-TGCACGGTAGACGGTA-1	medulla cords
+s1-TGCACGTAGTTCGAAG-1	medulla sinuses
+s1-TGCACGTGATTATCAA-1	medulla cords
+s1-TGCACTCCAGCTACTC-1	cortex
+s1-TGCAGAATCGGAGGCT-1	capsule
+s1-TGCAGACAATACTGTT-1	medulla cords
+s1-TGCAGACGAACCAGAT-1	follicle
+s1-TGCAGAGCCTTGCCGG-1	pericapsular adipose tissue
+s1-TGCAGAGGTCGTAATT-1	medulla cords
+s1-TGCAGTACAACGAGTG-1	medulla sinuses
+s1-TGCAGTCGAGCACCAA-1	medulla cords
+s1-TGCAGTTATTCCACTC-1	medulla cords
+s1-TGCATTAATGGCCACC-1	medulla sinuses
+s1-TGCATTCACGTGTACT-1	pericapsular adipose tissue
+s1-TGCATTCGCCAGCGAT-1	cortex
+s1-TGCATTCGCTACAATG-1	medulla sinuses
+s1-TGCATTCTTACGGAGG-1	medulla cords
+s1-TGCATTGCTGTCGGCG-1	medulla cords
+s1-TGCCAATCCATGTCTA-1	medulla cords
+s1-TGCCACAATGCTACCG-1	cortex
+s1-TGCCACTATCAGGCAG-1	pericapsular adipose tissue
+s1-TGCCACTCAACCGGCC-1	cortex
+s1-TGCCACTTAAGTGATG-1	capsule
+s1-TGCCAGCTATTGTAGA-1	medulla sinuses
+s1-TGCCAGGATGAGGTTC-1	medulla cords
+s1-TGCCAGTGATTCGTGC-1	medulla cords
+s1-TGCCGAATCAAGCGTC-1	capsule
+s1-TGCCGACGATGAACTG-1	medulla sinuses
+s1-TGCCGAGTTAAGAACG-1	medulla cords
+s1-TGCCGGAACTTAGGCA-1	medulla sinuses
+s1-TGCCGGCATTATAGAT-1	medulla cords
+s1-TGCCTAAGTTAATTAT-1	medulla cords
+s1-TGCCTATCAATGCCAT-1	medulla cords
+s1-TGCCTATCGGCTATGT-1	medulla cords
+s1-TGCCTATGGACTGGTC-1	pericapsular adipose tissue
+s1-TGCCTTAGGCGTCTAT-1	medulla cords
+s1-TGCGAATTCTCCGCAC-1	medulla cords
+s1-TGCGACTACGTGCGAG-1	medulla sinuses
+s1-TGCGAGCCAGACGAAT-1	cortex
+s1-TGCGATCTTGCTCGAT-1	medulla sinuses
+s1-TGCGATGCAGGTGCGA-1	cortex
+s1-TGCGATTAGCTCCGCC-1	medulla cords
+s1-TGCGCCAGTAATGATC-1	cortex
+s1-TGCGCCGAACGGACTC-1	medulla cords
+s1-TGCGCCGATCGCGAAG-1	cortex
+s1-TGCGCCTCTTCGGCGA-1	pericapsular adipose tissue
+s1-TGCGCTCATAGAACGA-1	medulla sinuses
+s1-TGCGGACCATGGTACC-1	medulla sinuses
+s1-TGCGGACGATACGGAC-1	cortex
+s1-TGCGGACTCACGTGAT-1	medulla cords
+s1-TGCGGACTTAACTTCC-1	medulla cords
+s1-TGCGGACTTCTGTCGC-1	medulla cords
+s1-TGCGGATCATCCTAGA-1	follicle
+s1-TGCGGATCGGATCTTA-1	medulla vessels
+s1-TGCGTATCTTGTACCG-1	medulla sinuses
+s1-TGCGTCTGGATCGGAT-1	cortex
+s1-TGCGTGTCAGCCAGTG-1	medulla cords
+s1-TGCGTGTCGGCGGATA-1	medulla cords
+s1-TGCGTTAGCACGTACC-1	medulla sinuses
+s1-TGCGTTATGTTCCGGA-1	medulla sinuses
+s1-TGCGTTGTATTGCCTG-1	medulla sinuses
+s1-TGCTACGCTGCGTGGA-1	pericapsular adipose tissue
+s1-TGCTACTTGTGGCTGG-1	medulla cords
+s1-TGCTATAATGTCGCTG-1	medulla sinuses
+s1-TGCTATCCATGTAATA-1	medulla sinuses
+s1-TGCTATCCTAAGACGA-1	follicle
+s1-TGCTATGGTTGCGACA-1	cortex
+s1-TGCTATTGCGGCGTGG-1	cortex
+s1-TGCTATTGTCAAGGAG-1	capsule
+s1-TGCTCAGATTGGTAGC-1	medulla cords
+s1-TGCTCCTAACGGAAGA-1	follicle
+s1-TGCTGTATTAGCGGTC-1	medulla cords
+s1-TGCTGTCAGAACGAAG-1	medulla cords
+s1-TGCTGTCTTGTTAATG-1	medulla cords
+s1-TGCTGTGAAGTCAAGA-1	medulla sinuses
+s1-TGCTTACTCACCGGTC-1	cortex
+s1-TGCTTAGCTCCTGGCT-1	medulla cords
+s1-TGCTTAGTTGACTTAC-1	subcapsular sinus
+s1-TGCTTATGAATAAGCA-1	medulla cords
+s1-TGCTTATGACGCTGGC-1	medulla sinuses
+s1-TGCTTATGCGGTTCTG-1	cortex
+s1-TGGAAGACTAGTCTTG-1	medulla sinuses
+s1-TGGAAGCCATAACAGT-1	cortex
+s1-TGGAAGCTCCATCGAC-1	medulla cords
+s1-TGGAAGGTTCGCTTGC-1	medulla cords
+s1-TGGAAGTCTGGACTAA-1	pericapsular adipose tissue
+s1-TGGACGCCTGCGACCG-1	medulla cords
+s1-TGGACTGACGTACCAC-1	pericapsular adipose tissue
+s1-TGGACTGAGTACCTAG-1	medulla cords
+s1-TGGAGTGAACGCGGTC-1	medulla cords
+s1-TGGAGTGATGGCTCTT-1	medulla cords
+s1-TGGAGTGCTCCTGATC-1	cortex
+s1-TGGAGTTGGTGAATCA-1	medulla sinuses
+s1-TGGATCATTGTAACGG-1	medulla cords
+s1-TGGATCCAGTCACTTC-1	medulla cords
+s1-TGGCAAGCGACACTTA-1	medulla cords
+s1-TGGCATCGATCAATTG-1	cortex
+s1-TGGCATGCGTTCACGC-1	cortex
+s1-TGGCATGTTCGAACAG-1	cortex
+s1-TGGCCAACATTCTGAG-1	cortex
+s1-TGGCCAAGCTGGCACC-1	cortex
+s1-TGGCCACTCCGCGGAC-1	medulla cords
+s1-TGGCCACTCCTGAGTG-1	medulla cords
+s1-TGGCCAGAGTATCTCC-1	cortex
+s1-TGGCCAGATCCGGACA-1	medulla cords
+s1-TGGCCGTCTATCAGGA-1	follicle
+s1-TGGCCTGACATACTCA-1	medulla cords
+s1-TGGCCTGGCACTGTGG-1	medulla sinuses
+s1-TGGCGAATTCTATGGT-1	pericapsular adipose tissue
+s1-TGGCGACACTGCCGGA-1	cortex
+s1-TGGCGACAGCACGGCC-1	medulla sinuses
+s1-TGGCGAGCCACTAGCG-1	cortex
+s1-TGGCGAGCTCCACGTG-1	pericapsular adipose tissue
+s1-TGGCTCCGCATCAGAT-1	medulla sinuses
+s1-TGGTACAAGACACTGA-1	medulla cords
+s1-TGGTACCAATACTTAC-1	capsule
+s1-TGGTACCAGATTGTTA-1	cortex
+s1-TGGTACGGACGTAGTT-1	medulla cords
+s1-TGGTACGGTCGGCGAA-1	cortex
+s1-TGGTACTGACCGCTGC-1	pericapsular adipose tissue
+s1-TGGTACTGGTATCTTG-1	cortex
+s1-TGGTAGCATCAAGTCT-1	medulla cords
+s1-TGGTAGCCAGTTGACA-1	cortex
+s1-TGGTATGCAAGTCTAT-1	medulla sinuses
+s1-TGGTATTAGCTAGACC-1	medulla sinuses
+s1-TGGTATTCCTAGTCCA-1	medulla cords
+s1-TGGTATTGAGTTGTAA-1	medulla cords
+s1-TGGTCGAGATCTGTAA-1	pericapsular adipose tissue
+s1-TGGTCGCCGGCTTACT-1	medulla sinuses
+s1-TGGTCTGCTCAGGTTG-1	medulla cords
+s1-TGGTGCACGACCTTAG-1	medulla cords
+s1-TGGTGCAGACCGAAGT-1	medulla cords
+s1-TGGTGCAGTACCATGC-1	medulla sinuses
+s1-TGGTGCATTGTAATCC-1	medulla cords
+s1-TGGTGCCGCTGCAACA-1	cortex
+s1-TGGTGCCTAGCACGGC-1	medulla cords
+s1-TGGTGCGAGGTCGTAT-1	cortex
+s1-TGGTTGAACACGCCAA-1	medulla cords
+s1-TGGTTGCCTCCGGCTT-1	medulla cords
+s1-TGGTTGGTATCGGCAT-1	pericapsular adipose tissue
+s1-TGTAAGATCTTCACAT-1	medulla cords
+s1-TGTAAGGTGAGCGACC-1	medulla cords
+s1-TGTAATCATATGAGAC-1	medulla sinuses
+s1-TGTAATCGAGACTGGC-1	pericapsular adipose tissue
+s1-TGTAATGCACTACGAG-1	medulla sinuses
+s1-TGTAATGCCTAACACC-1	pericapsular adipose tissue
+s1-TGTAATTGTATCCTCG-1	cortex
+s1-TGTACCAACTACGCAT-1	cortex
+s1-TGTACCAATATTAGTC-1	subcapsular sinus
+s1-TGTACCACATACTGGT-1	cortex
+s1-TGTAGCCGTACATAAC-1	pericapsular adipose tissue
+s1-TGTAGGATCAGAGCGT-1	medulla sinuses
+s1-TGTAGGCAGGTCTAGC-1	pericapsular adipose tissue
+s1-TGTAGGTCACTACATG-1	medulla cords
+s1-TGTAGGTCTGAACGCA-1	medulla cords
+s1-TGTAGGTTCTGGCTTA-1	medulla vessels
+s1-TGTATCACGGTGGAAC-1	medulla cords
+s1-TGTATCGGCGGTCGCA-1	follicle
+s1-TGTATGATTGTAGGTG-1	cortex
+s1-TGTATGCAGGATTCAC-1	pericapsular adipose tissue
+s1-TGTATGCCTATCTTAT-1	capsule
+s1-TGTATGCTCGCCTAGT-1	medulla sinuses
+s1-TGTATGGTGCCAAGGT-1	medulla cords
+s1-TGTCAACTCATCAACG-1	medulla sinuses
+s1-TGTCAACTTATTCAAT-1	pericapsular adipose tissue
+s1-TGTCAAGCGGATCGGT-1	medulla cords
+s1-TGTCACAGACGTATCC-1	capsule
+s1-TGTCAGAAGTTGTAAC-1	medulla cords
+s1-TGTCAGACGAAGCACC-1	pericapsular adipose tissue
+s1-TGTCAGTGGCTTCCAT-1	medulla cords
+s1-TGTCATGCATGAGCAC-1	cortex
+s1-TGTCCATGTATGGAAT-1	cortex
+s1-TGTCCTCAACGTTCTA-1	cortex
+s1-TGTCGAGTGCGTTAGC-1	cortex
+s1-TGTCGATTCACGTAGT-1	medulla cords
+s1-TGTCGCGGAAGAGCTA-1	capsule
+s1-TGTCGTTCATACGATA-1	medulla sinuses
+s1-TGTCTAAGCAGACGTA-1	cortex
+s1-TGTCTACTAGATTGCC-1	capsule
+s1-TGTCTGTAAGCGAACT-1	cortex
+s1-TGTCTTGCGACTAATT-1	medulla cords
+s1-TGTCTTGGAATTGGCA-1	medulla cords
+s1-TGTTAAGGAAGTCTTA-1	medulla cords
+s1-TGTTACCTATTGGACA-1	medulla sinuses
+s1-TGTTCACTGTCTTCCT-1	cortex
+s1-TGTTCAGAACGGTGTA-1	medulla vessels
+s1-TGTTCATAGTATGACG-1	medulla cords
+s1-TGTTCATTGGTCCAAG-1	medulla sinuses
+s1-TGTTCCTCACATTAAT-1	medulla cords
+s1-TGTTCTGCTCTGTCGT-1	medulla sinuses
+s1-TGTTGCGTCCAAGATT-1	medulla cords
+s1-TGTTGGAACCTTCCGC-1	medulla vessels
+s1-TGTTGGAACGAGGTCA-1	medulla cords
+s1-TGTTGGATGGACTTCT-1	cortex
+s1-TGTTGGCCAGACCTAC-1	medulla cords

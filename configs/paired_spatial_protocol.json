@@ -1,0 +1,30 @@
+{
+  "stage": "paired_spatial_aligned",
+  "parent_protocol": "configs/aligned_warmup_protocol.json",
+  "registration_scope": "Scoped analysis protocol documented after initial exploratory seeds began; reported descriptively rather than as prospective preregistration",
+  "seeds": [0, 1, 42],
+  "epochs": 30,
+  "cell_size": 30,
+  "topz_k": 20,
+  "spatial_k": 10,
+  "training_loss": "L_KL_only",
+  "kl_reduction": "mean",
+  "initialization": "Shared 2-relation parameter state copied into 3-relation spatial model with post-init RNG state restored",
+  "training_inputs": "Spot scanpy Z (ddof=1), gene Z (ddof=0), deterministic Top-Z K=20, normalized X KL target, spatial median bisection tile plus one-hop halo",
+  "inference": {
+    "primary": "eval_full_spot_gene_graph",
+    "replay": "eval_core_mini_batches"
+  },
+  "clustering": "Frozen warm-up representation clustered via Leiden target-K=5 resolution sweep 0.10..3.00 step 0.05 without label feedback",
+  "primary_endpoint": "rare binary F1 at truth <=5%, predicted cluster <=5%",
+  "secondary_endpoint": "truth <5%, predicted cluster <4.5%",
+  "null_tests": {
+    "coordinate_permutation": "Inference-time full-graph evaluation after spot-coordinate permutation",
+    "degree_rewire": "Inference-time full-graph evaluation after degree-preserving double-edge swaps (no self-loops)",
+    "message_block_holdout": "Paired run with spatial edges touching leftmost 20% x-coordinate spots withheld during training"
+  },
+  "success_gate": {
+    "paired_primary": "All three paired rare-F1 differences > 0 with mean exceeding sample SD, exceeding reversible relation-off ablation",
+    "on_failure": "Record absence of consistent spatial benefit under the evaluated configuration"
+  }
+}

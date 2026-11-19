@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-domain-audit"
+version = "0.1.0"
+description = "Construct-validity audit and experimental toolkit for rare-domain evaluation in heterogeneous-graph spatial transcriptomics clustering."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Dian-Dian Zuo", email = "zuodiandian2@gmail.com" },
+]
+keywords = [
+  "spatial-transcriptomics",
+  "rare-domain-clustering",
+  "construct-validity",
+  "heterogeneous-graph-transformer",
+  "evaluation-audit",
+]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=2.0",
+  "scipy>=1.8",
+  "scikit-learn>=1.3",
+  "torch>=2.1",
+  "torch-geometric>=2.6.1",
+  "torchmetrics>=0.11.4",
+  "scanpy>=1.10",
+  "anndata>=0.8",
+  "leidenalg>=0.10",
+  "python-igraph>=0.11",
+  "networkx>=3.0",
+  "tqdm>=4.60",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

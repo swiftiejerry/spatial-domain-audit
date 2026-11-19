@@ -1,0 +1,93 @@
+{
+  "protocol": {
+    "name": "mainline_protocol_v1",
+    "line": "mainline_protocol",
+    "dataset": "data/raw/human_lymph_node_A1/adata_RNA.h5ad",
+    "label_key": "final_annot",
+    "seeds": [0, 1, 42],
+    "one_primary_factor_per_stage": true
+  },
+  "baseline": {
+    "purpose": "reproduce_upstream_expression_baseline",
+    "status": "completed_reference"
+  },
+  "fixed_target": {
+    "name": "spot_spot_spatial_relation",
+    "arms": ["A", "B"],
+    "only_difference": "spatial_relation",
+    "gene_selection": "upstream_sampled",
+    "kl_target": "counts",
+    "gene_input": "counts",
+    "pseudo_labels": "fixed_upstream_leiden",
+    "loss": "upstream_loss_unchanged",
+    "spatial_relation": {
+      "A": false,
+      "B": true,
+      "method": "knn",
+      "k": 10,
+      "weighted": false,
+      "enters_hgt_as_relation": true,
+      "extra_spatial_loss": false
+    },
+    "batching": {
+      "sampler": "spatial_median_bisection_with_one_hop_halo",
+      "cell_size": 30,
+      "matched_between_A_and_B": true,
+      "coordinate_use": "matched_sampler_only",
+      "halo_in_clustering_loss": false
+    }
+  },
+  "prototype_refresh": {
+    "name": "prototype_dynamic_clustering",
+    "arm": "C",
+    "spatial_relation": false,
+    "gene_selection": "upstream_sampled",
+    "kl_target": "counts",
+    "gene_input": "counts",
+    "warmup": {
+      "epochs": 30,
+      "loss": "L_KL_only"
+    },
+    "initialization": {
+      "source": "warmup_embedding_H_spot",
+      "leiden": true,
+      "resolution": 0.5,
+      "neighbors": 10,
+      "K": "learned_from_warmup_leiden",
+      "free_k0": true
+    },
+    "prototype": {
+      "K_fixed_after_initialization": true,
+      "cosine_centering": false,
+      "delta_mode": "absolute",
+      "delta": 0.8,
+      "temperature": 0.005,
+      "confidence_rule": "q_greater_than_delta",
+      "preserve_empty_cluster_slots": true
+    },
+    "loss_after_warmup": {
+      "formula": "L_KL + lambda_proto * L_proto",
+      "lambda_proto": 1.0,
+      "replaces_fixed_clustering_loss": true,
+      "replaces_intra_cluster_term": true
+    },
+    "refresh": {
+      "interval_epochs": 10,
+      "update_assignment_and_prototype": true,
+      "variable_k_split_merge": false
+    }
+  },
+  "commands": {
+    "fixed_target": "python scripts/run_fixed_target_comparison.py --arm {A|B} --seed {0|1|42} --spatial-k 10 --graph upstream_sampled --kl-target counts --gene-input counts --protocol-file configs/mainline_protocol.json --tag design_v1",
+    "prototype": "python scripts/run_prototype_clustering.py --arm C --seed {0|1|42} --warmup-epochs 30 --update-interval 10 --tau 0.005 --delta 0.8 --delta-mode absolute --no-center-embedding --init-source warmup_leiden --free-k0 --leiden-resolution 0.5 --graph upstream_sampled --kl-target counts --gene-input counts --protocol-file configs/mainline_protocol.json --tag design_v1"
+  },
+  "excluded_from_this_protocol": [
+    "deterministic_topz",
+    "normalized_x_kl",
+    "standardized_z_gene_input",
+    "batch_size_300",
+    "gene_gene_relation",
+    "variable_k_split_merge",
+    "extra_L_spatial"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "protocol": "configs/aligned_warmup_protocol.json",
+  "status": "pass",
+  "scope": "P0 static contract only; no dataset, GPU, or training used",
+  "failures": [],
+  "decisions": {
+    "kl_target": "X",
+    "A0_Astar_both_registered": true,
+    "low_confidence_policy": "retain_old_assignment_and_exclude_from_new_prototype_until_confirmed",
+    "rare_f1_primary": "<=5%"
+  },
+  "next_stage": "P1_A0_Astar_warmup_gate"
+}

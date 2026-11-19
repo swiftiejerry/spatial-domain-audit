@@ -1,0 +1,212 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.04740889131640776,
+    "reconstruction_loss": 0.04740889131640776,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 2,
+    "loss": 0.011954204151486484,
+    "reconstruction_loss": 0.011954204151486484,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 3,
+    "loss": 0.007783114778785369,
+    "reconstruction_loss": 0.007783114778785369,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 4,
+    "loss": 0.007477130587650542,
+    "reconstruction_loss": 0.007477130587650542,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 5,
+    "loss": 0.006294094241009309,
+    "reconstruction_loss": 0.006294094241009309,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 6,
+    "loss": 0.006017818161421734,
+    "reconstruction_loss": 0.006017818161421734,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 7,
+    "loss": 0.004954477218895132,
+    "reconstruction_loss": 0.004954477218895132,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 8,
+    "loss": 0.0050385630078629675,
+    "reconstruction_loss": 0.0050385630078629675,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 9,
+    "loss": 0.004555572727774708,
+    "reconstruction_loss": 0.004555572727774708,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 10,
+    "loss": 0.003903800645508827,
+    "reconstruction_loss": 0.003903800645508827,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 11,
+    "loss": 0.003811499257134194,
+    "reconstruction_loss": 0.003811499257134194,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 12,
+    "loss": 0.003545764877468857,
+    "reconstruction_loss": 0.003545764877468857,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 13,
+    "loss": 0.0036563896026828475,
+    "reconstruction_loss": 0.0036563896026828475,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 14,
+    "loss": 0.003125433659312339,
+    "reconstruction_loss": 0.003125433659312339,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 15,
+    "loss": 0.0029461200390822995,
+    "reconstruction_loss": 0.0029461200390822995,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 16,
+    "loss": 0.002938717182797308,
+    "reconstruction_loss": 0.002938717182797308,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 17,
+    "loss": 0.002727836907769625,
+    "reconstruction_loss": 0.002727836907769625,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 18,
+    "loss": 0.0027544990218738015,
+    "reconstruction_loss": 0.0027544990218738015,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 19,
+    "loss": 0.0025501380670560985,
+    "reconstruction_loss": 0.0025501380670560985,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 20,
+    "loss": 0.0025727403978021163,
+    "reconstruction_loss": 0.0025727403978021163,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 21,
+    "loss": 0.002477245849585081,
+    "reconstruction_loss": 0.002477245849585081,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 22,
+    "loss": 0.0024180527538674064,
+    "reconstruction_loss": 0.0024180527538674064,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 23,
+    "loss": 0.002329171612822952,
+    "reconstruction_loss": 0.002329171612822952,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 24,
+    "loss": 0.002284109151154024,
+    "reconstruction_loss": 0.002284109151154024,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 25,
+    "loss": 0.002244331388392,
+    "reconstruction_loss": 0.002244331388392,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 26,
+    "loss": 0.0022099736334684375,
+    "reconstruction_loss": 0.0022099736334684375,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 27,
+    "loss": 0.0021677168084181147,
+    "reconstruction_loss": 0.0021677168084181147,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 28,
+    "loss": 0.0021053448669676087,
+    "reconstruction_loss": 0.0021053448669676087,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 29,
+    "loss": 0.0020423967035041535,
+    "reconstruction_loss": 0.0020423967035041535,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  },
+  {
+    "epoch": 30,
+    "loss": 0.001970208487294328,
+    "reconstruction_loss": 0.001970208487294328,
+    "cluster_loss": 0.0,
+    "intra_similarity": 0.0
+  }
+]

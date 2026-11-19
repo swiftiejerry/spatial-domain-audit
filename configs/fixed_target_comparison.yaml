@@ -1,0 +1,47 @@
+# Fixed pseudo-label expression-only vs. spatial-relation comparison
+# Note: authoritative per-run parameter snapshots are recorded in metrics.json.
+
+data:
+  input_path: data/raw/human_lymph_node_A1/adata_RNA.h5ad
+  n_spots: 3484
+  n_genes: 18085
+  label_key: final_annot
+  spatial_key: obsm/spatial
+
+endpoints:
+  primary_rare_threshold_ref: 0.05
+  primary_rare_threshold_pred: 0.05
+  secondary_rare_threshold_ref: 0.05
+  secondary_rare_threshold_pred: 0.045
+  secondary_metrics: [ari, nmi, boundary_f1, n_clusters, ari_vs_pseudo]
+
+seeds: [0, 1, 42]
+
+model:
+  n_hidden: 104
+  n_heads: 8
+  n_layers: 3
+
+training:
+  epochs: 100
+  optimizer: AdamW
+  learning_rate: 0.0005
+  weight_decay: 0.1
+  label_smoothing: 0.1
+  deterministic: true
+
+batching:
+  sampler: spatial_median_bisection_with_one_hop_halo
+  cell_size: 30
+  n_batches: 117
+  note: Halo spots participate in message passing and reconstruction only, excluded from clustering loss.
+
+spatial:
+  method: knn
+  k: 10
+  weighted: false
+  relation_id: 2
+
+arms:
+  A: { spatial_relation: false, dynamic_clustering: false }
+  B: { spatial_relation: true,  dynamic_clustering: false }

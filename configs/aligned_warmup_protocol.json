@@ -1,0 +1,67 @@
+{
+  "protocol": {
+    "name": "aligned_warmup_protocol_v1",
+    "status": "frozen_protocol",
+    "source": "configs/aligned_warmup_protocol.json",
+    "dataset": "data/raw/human_lymph_node_A1/adata_RNA.h5ad",
+    "label_key": "final_annot",
+    "seeds": [0, 1, 42],
+    "one_primary_factor_per_stage": true,
+    "truth_labels_training_use": false
+  },
+  "input_base": {
+    "expression_flow": "counts -> normalize_total(1e4) -> log1p -> X -> gene-wise Z-score",
+    "spot_node_input": "spot_gene_wise_zscore",
+    "gene_node_input": "gene_wise_zscore_over_all_spots",
+    "gene_selection": "deterministic_topz",
+    "topz_k": 20,
+    "topz_tie_break": "ascending_gene_index",
+    "kl_target": "X",
+    "raw_counts_retained_as": "historical_diagnostic_only"
+  },
+  "sampling": {
+    "A0": {
+      "name": "literal_no_coordinate_baseline",
+      "uses_coordinates": false,
+      "spatial_tile_sampling": false,
+      "halo": false
+    },
+    "A_star": {
+      "name": "matched_sampling_control",
+      "uses_coordinates_for_batching_only": true,
+      "spatial_tile_sampling": true,
+      "halo": true,
+      "spatial_relation": false
+    },
+    "B_D": {
+      "uses_coordinates_for_batching": true,
+      "spatial_tile_sampling": true,
+      "halo": true
+    }
+  },
+  "arms": {
+    "A0": {"spatial_relation": false, "dynamic_clustering": false},
+    "A_star": {"spatial_relation": false, "dynamic_clustering": false},
+    "B0": {"spatial_relation": true, "dynamic_clustering": false, "relation": "spatial_knn", "k": 10, "weighted": false, "extra_spatial_loss": false},
+    "C1": {"spatial_relation": false, "dynamic_clustering": true, "assignment": "confidence_admission_v1"},
+    "D0": {"spatial_relation": true, "dynamic_clustering": true, "relation": "spatial_knn", "k": 10, "weighted": false, "extra_spatial_loss": false, "assignment": "confidence_admission_v1"}
+  },
+  "evaluation": {
+    "rare_f1_primary_threshold": "<=5%",
+    "rare_f1_secondary_threshold": "<4.5%",
+    "whole_slide_rare_fraction": 0.0804,
+    "truth_used_only_for": ["final_evaluation", "diagnostic_reports"],
+    "required_metrics": [
+      "rare_f1",
+      "per_rare_type_f1",
+      "macro_f1",
+      "ari",
+      "nmi",
+      "rare_enrichment",
+      "rare_absolute_count",
+      "boundary_f1",
+      "spatial_connectivity",
+      "assignment_churn"
+    ]
+  }
+}

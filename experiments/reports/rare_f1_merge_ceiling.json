@@ -1,0 +1,228 @@
+{
+  "n_total": 3484,
+  "n_true_rare": 280,
+  "rare_types": {
+    "follicle": 96,
+    "medulla vessels": 80,
+    "subcapsular sinus": 73,
+    "hilum": 23,
+    "trabeculae": 8
+  },
+  "pred_rare_limit_spots": 156.78,
+  "target_k": 5,
+  "constructive_bound": {
+    "n_small_clusters": 2,
+    "small_cluster_sizes": [
+      127,
+      153
+    ],
+    "small_cluster_members": [
+      [
+        "follicle",
+        "hilum",
+        "trabeculae"
+      ],
+      [
+        "medulla vessels",
+        "subcapsular sinus"
+      ]
+    ],
+    "clusters_used": 3,
+    "feasible_at_target_k": true,
+    "rare_f1": 1.0
+  },
+  "exhaustive_enumeration": {
+    "n_partitions": 42525,
+    "best_rare_f1": 1.0,
+    "best_partition": [
+      [
+        "medulla cords"
+      ],
+      [
+        "medulla sinuses"
+      ],
+      [
+        "cortex",
+        "pericapsular adipose tissue",
+        "capsule"
+      ],
+      [
+        "medulla vessels",
+        "subcapsular sinus"
+      ],
+      [
+        "follicle",
+        "hilum",
+        "trabeculae"
+      ]
+    ]
+  },
+  "observed_runs": [
+    {
+      "run_id": "stage0_A0_seed0",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06831228473019518,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_pr0.8_seed0",
+      "rare_f1": 0.39267015706806285,
+      "n_clusters": 8,
+      "min_cluster_share": 0.029276693455797934,
+      "n_small_spots": 102,
+      "small_rare_share": 0.7352941176470589,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_pr0.8_seed1",
+      "rare_f1": 0.39267015706806285,
+      "n_clusters": 8,
+      "min_cluster_share": 0.029276693455797934,
+      "n_small_spots": 102,
+      "small_rare_share": 0.7352941176470589,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_pr0.8_seed42",
+      "rare_f1": 0.38095238095238093,
+      "n_clusters": 8,
+      "min_cluster_share": 0.02812858783008037,
+      "n_small_spots": 98,
+      "small_rare_share": 0.7346938775510204,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_seed0",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06917336394948335,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_seed1",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06888633754305395,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_A_seed42",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06888633754305395,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_pr0.8_seed0",
+      "rare_f1": 0.3884514435695538,
+      "n_clusters": 8,
+      "min_cluster_share": 0.02898966704936854,
+      "n_small_spots": 101,
+      "small_rare_share": 0.7326732673267327,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_pr0.8_seed1",
+      "rare_f1": 0.39267015706806285,
+      "n_clusters": 8,
+      "min_cluster_share": 0.029276693455797934,
+      "n_small_spots": 102,
+      "small_rare_share": 0.7352941176470589,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_pr0.8_seed42",
+      "rare_f1": 0.3894736842105263,
+      "n_clusters": 8,
+      "min_cluster_share": 0.02870264064293915,
+      "n_small_spots": 100,
+      "small_rare_share": 0.74,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_seed0",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06946039035591274,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_seed1",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06917336394948335,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage1_B_k10_seed42",
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "min_cluster_share": 0.06859931113662457,
+      "n_small_spots": null,
+      "small_rare_share": null,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage2_C_t0.005_d0.8_seed0_design_v1",
+      "rare_f1": 0.08611111111111111,
+      "n_clusters": 13,
+      "min_cluster_share": 0.000574052812858783,
+      "n_small_spots": 440,
+      "small_rare_share": 0.07045454545454545,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage2_C_t0.005_d0.8_seed1_design_v1",
+      "rare_f1": 0.05845511482254697,
+      "n_clusters": 9,
+      "min_cluster_share": 0.014064293915040185,
+      "n_small_spots": 199,
+      "small_rare_share": 0.07035175879396985,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage2_C_t0.005_d0.8_seed42_design_v1",
+      "rare_f1": 0.033734939759036145,
+      "n_clusters": 11,
+      "min_cluster_share": 0.0134902411021814,
+      "n_small_spots": 135,
+      "small_rare_share": 0.05185185185185185,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed0_initA0_v3a_probe",
+      "rare_f1": 0.013559322033898305,
+      "n_clusters": 5,
+      "min_cluster_share": 0.004305396096440872,
+      "n_small_spots": 15,
+      "small_rare_share": 0.13333333333333333,
+      "baseline_rare_share": 0.08036739380022963
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed0_v2b_preflight",
+      "rare_f1": 0.02717391304347826,
+      "n_clusters": 5,
+      "min_cluster_share": 0.02525832376578645,
+      "n_small_spots": 88,
+      "small_rare_share": 0.056818181818181816,
+      "baseline_rare_share": 0.08036739380022963
+    }
+  ],
+  "summary": {
+    "max_rare_f1_at_target_k": 1.0,
+    "attainable_under_k_constraint": true
+  }
+}
