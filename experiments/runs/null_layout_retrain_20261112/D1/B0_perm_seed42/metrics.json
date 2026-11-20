@@ -1,0 +1,66 @@
+{
+  "run_id": "B0_perm_seed42",
+  "section": "D1",
+  "seed": 42,
+  "independent_metrics": {
+    "ari": 0.11862824598007234,
+    "nmi": 0.18511272341106377,
+    "boundary_f1": 0.5878848063555114,
+    "rare_primary_f1": 0.0,
+    "knn_purity": 0.4064007144983626
+  },
+  "independent_details": {
+    "n_clusters": 5,
+    "rare_primary": {
+      "definition": "reference domain size <=5% and predicted cluster size <=5%",
+      "rare_reference_labels": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rare_prediction_clusters": [],
+      "reference_rare_spots": 308,
+      "predicted_rare_spots": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 308,
+      "tn": 3051,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eligible_small_cluster_count": 0,
+      "eligible_small_spot_count": 0,
+      "eligible_small_reference_rare_spot_count": 0,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "reference_rare_fraction_in_eligible_small_clusters": null,
+      "eligible_small_cluster_rare_enrichment": null,
+      "eligible_small_clusters": [],
+      "per_rare_domain_hits": {
+        "follicle": 0,
+        "hilum": 0,
+        "medulla vessels": 0,
+        "subcapsular sinus": 0,
+        "trabeculae": 0
+      }
+    },
+    "boundary": {
+      "f1": 0.5878848063555114,
+      "precision": 0.49593700259696744,
+      "recall": 0.7216871876142874,
+      "n_undirected_edges": 18621,
+      "truth_positive_edges": 8203,
+      "predicted_positive_edges": 11937
+    },
+    "knn_purity": {
+      "k": 10,
+      "correct_neighbor_labels": 13651,
+      "neighbor_count": 33590,
+      "purity": 0.4064007144983626,
+      "definition": "cosine similarity; exclude self by index; ties broken by ascending spot index"
+    }
+  },
+  "recount_status": "CHECKED_MATCH",
+  "reference_scope": "Conditional on supplied labels; the A1 and D1 sections are from the same study."
+}

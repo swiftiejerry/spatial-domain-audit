@@ -1,0 +1,98 @@
+{
+  "comparison": "A1 aligned LightweightHeteroEncoder relation-mean comparison",
+  "n_runs": 9,
+  "all_manifests_complete": true,
+  "all_saved_evaluations_match": true,
+  "runs": [
+    {
+      "arm": "Astar_mean",
+      "seed": 0,
+      "n_clusters": 6,
+      "ari": 0.20251590929540686,
+      "nmi": 0.2935887397730927,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "Astar_mean",
+      "seed": 1,
+      "n_clusters": 5,
+      "ari": 0.21606014111366117,
+      "nmi": 0.30024350302854125,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "Astar_mean",
+      "seed": 42,
+      "n_clusters": 5,
+      "ari": 0.207640281477323,
+      "nmi": 0.29974326107440874,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean",
+      "seed": 0,
+      "n_clusters": 5,
+      "ari": 0.21456949654022817,
+      "nmi": 0.2945971757410975,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean",
+      "seed": 1,
+      "n_clusters": 5,
+      "ari": 0.1913812301437068,
+      "nmi": 0.2829953349136276,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean",
+      "seed": 42,
+      "n_clusters": 6,
+      "ari": 0.22112769486785944,
+      "nmi": 0.309433649436307,
+      "rare_f1_primary_le_5pct": 0.05152224824355972,
+      "rare_f1_secondary_lt_4_5pct": 0.05152224824355972,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean_perm",
+      "seed": 0,
+      "n_clusters": 5,
+      "ari": 0.2062220363904876,
+      "nmi": 0.2976551526621156,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean_perm",
+      "seed": 1,
+      "n_clusters": 6,
+      "ari": 0.20810111343611293,
+      "nmi": 0.29694552544646546,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    },
+    {
+      "arm": "B0_mean_perm",
+      "seed": 42,
+      "n_clusters": 5,
+      "ari": 0.2063858463215984,
+      "nmi": 0.29280703740704356,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "saved_evaluation_match": true
+    }
+  ]
+}

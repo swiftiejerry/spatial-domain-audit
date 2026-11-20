@@ -41,6 +41,9 @@ class FixedTargetConfig:
     edge_source: str = "batch_nonzero"
     gene_input: str = "counts"
     kl_only: bool = False
+    # ``True`` matches normal evaluation semantics.  Set to ``False`` only
+    # when reproducing the historical upstream call that left dropout on.
+    predict_eval_mode: bool = True
 
     @property
     def num_relations(self) -> int:
@@ -307,26 +310,41 @@ class FixedTargetTrainer:
             )
         return history
 
-    def predict(self) -> dict[str, np.ndarray]:
-        """Return core-spot predictions in original dataset observation order."""
-        prepared = [self._build_batch(batch) for batch in self.batches]
+    def predict(self, *, eval_mode: bool | None = None) -> dict[str, np.ndarray]:
+        """Return core-spot predictions in observation order.
+
+        Evaluation mode is enabled by default so dropout cannot make a saved
+        prediction depend on the call order.  ``eval_mode=False`` is retained
+        as an explicit compatibility switch for reproducing the historical
+        upstream behavior.
+        """
+        use_eval = self.config.predict_eval_mode if eval_mode is None else bool(eval_mode)
+        was_training = self.gnn.training
+        if use_eval:
+            self.gnn.eval()
+        else:
+            self.gnn.train()
         n_cells = self.rna_matrix.shape[1]
         labels = np.full(n_cells, -1, dtype=np.int64)
         embeddings = np.zeros((n_cells, self.config.n_hidden), dtype=np.float32)
-        with torch.no_grad():
-            for payload in prepared:
-                node_rep = self.gnn.forward(
-                    payload["node_feature"],
-                    payload["node_type"],
-                    payload["edge_index"],
-                    payload["edge_type"],
-                )
-                cell_emb = node_rep[payload["node_type"] == CELL_TYPE]
-                for position in payload["core_positions"].cpu().tolist():
-                    global_id = payload["cell_index"][int(position)]
-                    vector = cell_emb[int(position)]
-                    labels[global_id] = int(vector.argmax().item())
-                    embeddings[global_id] = vector.detach().cpu().numpy()
+        try:
+            prepared = [self._build_batch(batch) for batch in self.batches]
+            with torch.no_grad():
+                for payload in prepared:
+                    node_rep = self.gnn.forward(
+                        payload["node_feature"],
+                        payload["node_type"],
+                        payload["edge_index"],
+                        payload["edge_type"],
+                    )
+                    cell_emb = node_rep[payload["node_type"] == CELL_TYPE]
+                    for position in payload["core_positions"].cpu().tolist():
+                        global_id = payload["cell_index"][int(position)]
+                        vector = cell_emb[int(position)]
+                        labels[global_id] = int(vector.argmax().item())
+                        embeddings[global_id] = vector.detach().cpu().numpy()
+        finally:
+            self.gnn.train(was_training)
         if int((labels < 0).sum()) != 0:
             raise RuntimeError("some spots were never visited as a core cell")
         return {"pred_label": labels, "cell_embedding": embeddings}

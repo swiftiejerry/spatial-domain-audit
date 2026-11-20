@@ -1,0 +1,999 @@
+{
+  "seed": 1,
+  "resolution": 1.5,
+  "n_clusters": 28,
+  "ari": 0.47683646030328325,
+  "nmi": 0.6485307482474754,
+  "reference_class_counts": {
+    "DCIS/LCIS_1": 135,
+    "DCIS/LCIS_2": 28,
+    "DCIS/LCIS_3": 364,
+    "DCIS/LCIS_4": 161,
+    "DCIS/LCIS_5": 139,
+    "Healthy_1": 411,
+    "Healthy_2": 74,
+    "IDC_1": 46,
+    "IDC_2": 383,
+    "IDC_3": 53,
+    "IDC_4": 442,
+    "IDC_5": 449,
+    "IDC_6": 163,
+    "IDC_7": 127,
+    "Tumor_edge_1": 198,
+    "Tumor_edge_2": 165,
+    "Tumor_edge_3": 159,
+    "Tumor_edge_4": 50,
+    "Tumor_edge_5": 69,
+    "Tumor_edge_6": 182
+  },
+  "reference_rare_classes_below_5_percent": [
+    "DCIS/LCIS_1",
+    "DCIS/LCIS_2",
+    "DCIS/LCIS_4",
+    "DCIS/LCIS_5",
+    "Healthy_2",
+    "IDC_1",
+    "IDC_3",
+    "IDC_6",
+    "IDC_7",
+    "Tumor_edge_2",
+    "Tumor_edge_3",
+    "Tumor_edge_4",
+    "Tumor_edge_5",
+    "Tumor_edge_6"
+  ],
+  "reference_rare_union_share": 0.40837282780410744,
+  "reference_rare_union_is_small": false,
+  "primary_predicted_cluster_threshold_percent": 5.0,
+  "rare_union_at_primary_threshold": {
+    "threshold_percent": 5.0,
+    "n_small_clusters": 24,
+    "n_spots_in_small_clusters": 2650,
+    "rare_spots_in_small_clusters": 1425,
+    "rare_share_in_small_clusters": 0.5377358490566038,
+    "rare_enrichment_over_section": 1.3167767599722637,
+    "rare_precision": 0.5377358490566038,
+    "rare_recall": 0.9187620889748549,
+    "rare_f1": 0.6784099024041895
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold_percent": 1.0,
+      "n_small_clusters": 4,
+      "n_spots_in_small_clusters": 113,
+      "rare_spots_in_small_clusters": 83,
+      "rare_share_in_small_clusters": 0.7345132743362832,
+      "rare_enrichment_over_section": 1.798634052823471,
+      "rare_precision": 0.7345132743362832,
+      "rare_recall": 0.05351386202450032,
+      "rare_f1": 0.09975961538461539
+    },
+    {
+      "threshold_percent": 1.5,
+      "n_small_clusters": 5,
+      "n_spots_in_small_clusters": 155,
+      "rare_spots_in_small_clusters": 86,
+      "rare_share_in_small_clusters": 0.5548387096774193,
+      "rare_enrichment_over_section": 1.3586572658638547,
+      "rare_precision": 0.5548387096774193,
+      "rare_recall": 0.05544809800128949,
+      "rare_f1": 0.10082063305978899
+    },
+    {
+      "threshold_percent": 2.0,
+      "n_small_clusters": 6,
+      "n_spots_in_small_clusters": 223,
+      "rare_spots_in_small_clusters": 106,
+      "rare_share_in_small_clusters": 0.47533632286995514,
+      "rare_enrichment_over_section": 1.1639763728304897,
+      "rare_precision": 0.47533632286995514,
+      "rare_recall": 0.06834300451321727,
+      "rare_f1": 0.11950394588500564
+    },
+    {
+      "threshold_percent": 2.5,
+      "n_small_clusters": 7,
+      "n_spots_in_small_clusters": 311,
+      "rare_spots_in_small_clusters": 172,
+      "rare_share_in_small_clusters": 0.5530546623794212,
+      "rare_enrichment_over_section": 1.3542885929832635,
+      "rare_precision": 0.5530546623794212,
+      "rare_recall": 0.11089619600257898,
+      "rare_f1": 0.18474758324382384
+    },
+    {
+      "threshold_percent": 3.0,
+      "n_small_clusters": 12,
+      "n_spots_in_small_clusters": 848,
+      "rare_spots_in_small_clusters": 491,
+      "rare_share_in_small_clusters": 0.5790094339622641,
+      "rare_enrichment_over_section": 1.4178451516368014,
+      "rare_precision": 0.5790094339622641,
+      "rare_recall": 0.3165699548678272,
+      "rare_f1": 0.40933722384326804
+    },
+    {
+      "threshold_percent": 3.5,
+      "n_small_clusters": 16,
+      "n_spots_in_small_clusters": 1332,
+      "rare_spots_in_small_clusters": 756,
+      "rare_share_in_small_clusters": 0.5675675675675675,
+      "rare_enrichment_over_section": 1.3898269642950494,
+      "rare_precision": 0.5675675675675675,
+      "rare_recall": 0.4874274661508704,
+      "rare_f1": 0.5244536940686785
+    },
+    {
+      "threshold_percent": 4.0,
+      "n_small_clusters": 17,
+      "n_spots_in_small_clusters": 1469,
+      "rare_spots_in_small_clusters": 806,
+      "rare_share_in_small_clusters": 0.5486725663716814,
+      "rare_enrichment_over_section": 1.3435579671693396,
+      "rare_precision": 0.5486725663716814,
+      "rare_recall": 0.5196647324306899,
+      "rare_f1": 0.5337748344370861
+    },
+    {
+      "threshold_percent": 4.5,
+      "n_small_clusters": 21,
+      "n_spots_in_small_clusters": 2116,
+      "rare_spots_in_small_clusters": 1042,
+      "rare_share_in_small_clusters": 0.4924385633270321,
+      "rare_enrichment_over_section": 1.205855360100624,
+      "rare_precision": 0.4924385633270321,
+      "rare_recall": 0.6718246292714378,
+      "rare_f1": 0.5683119716389419
+    },
+    {
+      "threshold_percent": 5.0,
+      "n_small_clusters": 24,
+      "n_spots_in_small_clusters": 2650,
+      "rare_spots_in_small_clusters": 1425,
+      "rare_share_in_small_clusters": 0.5377358490566038,
+      "rare_enrichment_over_section": 1.3167767599722637,
+      "rare_precision": 0.5377358490566038,
+      "rare_recall": 0.9187620889748549,
+      "rare_f1": 0.6784099024041895
+    },
+    {
+      "threshold_percent": 5.5,
+      "n_small_clusters": 25,
+      "n_spots_in_small_clusters": 2846,
+      "rare_spots_in_small_clusters": 1466,
+      "rare_share_in_small_clusters": 0.5151089248067463,
+      "rare_enrichment_over_section": 1.2613692433372163,
+      "rare_precision": 0.5151089248067463,
+      "rare_recall": 0.9451966473243069,
+      "rare_f1": 0.6668182851944507
+    },
+    {
+      "threshold_percent": 6.0,
+      "n_small_clusters": 25,
+      "n_spots_in_small_clusters": 2846,
+      "rare_spots_in_small_clusters": 1466,
+      "rare_share_in_small_clusters": 0.5151089248067463,
+      "rare_enrichment_over_section": 1.2613692433372163,
+      "rare_precision": 0.5151089248067463,
+      "rare_recall": 0.9451966473243069,
+      "rare_f1": 0.6668182851944507
+    },
+    {
+      "threshold_percent": 6.5,
+      "n_small_clusters": 25,
+      "n_spots_in_small_clusters": 2846,
+      "rare_spots_in_small_clusters": 1466,
+      "rare_share_in_small_clusters": 0.5151089248067463,
+      "rare_enrichment_over_section": 1.2613692433372163,
+      "rare_precision": 0.5151089248067463,
+      "rare_recall": 0.9451966473243069,
+      "rare_f1": 0.6668182851944507
+    },
+    {
+      "threshold_percent": 7.0,
+      "n_small_clusters": 26,
+      "n_spots_in_small_clusters": 3110,
+      "rare_spots_in_small_clusters": 1504,
+      "rare_share_in_small_clusters": 0.48360128617363346,
+      "rare_enrichment_over_section": 1.184215141771412,
+      "rare_precision": 0.48360128617363346,
+      "rare_recall": 0.9696969696969697,
+      "rare_f1": 0.6453550740184509
+    },
+    {
+      "threshold_percent": 7.5,
+      "n_small_clusters": 26,
+      "n_spots_in_small_clusters": 3110,
+      "rare_spots_in_small_clusters": 1504,
+      "rare_share_in_small_clusters": 0.48360128617363346,
+      "rare_enrichment_over_section": 1.184215141771412,
+      "rare_precision": 0.48360128617363346,
+      "rare_recall": 0.9696969696969697,
+      "rare_f1": 0.6453550740184509
+    },
+    {
+      "threshold_percent": 8.0,
+      "n_small_clusters": 27,
+      "n_spots_in_small_clusters": 3402,
+      "rare_spots_in_small_clusters": 1508,
+      "rare_share_in_small_clusters": 0.4432686654908877,
+      "rare_enrichment_over_section": 1.0854509294225607,
+      "rare_precision": 0.4432686654908877,
+      "rare_recall": 0.9722759509993553,
+      "rare_f1": 0.6089238845144357
+    },
+    {
+      "threshold_percent": 8.5,
+      "n_small_clusters": 27,
+      "n_spots_in_small_clusters": 3402,
+      "rare_spots_in_small_clusters": 1508,
+      "rare_share_in_small_clusters": 0.4432686654908877,
+      "rare_enrichment_over_section": 1.0854509294225607,
+      "rare_precision": 0.4432686654908877,
+      "rare_recall": 0.9722759509993553,
+      "rare_f1": 0.6089238845144357
+    },
+    {
+      "threshold_percent": 9.0,
+      "n_small_clusters": 27,
+      "n_spots_in_small_clusters": 3402,
+      "rare_spots_in_small_clusters": 1508,
+      "rare_share_in_small_clusters": 0.4432686654908877,
+      "rare_enrichment_over_section": 1.0854509294225607,
+      "rare_precision": 0.4432686654908877,
+      "rare_recall": 0.9722759509993553,
+      "rare_f1": 0.6089238845144357
+    },
+    {
+      "threshold_percent": 9.5,
+      "n_small_clusters": 27,
+      "n_spots_in_small_clusters": 3402,
+      "rare_spots_in_small_clusters": 1508,
+      "rare_share_in_small_clusters": 0.4432686654908877,
+      "rare_enrichment_over_section": 1.0854509294225607,
+      "rare_precision": 0.4432686654908877,
+      "rare_recall": 0.9722759509993553,
+      "rare_f1": 0.6089238845144357
+    },
+    {
+      "threshold_percent": 10.0,
+      "n_small_clusters": 27,
+      "n_spots_in_small_clusters": 3402,
+      "rare_spots_in_small_clusters": 1508,
+      "rare_share_in_small_clusters": 0.4432686654908877,
+      "rare_enrichment_over_section": 1.0854509294225607,
+      "rare_precision": 0.4432686654908877,
+      "rare_recall": 0.9722759509993553,
+      "rare_f1": 0.6089238845144357
+    },
+    {
+      "threshold_percent": 10.5,
+      "n_small_clusters": 28,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 1551,
+      "rare_share_in_small_clusters": 0.40837282780410744,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.40837282780410744,
+      "rare_recall": 1.0,
+      "rare_f1": 0.5799214806505889
+    },
+    {
+      "threshold_percent": 11.0,
+      "n_small_clusters": 28,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 1551,
+      "rare_share_in_small_clusters": 0.40837282780410744,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.40837282780410744,
+      "rare_recall": 1.0,
+      "rare_f1": 0.5799214806505889
+    },
+    {
+      "threshold_percent": 11.5,
+      "n_small_clusters": 28,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 1551,
+      "rare_share_in_small_clusters": 0.40837282780410744,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.40837282780410744,
+      "rare_recall": 1.0,
+      "rare_f1": 0.5799214806505889
+    },
+    {
+      "threshold_percent": 12.0,
+      "n_small_clusters": 28,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 1551,
+      "rare_share_in_small_clusters": 0.40837282780410744,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.40837282780410744,
+      "rare_recall": 1.0,
+      "rare_f1": 0.5799214806505889
+    }
+  ],
+  "per_reference_rare_class_at_primary_threshold": {
+    "DCIS/LCIS_1": {
+      "support": 135,
+      "reference_share": 0.035545023696682464,
+      "precision": 0.0509433962264151,
+      "recall": 1.0,
+      "f1": 0.09694793536804308,
+      "spots_in_predicted_small_clusters": 135,
+      "max_cluster_enrichment": 25.650980392156864
+    },
+    "DCIS/LCIS_2": {
+      "support": 28,
+      "reference_share": 0.00737230121116377,
+      "precision": 0.010188679245283019,
+      "recall": 0.9642857142857143,
+      "f1": 0.020164301717699777,
+      "spots_in_predicted_small_clusters": 27,
+      "max_cluster_enrichment": 28.152291105121297
+    },
+    "DCIS/LCIS_4": {
+      "support": 161,
+      "reference_share": 0.04239073196419168,
+      "precision": 0.06037735849056604,
+      "recall": 0.9937888198757764,
+      "f1": 0.11383849163998577,
+      "spots_in_predicted_small_clusters": 160,
+      "max_cluster_enrichment": 19.48744261409668
+    },
+    "DCIS/LCIS_5": {
+      "support": 139,
+      "reference_share": 0.03659820958399158,
+      "precision": 0.052452830188679245,
+      "recall": 1.0,
+      "f1": 0.09967730369307996,
+      "spots_in_predicted_small_clusters": 139,
+      "max_cluster_enrichment": 18.319326357096138
+    },
+    "Healthy_2": {
+      "support": 74,
+      "reference_share": 0.019483938915218536,
+      "precision": 0.027547169811320753,
+      "recall": 0.9864864864864865,
+      "f1": 0.053597650513950074,
+      "spots_in_predicted_small_clusters": 73,
+      "max_cluster_enrichment": 16.411847894406034
+    },
+    "IDC_1": {
+      "support": 46,
+      "reference_share": 0.012111637704054766,
+      "precision": 0.016981132075471698,
+      "recall": 0.9782608695652174,
+      "f1": 0.03338278931750742,
+      "spots_in_predicted_small_clusters": 45,
+      "max_cluster_enrichment": 74.023988005997
+    },
+    "IDC_3": {
+      "support": 53,
+      "reference_share": 0.013954713006845709,
+      "precision": 0.019622641509433963,
+      "recall": 0.9811320754716981,
+      "f1": 0.03847576766555679,
+      "spots_in_predicted_small_clusters": 52,
+      "max_cluster_enrichment": 71.66037735849056
+    },
+    "IDC_6": {
+      "support": 163,
+      "reference_share": 0.042917324907846235,
+      "precision": 0.04867924528301887,
+      "recall": 0.7914110429447853,
+      "f1": 0.0917170280838962,
+      "spots_in_predicted_small_clusters": 129,
+      "max_cluster_enrichment": 12.883868639480333
+    },
+    "IDC_7": {
+      "support": 127,
+      "reference_share": 0.033438651922064244,
+      "precision": 0.046037735849056606,
+      "recall": 0.9606299212598425,
+      "f1": 0.0878646020885848,
+      "spots_in_predicted_small_clusters": 122,
+      "max_cluster_enrichment": 11.434460398332561
+    },
+    "Tumor_edge_2": {
+      "support": 165,
+      "reference_share": 0.04344391785150079,
+      "precision": 0.059245283018867924,
+      "recall": 0.9515151515151515,
+      "f1": 0.11154529307282415,
+      "spots_in_predicted_small_clusters": 157,
+      "max_cluster_enrichment": 21.40287081339713
+    },
+    "Tumor_edge_3": {
+      "support": 159,
+      "reference_share": 0.04186413902053712,
+      "precision": 0.0539622641509434,
+      "recall": 0.89937106918239,
+      "f1": 0.10181559273762905,
+      "spots_in_predicted_small_clusters": 143,
+      "max_cluster_enrichment": 12.812006861063466
+    },
+    "Tumor_edge_4": {
+      "support": 50,
+      "reference_share": 0.013164823591363875,
+      "precision": 0.01169811320754717,
+      "recall": 0.62,
+      "f1": 0.022962962962962963,
+      "spots_in_predicted_small_clusters": 31,
+      "max_cluster_enrichment": 7.596000000000001
+    },
+    "Tumor_edge_5": {
+      "support": 69,
+      "reference_share": 0.018167456556082148,
+      "precision": 0.02490566037735849,
+      "recall": 0.9565217391304348,
+      "f1": 0.04854726002206693,
+      "spots_in_predicted_small_clusters": 66,
+      "max_cluster_enrichment": 9.600606673407484
+    },
+    "Tumor_edge_6": {
+      "support": 182,
+      "reference_share": 0.047919957872564506,
+      "precision": 0.05509433962264151,
+      "recall": 0.8021978021978022,
+      "f1": 0.10310734463276836,
+      "spots_in_predicted_small_clusters": 146,
+      "max_cluster_enrichment": 2.466233766233766
+    }
+  },
+  "small_clusters_at_primary_threshold": [
+    {
+      "cluster_id": 20,
+      "n_spots": 20,
+      "section_share": 0.0052659294365455505,
+      "rare_spots": 20,
+      "rare_share": 1.0,
+      "rare_enrichment_over_section": 2.448742746615087,
+      "top_reference_labels": [
+        {
+          "label": "IDC_3",
+          "spots": 20,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "n_spots": 29,
+      "section_share": 0.007635597682991048,
+      "rare_spots": 29,
+      "rare_share": 1.0,
+      "rare_enrichment_over_section": 2.448742746615087,
+      "top_reference_labels": [
+        {
+          "label": "IDC_1",
+          "spots": 26,
+          "within_cluster_share": 0.896551724137931
+        },
+        {
+          "label": "Tumor_edge_5",
+          "spots": 1,
+          "within_cluster_share": 0.034482758620689655
+        },
+        {
+          "label": "Healthy_2",
+          "spots": 1,
+          "within_cluster_share": 0.034482758620689655
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "n_spots": 30,
+      "section_share": 0.007898894154818325,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "IDC_5",
+          "spots": 30,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "n_spots": 34,
+      "section_share": 0.008952080042127435,
+      "rare_spots": 34,
+      "rare_share": 1.0,
+      "rare_enrichment_over_section": 2.448742746615087,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_1",
+          "spots": 31,
+          "within_cluster_share": 0.9117647058823529
+        },
+        {
+          "label": "Tumor_edge_3",
+          "spots": 3,
+          "within_cluster_share": 0.08823529411764706
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "n_spots": 42,
+      "section_share": 0.011058451816745656,
+      "rare_spots": 3,
+      "rare_share": 0.07142857142857142,
+      "rare_enrichment_over_section": 0.1749101961867919,
+      "top_reference_labels": [
+        {
+          "label": "IDC_4",
+          "spots": 39,
+          "within_cluster_share": 0.9285714285714286
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 3,
+          "within_cluster_share": 0.07142857142857142
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "n_spots": 68,
+      "section_share": 0.01790416008425487,
+      "rare_spots": 20,
+      "rare_share": 0.29411764705882354,
+      "rare_enrichment_over_section": 0.7202184548867903,
+      "top_reference_labels": [
+        {
+          "label": "Tumor_edge_1",
+          "spots": 45,
+          "within_cluster_share": 0.6617647058823529
+        },
+        {
+          "label": "Tumor_edge_3",
+          "spots": 13,
+          "within_cluster_share": 0.19117647058823528
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 4,
+          "within_cluster_share": 0.058823529411764705
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "n_spots": 88,
+      "section_share": 0.02317008952080042,
+      "rare_spots": 66,
+      "rare_share": 0.75,
+      "rare_enrichment_over_section": 1.8365570599613152,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_5",
+          "spots": 59,
+          "within_cluster_share": 0.6704545454545454
+        },
+        {
+          "label": "Tumor_edge_1",
+          "spots": 19,
+          "within_cluster_share": 0.2159090909090909
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 7,
+          "within_cluster_share": 0.07954545454545454
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "n_spots": 96,
+      "section_share": 0.02527646129541864,
+      "rare_spots": 94,
+      "rare_share": 0.9791666666666666,
+      "rare_enrichment_over_section": 2.3977272727272725,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_5",
+          "spots": 58,
+          "within_cluster_share": 0.6041666666666666
+        },
+        {
+          "label": "DCIS/LCIS_1",
+          "spots": 35,
+          "within_cluster_share": 0.3645833333333333
+        },
+        {
+          "label": "Tumor_edge_1",
+          "spots": 2,
+          "within_cluster_share": 0.020833333333333332
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "n_spots": 106,
+      "section_share": 0.027909426013691417,
+      "rare_spots": 106,
+      "rare_share": 1.0,
+      "rare_enrichment_over_section": 2.448742746615087,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_1",
+          "spots": 67,
+          "within_cluster_share": 0.6320754716981132
+        },
+        {
+          "label": "DCIS/LCIS_2",
+          "spots": 22,
+          "within_cluster_share": 0.20754716981132076
+        },
+        {
+          "label": "DCIS/LCIS_5",
+          "spots": 8,
+          "within_cluster_share": 0.07547169811320754
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "n_spots": 110,
+      "section_share": 0.028962611901000527,
+      "rare_spots": 103,
+      "rare_share": 0.9363636363636364,
+      "rare_enrichment_over_section": 2.2929136627395814,
+      "top_reference_labels": [
+        {
+          "label": "Tumor_edge_3",
+          "spots": 59,
+          "within_cluster_share": 0.5363636363636364
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 13,
+          "within_cluster_share": 0.11818181818181818
+        },
+        {
+          "label": "Tumor_edge_4",
+          "spots": 11,
+          "within_cluster_share": 0.1
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "n_spots": 112,
+      "section_share": 0.02948920484465508,
+      "rare_spots": 11,
+      "rare_share": 0.09821428571428571,
+      "rare_enrichment_over_section": 0.2405015197568389,
+      "top_reference_labels": [
+        {
+          "label": "IDC_4",
+          "spots": 100,
+          "within_cluster_share": 0.8928571428571429
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 8,
+          "within_cluster_share": 0.07142857142857142
+        },
+        {
+          "label": "Tumor_edge_2",
+          "spots": 2,
+          "within_cluster_share": 0.017857142857142856
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "n_spots": 113,
+      "section_share": 0.02975250131648236,
+      "rare_spots": 5,
+      "rare_share": 0.04424778761061947,
+      "rare_enrichment_over_section": 0.10835144896526933,
+      "top_reference_labels": [
+        {
+          "label": "IDC_2",
+          "spots": 108,
+          "within_cluster_share": 0.9557522123893806
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 5,
+          "within_cluster_share": 0.04424778761061947
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "n_spots": 114,
+      "section_share": 0.030015797788309637,
+      "rare_spots": 112,
+      "rare_share": 0.9824561403508771,
+      "rare_enrichment_over_section": 2.405782347551664,
+      "top_reference_labels": [
+        {
+          "label": "Tumor_edge_2",
+          "spots": 106,
+          "within_cluster_share": 0.9298245614035088
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 3,
+          "within_cluster_share": 0.02631578947368421
+        },
+        {
+          "label": "Healthy_2",
+          "spots": 2,
+          "within_cluster_share": 0.017543859649122806
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "n_spots": 116,
+      "section_share": 0.030542390731964193,
+      "rare_spots": 53,
+      "rare_share": 0.45689655172413796,
+      "rare_enrichment_over_section": 1.1188221169879278,
+      "top_reference_labels": [
+        {
+          "label": "IDC_5",
+          "spots": 49,
+          "within_cluster_share": 0.4224137931034483
+        },
+        {
+          "label": "Tumor_edge_2",
+          "spots": 13,
+          "within_cluster_share": 0.11206896551724138
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 12,
+          "within_cluster_share": 0.10344827586206896
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "n_spots": 122,
+      "section_share": 0.032122169562927856,
+      "rare_spots": 1,
+      "rare_share": 0.00819672131147541,
+      "rare_enrichment_over_section": 0.020071661857500714,
+      "top_reference_labels": [
+        {
+          "label": "IDC_2",
+          "spots": 121,
+          "within_cluster_share": 0.9918032786885246
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 1,
+          "within_cluster_share": 0.00819672131147541
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "n_spots": 132,
+      "section_share": 0.03475513428120063,
+      "rare_spots": 99,
+      "rare_share": 0.75,
+      "rare_enrichment_over_section": 1.8365570599613152,
+      "top_reference_labels": [
+        {
+          "label": "Tumor_edge_3",
+          "spots": 44,
+          "within_cluster_share": 0.3333333333333333
+        },
+        {
+          "label": "Tumor_edge_1",
+          "spots": 26,
+          "within_cluster_share": 0.19696969696969696
+        },
+        {
+          "label": "Tumor_edge_5",
+          "spots": 21,
+          "within_cluster_share": 0.1590909090909091
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "n_spots": 137,
+      "section_share": 0.03607161664033702,
+      "rare_spots": 50,
+      "rare_share": 0.36496350364963503,
+      "rare_enrichment_over_section": 0.8937017323412726,
+      "top_reference_labels": [
+        {
+          "label": "Healthy_1",
+          "spots": 74,
+          "within_cluster_share": 0.5401459854014599
+        },
+        {
+          "label": "Tumor_edge_5",
+          "spots": 12,
+          "within_cluster_share": 0.08759124087591241
+        },
+        {
+          "label": "Tumor_edge_1",
+          "spots": 12,
+          "within_cluster_share": 0.08759124087591241
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "n_spots": 156,
+      "section_share": 0.04107424960505529,
+      "rare_spots": 2,
+      "rare_share": 0.01282051282051282,
+      "rare_enrichment_over_section": 0.0313941377771165,
+      "top_reference_labels": [
+        {
+          "label": "IDC_5",
+          "spots": 154,
+          "within_cluster_share": 0.9871794871794872
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 2,
+          "within_cluster_share": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "n_spots": 157,
+      "section_share": 0.04133754607688257,
+      "rare_spots": 2,
+      "rare_share": 0.012738853503184714,
+      "rare_enrichment_over_section": 0.03119417511611576,
+      "top_reference_labels": [
+        {
+          "label": "IDC_5",
+          "spots": 154,
+          "within_cluster_share": 0.9808917197452229
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 2,
+          "within_cluster_share": 0.012738853503184714
+        },
+        {
+          "label": "Tumor_edge_1",
+          "spots": 1,
+          "within_cluster_share": 0.006369426751592357
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "n_spots": 164,
+      "section_share": 0.04318062137967351,
+      "rare_spots": 63,
+      "rare_share": 0.38414634146341464,
+      "rare_enrichment_over_section": 0.940675567297259,
+      "top_reference_labels": [
+        {
+          "label": "Tumor_edge_1",
+          "spots": 52,
+          "within_cluster_share": 0.3170731707317073
+        },
+        {
+          "label": "IDC_5",
+          "spots": 48,
+          "within_cluster_share": 0.2926829268292683
+        },
+        {
+          "label": "IDC_7",
+          "spots": 35,
+          "within_cluster_share": 0.21341463414634146
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "n_spots": 170,
+      "section_share": 0.04476040021063718,
+      "rare_spots": 169,
+      "rare_share": 0.9941176470588236,
+      "rare_enrichment_over_section": 2.434338377517351,
+      "top_reference_labels": [
+        {
+          "label": "IDC_6",
+          "spots": 94,
+          "within_cluster_share": 0.5529411764705883
+        },
+        {
+          "label": "IDC_7",
+          "spots": 65,
+          "within_cluster_share": 0.38235294117647056
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 10,
+          "within_cluster_share": 0.058823529411764705
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "n_spots": 172,
+      "section_share": 0.04528699315429173,
+      "rare_spots": 148,
+      "rare_share": 0.8604651162790697,
+      "rare_enrichment_over_section": 2.1070577122036793,
+      "top_reference_labels": [
+        {
+          "label": "Healthy_2",
+          "spots": 55,
+          "within_cluster_share": 0.31976744186046513
+        },
+        {
+          "label": "Tumor_edge_5",
+          "spots": 30,
+          "within_cluster_share": 0.1744186046511628
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 18,
+          "within_cluster_share": 0.10465116279069768
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "n_spots": 178,
+      "section_share": 0.0468667719852554,
+      "rare_spots": 55,
+      "rare_share": 0.3089887640449438,
+      "rare_enrichment_over_section": 0.7566339947406167,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_3",
+          "spots": 122,
+          "within_cluster_share": 0.6853932584269663
+        },
+        {
+          "label": "IDC_6",
+          "spots": 22,
+          "within_cluster_share": 0.12359550561797752
+        },
+        {
+          "label": "Tumor_edge_2",
+          "spots": 13,
+          "within_cluster_share": 0.07303370786516854
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "n_spots": 184,
+      "section_share": 0.04844655081621906,
+      "rare_spots": 180,
+      "rare_share": 0.9782608695652174,
+      "rare_enrichment_over_section": 2.3955092086451937,
+      "top_reference_labels": [
+        {
+          "label": "DCIS/LCIS_4",
+          "spots": 152,
+          "within_cluster_share": 0.8260869565217391
+        },
+        {
+          "label": "Tumor_edge_3",
+          "spots": 13,
+          "within_cluster_share": 0.07065217391304347
+        },
+        {
+          "label": "Tumor_edge_6",
+          "spots": 12,
+          "within_cluster_share": 0.06521739130434782
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,7 @@ import torch
 from torch.nn import functional as F
 
 from .fixed_target_trainer import CELL_TYPE, GENE_TYPE, FixedTargetConfig, FixedTargetTrainer
+from ..clustering.prototype_dynamic import high_confidence_label_update, refresh_prototypes
 
 
 @dataclass
@@ -32,6 +33,7 @@ class PrototypeConfig(FixedTargetConfig):
     init_source: str = "warmup_leiden"
     probe_every: int = 0
     probe_dir: str | None = None
+    confident_only_refresh: bool = False
 
 
 def leiden_on_embedding(
@@ -388,21 +390,76 @@ class PrototypeTrainer(FixedTargetTrainer):
         previous = self.assignment.copy()
         self.assignment = assignment.cpu().numpy().astype(np.int64)
         nonempty_before = int(np.unique(self.assignment).size)
-        previous_centers = self.centers
-        self.centers, reseeded = prototypes_from_assignment(
-            embedding,
-            assignment,
-            self.n_clusters,
-            previous=previous_centers,
-            confidence=confidence,
-            preserve_k=self.config.preserve_k,
-            center=self.center_vector,
-        )
+        reseeded: dict[int, list[int]] = {}
+        if self.config.confident_only_refresh:
+            threshold = resolve_delta(
+                confidence,
+                mode=self.config.delta_mode,
+                absolute=self.config.delta,
+                quantile=self.config.delta_quantile,
+            )
+            # Work in the same centered coordinate system used for assignment.
+            # ``refresh_prototypes`` computes the confident-only centroid and
+            # returns the exact mask used for that update.
+            active_embedding = embedding if self.center_vector is None else embedding - self.center_vector
+            active_centers = self.centers if self.center_vector is None else self.centers - self.center_vector
+            previous_tensor = torch.from_numpy(previous).to(self.device)
+            label_update = high_confidence_label_update(
+                active_embedding,
+                active_centers,
+                threshold=threshold,
+                tau=self.config.tau,
+                previous_labels=previous_tensor,
+            )
+            refreshed = refresh_prototypes(
+                active_embedding,
+                active_centers,
+                threshold=threshold,
+                tau=self.config.tau,
+                momentum=0.0,
+            )
+            self.centers = (
+                refreshed.state.prototypes
+                if self.center_vector is None
+                else refreshed.state.prototypes + self.center_vector
+            )
+            self.assignment = label_update.labels.cpu().numpy().astype(np.int64)
+            # Empty confident groups still need the existing preserve-K
+            # reseeding policy.  It is applied only to those empty slots.
+            empty = torch.where(refreshed.state.counts == 0)[0].tolist()
+            if empty and self.config.preserve_k:
+                reseed_centers, reseeded = prototypes_from_assignment(
+                    embedding,
+                    torch.from_numpy(self.assignment).to(self.device),
+                    self.n_clusters,
+                    previous=self.centers,
+                    confidence=confidence,
+                    preserve_k=True,
+                    center=self.center_vector,
+                )
+                for cluster in empty:
+                    self.centers[cluster] = reseed_centers[cluster]
+        else:
+            self.centers, reseeded = prototypes_from_assignment(
+                embedding,
+                assignment,
+                self.n_clusters,
+                previous=self.centers,
+                confidence=confidence,
+                preserve_k=self.config.preserve_k,
+                center=self.center_vector,
+            )
         for cluster, members in reseeded.items():
             if members:
                 self.assignment[np.asarray(members, dtype=np.int64)] = int(cluster)
-        self.assignment, confidence_after, extra_reseeded = self._synchronise_partition(embedding)
-        reseeded_count = len(reseeded) + extra_reseeded
+        if self.config.confident_only_refresh:
+            _, confidence_after, _ = confidence_and_assignment(
+                embedding, self.centers, self.config.tau, center=self.center_vector
+            )
+            reseeded_count = len(reseeded)
+        else:
+            self.assignment, confidence_after, extra_reseeded = self._synchronise_partition(embedding)
+            reseeded_count = len(reseeded) + extra_reseeded
         changed = float(np.mean(previous != self.assignment)) if previous.size else 0.0
         sizes = np.bincount(self.assignment, minlength=self.n_clusters).tolist()
         self.delta_value = resolve_delta(

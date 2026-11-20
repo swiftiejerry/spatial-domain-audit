@@ -1,0 +1,400 @@
+{
+  "method": "GraphST",
+  "dataset": "D1",
+  "seed": 1,
+  "n_spots": 3359,
+  "n_clusters": 6,
+  "ari": 0.2962873909063895,
+  "nmi": 0.3693799200052508,
+  "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+  "reference_label_scope": "d1_lab",
+  "evaluation": {
+    "n_spots": 3359,
+    "n_clusters": 6,
+    "ari": 0.2962873909063895,
+    "nmi": 0.3693799200052508,
+    "rare_primary": {
+      "tp": 76,
+      "fp": 85,
+      "fn": 232,
+      "tn": 2966,
+      "precision": 0.4720496894409938,
+      "recall": 0.24675324675324675,
+      "f1": 0.32409381663113007,
+      "definition": "truth class share <= 5%; predicted cluster share <= 5%",
+      "true_rare_labels": [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "predicted_rare_clusters": [
+        5
+      ],
+      "true_rare_count": 308,
+      "predicted_rare_count": 161,
+      "rare_absolute_hits": 76,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "rare_fraction_in_predicted_rare_clusters": 0.4720496894409938,
+      "enrichment": 5.148100346858111,
+      "per_true_rare_class_capture": [
+        {
+          "truth_label": 2,
+          "support": 86,
+          "hits_in_predicted_rare_clusters": 66,
+          "capture_recall": 0.7674418604651163
+        },
+        {
+          "truth_label": 3,
+          "support": 27,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 6,
+          "support": 96,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 8,
+          "support": 86,
+          "hits_in_predicted_rare_clusters": 10,
+          "capture_recall": 0.11627906976744186
+        },
+        {
+          "truth_label": 9,
+          "support": 13,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        }
+      ]
+    },
+    "rare_secondary": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 308,
+      "tn": 3051,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "definition": "truth class share < 5%; predicted cluster share < 4.5%",
+      "true_rare_labels": [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "predicted_rare_clusters": [],
+      "true_rare_count": 308,
+      "predicted_rare_count": 0,
+      "rare_absolute_hits": 0,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "rare_fraction_in_predicted_rare_clusters": null,
+      "enrichment": null,
+      "per_true_rare_class_capture": [
+        {
+          "truth_label": 2,
+          "support": 86,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 3,
+          "support": 27,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 6,
+          "support": 96,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 8,
+          "support": 86,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 9,
+          "support": 13,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        }
+      ]
+    },
+    "cluster_sizes": [
+      {
+        "label": 0,
+        "size": 1148,
+        "fraction": 0.3417683834474546,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 85,
+        "true_rare_fraction_primary": 0.0740418118466899,
+        "rare_enrichment_primary": 0.8074884610163355,
+        "true_rare_count_secondary": 85,
+        "true_rare_fraction_secondary": 0.0740418118466899,
+        "rare_enrichment_secondary": 0.8074884610163355
+      },
+      {
+        "label": 1,
+        "size": 366,
+        "fraction": 0.10896100029770765,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 29,
+        "true_rare_fraction_primary": 0.07923497267759563,
+        "rare_enrichment_primary": 0.8641242637144276,
+        "true_rare_count_secondary": 29,
+        "true_rare_fraction_secondary": 0.07923497267759563,
+        "rare_enrichment_secondary": 0.8641242637144276
+      },
+      {
+        "label": 2,
+        "size": 966,
+        "fraction": 0.2875855909496874,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 37,
+        "true_rare_fraction_primary": 0.038302277432712216,
+        "rare_enrichment_primary": 0.417718668495066,
+        "true_rare_count_secondary": 37,
+        "true_rare_fraction_secondary": 0.038302277432712216,
+        "rare_enrichment_secondary": 0.417718668495066
+      },
+      {
+        "label": 3,
+        "size": 318,
+        "fraction": 0.09467103304554927,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 38,
+        "true_rare_fraction_primary": 0.11949685534591195,
+        "rare_enrichment_primary": 1.3032140815159683,
+        "true_rare_count_secondary": 38,
+        "true_rare_fraction_secondary": 0.11949685534591195,
+        "rare_enrichment_secondary": 1.3032140815159683
+      },
+      {
+        "label": 4,
+        "size": 400,
+        "fraction": 0.11908306043465317,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 43,
+        "true_rare_fraction_primary": 0.1075,
+        "rare_enrichment_primary": 1.1723782467532466,
+        "true_rare_count_secondary": 43,
+        "true_rare_fraction_secondary": 0.1075,
+        "rare_enrichment_secondary": 1.1723782467532466
+      },
+      {
+        "label": 5,
+        "size": 161,
+        "fraction": 0.0479309318249479,
+        "is_rare_primary": true,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 76,
+        "true_rare_fraction_primary": 0.4720496894409938,
+        "rare_enrichment_primary": 5.148100346858111,
+        "true_rare_count_secondary": 76,
+        "true_rare_fraction_secondary": 0.4720496894409938,
+        "rare_enrichment_secondary": 5.148100346858111
+      }
+    ],
+    "hungarian": {
+      "mapping": [
+        {
+          "predicted_label": 0,
+          "reference_label": 4,
+          "overlap": 660
+        },
+        {
+          "predicted_label": 1,
+          "reference_label": 1,
+          "overlap": 283
+        },
+        {
+          "predicted_label": 2,
+          "reference_label": 5,
+          "overlap": 643
+        },
+        {
+          "predicted_label": 3,
+          "reference_label": 8,
+          "overlap": 35
+        },
+        {
+          "predicted_label": 4,
+          "reference_label": 7,
+          "overlap": 262
+        },
+        {
+          "predicted_label": 5,
+          "reference_label": 2,
+          "overlap": 66
+        }
+      ],
+      "unmatched_predicted_labels": [],
+      "accuracy": 0.5802322119678476,
+      "macro_f1": 0.33527201699950615,
+      "per_class": [
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 187,
+          "tn": 3172,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 0,
+          "name": "capsule",
+          "support": 187,
+          "predicted_count": 0,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 283,
+          "fp": 83,
+          "fn": 286,
+          "tn": 2707,
+          "precision": 0.773224043715847,
+          "recall": 0.4973637961335677,
+          "f1": 0.6053475935828877,
+          "truth_label": 1,
+          "name": "cortex",
+          "support": 569,
+          "predicted_count": 366,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 66,
+          "fp": 95,
+          "fn": 20,
+          "tn": 3178,
+          "precision": 0.40993788819875776,
+          "recall": 0.7674418604651163,
+          "f1": 0.5344129554655871,
+          "truth_label": 2,
+          "name": "follicle",
+          "support": 86,
+          "predicted_count": 161,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "tn": 3332,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 3,
+          "name": "hilum",
+          "support": 27,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 660,
+          "fp": 488,
+          "fn": 430,
+          "tn": 1781,
+          "precision": 0.5749128919860628,
+          "recall": 0.6055045871559633,
+          "f1": 0.5898123324396782,
+          "truth_label": 4,
+          "name": "medulla cords",
+          "support": 1090,
+          "predicted_count": 1148,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 643,
+          "fp": 323,
+          "fn": 281,
+          "tn": 2112,
+          "precision": 0.6656314699792961,
+          "recall": 0.6958874458874459,
+          "f1": 0.6804232804232804,
+          "truth_label": 5,
+          "name": "medulla sinuses",
+          "support": 924,
+          "predicted_count": 966,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 96,
+          "tn": 3263,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 6,
+          "name": "medulla vessel",
+          "support": 96,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 262,
+          "fp": 138,
+          "fn": 19,
+          "tn": 2940,
+          "precision": 0.655,
+          "recall": 0.9323843416370107,
+          "f1": 0.7694566813509545,
+          "truth_label": 7,
+          "name": "pericapsular adipose tissue",
+          "support": 281,
+          "predicted_count": 400,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 35,
+          "fp": 283,
+          "fn": 51,
+          "tn": 2990,
+          "precision": 0.11006289308176101,
+          "recall": 0.4069767441860465,
+          "f1": 0.17326732673267325,
+          "truth_label": 8,
+          "name": "subcapsular sinus",
+          "support": 86,
+          "predicted_count": 318,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "tn": 3346,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 9,
+          "name": "trabeculae",
+          "support": 13,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        }
+      ]
+    }
+  }
+}

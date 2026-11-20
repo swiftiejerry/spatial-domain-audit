@@ -1,0 +1,43 @@
+{
+  "run_id": "Astar_perm_seed42",
+  "section": "D1",
+  "seed": 42,
+  "arm": "Astar_perm",
+  "layout": {
+    "mode": "permuted",
+    "permutation_rule": "np.random.RandomState(seed + 10000).permutation(n_spots)",
+    "permutation_seed": 10042,
+    "n_spots": 3359
+  },
+  "reference_scope": "Metrics are conditional on the supplied section labels.",
+  "protocol_status": "Retrospective layout-control extension; original true-layout runs were already underway.",
+  "architecture": {
+    "n_hidden": 104,
+    "n_heads": 8,
+    "n_layers": 3,
+    "dropout": 0.3,
+    "labsm": 0.1,
+    "lr": 0.0005,
+    "weight_decay": 0.1,
+    "epochs": 30,
+    "spatial_relation": false,
+    "kl_target": "paper_x",
+    "edge_source": "per_spot_selection",
+    "gene_input": "paper_z",
+    "kl_only": true
+  },
+  "protocol": {
+    "epochs": 30,
+    "cell_size": 30,
+    "topz_k": 20,
+    "spatial_k": 10,
+    "training_loss": "L_KL_only",
+    "batching": "Spatial tiles with one-hop halo",
+    "inference": "Full graph; post-hoc Leiden selected to K=5 without reference labels"
+  },
+  "training_spatial_edges": {
+    "total_spatial_edges_in_batches": 0,
+    "min_per_batch": 0,
+    "max_per_batch": 0
+  }
+}

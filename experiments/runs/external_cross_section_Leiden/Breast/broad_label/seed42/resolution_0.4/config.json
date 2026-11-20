@@ -1,0 +1,11 @@
+{
+  "method": "expression-only PCA40 plus Leiden",
+  "dataset": "Breast",
+  "target": "broad_label",
+  "seed": 42,
+  "resolution": 0.4,
+  "n_neighbors": 10,
+  "n_spots": 3798,
+  "prediction_order": "source AnnData observation order",
+  "reference_labels_used_for_clustering": false
+}

@@ -73,4 +73,5 @@ structure in the feature representation:
 - **Representation Diagnostics**: Effective rank (participation ratio
   $(\sum s_i^2)^2 / \sum s_i^4$ of mean-centered singular values), cosine
   $k$-NN label purity against imbalanced-class chance level $\sum_c (n_c / N)^2$,
-  and same- vs. different-class cosine separation.
+  and same- vs. different-class cosine separation. The reported kNN purity uses
+  **$k=10$**. Callers pass this value explicitly and evaluation JSON records it.

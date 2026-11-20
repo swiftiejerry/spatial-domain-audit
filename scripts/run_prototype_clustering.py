@@ -25,7 +25,6 @@ from spatial_domain_audit.audit.metrics import (  # noqa: E402
 from spatial_domain_audit.training.common import (  # noqa: E402
     DEFAULT_HP,
     compute_graph_contract,
-    file_sha256,
     prepare_batches_and_graph,
     resolve_default_resolution,
     seed_all,
@@ -58,6 +57,11 @@ def main() -> int:
     parser.add_argument("--no-center-embedding", action="store_true")
     parser.add_argument("--delta-mode", choices=["quantile", "absolute"], default="quantile")
     parser.add_argument("--delta-quantile", type=float, default=0.2)
+    parser.add_argument(
+        "--confident-only-refresh",
+        action="store_true",
+        help="Update prototype centroids and labels using only assignments above the active confidence threshold.",
+    )
     parser.add_argument("--init-source", choices=["warmup_leiden", "a0_pseudo"], default="warmup_leiden")
     parser.add_argument("--probe-every", type=int, default=0)
     parser.add_argument("--pseudo-resolution", type=float, default=None)
@@ -87,7 +91,6 @@ def main() -> int:
         protocol_snapshot = {
             "name": json.loads(protocol_path.read_text(encoding="utf-8"))["protocol"]["name"],
             "path": str(protocol_path.relative_to(ROOT)) if protocol_path.is_relative_to(ROOT) else protocol_path.name,
-            "sha256": file_sha256(protocol_path),
             "argv": list(sys.argv),
         }
 
@@ -104,6 +107,8 @@ def main() -> int:
         parts.append(f"pr{args.pseudo_resolution:g}")
     if args.graph == "deterministic_topz":
         parts.append(f"topz{args.topz_k}")
+    if args.confident_only_refresh:
+        parts.append("confident-only")
     if args.kl_target == "normalized_x":
         parts.append("klX")
     if args.gene_input == "standardized_z":
@@ -173,6 +178,7 @@ def main() -> int:
         kl_target=args.kl_target,
         gene_input=args.gene_input,
         edge_source=edge_source,
+        confident_only_refresh=args.confident_only_refresh,
     )
     model = PrototypeTrainer(
         rna_matrix,
@@ -234,7 +240,6 @@ def main() -> int:
             else "C (expression + prototype refresh)"
         ),
         "dataset": args.h5ad.name,
-        "h5ad_sha256": file_sha256(args.h5ad),
         "label_key": args.label_key,
         "n_spots": n_cells,
         "n_genes": int(adata.shape[1]),
@@ -281,6 +286,7 @@ def main() -> int:
             ),
             "delta_effective_final": float(model.delta_value),
             "preserve_k": bool(not args.no_preserve_k),
+            "confident_only_refresh": bool(args.confident_only_refresh),
             "refresh_trace": getattr(model, "refresh_trace", []),
         },
         "batching": {

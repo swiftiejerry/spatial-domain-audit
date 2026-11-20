@@ -1,0 +1,4128 @@
+{
+  "scope": "Descriptive single-section evaluation conditional on the supplied final_annot labels.",
+  "n_runs": 12,
+  "all_expected_runs_present": true,
+  "all_saved_evaluations_match_independent_recount": true,
+  "rare_primary_rule": "reference class share <= 5%; predicted cluster share <= 5%",
+  "rare_secondary_rule": "reference class share < 5%; predicted cluster share < 4.5%",
+  "runs": [
+    {
+      "run_id": "stage2_C_t0.2_d0.8_seed0_topz20_klX_gz_C1_default",
+      "arm": "C1_default",
+      "seed": 0,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": false,
+        "delta_mode": "absolute",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1934773608755847,
+        "nmi": 0.2726264740358401,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.09757364348467804,
+        "nmi": 0.17586486473337193,
+        "rare_primary": {
+          "f1": 0.004597701149425287,
+          "n_true_rare": 280,
+          "n_predicted_rare": 155,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 154,
+              "false_negative": 22,
+              "precision": 0.0064516129032258064,
+              "recall": 0.043478260869565216,
+              "f1": 0.011235955056179775,
+              "maximum_eligible_cluster_enrichment": 1.6287985039738198
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.004597701149425287,
+          "n_true_rare": 280,
+          "n_predicted_rare": 155,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 154,
+              "false_negative": 22,
+              "precision": 0.0064516129032258064,
+              "recall": 0.043478260869565216,
+              "f1": 0.011235955056179775,
+              "maximum_eligible_cluster_enrichment": 1.6287985039738198
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 155,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.5737657864523537,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.38088404133180254,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.3851894374282434,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.001435131998732686,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.2703788748564868,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0002870263997465372,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.49397244546498276,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0002870263997465372,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.40642939150401836,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.46469575200918484,
+          "delta_effective": 0.8
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_d0.8_seed1_topz20_klX_gz_C1_default",
+      "arm": "C1_default",
+      "seed": 1,
+      "n_spots": 3484,
+      "n_clusters": 4,
+      "configuration": {
+        "center_embedding": false,
+        "delta_mode": "absolute",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.2016079224023216,
+        "nmi": 0.27336719894601735,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.07676058115591412,
+        "nmi": 0.12745571647385429,
+        "rare_primary": {
+          "f1": 0.004784688995215311,
+          "n_true_rare": 280,
+          "n_predicted_rare": 138,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 137,
+              "false_negative": 22,
+              "precision": 0.007246376811594203,
+              "recall": 0.043478260869565216,
+              "f1": 0.012422360248447206,
+              "maximum_eligible_cluster_enrichment": 1.5300834431269215
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.004784688995215311,
+          "n_true_rare": 280,
+          "n_predicted_rare": 138,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 137,
+              "false_negative": 22,
+              "precision": 0.007246376811594203,
+              "recall": 0.043478260869565216,
+              "f1": 0.012422360248447206,
+              "maximum_eligible_cluster_enrichment": 1.5300834431269215
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 138,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.47847301951779564,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.24885189437428243,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0031572903972119093,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.24196326061997703,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.009471870958805084,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.24569460390355913,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.008323765359818935,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.31544202066590127,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0005740527994930744,
+          "n_nonempty_before_reseed": 3,
+          "n_nonempty": 4,
+          "n_reseeded": 1,
+          "changed_fraction": 0.5995981630309989,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 1,
+          "n_nonempty": 4,
+          "n_reseeded": 3,
+          "changed_fraction": 0.17020665901262916,
+          "delta_effective": 0.8
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_d0.8_seed42_topz20_klX_gz_C1_default",
+      "arm": "C1_default",
+      "seed": 42,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": false,
+        "delta_mode": "absolute",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1877734537725394,
+        "nmi": 0.25332250346142365,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.1373107443926825,
+        "nmi": 0.19633216308788884,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 42,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 42,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 42,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.4388633754305396,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.28788748564867966,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.2431113662456946,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.7543053960964409,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.3711251435132032,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.3794489092996556,
+          "delta_effective": 0.8
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.0,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.6248564867967853,
+          "delta_effective": 0.8
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed0_topz20_confident-only_klX_gz_C1_confident_quantile",
+      "arm": "C1_confident_quantile",
+      "seed": 0,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": true,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1934773608755847,
+        "nmi": 0.2726264740358401,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.15489751488357648,
+        "nmi": 0.20508353856388406,
+        "rare_primary": {
+          "f1": 0.07835051546391752,
+          "n_true_rare": 280,
+          "n_predicted_rare": 205,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 2,
+              "false_positive": 203,
+              "false_negative": 94,
+              "precision": 0.00975609756097561,
+              "recall": 0.020833333333333332,
+              "f1": 0.0132890365448505,
+              "maximum_eligible_cluster_enrichment": 0.43463073852295414
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 2,
+              "false_positive": 203,
+              "false_negative": 21,
+              "precision": 0.00975609756097561,
+              "recall": 0.08695652173913043,
+              "f1": 0.017543859649122806,
+              "maximum_eligible_cluster_enrichment": 1.8141109086175475
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 3,
+              "false_positive": 202,
+              "false_negative": 77,
+              "precision": 0.014634146341463415,
+              "recall": 0.0375,
+              "f1": 0.02105263157894737,
+              "maximum_eligible_cluster_enrichment": 0.7823353293413173
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 11,
+              "false_positive": 194,
+              "false_negative": 62,
+              "precision": 0.05365853658536585,
+              "recall": 0.1506849315068493,
+              "f1": 0.07913669064748202,
+              "maximum_eligible_cluster_enrichment": 3.7678442682047586
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 1,
+              "false_positive": 204,
+              "false_negative": 7,
+              "precision": 0.004878048780487805,
+              "recall": 0.125,
+              "f1": 0.009389671361502348,
+              "maximum_eligible_cluster_enrichment": 11.460526315789473
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.025157232704402517,
+          "n_true_rare": 280,
+          "n_predicted_rare": 38,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 38,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 38,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 38,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 3,
+              "false_positive": 35,
+              "false_negative": 70,
+              "precision": 0.07894736842105263,
+              "recall": 0.0410958904109589,
+              "f1": 0.05405405405405406,
+              "maximum_eligible_cluster_enrichment": 3.7678442682047586
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 1,
+              "false_positive": 37,
+              "false_negative": 7,
+              "precision": 0.02631578947368421,
+              "recall": 0.125,
+              "f1": 0.043478260869565216,
+              "maximum_eligible_cluster_enrichment": 11.460526315789473
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.3682548794489093,
+          "delta_effective": 0.52358078956604
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.0054535017221584384,
+          "delta_effective": 0.8136394619941711
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.000574052812858783,
+          "delta_effective": 0.4420967996120453
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 3,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.010045924225028703,
+          "delta_effective": 0.6038815379142761
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.004018369690011481,
+          "delta_effective": 0.37493768334388733
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0014351320321469576,
+          "delta_effective": 0.34957006573677063
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0057405281285878304,
+          "delta_effective": 0.5321412682533264
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed0_topz20_klX_gz_C1_center_quantile",
+      "arm": "C1_center_quantile",
+      "seed": 0,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1934773608755847,
+        "nmi": 0.2726264740358401,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 22,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 22,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.19270962499574673,
+        "nmi": 0.25905038820955023,
+        "rare_primary": {
+          "f1": 0.037037037037037035,
+          "n_true_rare": 280,
+          "n_predicted_rare": 152,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 152,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 151,
+              "false_negative": 22,
+              "precision": 0.006578947368421052,
+              "recall": 0.043478260869565216,
+              "f1": 0.011428571428571429,
+              "maximum_eligible_cluster_enrichment": 0.9965675057208238
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 4,
+              "false_positive": 148,
+              "false_negative": 76,
+              "precision": 0.02631578947368421,
+              "recall": 0.05,
+              "f1": 0.034482758620689655,
+              "maximum_eligible_cluster_enrichment": 1.1460526315789472
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 2,
+              "false_positive": 150,
+              "false_negative": 71,
+              "precision": 0.013157894736842105,
+              "recall": 0.0273972602739726,
+              "f1": 0.017777777777777778,
+              "maximum_eligible_cluster_enrichment": 0.6279740447007931
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 1,
+              "false_positive": 151,
+              "false_negative": 7,
+              "precision": 0.006578947368421052,
+              "recall": 0.125,
+              "f1": 0.0125,
+              "maximum_eligible_cluster_enrichment": 2.865131578947368
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.037037037037037035,
+          "n_true_rare": 280,
+          "n_predicted_rare": 152,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 152,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 151,
+              "false_negative": 22,
+              "precision": 0.006578947368421052,
+              "recall": 0.043478260869565216,
+              "f1": 0.011428571428571429,
+              "maximum_eligible_cluster_enrichment": 0.9965675057208238
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 4,
+              "false_positive": 148,
+              "false_negative": 76,
+              "precision": 0.02631578947368421,
+              "recall": 0.05,
+              "f1": 0.034482758620689655,
+              "maximum_eligible_cluster_enrichment": 1.1460526315789472
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 2,
+              "false_positive": 150,
+              "false_negative": 71,
+              "precision": 0.013157894736842105,
+              "recall": 0.0273972602739726,
+              "f1": 0.017777777777777778,
+              "maximum_eligible_cluster_enrichment": 0.6279740447007931
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 1,
+              "false_positive": 151,
+              "false_negative": 7,
+              "precision": 0.006578947368421052,
+              "recall": 0.125,
+              "f1": 0.0125,
+              "maximum_eligible_cluster_enrichment": 2.865131578947368
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.3340987370838117,
+          "delta_effective": 0.5295818448066711
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.05625717566016074,
+          "delta_effective": 0.892261803150177
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.037600459242250285,
+          "delta_effective": 0.9498183131217957
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.02123995407577497,
+          "delta_effective": 0.8983333110809326
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.03559127439724455,
+          "delta_effective": 0.9677411317825317
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.02439724454649828,
+          "delta_effective": 0.9732367992401123
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.03214695752009185,
+          "delta_effective": 0.9681989550590515
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed1_topz20_confident-only_klX_gz_C1_confident_quantile",
+      "arm": "C1_confident_quantile",
+      "seed": 1,
+      "n_spots": 3484,
+      "n_clusters": 4,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": true,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.2016079224023216,
+        "nmi": 0.27336719894601735,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.17341793715618478,
+        "nmi": 0.2289900120469114,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.20752009184845005,
+          "delta_effective": 0.6131237745285034
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.001148105625717566,
+          "delta_effective": 0.6370001435279846
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0008610792192881745,
+          "delta_effective": 0.652980387210846
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0002870264064293915,
+          "delta_effective": 0.6162837147712708
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.001148105625717566,
+          "delta_effective": 0.7637985944747925
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0002870264064293915,
+          "delta_effective": 0.9189575910568237
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0002870264064293915,
+          "delta_effective": 0.9839521646499634
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed1_topz20_klX_gz_C1_center_quantile",
+      "arm": "C1_center_quantile",
+      "seed": 1,
+      "n_spots": 3484,
+      "n_clusters": 4,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.2016079224023216,
+        "nmi": 0.27336719894601735,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.20166085403421113,
+        "nmi": 0.26122238619603394,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.06831228473019518,
+          "delta_effective": 0.6787810325622559
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.008897818599311137,
+          "delta_effective": 0.9891963601112366
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.006314580941446613,
+          "delta_effective": 0.9928444027900696
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.011194029850746268,
+          "delta_effective": 0.9910599589347839
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.007175660160734788,
+          "delta_effective": 0.9912779927253723
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0037313432835820895,
+          "delta_effective": 0.9916458129882812
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 4,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0028702640642939152,
+          "delta_effective": 0.9935578107833862
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed42_topz20_confident-only_klX_gz_C1_confident_quantile",
+      "arm": "C1_confident_quantile",
+      "seed": 42,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": true,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1877734537725394,
+        "nmi": 0.25332250346142365,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.1796523320778362,
+        "nmi": 0.22784611284681,
+        "rare_primary": {
+          "f1": 0.0316622691292876,
+          "n_true_rare": 280,
+          "n_predicted_rare": 99,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 99,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 98,
+              "false_negative": 22,
+              "precision": 0.010101010101010102,
+              "recall": 0.043478260869565216,
+              "f1": 0.01639344262295082,
+              "maximum_eligible_cluster_enrichment": 1.5300834431269215
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 3,
+              "false_positive": 96,
+              "false_negative": 77,
+              "precision": 0.030303030303030304,
+              "recall": 0.0375,
+              "f1": 0.03351955307262569,
+              "maximum_eligible_cluster_enrichment": 1.3196969696969696
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 2,
+              "false_positive": 97,
+              "false_negative": 71,
+              "precision": 0.020202020202020204,
+              "recall": 0.0273972602739726,
+              "f1": 0.023255813953488372,
+              "maximum_eligible_cluster_enrichment": 0.9641621696416218
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 99,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0316622691292876,
+          "n_true_rare": 280,
+          "n_predicted_rare": 99,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 99,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 1,
+              "false_positive": 98,
+              "false_negative": 22,
+              "precision": 0.010101010101010102,
+              "recall": 0.043478260869565216,
+              "f1": 0.01639344262295082,
+              "maximum_eligible_cluster_enrichment": 1.5300834431269215
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 3,
+              "false_positive": 96,
+              "false_negative": 77,
+              "precision": 0.030303030303030304,
+              "recall": 0.0375,
+              "f1": 0.03351955307262569,
+              "maximum_eligible_cluster_enrichment": 1.3196969696969696
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 2,
+              "false_positive": 97,
+              "false_negative": 71,
+              "precision": 0.020202020202020204,
+              "recall": 0.0273972602739726,
+              "f1": 0.023255813953488372,
+              "maximum_eligible_cluster_enrichment": 0.9641621696416218
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 99,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.2746842709529277,
+          "delta_effective": 0.6649283170700073
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.015499425947187142,
+          "delta_effective": 0.5804974436759949
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.003444316877152698,
+          "delta_effective": 0.5364063382148743
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0025832376578645237,
+          "delta_effective": 0.5494417548179626
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0054535017221584384,
+          "delta_effective": 0.5356876850128174
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.004592422502870264,
+          "delta_effective": 0.5804182887077332
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0031572904707233064,
+          "delta_effective": 0.9585760235786438
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage2_C_t0.2_dq0.2_seed42_topz20_klX_gz_C1_center_quantile",
+      "arm": "C1_center_quantile",
+      "seed": 42,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": false,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.1877734537725394,
+        "nmi": 0.25332250346142365,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 48,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 48,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.19560158971493843,
+        "nmi": 0.25954581979338154,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 8,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 8,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.302812858783008,
+          "delta_effective": 0.5899743437767029
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.022101033295063147,
+          "delta_effective": 0.916077733039856
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.0054535017221584384,
+          "delta_effective": 0.9615068435668945
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.007175660160734788,
+          "delta_effective": 0.8894862532615662
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.012055109070034443,
+          "delta_effective": 0.8159086108207703
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.011481056257175661,
+          "delta_effective": 0.9045485854148865
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.006027554535017222,
+          "delta_effective": 0.917190670967102
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage3_D_k10_t0.2_dq0.2_seed0_topz20_klX_gz_D0_center_quantile",
+      "arm": "D0_center_quantile",
+      "seed": 0,
+      "n_spots": 3484,
+      "n_clusters": 6,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": true,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.13446979618205007,
+        "nmi": 0.21967996203496906,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.12622019286741523,
+        "nmi": 0.1691696283904002,
+        "rare_primary": {
+          "f1": 0.0853932584269663,
+          "n_true_rare": 280,
+          "n_predicted_rare": 165,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 12,
+              "false_positive": 153,
+              "false_negative": 84,
+              "precision": 0.07272727272727272,
+              "recall": 0.125,
+              "f1": 0.09195402298850575,
+              "maximum_eligible_cluster_enrichment": 4.632978723404255
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 165,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 1,
+              "false_positive": 164,
+              "false_negative": 79,
+              "precision": 0.006060606060606061,
+              "recall": 0.0125,
+              "f1": 0.008163265306122448,
+              "maximum_eligible_cluster_enrichment": 0.9265957446808509
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 4,
+              "false_positive": 161,
+              "false_negative": 69,
+              "precision": 0.024242424242424242,
+              "recall": 0.0547945205479452,
+              "f1": 0.03361344537815126,
+              "maximum_eligible_cluster_enrichment": 2.0308947828621395
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 2,
+              "false_positive": 163,
+              "false_negative": 6,
+              "precision": 0.012121212121212121,
+              "recall": 0.25,
+              "f1": 0.023121387283236993,
+              "maximum_eligible_cluster_enrichment": 7.381355932203389
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0853932584269663,
+          "n_true_rare": 280,
+          "n_predicted_rare": 165,
+          "n_predicted_rare_clusters": 2,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 12,
+              "false_positive": 153,
+              "false_negative": 84,
+              "precision": 0.07272727272727272,
+              "recall": 0.125,
+              "f1": 0.09195402298850575,
+              "maximum_eligible_cluster_enrichment": 4.632978723404255
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 165,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 1,
+              "false_positive": 164,
+              "false_negative": 79,
+              "precision": 0.006060606060606061,
+              "recall": 0.0125,
+              "f1": 0.008163265306122448,
+              "maximum_eligible_cluster_enrichment": 0.9265957446808509
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 4,
+              "false_positive": 161,
+              "false_negative": 69,
+              "precision": 0.024242424242424242,
+              "recall": 0.0547945205479452,
+              "f1": 0.03361344537815126,
+              "maximum_eligible_cluster_enrichment": 2.0308947828621395
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 2,
+              "false_positive": 163,
+              "false_negative": 6,
+              "precision": 0.012121212121212121,
+              "recall": 0.25,
+              "f1": 0.023121387283236993,
+              "maximum_eligible_cluster_enrichment": 7.381355932203389
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.3920780711825488,
+          "delta_effective": 0.5325818061828613
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.07950631458094144,
+          "delta_effective": 0.8108574748039246
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.027841561423650976,
+          "delta_effective": 0.8697550296783447
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.03157290470723306,
+          "delta_effective": 0.9394816756248474
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.02841561423650976,
+          "delta_effective": 0.9603732228279114
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 6,
+          "n_reseeded": 1,
+          "changed_fraction": 0.03731343283582089,
+          "delta_effective": 0.8221687078475952
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 6,
+          "n_nonempty": 6,
+          "n_reseeded": 0,
+          "changed_fraction": 0.05367393800229621,
+          "delta_effective": 0.8619908690452576
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage3_D_k10_t0.2_dq0.2_seed1_topz20_klX_gz_D0_center_quantile",
+      "arm": "D0_center_quantile",
+      "seed": 1,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": true,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.14537905667914952,
+        "nmi": 0.22523854367871932,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.1480026265060262,
+        "nmi": 0.2327433022656908,
+        "rare_primary": {
+          "f1": 0.02654867256637168,
+          "n_true_rare": 280,
+          "n_predicted_rare": 172,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 172,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 6,
+              "false_positive": 166,
+              "false_negative": 17,
+              "precision": 0.03488372093023256,
+              "recall": 0.2608695652173913,
+              "f1": 0.061538461538461535,
+              "maximum_eligible_cluster_enrichment": 5.284125379170879
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 172,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 172,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 172,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.06630309988518944,
+          "delta_effective": 0.8963184952735901
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.018369690011481057,
+          "delta_effective": 0.9497717022895813
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.016360505166475317,
+          "delta_effective": 0.9588190913200378
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.014925373134328358,
+          "delta_effective": 0.9734852313995361
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.008897818599311137,
+          "delta_effective": 0.9840445518493652
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.05625717566016074,
+          "delta_effective": 0.9540061950683594
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.025545350172215844,
+          "delta_effective": 0.9832653403282166
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    },
+    {
+      "run_id": "stage3_D_k10_t0.2_dq0.2_seed42_topz20_klX_gz_D0_center_quantile",
+      "arm": "D0_center_quantile",
+      "seed": 42,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "configuration": {
+        "center_embedding": true,
+        "delta_mode": "quantile",
+        "delta": 0.8,
+        "delta_quantile": 0.2,
+        "confident_only_refresh": false,
+        "spatial_relation_enabled": true,
+        "spatial_k": 10
+      },
+      "initial": {
+        "ari": 0.046590088835713,
+        "nmi": 0.0954566527022542,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 0,
+          "n_predicted_rare_clusters": 0,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 96,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 23,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 80,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 73,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 0,
+              "false_negative": 8,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": null
+            }
+          }
+        }
+      },
+      "final": {
+        "ari": 0.007831471000889592,
+        "nmi": 0.023269729965936067,
+        "rare_primary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 8,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        },
+        "rare_secondary": {
+          "f1": 0.0,
+          "n_true_rare": 280,
+          "n_predicted_rare": 8,
+          "n_predicted_rare_clusters": 1,
+          "per_type": {
+            "follicle": {
+              "reference_spots": 96,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 96,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "hilum": {
+              "reference_spots": 23,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "medulla vessels": {
+              "reference_spots": 80,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 80,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "subcapsular sinus": {
+              "reference_spots": 73,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 73,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            },
+            "trabeculae": {
+              "reference_spots": 8,
+              "true_positive": 0,
+              "false_positive": 8,
+              "false_negative": 8,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "maximum_eligible_cluster_enrichment": 0.0
+            }
+          }
+        }
+      },
+      "refresh_trace": [
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.4024110218140069,
+          "delta_effective": 0.6677634716033936
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.15642939150401838,
+          "delta_effective": 0.787871778011322
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.04190585533869116,
+          "delta_effective": 0.8574152588844299
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.04305396096440873,
+          "delta_effective": 0.9191515445709229
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.013777267508610792,
+          "delta_effective": 0.9400641918182373
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 4,
+          "n_nonempty": 5,
+          "n_reseeded": 1,
+          "changed_fraction": 0.011194029850746268,
+          "delta_effective": 0.8678842186927795
+        },
+        {
+          "epoch": null,
+          "confident_fraction": 0.7999425530433655,
+          "n_nonempty_before_reseed": 5,
+          "n_nonempty": 5,
+          "n_reseeded": 0,
+          "changed_fraction": 0.006314580941446613,
+          "delta_effective": 0.9529296159744263
+        }
+      ],
+      "saved_evaluation_matches_independent_recount": {
+        "final_ari": true,
+        "final_nmi": true,
+        "final_secondary_rare_f1": true,
+        "initial_ari": true,
+        "initial_nmi": true,
+        "initial_secondary_rare_f1": true
+      }
+    }
+  ],
+  "summary_by_arm": {
+    "C1_default": {
+      "ari": {
+        "n": 3,
+        "mean": 0.1038816563444249,
+        "sample_sd": 0.030764002286420296,
+        "values_by_seed": [
+          0.09757364348467804,
+          0.07676058115591412,
+          0.1373107443926825
+        ]
+      },
+      "nmi": {
+        "n": 3,
+        "mean": 0.16655091476503836,
+        "sample_sd": 0.035370234273375316,
+        "values_by_seed": [
+          0.17586486473337193,
+          0.12745571647385429,
+          0.19633216308788884
+        ]
+      },
+      "rare_f1_primary": {
+        "n": 3,
+        "mean": 0.003127463381546866,
+        "sample_sd": 0.0027100759243618468,
+        "values_by_seed": [
+          0.004597701149425287,
+          0.004784688995215311,
+          0.0
+        ]
+      },
+      "rare_f1_secondary": {
+        "n": 3,
+        "mean": 0.003127463381546866,
+        "sample_sd": 0.0027100759243618468,
+        "values_by_seed": [
+          0.004597701149425287,
+          0.004784688995215311,
+          0.0
+        ]
+      }
+    },
+    "C1_center_quantile": {
+      "ari": {
+        "n": 3,
+        "mean": 0.19665735624829878,
+        "sample_sd": 0.004568052928161501,
+        "values_by_seed": [
+          0.19270962499574673,
+          0.20166085403421113,
+          0.19560158971493843
+        ]
+      },
+      "nmi": {
+        "n": 3,
+        "mean": 0.25993953139965525,
+        "sample_sd": 0.0011382664165336177,
+        "values_by_seed": [
+          0.25905038820955023,
+          0.26122238619603394,
+          0.25954581979338154
+        ]
+      },
+      "rare_f1_primary": {
+        "n": 3,
+        "mean": 0.012345679012345678,
+        "sample_sd": 0.021383343303319473,
+        "values_by_seed": [
+          0.037037037037037035,
+          0.0,
+          0.0
+        ]
+      },
+      "rare_f1_secondary": {
+        "n": 3,
+        "mean": 0.012345679012345678,
+        "sample_sd": 0.021383343303319473,
+        "values_by_seed": [
+          0.037037037037037035,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C1_confident_quantile": {
+      "ari": {
+        "n": 3,
+        "mean": 0.16932259470586583,
+        "sample_sd": 0.01287552390853835,
+        "values_by_seed": [
+          0.15489751488357648,
+          0.17341793715618478,
+          0.1796523320778362
+        ]
+      },
+      "nmi": {
+        "n": 3,
+        "mean": 0.22063988781920182,
+        "sample_sd": 0.01348432897700391,
+        "values_by_seed": [
+          0.20508353856388406,
+          0.2289900120469114,
+          0.22784611284681
+        ]
+      },
+      "rare_f1_primary": {
+        "n": 3,
+        "mean": 0.03667092819773504,
+        "sample_sd": 0.039414665006991374,
+        "values_by_seed": [
+          0.07835051546391752,
+          0.0,
+          0.0316622691292876
+        ]
+      },
+      "rare_f1_secondary": {
+        "n": 3,
+        "mean": 0.01893983394456337,
+        "sample_sd": 0.016721748027882632,
+        "values_by_seed": [
+          0.025157232704402517,
+          0.0,
+          0.0316622691292876
+        ]
+      }
+    },
+    "D0_center_quantile": {
+      "ari": {
+        "n": 3,
+        "mean": 0.09401809679144367,
+        "sample_sd": 0.07543022903767344,
+        "values_by_seed": [
+          0.12622019286741523,
+          0.1480026265060262,
+          0.007831471000889592
+        ]
+      },
+      "nmi": {
+        "n": 3,
+        "mean": 0.14172755354067568,
+        "sample_sd": 0.10739923173397728,
+        "values_by_seed": [
+          0.1691696283904002,
+          0.2327433022656908,
+          0.023269729965936067
+        ]
+      },
+      "rare_f1_primary": {
+        "n": 3,
+        "mean": 0.03731397699777932,
+        "sample_sd": 0.04370264272122827,
+        "values_by_seed": [
+          0.0853932584269663,
+          0.02654867256637168,
+          0.0
+        ]
+      },
+      "rare_f1_secondary": {
+        "n": 3,
+        "mean": 0.028464419475655433,
+        "sample_sd": 0.04930182073978827,
+        "values_by_seed": [
+          0.0853932584269663,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

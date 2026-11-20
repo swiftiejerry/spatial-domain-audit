@@ -1,0 +1,16 @@
+{
+  "method": "SpaGCN",
+  "package_version": "1.2.7",
+  "dataset": "D1",
+  "seed": 42,
+  "epochs_requested": 200,
+  "n_spots": 3359,
+  "n_genes_after_filter": 17981,
+  "feature_policy": "filter genes detected in at least 3 spots, remove ERCC/MT- genes, total-count normalize to 1e4, log1p, PCA(50)",
+  "spatial_policy": "coordinate-only Euclidean adjacency, search_l target p=0.5, no image features",
+  "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+  "spatial_scale": 0.6813800048828125,
+  "runtime_sec": 34.56,
+  "n_clusters": 4,
+  "label_access_during_model_fit": false
+}

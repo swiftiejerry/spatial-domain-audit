@@ -1,0 +1,15 @@
+{
+  "method": "GraphST",
+  "package_version": "1.1.1",
+  "dataset": "D1",
+  "seed": 1,
+  "epochs": 600,
+  "device": "cuda",
+  "n_spots": 3359,
+  "n_genes": 18085,
+  "feature_policy": "GraphST preprocess, Seurat-v3 HVG 3000, library-size normalize, log1p, scale; native 3-neighbor spatial graph",
+  "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+  "runtime_sec": 35.23,
+  "n_clusters": 6,
+  "label_access_during_model_fit": false
+}

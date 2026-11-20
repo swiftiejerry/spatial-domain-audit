@@ -1,0 +1,1476 @@
+{
+  "seed": 0,
+  "resolution": 4.0,
+  "n_clusters": 54,
+  "ari": 0.07096510064645488,
+  "nmi": 0.33697623871148696,
+  "reference_class_counts": {
+    "Healthy": 485,
+    "Invasive": 1663,
+    "Surrounding tumor": 823,
+    "Tumor": 827
+  },
+  "reference_rare_classes_below_5_percent": [],
+  "reference_rare_union_share": 0.0,
+  "reference_rare_union_is_small": true,
+  "primary_predicted_cluster_threshold_percent": 5.0,
+  "rare_union_at_primary_threshold": {
+    "threshold_percent": 5.0,
+    "n_small_clusters": 54,
+    "n_spots_in_small_clusters": 3798,
+    "rare_spots_in_small_clusters": 0,
+    "rare_share_in_small_clusters": 0.0,
+    "rare_enrichment_over_section": null,
+    "rare_precision": 0.0,
+    "rare_recall": 0.0,
+    "rare_f1": 0.0
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold_percent": 1.0,
+      "n_small_clusters": 12,
+      "n_spots_in_small_clusters": 326,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 1.5,
+      "n_small_clusters": 20,
+      "n_spots_in_small_clusters": 702,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 2.0,
+      "n_small_clusters": 31,
+      "n_spots_in_small_clusters": 1403,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 2.5,
+      "n_small_clusters": 42,
+      "n_spots_in_small_clusters": 2328,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 3.0,
+      "n_small_clusters": 49,
+      "n_spots_in_small_clusters": 3066,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 3.5,
+      "n_small_clusters": 50,
+      "n_spots_in_small_clusters": 3188,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 4.0,
+      "n_small_clusters": 52,
+      "n_spots_in_small_clusters": 3470,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 4.5,
+      "n_small_clusters": 53,
+      "n_spots_in_small_clusters": 3624,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 5.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 5.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 6.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 6.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 7.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 7.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 8.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 8.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 9.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 9.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 10.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 10.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 11.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 11.5,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    },
+    {
+      "threshold_percent": 12.0,
+      "n_small_clusters": 54,
+      "n_spots_in_small_clusters": 3798,
+      "rare_spots_in_small_clusters": 0,
+      "rare_share_in_small_clusters": 0.0,
+      "rare_enrichment_over_section": null,
+      "rare_precision": 0.0,
+      "rare_recall": 0.0,
+      "rare_f1": 0.0
+    }
+  ],
+  "per_reference_rare_class_at_primary_threshold": {},
+  "small_clusters_at_primary_threshold": [
+    {
+      "cluster_id": 48,
+      "n_spots": 12,
+      "section_share": 0.00315955766192733,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 6,
+          "within_cluster_share": 0.5
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 4,
+          "within_cluster_share": 0.3333333333333333
+        },
+        {
+          "label": "Invasive",
+          "spots": 2,
+          "within_cluster_share": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "n_spots": 12,
+      "section_share": 0.00315955766192733,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 11,
+          "within_cluster_share": 0.9166666666666666
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.08333333333333333
+        }
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "n_spots": 20,
+      "section_share": 0.0052659294365455505,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 20,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "n_spots": 25,
+      "section_share": 0.006582411795681938,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 21,
+          "within_cluster_share": 0.84
+        },
+        {
+          "label": "Invasive",
+          "spots": 4,
+          "within_cluster_share": 0.16
+        }
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "n_spots": 29,
+      "section_share": 0.007635597682991048,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 26,
+          "within_cluster_share": 0.896551724137931
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.10344827586206896
+        }
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "n_spots": 30,
+      "section_share": 0.007898894154818325,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 30,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "n_spots": 30,
+      "section_share": 0.007898894154818325,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 29,
+          "within_cluster_share": 0.9666666666666667
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.03333333333333333
+        }
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "n_spots": 32,
+      "section_share": 0.00842548709847288,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 22,
+          "within_cluster_share": 0.6875
+        },
+        {
+          "label": "Invasive",
+          "spots": 6,
+          "within_cluster_share": 0.1875
+        },
+        {
+          "label": "Tumor",
+          "spots": 4,
+          "within_cluster_share": 0.125
+        }
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "n_spots": 32,
+      "section_share": 0.00842548709847288,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 31,
+          "within_cluster_share": 0.96875
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.03125
+        }
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "n_spots": 33,
+      "section_share": 0.008688783570300158,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 31,
+          "within_cluster_share": 0.9393939393939394
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.06060606060606061
+        }
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "n_spots": 34,
+      "section_share": 0.008952080042127435,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 31,
+          "within_cluster_share": 0.9117647058823529
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.08823529411764706
+        }
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "n_spots": 37,
+      "section_share": 0.009741969457609268,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 36,
+          "within_cluster_share": 0.972972972972973
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.02702702702702703
+        }
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "n_spots": 38,
+      "section_share": 0.010005265929436546,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Healthy",
+          "spots": 34,
+          "within_cluster_share": 0.8947368421052632
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.05263157894736842
+        },
+        {
+          "label": "Tumor",
+          "spots": 2,
+          "within_cluster_share": 0.05263157894736842
+        }
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "n_spots": 42,
+      "section_share": 0.011058451816745656,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 39,
+          "within_cluster_share": 0.9285714285714286
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.07142857142857142
+        }
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "n_spots": 44,
+      "section_share": 0.01158504476040021,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 44,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "n_spots": 45,
+      "section_share": 0.011848341232227487,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 23,
+          "within_cluster_share": 0.5111111111111111
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 13,
+          "within_cluster_share": 0.28888888888888886
+        },
+        {
+          "label": "Invasive",
+          "spots": 9,
+          "within_cluster_share": 0.2
+        }
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "n_spots": 47,
+      "section_share": 0.012374934175882044,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 32,
+          "within_cluster_share": 0.6808510638297872
+        },
+        {
+          "label": "Healthy",
+          "spots": 8,
+          "within_cluster_share": 0.1702127659574468
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 7,
+          "within_cluster_share": 0.14893617021276595
+        }
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "n_spots": 51,
+      "section_share": 0.013428120063191154,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 44,
+          "within_cluster_share": 0.8627450980392157
+        },
+        {
+          "label": "Tumor",
+          "spots": 6,
+          "within_cluster_share": 0.11764705882352941
+        },
+        {
+          "label": "Healthy",
+          "spots": 1,
+          "within_cluster_share": 0.0196078431372549
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "n_spots": 54,
+      "section_share": 0.014218009478672985,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 36,
+          "within_cluster_share": 0.6666666666666666
+        },
+        {
+          "label": "Invasive",
+          "spots": 17,
+          "within_cluster_share": 0.3148148148148148
+        },
+        {
+          "label": "Healthy",
+          "spots": 1,
+          "within_cluster_share": 0.018518518518518517
+        }
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "n_spots": 55,
+      "section_share": 0.014481305950500263,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 50,
+          "within_cluster_share": 0.9090909090909091
+        },
+        {
+          "label": "Healthy",
+          "spots": 2,
+          "within_cluster_share": 0.03636363636363636
+        },
+        {
+          "label": "Invasive",
+          "spots": 2,
+          "within_cluster_share": 0.03636363636363636
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "n_spots": 57,
+      "section_share": 0.015007898894154818,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 47,
+          "within_cluster_share": 0.8245614035087719
+        },
+        {
+          "label": "Invasive",
+          "spots": 10,
+          "within_cluster_share": 0.17543859649122806
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "n_spots": 58,
+      "section_share": 0.015271195365982097,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 49,
+          "within_cluster_share": 0.8448275862068966
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 9,
+          "within_cluster_share": 0.15517241379310345
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "n_spots": 59,
+      "section_share": 0.015534491837809373,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 42,
+          "within_cluster_share": 0.711864406779661
+        },
+        {
+          "label": "Healthy",
+          "spots": 9,
+          "within_cluster_share": 0.15254237288135594
+        },
+        {
+          "label": "Invasive",
+          "spots": 8,
+          "within_cluster_share": 0.13559322033898305
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "n_spots": 60,
+      "section_share": 0.01579778830963665,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Healthy",
+          "spots": 38,
+          "within_cluster_share": 0.6333333333333333
+        },
+        {
+          "label": "Invasive",
+          "spots": 13,
+          "within_cluster_share": 0.21666666666666667
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 8,
+          "within_cluster_share": 0.13333333333333333
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "n_spots": 62,
+      "section_share": 0.016324381253291206,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 30,
+          "within_cluster_share": 0.4838709677419355
+        },
+        {
+          "label": "Invasive",
+          "spots": 22,
+          "within_cluster_share": 0.3548387096774194
+        },
+        {
+          "label": "Tumor",
+          "spots": 10,
+          "within_cluster_share": 0.16129032258064516
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "n_spots": 63,
+      "section_share": 0.016587677725118485,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 48,
+          "within_cluster_share": 0.7619047619047619
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 14,
+          "within_cluster_share": 0.2222222222222222
+        },
+        {
+          "label": "Invasive",
+          "spots": 1,
+          "within_cluster_share": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "n_spots": 65,
+      "section_share": 0.017114270668773038,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Healthy",
+          "spots": 65,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "n_spots": 67,
+      "section_share": 0.017640863612427594,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 65,
+          "within_cluster_share": 0.9701492537313433
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.029850746268656716
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "n_spots": 68,
+      "section_share": 0.01790416008425487,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 66,
+          "within_cluster_share": 0.9705882352941176
+        },
+        {
+          "label": "Tumor",
+          "spots": 2,
+          "within_cluster_share": 0.029411764705882353
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "n_spots": 71,
+      "section_share": 0.018694049499736704,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 68,
+          "within_cluster_share": 0.9577464788732394
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.04225352112676056
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "n_spots": 71,
+      "section_share": 0.018694049499736704,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 47,
+          "within_cluster_share": 0.6619718309859155
+        },
+        {
+          "label": "Healthy",
+          "spots": 16,
+          "within_cluster_share": 0.22535211267605634
+        },
+        {
+          "label": "Invasive",
+          "spots": 6,
+          "within_cluster_share": 0.08450704225352113
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "n_spots": 76,
+      "section_share": 0.020010531858873092,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 66,
+          "within_cluster_share": 0.868421052631579
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 9,
+          "within_cluster_share": 0.11842105263157894
+        },
+        {
+          "label": "Healthy",
+          "spots": 1,
+          "within_cluster_share": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "n_spots": 77,
+      "section_share": 0.020273828330700367,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 71,
+          "within_cluster_share": 0.922077922077922
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 6,
+          "within_cluster_share": 0.07792207792207792
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "n_spots": 78,
+      "section_share": 0.020537124802527645,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 46,
+          "within_cluster_share": 0.5897435897435898
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 31,
+          "within_cluster_share": 0.3974358974358974
+        },
+        {
+          "label": "Tumor",
+          "spots": 1,
+          "within_cluster_share": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "n_spots": 78,
+      "section_share": 0.020537124802527645,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 69,
+          "within_cluster_share": 0.8846153846153846
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 9,
+          "within_cluster_share": 0.11538461538461539
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "n_spots": 86,
+      "section_share": 0.022643496577145865,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 45,
+          "within_cluster_share": 0.5232558139534884
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 32,
+          "within_cluster_share": 0.37209302325581395
+        },
+        {
+          "label": "Tumor",
+          "spots": 6,
+          "within_cluster_share": 0.06976744186046512
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "n_spots": 86,
+      "section_share": 0.022643496577145865,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 57,
+          "within_cluster_share": 0.6627906976744186
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 12,
+          "within_cluster_share": 0.13953488372093023
+        },
+        {
+          "label": "Invasive",
+          "spots": 12,
+          "within_cluster_share": 0.13953488372093023
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "n_spots": 87,
+      "section_share": 0.022906793048973143,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 50,
+          "within_cluster_share": 0.5747126436781609
+        },
+        {
+          "label": "Invasive",
+          "spots": 17,
+          "within_cluster_share": 0.19540229885057472
+        },
+        {
+          "label": "Healthy",
+          "spots": 15,
+          "within_cluster_share": 0.1724137931034483
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "n_spots": 87,
+      "section_share": 0.022906793048973143,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 83,
+          "within_cluster_share": 0.9540229885057471
+        },
+        {
+          "label": "Healthy",
+          "spots": 2,
+          "within_cluster_share": 0.022988505747126436
+        },
+        {
+          "label": "Invasive",
+          "spots": 1,
+          "within_cluster_share": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "n_spots": 88,
+      "section_share": 0.02317008952080042,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 88,
+          "within_cluster_share": 1.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "n_spots": 91,
+      "section_share": 0.023959978936282253,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 58,
+          "within_cluster_share": 0.6373626373626373
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 28,
+          "within_cluster_share": 0.3076923076923077
+        },
+        {
+          "label": "Healthy",
+          "spots": 5,
+          "within_cluster_share": 0.054945054945054944
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "n_spots": 91,
+      "section_share": 0.023959978936282253,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 86,
+          "within_cluster_share": 0.945054945054945
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.03296703296703297
+        },
+        {
+          "label": "Tumor",
+          "spots": 2,
+          "within_cluster_share": 0.02197802197802198
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "n_spots": 96,
+      "section_share": 0.02527646129541864,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 84,
+          "within_cluster_share": 0.875
+        },
+        {
+          "label": "Invasive",
+          "spots": 11,
+          "within_cluster_share": 0.11458333333333333
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.010416666666666666
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "n_spots": 98,
+      "section_share": 0.025803054239073198,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 96,
+          "within_cluster_share": 0.9795918367346939
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.02040816326530612
+        }
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "n_spots": 99,
+      "section_share": 0.026066350710900472,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Surrounding tumor",
+          "spots": 76,
+          "within_cluster_share": 0.7676767676767676
+        },
+        {
+          "label": "Invasive",
+          "spots": 17,
+          "within_cluster_share": 0.1717171717171717
+        },
+        {
+          "label": "Tumor",
+          "spots": 3,
+          "within_cluster_share": 0.030303030303030304
+        }
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "n_spots": 109,
+      "section_share": 0.02869931542917325,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 99,
+          "within_cluster_share": 0.908256880733945
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 8,
+          "within_cluster_share": 0.07339449541284404
+        },
+        {
+          "label": "Invasive",
+          "spots": 2,
+          "within_cluster_share": 0.01834862385321101
+        }
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "n_spots": 111,
+      "section_share": 0.029225908372827805,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 109,
+          "within_cluster_share": 0.9819819819819819
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.018018018018018018
+        }
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "n_spots": 112,
+      "section_share": 0.02948920484465508,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 110,
+          "within_cluster_share": 0.9821428571428571
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 2,
+          "within_cluster_share": 0.017857142857142856
+        }
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "n_spots": 113,
+      "section_share": 0.02975250131648236,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 108,
+          "within_cluster_share": 0.9557522123893806
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 5,
+          "within_cluster_share": 0.04424778761061947
+        }
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "n_spots": 122,
+      "section_share": 0.032122169562927856,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 121,
+          "within_cluster_share": 0.9918032786885246
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.00819672131147541
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "n_spots": 134,
+      "section_share": 0.03528172722485519,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Tumor",
+          "spots": 116,
+          "within_cluster_share": 0.8656716417910447
+        },
+        {
+          "label": "Invasive",
+          "spots": 15,
+          "within_cluster_share": 0.11194029850746269
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 3,
+          "within_cluster_share": 0.022388059701492536
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "n_spots": 148,
+      "section_share": 0.03896787783043707,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Invasive",
+          "spots": 147,
+          "within_cluster_share": 0.9932432432432432
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 1,
+          "within_cluster_share": 0.006756756756756757
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "n_spots": 154,
+      "section_share": 0.040547656661400734,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Healthy",
+          "spots": 131,
+          "within_cluster_share": 0.8506493506493507
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 21,
+          "within_cluster_share": 0.13636363636363635
+        },
+        {
+          "label": "Invasive",
+          "spots": 2,
+          "within_cluster_share": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "n_spots": 174,
+      "section_share": 0.045813586097946286,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": null,
+      "top_reference_labels": [
+        {
+          "label": "Healthy",
+          "spots": 146,
+          "within_cluster_share": 0.8390804597701149
+        },
+        {
+          "label": "Surrounding tumor",
+          "spots": 24,
+          "within_cluster_share": 0.13793103448275862
+        },
+        {
+          "label": "Invasive",
+          "spots": 4,
+          "within_cluster_share": 0.022988505747126436
+        }
+      ]
+    }
+  ]
+}

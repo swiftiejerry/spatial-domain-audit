@@ -1,0 +1,22 @@
+{
+  "run_id": "stage1_A_pr0.8_seed0",
+  "section": "D1",
+  "reference_field": "lab",
+  "reference_scope": "Metrics are conditional on the supplied labels for this section.",
+  "protocol_status": "Run followed the frozen D1 analysis plan.",
+  "architecture": {
+    "hidden_dim": 104,
+    "heads": 8,
+    "layers": 3,
+    "dropout": 0.3
+  },
+  "training": {
+    "epochs": 100,
+    "kl_target": "counts",
+    "gene_input": "counts",
+    "edge_source": "batch_nonzero",
+    "spatial_relation": false,
+    "spatial_k": 10,
+    "batching": "spatial_median_bisection_with_one_hop_halo"
+  }
+}

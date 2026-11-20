@@ -59,6 +59,11 @@ def main() -> int:
     parser.add_argument("--tag", default="")
     parser.add_argument("--protocol-file", type=Path, default=None)
     parser.add_argument("--deterministic", action=argparse.BooleanOptionalAction, default=True)
+    parser.add_argument(
+        "--historical-dropout-predict",
+        action="store_true",
+        help="Keep dropout active for the historical upstream prediction behavior.",
+    )
     args = parser.parse_args()
 
     import scanpy as sc
@@ -133,6 +138,7 @@ def main() -> int:
         kl_target=args.kl_target,
         gene_input=args.gene_input,
         edge_source=edge_source,
+        predict_eval_mode=not args.historical_dropout_predict,
     )
     model = FixedTargetTrainer(
         rna_matrix,
@@ -242,6 +248,10 @@ def main() -> int:
         },
         "truth_distribution": {str(k): int(v) for k, v in truth.value_counts().items()},
         "history_tail": history[-5:],
+        "inference": {
+            "eval_mode": bool(not args.historical_dropout_predict),
+            "dropout_active": bool(args.historical_dropout_predict),
+        },
         "runtime_sec": round(time.time() - started, 1),
         "train_sec": round(train_sec, 1),
         "peak_gpu_mem_gb": round(peak, 3),

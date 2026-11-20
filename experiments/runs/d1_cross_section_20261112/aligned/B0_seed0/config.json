@@ -1,0 +1,41 @@
+{
+  "run_id": "B0_seed0",
+  "section": "D1",
+  "reference_field": "lab",
+  "reference_scope": "Metrics are conditional on the supplied labels for this section.",
+  "protocol_status": "D1 analysis followed a frozen section-specific protocol.",
+  "architecture": {
+    "n_hidden": 104,
+    "n_heads": 8,
+    "n_layers": 3,
+    "dropout": 0.3,
+    "labsm": 0.1,
+    "lr": 0.0005,
+    "weight_decay": 0.1,
+    "epochs": 30,
+    "spatial_relation": true,
+    "kl_target": "paper_x",
+    "edge_source": "per_spot_selection",
+    "gene_input": "paper_z",
+    "kl_only": true
+  },
+  "initialization": {
+    "shared_initial_state_equal": true,
+    "all_shared_parameters_equal": true,
+    "post_init_rng_restored": true
+  },
+  "training_spatial_edges": {
+    "total_spatial_edges_in_batches": 37242,
+    "min_per_batch": 322,
+    "max_per_batch": 349
+  },
+  "protocol": {
+    "epochs": 30,
+    "cell_size": 30,
+    "topz_k": 20,
+    "spatial_k": 10,
+    "training_loss": "L_KL_only",
+    "batching": "Spatial tiles with one-hop halo",
+    "inference": "Full graph; post-hoc Leiden selected to K=5 without reference labels"
+  }
+}

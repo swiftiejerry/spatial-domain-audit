@@ -1,0 +1,32 @@
+{
+  "run_id": "B0_holdout_seed1",
+  "seed": 1,
+  "architecture": "Eight-head, three-layer HGTConv with kl_only=True",
+  "training_epochs": 30,
+  "full_graph_inference": true,
+  "reference_scope": "All label-based metrics are conditional on the supplied final_annot reference.",
+  "holdout_definition": "Training edges touching the leftmost ceil(20% of spots) by x-coordinate were removed; full spatial graph restored for inference.",
+  "rare_metric_definition": "Reference classes and predicted clusters use whole-section share <= 5%; those masks are scored over the indicated region.",
+  "full_section": {
+    "n_spots": 3484,
+    "n_clusters_present": 5,
+    "ari": 0.18560833142170496,
+    "nmi": 0.2554756414997463,
+    "rare_f1_full_section_cutoffs": 0.08421052631578947,
+    "rare_precision_full_section_cutoffs": 0.10256410256410256,
+    "rare_recall_full_section_cutoffs": 0.07142857142857142,
+    "n_reference_rare_spots": 280,
+    "n_predicted_rare_spots": 195
+  },
+  "leftmost_20_percent": {
+    "n_spots": 697,
+    "n_clusters_present": 4,
+    "ari": 0.38732416107501666,
+    "nmi": 0.2900051855045913,
+    "rare_f1_full_section_cutoffs": 0.15517241379310345,
+    "rare_precision_full_section_cutoffs": 0.3,
+    "rare_recall_full_section_cutoffs": 0.10465116279069768,
+    "n_reference_rare_spots": 86,
+    "n_predicted_rare_spots": 30
+  }
+}

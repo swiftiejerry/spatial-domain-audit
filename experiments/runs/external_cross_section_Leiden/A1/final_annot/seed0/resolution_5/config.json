@@ -1,0 +1,11 @@
+{
+  "method": "expression-only PCA40 plus Leiden",
+  "dataset": "A1",
+  "target": "final_annot",
+  "seed": 0,
+  "resolution": 5.0,
+  "n_neighbors": 10,
+  "n_spots": 3484,
+  "prediction_order": "source AnnData observation order",
+  "reference_labels_used_for_clustering": false
+}

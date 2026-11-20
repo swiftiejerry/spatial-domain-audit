@@ -1,0 +1,21 @@
+{
+  "arm": "B0_mean",
+  "seed": 42,
+  "encoder": "LightweightHeteroEncoder",
+  "aggregation": "mean within each relation, summed across relations",
+  "num_layers": 3,
+  "hidden_dim": 104,
+  "dropout": 0.3,
+  "epochs": 30,
+  "objective": "KL reconstruction only",
+  "topz_k": 20,
+  "spatial_k": 10,
+  "spatial_relation": true,
+  "layout": "observed",
+  "batching": "deterministic spatial tiles with one-hop halo",
+  "n_batches": 117,
+  "gene_input": "standardized_z",
+  "kl_target": "normalized_x",
+  "decode": "full-graph embedding followed by Leiden searched to K=5",
+  "scope": "A1 supplied labels; descriptive single-section comparison"
+}

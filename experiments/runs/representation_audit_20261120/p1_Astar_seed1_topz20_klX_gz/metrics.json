@@ -1,0 +1,40 @@
+{
+  "run_id": "p1_Astar_seed1_topz20_klX_gz",
+  "stage": "paired_warmup",
+  "arm": "Astar",
+  "seed": 1,
+  "epochs": 30,
+  "common_input": {
+    "gene_graph": "deterministic_topz",
+    "topz_k": 20,
+    "gene_input": "standardized_z",
+    "kl_target": "normalized_x",
+    "spatial_relation": false
+  },
+  "sampling": {
+    "sampler": "spatial_median_bisection_with_one_hop_halo",
+    "n_batches": 117,
+    "core_size_min": 29,
+    "core_size_max": 30,
+    "halo_size_median": 40.0
+  },
+  "spatial": {
+    "read": true,
+    "k": 10,
+    "relation_enabled": false,
+    "weighted": false,
+    "n_directed_edges": 38624,
+    "core_incident_retention": 1.0,
+    "edges_consumed_by_hgt": 0
+  },
+  "warmup_quality": {
+    "leiden_k": 4,
+    "ari": 0.2016079224023216,
+    "nmi": 0.27336719894601735,
+    "knn_purity": 0.482548794489093,
+    "chance": 0.22046148969011695,
+    "effective_rank": 1.8257501673156198,
+    "class_separation": 0.0002892017364501953,
+    "dimension": 104
+  }
+}

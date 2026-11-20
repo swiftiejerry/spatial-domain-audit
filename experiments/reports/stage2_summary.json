@@ -1,18 +1,20 @@
 {
   "queue": "\\experiments\\queue\\goal_stage2.json",
   "protocol": "configs/mainline_protocol.json",
-  "generated_at": "2026-09-07T19:51:37",
+  "source_generated_at": "2026-09-07T19:51:37",
+  "generated_at": "2026-11-20T20:59:04",
   "scope": {
-    "label": "See English protocol documentation for methodological notes.",
+    "label": "Historical A1 Stage 2 prototype-refresh summary",
     "record_check_only": true,
     "strict_design_reproduction": false,
-    "limitation": "See English protocol documentation for methodological notes.",
+    "limitation": "This report summarizes existing A1 runs only. It does not establish cross-section, cross-tissue, or external-cohort validity.",
     "unverified": [
-      "See English protocol documentation for methodological notes."
+      "No external-cohort comparison is included.",
+      "The report contains no new training authorization."
     ],
     "comparisons": {
-      "paired_vs_formal_a": "See English protocol documentation for methodological notes.",
-      "paired_final_minus_initial": "See English protocol documentation for methodological notes."
+      "paired_vs_formal_a": "Repository-relative paths under experiments/runs are the source records for the paired comparison.",
+      "paired_final_minus_initial": "Differences are computed per seed from the recorded initial and final metrics."
     }
   },
   "complete": true,
@@ -64,7 +66,7 @@
     {
       "run_id": "stage2_C_t0.005_d0.8_seed0_design_v1",
       "seed": 0,
-      "metrics_path": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed0_design_v1\\metrics.json",
+      "metrics_path": "experiments\\runs\\stage2_C_t0.005_d0.8_seed0_design_v1\\metrics.json",
       "initial": {
         "artifact": "warmup_init_labels.npy",
         "ari": 0.08129560263803491,
@@ -490,7 +492,7 @@
     {
       "run_id": "stage2_C_t0.005_d0.8_seed1_design_v1",
       "seed": 1,
-      "metrics_path": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed1_design_v1\\metrics.json",
+      "metrics_path": "experiments\\runs\\stage2_C_t0.005_d0.8_seed1_design_v1\\metrics.json",
       "initial": {
         "artifact": "warmup_init_labels.npy",
         "ari": 0.11789519229292734,
@@ -872,7 +874,7 @@
     {
       "run_id": "stage2_C_t0.005_d0.8_seed42_design_v1",
       "seed": 42,
-      "metrics_path": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed42_design_v1\\metrics.json",
+      "metrics_path": "experiments\\runs\\stage2_C_t0.005_d0.8_seed42_design_v1\\metrics.json",
       "initial": {
         "artifact": "warmup_init_labels.npy",
         "ari": 0.10752629521919733,
@@ -1395,9 +1397,9 @@
     "source": {
       "kind": "formal_stage1_a_metrics",
       "paths": [
-        "\\experiments\\runs\\stage1_A_seed0_design_v1\\metrics.json",
-        "\\experiments\\runs\\stage1_A_seed1_design_v1\\metrics.json",
-        "\\experiments\\runs\\stage1_A_seed42_design_v1\\metrics.json"
+        "experiments/runs/stage1_A_seed0/metrics.json",
+        "experiments/runs/stage1_A_seed1/metrics.json",
+        "experiments/runs/stage1_A_seed42/metrics.json"
       ]
     },
     "complete": true,
@@ -1410,10 +1412,10 @@
     "pairs": [
       {
         "seed": 0,
-        "run_id_a": "stage1_A_seed0_design_v1",
+        "run_id_a": "stage1_A_seed0",
         "run_id_c": "stage2_C_t0.005_d0.8_seed0_design_v1",
-        "source_a": "\\experiments\\runs\\stage1_A_seed0_design_v1\\metrics.json",
-        "source_c": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed0_design_v1\\metrics.json",
+        "source_a": "experiments/runs/stage1_A_seed0/metrics.json",
+        "source_c": "experiments/runs/stage2_C_t0.005_d0.8_seed0_design_v1/metrics.json",
         "protocol_sha256_a": "a3e8e255e2b004ed7f922c6f2a75637df17a929a343d8ef012e413ee86af49f1",
         "protocol_sha256_c": "c37c5304b0992a21a97a8a299b3e670748a1d91f44b8f77dc1a03ac447cf1f0f",
         "formal_a": {
@@ -1434,10 +1436,10 @@
       },
       {
         "seed": 1,
-        "run_id_a": "stage1_A_seed1_design_v1",
+        "run_id_a": "stage1_A_seed1",
         "run_id_c": "stage2_C_t0.005_d0.8_seed1_design_v1",
-        "source_a": "\\experiments\\runs\\stage1_A_seed1_design_v1\\metrics.json",
-        "source_c": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed1_design_v1\\metrics.json",
+        "source_a": "experiments/runs/stage1_A_seed1/metrics.json",
+        "source_c": "experiments/runs/stage2_C_t0.005_d0.8_seed1_design_v1/metrics.json",
         "protocol_sha256_a": "a3e8e255e2b004ed7f922c6f2a75637df17a929a343d8ef012e413ee86af49f1",
         "protocol_sha256_c": "c37c5304b0992a21a97a8a299b3e670748a1d91f44b8f77dc1a03ac447cf1f0f",
         "formal_a": {
@@ -1458,10 +1460,10 @@
       },
       {
         "seed": 42,
-        "run_id_a": "stage1_A_seed42_design_v1",
+        "run_id_a": "stage1_A_seed42",
         "run_id_c": "stage2_C_t0.005_d0.8_seed42_design_v1",
-        "source_a": "\\experiments\\runs\\stage1_A_seed42_design_v1\\metrics.json",
-        "source_c": "\\experiments\\runs\\stage2_C_t0.005_d0.8_seed42_design_v1\\metrics.json",
+        "source_a": "experiments/runs/stage1_A_seed42/metrics.json",
+        "source_c": "experiments/runs/stage2_C_t0.005_d0.8_seed42_design_v1/metrics.json",
         "protocol_sha256_a": "a3e8e255e2b004ed7f922c6f2a75637df17a929a343d8ef012e413ee86af49f1",
         "protocol_sha256_c": "c37c5304b0992a21a97a8a299b3e670748a1d91f44b8f77dc1a03ac447cf1f0f",
         "formal_a": {
@@ -1481,7 +1483,7 @@
         }
       }
     ],
-    "interpretation": "See English protocol documentation for methodological notes.",
+    "interpretation": "This report summarizes recorded A1 runs and their seed-wise mechanism diagnostics.",
     "ari": {
       "n": 3,
       "mean": -0.19657490789760815,
@@ -1625,7 +1627,7 @@
         1,
         0
       ],
-      "n_reseeded_definition": "See English protocol documentation for methodological notes.",
+      "n_reseeded_definition": "Count of empty prototype slots reseeded during a refresh to preserve the configured cluster count.",
       "confident_fraction": [
         0.0,
         0.0,
@@ -1708,7 +1710,7 @@
         0,
         0
       ],
-      "n_reseeded_definition": "See English protocol documentation for methodological notes.",
+      "n_reseeded_definition": "Count of empty prototype slots reseeded during a refresh to preserve the configured cluster count.",
       "confident_fraction": [
         0.0,
         0.0,
@@ -1791,7 +1793,7 @@
         0,
         0
       ],
-      "n_reseeded_definition": "See English protocol documentation for methodological notes.",
+      "n_reseeded_definition": "Count of empty prototype slots reseeded during a refresh to preserve the configured cluster count.",
       "confident_fraction": [
         0.0,
         0.0,
@@ -1835,9 +1837,9 @@
     }
   ],
   "field_definitions": {
-    "mechanism.confident_fraction": "See English protocol documentation for methodological notes.",
-    "mechanism.proto_loss_final": "See English protocol documentation for methodological notes.",
-    "gates.confidence_active_at_final_by_seed": "See English protocol documentation for methodological notes."
+    "mechanism.confident_fraction": "Fraction of spots whose prototype assignment confidence exceeds the active refresh threshold.",
+    "mechanism.proto_loss_final": "Prototype cross-entropy term recorded at the last training epoch.",
+    "gates.confidence_active_at_final_by_seed": "Per-seed boolean indicating whether the final refresh confidence fraction exceeded zero."
   },
-  "interpretation": "See English protocol documentation for methodological notes."
+  "interpretation": "The A1 prototype-refresh runs changed the partition, but the recorded confidence and rare-domain outcomes are seed-dependent. Read this report as a mechanism audit, not as a general performance claim."
 }

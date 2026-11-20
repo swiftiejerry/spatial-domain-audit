@@ -1,0 +1,59 @@
+{
+  "method": "SpatialGlue",
+  "source_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+  "input_source": "authors' public A1 result object obsm['RNA_feat'] and obsm['Pro_feat']",
+  "input_shape": {
+    "spots": 3484,
+    "rna_features": 30,
+    "adt_features": 30
+  },
+  "paired_raw_object_alignment": "spot IDs and spatial coordinates exactly match official A1 RNA and ADT objects in row order",
+  "label_access_during_fit_or_decoding": false,
+  "datatype": "10x",
+  "epochs": 200,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "weight_factors": [
+    1,
+    5,
+    1,
+    10
+  ],
+  "output_dimension": 64,
+  "spatial_graph": {
+    "neighbors_per_spot": 3,
+    "symmetrized": true
+  },
+  "feature_graph": {
+    "neighbors": 20,
+    "metric": "correlation",
+    "symmetrized": true
+  },
+  "decoder": {
+    "method": "Scanpy Leiden on SpatialGlue embedding",
+    "neighbors": 10,
+    "metric": "euclidean",
+    "resolutions": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5
+    ],
+    "resolution_selection": "none; report the full prespecified sweep"
+  },
+  "seed": 0,
+  "elapsed_seconds": 26.555951595306396,
+  "prediction_row_order": "Official A1 result-object obs_names; exact match to bundled reference_annotation.tsv after removing the local s1- prefix.",
+  "public_artifacts": "Per-resolution pred_res_*.npy and metrics.json. Embedding, alpha values, model weights, and raw H5AD files are omitted."
+}

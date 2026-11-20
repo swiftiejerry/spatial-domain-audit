@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "run_id": "Astar_mean_seed42",
+  "artifacts": [
+    "config.json",
+    "evaluation.json",
+    "metrics.json",
+    "pred.npy"
+  ],
+  "omitted_artifacts": "Checkpoints, embeddings, private input data, and intermediate arrays remain in the private experiment archive."
+}

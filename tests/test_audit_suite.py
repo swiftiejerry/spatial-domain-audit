@@ -5,6 +5,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 import torch
+from types import SimpleNamespace
 
 from spatial_domain_audit.audit.attainability import (
     binary_rare_f1_from_counts,
@@ -49,6 +50,8 @@ from spatial_domain_audit.models.hetero_encoder import (
     LightweightHeteroEncoder,
     make_bidirectional_relations,
 )
+from spatial_domain_audit.training.fixed_target_trainer import FixedTargetTrainer
+from spatial_domain_audit.training.prototype_trainer import PrototypeTrainer
 from spatial_domain_audit.training.training_loops import TrainingConfig, train_full_graph
 
 
@@ -179,3 +182,70 @@ def test_hetero_encoder_and_prototype_training_loop() -> None:
     assert upd.proposed_labels.shape == (18,)
     ref = refresh_prototypes(embs, proto.prototypes, threshold=0.2, tau=0.5)
     assert ref.state.prototypes.shape == (3, 8)
+
+
+def test_fixed_target_prediction_defaults_to_eval_and_can_reproduce_dropout() -> None:
+    class DropoutModel(torch.nn.Module):
+        def __init__(self) -> None:
+            super().__init__()
+            self.dropout = torch.nn.Dropout(p=0.5)
+            self.forward_modes: list[bool] = []
+
+        def forward(self, *args: object) -> torch.Tensor:
+            self.forward_modes.append(self.training)
+            return self.dropout(torch.ones((3, 2)))
+
+    model = object.__new__(FixedTargetTrainer)
+    model.gnn = DropoutModel()
+    model.gnn.train()
+    model.config = SimpleNamespace(predict_eval_mode=True, n_hidden=2)
+    model.rna_matrix = np.zeros((1, 2), dtype=np.float32)
+    model.batches = [{}]
+    model._build_batch = lambda batch: {
+        "node_feature": [],
+        "node_type": torch.tensor([0, 0, 1]),
+        "edge_index": torch.empty((2, 0), dtype=torch.long),
+        "edge_type": torch.empty((0,), dtype=torch.long),
+        "core_positions": torch.tensor([0, 1]),
+        "cell_index": [0, 1],
+    }
+
+    first = model.predict()["cell_embedding"]
+    second = model.predict()["cell_embedding"]
+    assert np.array_equal(first, second)
+    assert model.gnn.training
+    assert model.gnn.forward_modes[-2:] == [False, False]
+
+    model.predict(eval_mode=False)
+    assert model.gnn.forward_modes[-1]
+    assert model.gnn.training
+
+    model.gnn.eval()
+    model.predict(eval_mode=False)
+    assert model.gnn.forward_modes[-1]
+    assert not model.gnn.training
+
+
+def test_confident_only_prototype_refresh_preserves_uncertain_labels() -> None:
+    model = object.__new__(PrototypeTrainer)
+    embedding = np.asarray([[1.0, 0.0], [0.0, 1.0], [0.7, 0.7]], dtype=np.float32)
+    model.device = torch.device("cpu")
+    model.config = SimpleNamespace(
+        center_embedding=False,
+        tau=0.5,
+        delta_mode="absolute",
+        delta=0.8,
+        delta_quantile=0.2,
+        preserve_k=True,
+        confident_only_refresh=True,
+    )
+    model.centers = torch.tensor([[1.0, 0.0], [0.0, 1.0]])
+    model.assignment = np.asarray([0, 1, 1], dtype=np.int64)
+    model.n_clusters = 2
+    model.refresh_trace = []
+    model._core_embedding = lambda prepared: embedding
+
+    model._refresh_clusters([])
+
+    assert model.assignment[2] == 1
+    assert torch.allclose(model.centers, torch.tensor([[1.0, 0.0], [0.0, 1.0]]), atol=1e-6)

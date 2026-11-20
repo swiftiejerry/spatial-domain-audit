@@ -1,0 +1,76 @@
+{
+  "run_id": "B0_perm_seed42",
+  "section": "A1",
+  "seed": 42,
+  "independent_metrics": {
+    "ari": 0.12164033722691064,
+    "nmi": 0.20199371792270895,
+    "boundary_f1": 0.5543620118462002,
+    "rare_primary_f1": 0.017937219730941704,
+    "knn_purity": 0.4444603903559127
+  },
+  "independent_details": {
+    "n_clusters": 5,
+    "rare_primary": {
+      "definition": "reference domain size <=5% and predicted cluster size <=5%",
+      "rare_reference_labels": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rare_prediction_clusters": [
+        "4"
+      ],
+      "reference_rare_spots": 280,
+      "predicted_rare_spots": 166,
+      "tp": 4,
+      "fp": 162,
+      "fn": 276,
+      "tn": 3042,
+      "precision": 0.024096385542168676,
+      "recall": 0.014285714285714285,
+      "f1": 0.017937219730941704,
+      "eligible_small_cluster_count": 1,
+      "eligible_small_spot_count": 166,
+      "eligible_small_reference_rare_spot_count": 4,
+      "whole_slide_rare_fraction": 0.08036739380022963,
+      "reference_rare_fraction_in_eligible_small_clusters": 0.024096385542168676,
+      "eligible_small_cluster_rare_enrichment": 0.2998278829604131,
+      "eligible_small_clusters": [
+        {
+          "cluster_label": "4",
+          "size": 166,
+          "reference_rare_hits": 4,
+          "reference_rare_fraction": 0.024096385542168676,
+          "enrichment_vs_whole_slide_rare_fraction": 0.2998278829604131
+        }
+      ],
+      "per_rare_domain_hits": {
+        "follicle": 0,
+        "hilum": 4,
+        "medulla vessels": 0,
+        "subcapsular sinus": 0,
+        "trabeculae": 0
+      }
+    },
+    "boundary": {
+      "f1": 0.5543620118462002,
+      "precision": 0.47513336775081744,
+      "recall": 0.6653012048192771,
+      "n_undirected_edges": 19312,
+      "truth_positive_edges": 8300,
+      "predicted_positive_edges": 11622
+    },
+    "knn_purity": {
+      "k": 10,
+      "correct_neighbor_labels": 15485,
+      "neighbor_count": 34840,
+      "purity": 0.4444603903559127,
+      "definition": "cosine similarity; exclude self by index; ties broken by ascending spot index"
+    }
+  },
+  "recount_status": "CHECKED_MATCH",
+  "reference_scope": "Conditional on supplied labels; the A1 and D1 sections are from the same study."
+}

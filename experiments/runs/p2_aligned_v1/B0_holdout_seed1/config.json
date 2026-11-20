@@ -1,0 +1,38 @@
+{
+  "arm": "B0_holdout",
+  "seed": 1,
+  "architecture": {
+    "name": "HGTConv",
+    "hidden_dim": 104,
+    "heads": 8,
+    "layers": 3,
+    "dropout": 0.3
+  },
+  "training": {
+    "epochs": 30,
+    "objective": "KL reconstruction only",
+    "topz_k": 20,
+    "spatial_k": 10,
+    "batching": "spatial tiles with one-hop halo"
+  },
+  "holdout": {
+    "region": "leftmost 20% by x-coordinate",
+    "n_spots": 697,
+    "edge_rule": "remove every spatial edge with either endpoint in the held-out region during training"
+  },
+  "inference": "Full graph restored before representation inference and post-hoc Leiden clustering to K=5.",
+  "protocol_scope": "Descriptive analysis protocol documented after exploratory runs had begun.",
+  "exported_artifacts": [
+    "pred.npy",
+    "evaluation.json",
+    "metrics.json",
+    "config.json"
+  ],
+  "omitted_artifacts": [
+    "checkpoints",
+    "full input matrix",
+    "large embeddings",
+    "training histories"
+  ],
+  "source": "The A1 RNA section and supplied-reference limitations are described in docs/DATA_PROVENANCE.md."
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "Astar_perm_seed1",
+  "section": "D1",
+  "seed": 1,
+  "independent_metrics": {
+    "ari": 0.1620217273724553,
+    "nmi": 0.2494877910549884,
+    "boundary_f1": 0.5909676035185583,
+    "rare_primary_f1": 0.0,
+    "knn_purity": 0.42194105388508485
+  },
+  "independent_details": {
+    "n_clusters": 5,
+    "rare_primary": {
+      "definition": "reference domain size <=5% and predicted cluster size <=5%",
+      "rare_reference_labels": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rare_prediction_clusters": [
+        "4"
+      ],
+      "reference_rare_spots": 308,
+      "predicted_rare_spots": 82,
+      "tp": 0,
+      "fp": 82,
+      "fn": 308,
+      "tn": 2969,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eligible_small_cluster_count": 1,
+      "eligible_small_spot_count": 82,
+      "eligible_small_reference_rare_spot_count": 0,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "reference_rare_fraction_in_eligible_small_clusters": 0.0,
+      "eligible_small_cluster_rare_enrichment": 0.0,
+      "eligible_small_clusters": [
+        {
+          "cluster_label": "4",
+          "size": 82,
+          "reference_rare_hits": 0,
+          "reference_rare_fraction": 0.0,
+          "enrichment_vs_whole_slide_rare_fraction": 0.0
+        }
+      ],
+      "per_rare_domain_hits": {
+        "follicle": 0,
+        "hilum": 0,
+        "medulla vessels": 0,
+        "subcapsular sinus": 0,
+        "trabeculae": 0
+      }
+    },
+    "boundary": {
+      "f1": 0.5909676035185583,
+      "precision": 0.5276314529259649,
+      "recall": 0.6715835669876874,
+      "n_undirected_edges": 18621,
+      "truth_positive_edges": 8203,
+      "predicted_positive_edges": 10441
+    },
+    "knn_purity": {
+      "k": 10,
+      "correct_neighbor_labels": 14173,
+      "neighbor_count": 33590,
+      "purity": 0.42194105388508485,
+      "definition": "cosine similarity; exclude self by index; ties broken by ascending spot index"
+    }
+  },
+  "recount_status": "CHECKED_MATCH",
+  "reference_scope": "Conditional on supplied labels; the A1 and D1 sections are from the same study."
+}

@@ -1,0 +1,192 @@
+{
+  "accuracy": 0.6595866819747417,
+  "macro_f1": 0.4625182654230164,
+  "balanced_accuracy": 0.4948838746921716,
+  "rare_class_rule": "reference class share strictly below 5%",
+  "rare_classes": [
+    "follicle",
+    "hilum",
+    "medulla vessels",
+    "subcapsular sinus",
+    "trabeculae"
+  ],
+  "rare_union_precision": 0.35251798561151076,
+  "rare_union_recall": 0.525,
+  "rare_union_f1": 0.4218077474892396,
+  "per_class": {
+    "capsule": {
+      "support": 202,
+      "precision": 0.4769874476987448,
+      "recall": 0.5643564356435643,
+      "f1": 0.5170068027210885
+    },
+    "cortex": {
+      "support": 722,
+      "precision": 0.7264833574529667,
+      "recall": 0.6952908587257618,
+      "f1": 0.7105449398443029
+    },
+    "follicle": {
+      "support": 96,
+      "precision": 0.6115702479338843,
+      "recall": 0.7708333333333334,
+      "f1": 0.6820276497695853
+    },
+    "hilum": {
+      "support": 23,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "medulla cords": {
+      "support": 1166,
+      "precision": 0.7291440953412784,
+      "recall": 0.5771869639794168,
+      "f1": 0.6443274293920537
+    },
+    "medulla sinuses": {
+      "support": 794,
+      "precision": 0.6688668866886689,
+      "recall": 0.7657430730478589,
+      "f1": 0.714034057545508
+    },
+    "medulla vessels": {
+      "support": 80,
+      "precision": 0.22043010752688172,
+      "recall": 0.5125,
+      "f1": 0.3082706766917293
+    },
+    "pericapsular adipose tissue": {
+      "support": 320,
+      "precision": 0.8852459016393442,
+      "recall": 0.84375,
+      "f1": 0.864
+    },
+    "subcapsular sinus": {
+      "support": 73,
+      "precision": 0.16,
+      "recall": 0.2191780821917808,
+      "f1": 0.18497109826589594
+    },
+    "trabeculae": {
+      "support": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "held_out_blocks": [
+        3
+      ],
+      "train_spots": 2722,
+      "test_spots": 762,
+      "train_classes_missing": [],
+      "test_class_counts": {
+        "capsule": 50,
+        "cortex": 165,
+        "follicle": 28,
+        "medulla cords": 276,
+        "medulla sinuses": 167,
+        "medulla vessels": 19,
+        "pericapsular adipose tissue": 46,
+        "subcapsular sinus": 11
+      }
+    },
+    {
+      "fold": 2,
+      "held_out_blocks": [
+        4
+      ],
+      "train_spots": 2744,
+      "test_spots": 740,
+      "train_classes_missing": [],
+      "test_class_counts": {
+        "capsule": 50,
+        "cortex": 83,
+        "follicle": 24,
+        "medulla cords": 240,
+        "medulla sinuses": 212,
+        "medulla vessels": 10,
+        "pericapsular adipose tissue": 89,
+        "subcapsular sinus": 32
+      }
+    },
+    {
+      "fold": 3,
+      "held_out_blocks": [
+        2
+      ],
+      "train_spots": 2750,
+      "test_spots": 734,
+      "train_classes_missing": [
+        "hilum"
+      ],
+      "test_class_counts": {
+        "capsule": 32,
+        "cortex": 31,
+        "hilum": 23,
+        "medulla cords": 284,
+        "medulla sinuses": 211,
+        "medulla vessels": 15,
+        "pericapsular adipose tissue": 135,
+        "subcapsular sinus": 3
+      }
+    },
+    {
+      "fold": 4,
+      "held_out_blocks": [
+        1
+      ],
+      "train_spots": 2859,
+      "test_spots": 625,
+      "train_classes_missing": [],
+      "test_class_counts": {
+        "capsule": 43,
+        "cortex": 246,
+        "follicle": 23,
+        "medulla cords": 162,
+        "medulla sinuses": 112,
+        "medulla vessels": 2,
+        "pericapsular adipose tissue": 27,
+        "subcapsular sinus": 10
+      }
+    },
+    {
+      "fold": 5,
+      "held_out_blocks": [
+        0
+      ],
+      "train_spots": 2861,
+      "test_spots": 623,
+      "train_classes_missing": [
+        "trabeculae"
+      ],
+      "test_class_counts": {
+        "capsule": 27,
+        "cortex": 197,
+        "follicle": 21,
+        "medulla cords": 204,
+        "medulla sinuses": 92,
+        "medulla vessels": 34,
+        "pericapsular adipose tissue": 23,
+        "subcapsular sinus": 17,
+        "trabeculae": 8
+      }
+    }
+  ],
+  "class_order": [
+    "capsule",
+    "cortex",
+    "follicle",
+    "hilum",
+    "medulla cords",
+    "medulla sinuses",
+    "medulla vessels",
+    "pericapsular adipose tissue",
+    "subcapsular sinus",
+    "trabeculae"
+  ]
+}

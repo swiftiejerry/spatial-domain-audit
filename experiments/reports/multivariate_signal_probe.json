@@ -1,0 +1,232 @@
+{
+  "scope": "Conditional input-signal analysis using the supplied A1 final_annot labels.",
+  "label_provenance": "The source and revision of final_annot remain unresolved; scores are conditional on that supplied reference.",
+  "n_spots": 3484,
+  "n_reference_classes": 10,
+  "preprocessing": {
+    "rna": "per-spot normalize_total(1e4), log1p; PCA40 fitted on each training fold only",
+    "adt": "per-spot normalize_total(1e4), log1p; matched to RNA by normalized spot ID",
+    "labels_used_for_features": false,
+    "labels_used_for_block_assignment": false
+  },
+  "spatial_blocks": {
+    "method": "KMeans on two-dimensional spot coordinates, five spatial regions, random_state=0",
+    "cv": "5-fold GroupKFold, holding out complete spatial regions",
+    "block_sizes": {
+      "0": 623,
+      "1": 625,
+      "2": 734,
+      "3": 762,
+      "4": 740
+    }
+  },
+  "classifier": "class-balanced multinomial logistic regression, C=1, fixed before evaluation",
+  "moran": {
+    "graph": "symmetric union of 10-nearest-neighbor spatial edges, row-standardized",
+    "null": "global permutation of each binary label mask preserving its count",
+    "permutations": 1000,
+    "interpretation": "descriptive spatial clustering diagnostic; spot-level tests remain dependent",
+    "domains": [
+      {
+        "domain": "follicle",
+        "support": 96,
+        "moran_i": 0.29750212892184585,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      },
+      {
+        "domain": "hilum",
+        "support": 23,
+        "moran_i": 0.58250073691326,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      },
+      {
+        "domain": "medulla vessels",
+        "support": 80,
+        "moran_i": 0.2926660702204184,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      },
+      {
+        "domain": "subcapsular sinus",
+        "support": 73,
+        "moran_i": 0.22510704791942437,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      },
+      {
+        "domain": "trabeculae",
+        "support": 8,
+        "moran_i": 0.41118818848968414,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      },
+      {
+        "domain": "all_rare_classes",
+        "support": 280,
+        "moran_i": 0.2924710110203671,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_p_bh": 0.000999000999000999
+      }
+    ]
+  },
+  "probes": {
+    "RNA_PCA40": {
+      "accuracy": 0.6595866819747417,
+      "macro_f1": 0.4625182654230164,
+      "balanced_accuracy": 0.4948838746921716,
+      "rare_class_rule": "reference class share strictly below 5%",
+      "rare_classes": [
+        "follicle",
+        "hilum",
+        "medulla vessels",
+        "subcapsular sinus",
+        "trabeculae"
+      ],
+      "rare_union_precision": 0.35251798561151076,
+      "rare_union_recall": 0.525,
+      "rare_union_f1": 0.4218077474892396,
+      "per_class": {
+        "capsule": {
+          "support": 202,
+          "precision": 0.4769874476987448,
+          "recall": 0.5643564356435643,
+          "f1": 0.5170068027210885
+        },
+        "cortex": {
+          "support": 722,
+          "precision": 0.7264833574529667,
+          "recall": 0.6952908587257618,
+          "f1": 0.7105449398443029
+        },
+        "follicle": {
+          "support": 96,
+          "precision": 0.6115702479338843,
+          "recall": 0.7708333333333334,
+          "f1": 0.6820276497695853
+        },
+        "hilum": {
+          "support": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "medulla cords": {
+          "support": 1166,
+          "precision": 0.7291440953412784,
+          "recall": 0.5771869639794168,
+          "f1": 0.6443274293920537
+        },
+        "medulla sinuses": {
+          "support": 794,
+          "precision": 0.6688668866886689,
+          "recall": 0.7657430730478589,
+          "f1": 0.714034057545508
+        },
+        "medulla vessels": {
+          "support": 80,
+          "precision": 0.22043010752688172,
+          "recall": 0.5125,
+          "f1": 0.3082706766917293
+        },
+        "pericapsular adipose tissue": {
+          "support": 320,
+          "precision": 0.8852459016393442,
+          "recall": 0.84375,
+          "f1": 0.864
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "precision": 0.16,
+          "recall": 0.2191780821917808,
+          "f1": 0.18497109826589594
+        },
+        "trabeculae": {
+          "support": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "RNA_PCA40_plus_ADT31": {
+      "accuracy": 0.6857060849598163,
+      "macro_f1": 0.48179308263902004,
+      "balanced_accuracy": 0.4990984554940986,
+      "rare_class_rule": "reference class share strictly below 5%",
+      "rare_classes": [
+        "follicle",
+        "hilum",
+        "medulla vessels",
+        "subcapsular sinus",
+        "trabeculae"
+      ],
+      "rare_union_precision": 0.37790697674418605,
+      "rare_union_recall": 0.4642857142857143,
+      "rare_union_f1": 0.4166666666666667,
+      "per_class": {
+        "capsule": {
+          "support": 202,
+          "precision": 0.5662100456621004,
+          "recall": 0.6138613861386139,
+          "f1": 0.5890736342042756
+        },
+        "cortex": {
+          "support": 722,
+          "precision": 0.6927083333333334,
+          "recall": 0.7368421052631579,
+          "f1": 0.7140939597315435
+        },
+        "follicle": {
+          "support": 96,
+          "precision": 0.6153846153846154,
+          "recall": 0.6666666666666666,
+          "f1": 0.64
+        },
+        "hilum": {
+          "support": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "medulla cords": {
+          "support": 1166,
+          "precision": 0.74800796812749,
+          "recall": 0.644082332761578,
+          "f1": 0.6921658986175115
+        },
+        "medulla sinuses": {
+          "support": 794,
+          "precision": 0.6947368421052632,
+          "recall": 0.7481108312342569,
+          "f1": 0.7204366282595512
+        },
+        "medulla vessels": {
+          "support": 80,
+          "precision": 0.2624113475177305,
+          "recall": 0.4625,
+          "f1": 0.33484162895927605
+        },
+        "pericapsular adipose tissue": {
+          "support": 320,
+          "precision": 0.9047619047619048,
+          "recall": 0.83125,
+          "f1": 0.8664495114006514
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "precision": 0.23863636363636365,
+          "recall": 0.2876712328767123,
+          "f1": 0.2608695652173913
+        },
+        "trabeculae": {
+          "support": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  }
+}

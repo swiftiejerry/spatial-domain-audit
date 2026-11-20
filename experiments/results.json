@@ -38,10 +38,30 @@
       "batching_retention": {
         "what": "in-batch spatial-edge retention: 0.78% -> 69.4% -> 100%",
         "where": "experiments/runs/stage1a_batching_probe/report.json"
+      },
+      "spatial_holdout": {
+        "what": "Three-seed training-time spatial holdout with full-graph inference; whole-section and held-out-region metrics",
+        "where": "experiments/reports/paired_holdout_recount.json"
+      },
+      "d1_cross_section": {
+        "what": "Independent CPU recount of 18 frozen-protocol runs on a second lymph-node section from the same study",
+        "where": "experiments/runs/d1_cross_section_20261112/"
+      },
+      "null_layout_retraining": {
+        "what": "Independent CPU recount of retrained permuted-layout controls across A1 and D1",
+        "where": "experiments/runs/null_layout_retrain_20261112/"
+      },
+      "external_graphst_a1": {
+        "what": "Three-seed A1 GraphST comparison with saved predictions and independent CPU recount",
+        "where": "experiments/runs/external_A1_GraphST/"
+      },
+      "external_graphst_cross_section": {
+        "what": "Three-seed GraphST comparisons on D1 and a breast section with saved predictions, post-prediction label joins, and per-run evaluations",
+        "where": "experiments/runs/external_cross_section_GraphST/"
       }
     }
   },
-  "n_runs": 27,
+  "n_runs": 69,
   "runs": [
     {
       "run_id": "stage0_A0_seed0",
@@ -84,6 +104,174 @@
       "runtime_sec": 2813.4,
       "ari_leiden_reference": 0.3298212370561191,
       "rare_f1_leiden_reference": 0.0
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_A_pr0.8_seed0",
+      "seed": 0,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.2005919308106212,
+      "nmi": 0.3026724797250485,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_A_pr0.8_seed0"
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_A_pr0.8_seed1",
+      "seed": 1,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.19987439067850776,
+      "nmi": 0.3022382792932368,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_A_pr0.8_seed1"
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_A_pr0.8_seed42",
+      "seed": 42,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.19975470010506013,
+      "nmi": 0.3020879036549556,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_A_pr0.8_seed42"
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_B_k10_pr0.8_seed0",
+      "seed": 0,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.20075929776961784,
+      "nmi": 0.30301120612478327,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_B_k10_pr0.8_seed0"
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_B_k10_pr0.8_seed1",
+      "seed": 1,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.20043569779760886,
+      "nmi": 0.3029059297673425,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_B_k10_pr0.8_seed1"
+    },
+    {
+      "run_id": "D1_default_pr0.8_stage1_B_k10_pr0.8_seed42",
+      "seed": 42,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.19951081190727726,
+      "nmi": 0.3019266620932726,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default_pr0.8/stage1_B_k10_pr0.8_seed42"
+    },
+    {
+      "run_id": "D1_default_stage1_A_seed0",
+      "seed": 0,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.25822267787614994,
+      "nmi": 0.3129701268365636,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_A_seed0"
+    },
+    {
+      "run_id": "D1_default_stage1_A_seed1",
+      "seed": 1,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.2583388565072964,
+      "nmi": 0.31526227335305257,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_A_seed1"
+    },
+    {
+      "run_id": "D1_default_stage1_A_seed42",
+      "seed": 42,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": false,
+      "ari": 0.25928455364065217,
+      "nmi": 0.31635233514024913,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_A_seed42"
+    },
+    {
+      "run_id": "D1_default_stage1_B_k10_seed0",
+      "seed": 0,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.2584824027878861,
+      "nmi": 0.3154592132743969,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_B_k10_seed0"
+    },
+    {
+      "run_id": "D1_default_stage1_B_k10_seed1",
+      "seed": 1,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.2587661925598038,
+      "nmi": 0.31593903202849744,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_B_k10_seed1"
+    },
+    {
+      "run_id": "D1_default_stage1_B_k10_seed42",
+      "seed": 42,
+      "stage": "1",
+      "epochs": 100,
+      "spatial_relation": true,
+      "ari": 0.2584851537655127,
+      "nmi": 0.3154432829195717,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/d1_cross_section_20261112/default/stage1_B_k10_seed42"
     },
     {
       "run_id": "stage1_A_seed0",
@@ -513,6 +701,1231 @@
       "ari_leiden_reference": 0.286688799821834,
       "rare_f1_leiden_reference": 0.39267015706806285,
       "pseudo_resolution": 0.8
+    },
+    {
+      "run_id": "D1_aligned_Astar_seed0",
+      "seed": 0,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.1600022939656973,
+      "nmi": 0.2448452678282749,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/Astar_seed0"
+    },
+    {
+      "run_id": "D1_aligned_Astar_seed1",
+      "seed": 1,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.1683863323950067,
+      "nmi": 0.24597119272592127,
+      "rare_f1": 0.016842105263157894,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/Astar_seed1"
+    },
+    {
+      "run_id": "D1_aligned_Astar_seed42",
+      "seed": 42,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.16897353266510395,
+      "nmi": 0.24678030603694762,
+      "rare_f1": 0.017660044150110375,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/Astar_seed42"
+    },
+    {
+      "run_id": "D1_aligned_B0_seed0",
+      "seed": 0,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.12590261840508374,
+      "nmi": 0.19152576338132354,
+      "rare_f1": 0.022675736961451247,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/B0_seed0"
+    },
+    {
+      "run_id": "D1_aligned_B0_seed1",
+      "seed": 1,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.11298879807735743,
+      "nmi": 0.17356589795391322,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/B0_seed1"
+    },
+    {
+      "run_id": "D1_aligned_B0_seed42",
+      "seed": 42,
+      "stage": "P2",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.13520337986852307,
+      "nmi": 0.20747650425922345,
+      "rare_f1": 0.0,
+      "n_clusters": 4,
+      "result_scope": "D1 second section; same study, not an independent cohort",
+      "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+      "result_path": "experiments/runs/d1_cross_section_20261112/aligned/B0_seed42"
+    },
+    {
+      "run_id": "Astar_mean_seed0",
+      "seed": 0,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.20251590929540686,
+      "nmi": 0.2935887397730927,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 6,
+      "runtime_sec": 70.99361157417297,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "Astar_mean_seed1",
+      "seed": 1,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.21606014111366117,
+      "nmi": 0.30024350302854125,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 61.850990772247314,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "Astar_mean_seed42",
+      "seed": 42,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": false,
+      "ari": 0.207640281477323,
+      "nmi": 0.29974326107440874,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 70.40136432647705,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_perm_seed0",
+      "seed": 0,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.2062220363904876,
+      "nmi": 0.2976551526621156,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 83.96052670478821,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "coordinate-permuted",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_perm_seed1",
+      "seed": 1,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.20810111343611293,
+      "nmi": 0.29694552544646546,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 6,
+      "runtime_sec": 86.35113143920898,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "coordinate-permuted",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_perm_seed42",
+      "seed": 42,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.2063858463215984,
+      "nmi": 0.29280703740704356,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 88.56693720817566,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "coordinate-permuted",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_seed0",
+      "seed": 0,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.21456949654022817,
+      "nmi": 0.2945971757410975,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 83.93899703025818,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_seed1",
+      "seed": 1,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.1913812301437068,
+      "nmi": 0.2829953349136276,
+      "rare_f1": 0.0,
+      "rare_f1_secondary": 0.0,
+      "n_clusters": 5,
+      "runtime_sec": 85.45285654067993,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_mean_seed42",
+      "seed": 42,
+      "stage": "P2 relation-mean encoder comparison",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.22112769486785944,
+      "nmi": 0.309433649436307,
+      "rare_f1": 0.05152224824355972,
+      "rare_f1_secondary": 0.05152224824355972,
+      "n_clusters": 6,
+      "runtime_sec": 89.5363199710846,
+      "encoder": "LightweightHeteroEncoder",
+      "layout": "observed",
+      "source_scope": "A1 supplied labels; descriptive single-section comparison",
+      "saved_evaluation_independently_recounted": true,
+      "retained_public_artifacts": [
+        "config.json",
+        "evaluation.json",
+        "metrics.json",
+        "pred.npy"
+      ]
+    },
+    {
+      "run_id": "B0_holdout_seed0",
+      "seed": 0,
+      "stage": "P2-holdout",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.1905792866061162,
+      "nmi": 0.28468055840713913,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "holdout_ari": 0.21640385960050393,
+      "holdout_nmi": 0.2812211222980734,
+      "holdout_rare_f1": 0.0,
+      "result_scope": "Within-section spatial holdout, conditional on supplied A1 labels",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/p2_aligned_v1/B0_holdout_seed0"
+    },
+    {
+      "run_id": "B0_holdout_seed1",
+      "seed": 1,
+      "stage": "P2-holdout",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.18560833142170496,
+      "nmi": 0.2554756414997463,
+      "rare_f1": 0.08421052631578947,
+      "n_clusters": 5,
+      "holdout_ari": 0.38732416107501666,
+      "holdout_nmi": 0.2900051855045913,
+      "holdout_rare_f1": 0.15517241379310345,
+      "result_scope": "Within-section spatial holdout, conditional on supplied A1 labels",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/p2_aligned_v1/B0_holdout_seed1"
+    },
+    {
+      "run_id": "B0_holdout_seed42",
+      "seed": 42,
+      "stage": "P2-holdout",
+      "epochs": 30,
+      "spatial_relation": true,
+      "ari": 0.12817074527884553,
+      "nmi": 0.2138023578210507,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "holdout_ari": 0.23105761276537856,
+      "holdout_nmi": 0.21913993795161285,
+      "holdout_rare_f1": 0.0,
+      "result_scope": "Within-section spatial holdout, conditional on supplied A1 labels",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/p2_aligned_v1/B0_holdout_seed42"
+    },
+    {
+      "run_id": "A1_Astar_perm_seed0",
+      "seed": 0,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.20357540403893376,
+      "nmi": 0.2829240720317395,
+      "rare_f1": 0.005,
+      "n_clusters": 5,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/Astar_perm_seed0"
+    },
+    {
+      "run_id": "A1_Astar_perm_seed1",
+      "seed": 1,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.20509022747566122,
+      "nmi": 0.2712005835870086,
+      "rare_f1": 0.0,
+      "n_clusters": 4,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/Astar_perm_seed1"
+    },
+    {
+      "run_id": "A1_Astar_perm_seed42",
+      "seed": 42,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.21105156934630662,
+      "nmi": 0.2926213578982862,
+      "rare_f1": 0.016,
+      "n_clusters": 5,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/Astar_perm_seed42"
+    },
+    {
+      "run_id": "A1_B0_perm_seed0",
+      "seed": 0,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.07931615057381437,
+      "nmi": 0.14334933965112254,
+      "rare_f1": 0.0,
+      "n_clusters": 6,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/B0_perm_seed0"
+    },
+    {
+      "run_id": "A1_B0_perm_seed1",
+      "seed": 1,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.04633869922095594,
+      "nmi": 0.0888238733887137,
+      "rare_f1": 0.07655502392344497,
+      "n_clusters": 5,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/B0_perm_seed1"
+    },
+    {
+      "run_id": "A1_B0_perm_seed42",
+      "seed": 42,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.12164033722691064,
+      "nmi": 0.20199371792270895,
+      "rare_f1": 0.017937219730941704,
+      "n_clusters": 5,
+      "result_scope": "A1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/A1/B0_perm_seed42"
+    },
+    {
+      "run_id": "D1_Astar_perm_seed0",
+      "seed": 0,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.13243825181975227,
+      "nmi": 0.20751941119871836,
+      "rare_f1": 0.004761904761904762,
+      "n_clusters": 4,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/Astar_perm_seed0"
+    },
+    {
+      "run_id": "D1_Astar_perm_seed1",
+      "seed": 1,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.1620217273724553,
+      "nmi": 0.2494877910549884,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/Astar_perm_seed1"
+    },
+    {
+      "run_id": "D1_Astar_perm_seed42",
+      "seed": 42,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": false,
+      "layout": "permuted coordinates",
+      "ari": 0.18314426844366716,
+      "nmi": 0.2618094164224375,
+      "rare_f1": 0.02109704641350211,
+      "n_clusters": 5,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/Astar_perm_seed42"
+    },
+    {
+      "run_id": "D1_B0_perm_seed0",
+      "seed": 0,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.1248204729665567,
+      "nmi": 0.19103543653919003,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/B0_perm_seed0"
+    },
+    {
+      "run_id": "D1_B0_perm_seed1",
+      "seed": 1,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.11642182468267172,
+      "nmi": 0.17873180177186002,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/B0_perm_seed1"
+    },
+    {
+      "run_id": "D1_B0_perm_seed42",
+      "seed": 42,
+      "stage": "P2-permutation",
+      "epochs": 30,
+      "spatial_relation": true,
+      "layout": "permuted coordinates",
+      "ari": 0.11862824598007234,
+      "nmi": 0.18511272341106377,
+      "rare_f1": 0.0,
+      "n_clusters": 5,
+      "result_scope": "D1 supplied labels; permutation retraining control",
+      "recount_status": "CHECKED_MATCH",
+      "result_path": "experiments/runs/null_layout_retrain_20261112/D1/B0_perm_seed42"
     }
-  ]
+  ],
+  "external_methods": {
+    "description": "External method outputs stored separately from the in-house run count above.",
+    "broader_comparison_status": "PARTIAL",
+    "not_run": [
+      "STAGATE"
+    ],
+    "runs": [
+      {
+        "method": "GraphST",
+        "seed": 0,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of embedding; Scanpy Leiden; n_neighbors=10; resolution=0.5",
+        "ari": 0.2737299568468869,
+        "nmi": 0.38805124574329675,
+        "rare_f1_primary": 0.0,
+        "n_clusters": 7,
+        "scope": "A1 supplied-label conditional comparison",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_A1_GraphST/seed0/pred.npy",
+        "metrics_path": "experiments/runs/external_A1_GraphST/seed0/metrics.json"
+      },
+      {
+        "method": "GraphST",
+        "seed": 1,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of embedding; Scanpy Leiden; n_neighbors=10; resolution=0.5",
+        "ari": 0.2562094919782694,
+        "nmi": 0.39510496704127696,
+        "rare_f1_primary": 0.35454545454545455,
+        "n_clusters": 9,
+        "scope": "A1 supplied-label conditional comparison",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_A1_GraphST/seed1/pred.npy",
+        "metrics_path": "experiments/runs/external_A1_GraphST/seed1/metrics.json"
+      },
+      {
+        "method": "GraphST",
+        "seed": 42,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of embedding; Scanpy Leiden; n_neighbors=10; resolution=0.5",
+        "ari": 0.3130142840709436,
+        "nmi": 0.41696276870683224,
+        "rare_f1_primary": 0.0,
+        "n_clusters": 7,
+        "scope": "A1 supplied-label conditional comparison",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_A1_GraphST/seed42/pred.npy",
+        "metrics_path": "experiments/runs/external_A1_GraphST/seed42/metrics.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "D1",
+        "seed": 0,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 5,
+        "ari": 0.2506549443337819,
+        "nmi": 0.34496492770657594,
+        "rare_f1_primary": 0.0,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "d1_lab",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/D1/seed0/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/D1/seed0/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/D1/seed0/config.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "D1",
+        "seed": 1,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 6,
+        "ari": 0.2962873909063895,
+        "nmi": 0.3693799200052508,
+        "rare_f1_primary": 0.32409381663113007,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "d1_lab",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/D1/seed1/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/D1/seed1/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/D1/seed1/config.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "D1",
+        "seed": 42,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 5,
+        "ari": 0.2472447708950817,
+        "nmi": 0.34665760717027666,
+        "rare_f1_primary": 0.0,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "d1_lab",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/D1/seed42/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/D1/seed42/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/D1/seed42/config.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "Breast",
+        "seed": 0,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 11,
+        "ari": 0.654706002301967,
+        "nmi": 0.6997687583114831,
+        "rare_f1_primary": 0.24724061810154527,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "breast_label",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/Breast/seed0/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/Breast/seed0/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/Breast/seed0/config.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "Breast",
+        "seed": 1,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 11,
+        "ari": 0.6486644235822995,
+        "nmi": 0.7010509914526998,
+        "rare_f1_primary": 0.2476609796367639,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "breast_label",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/Breast/seed1/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/Breast/seed1/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/Breast/seed1/config.json"
+      },
+      {
+        "method": "GraphST",
+        "dataset": "Breast",
+        "seed": 42,
+        "package_version": "1.1.1",
+        "epochs": 600,
+        "decoder": "PCA(20) of GraphST embedding, Scanpy Leiden, n_neighbors=10, fixed resolution=0.5, no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 12,
+        "ari": 0.6939076050328656,
+        "nmi": 0.7258425224170287,
+        "rare_f1_primary": 0.447921760391198,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "breast_label",
+        "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_GraphST/Breast/seed42/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_GraphST/Breast/seed42/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_GraphST/Breast/seed42/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "A1",
+        "seed": 0,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3484,
+        "n_clusters": 5,
+        "ari": 0.23253436055339732,
+        "nmi": 0.33097712120584394,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "A1 supplied-label conditional comparison",
+        "reference_label_scope": "A1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed0/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed0/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed0/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "A1",
+        "seed": 1,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3484,
+        "n_clusters": 5,
+        "ari": 0.2355645035433705,
+        "nmi": 0.35509864010534653,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "A1 supplied-label conditional comparison",
+        "reference_label_scope": "A1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed1/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed1/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed1/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "A1",
+        "seed": 42,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3484,
+        "n_clusters": 6,
+        "ari": 0.24696335743906342,
+        "nmi": 0.3761798258309365,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "A1 supplied-label conditional comparison",
+        "reference_label_scope": "A1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed42/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed42/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/A1/seed42/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "D1",
+        "seed": 0,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 5,
+        "ari": 0.2320375109757466,
+        "nmi": 0.30975250321443365,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "D1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed0/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed0/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed0/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "D1",
+        "seed": 1,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 5,
+        "ari": 0.2518647842035966,
+        "nmi": 0.3251070590766018,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "D1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed1/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed1/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed1/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "D1",
+        "seed": 42,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3359,
+        "n_clusters": 4,
+        "ari": 0.16019001614890307,
+        "nmi": 0.2283205139257132,
+        "rare_f1_primary": 0.0,
+        "rare_f1_secondary": 0.0,
+        "scope": "D1 supplied-label conditional comparison",
+        "reference_label_scope": "D1",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed42/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed42/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/D1/seed42/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "Breast",
+        "seed": 0,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 10,
+        "ari": 0.6068525825679225,
+        "nmi": 0.6573331947565345,
+        "rare_f1_primary": 0.21379310344827587,
+        "rare_f1_secondary": 0.0,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "Breast",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed0/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed0/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed0/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "Breast",
+        "seed": 1,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 10,
+        "ari": 0.5947914458945882,
+        "nmi": 0.680301108909991,
+        "rare_f1_primary": 0.060907395898073334,
+        "rare_f1_secondary": 0.060907395898073334,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "Breast",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed1/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed1/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed1/config.json"
+      },
+      {
+        "method": "SpaGCN",
+        "dataset": "Breast",
+        "seed": 42,
+        "package_version": "1.2.7",
+        "epochs_requested": 200,
+        "decoder": "SpaGCN DEC, louvain initialization, fixed resolution=0.4, n_neighbors=10; no target cluster count",
+        "n_spots": 3798,
+        "n_clusters": 10,
+        "ari": 0.5812364793245283,
+        "nmi": 0.6609552671544846,
+        "rare_f1_primary": 0.21082299887260428,
+        "rare_f1_secondary": 0.003778337531486146,
+        "scope": "Breast supplied-label conditional comparison",
+        "reference_label_scope": "Breast",
+        "label_access_during_model_fit": false,
+        "recount_status": "CHECKED_MATCH",
+        "prediction_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed42/pred.npy",
+        "evaluation_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed42/evaluation.json",
+        "config_path": "experiments/runs/external_cross_section_SpaGCN/Breast/seed42/config.json"
+      },
+      {
+        "method": "SpatialGlue",
+        "seed": 0,
+        "source_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+        "epochs": 200,
+        "decoder": "Scanpy Leiden on SpatialGlue embedding; 10 neighbors; Euclidean; full resolution sweep 0.1--1.5; no label-based selection",
+        "reported_resolution": 0.9,
+        "ari": 0.22286458885958021,
+        "nmi": 0.36471133281829893,
+        "rare_f1_primary": 0.16853932584269662,
+        "rare_f1_secondary": 0.16853932584269662,
+        "n_clusters": 12,
+        "scope": "A1 supplied-label conditional multimodal comparison; partial multi-domain recovery",
+        "recount_status": "CHECKED_MATCH_ALL_15_RESOLUTIONS",
+        "prediction_paths": [
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.5.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.6.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.7.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.8.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_0.9.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.0.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed0/pred_res_1.5.npy"
+        ],
+        "metrics_path": "experiments/runs/spatialglue_A1_RNA_ADT/seed0/metrics.json"
+      },
+      {
+        "method": "SpatialGlue",
+        "seed": 1,
+        "source_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+        "epochs": 200,
+        "decoder": "Scanpy Leiden on SpatialGlue embedding; 10 neighbors; Euclidean; full resolution sweep 0.1--1.5; no label-based selection",
+        "reported_resolution": 0.9,
+        "ari": 0.2438986778818243,
+        "nmi": 0.3891420319054833,
+        "rare_f1_primary": 0.18474758324382384,
+        "rare_f1_secondary": 0.21813403416557162,
+        "n_clusters": 11,
+        "scope": "A1 supplied-label conditional multimodal comparison; partial multi-domain recovery",
+        "recount_status": "CHECKED_MATCH_ALL_15_RESOLUTIONS",
+        "prediction_paths": [
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.5.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.6.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.7.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.8.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_0.9.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.0.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed1/pred_res_1.5.npy"
+        ],
+        "metrics_path": "experiments/runs/spatialglue_A1_RNA_ADT/seed1/metrics.json"
+      },
+      {
+        "method": "SpatialGlue",
+        "seed": 42,
+        "source_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+        "epochs": 200,
+        "decoder": "Scanpy Leiden on SpatialGlue embedding; 10 neighbors; Euclidean; full resolution sweep 0.1--1.5; no label-based selection",
+        "reported_resolution": 0.9,
+        "ari": 0.2278439244354832,
+        "nmi": 0.36386396095324713,
+        "rare_f1_primary": 0.022130013831258646,
+        "rare_f1_secondary": 0.02857142857142857,
+        "n_clusters": 10,
+        "scope": "A1 supplied-label conditional multimodal comparison; partial multi-domain recovery",
+        "recount_status": "CHECKED_MATCH_ALL_15_RESOLUTIONS",
+        "prediction_paths": [
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.5.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.6.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.7.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.8.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_0.9.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.0.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.1.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.2.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.3.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.4.npy",
+          "experiments/runs/spatialglue_A1_RNA_ADT/seed42/pred_res_1.5.npy"
+        ],
+        "metrics_path": "experiments/runs/spatialglue_A1_RNA_ADT/seed42/metrics.json"
+      }
+    ],
+    "recount_method": "Standalone CPU recount using exact spot-ID joins, sklearn ARI/NMI, and direct binary-mask rare-F1 formulas; all 18 saved predictions matched their saved evaluation metrics.",
+    "three_seed_summaries": [
+      {
+        "dataset": "A1",
+        "method": "GraphST",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.28098457763203327,
+            "sample_sd": 0.029088971161338687
+          },
+          "nmi": {
+            "mean": 0.4000396604971353,
+            "sample_sd": 0.015074230980226772
+          },
+          "rare_primary_f1": {
+            "mean": 0.11818181818181818,
+            "sample_sd": 0.20469691362177642
+          },
+          "rare_secondary_f1": {
+            "mean": 0.11818181818181818,
+            "sample_sd": 0.20469691362177642
+          }
+        }
+      },
+      {
+        "dataset": "A1",
+        "method": "SpaGCN",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.23835407384527707,
+            "sample_sd": 0.007608236631020349
+          },
+          "nmi": {
+            "mean": 0.35408519571404234,
+            "sample_sd": 0.022618386956335786
+          },
+          "rare_primary_f1": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          },
+          "rare_secondary_f1": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      {
+        "dataset": "D1",
+        "method": "GraphST",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.2647290353784177,
+            "sample_sd": 0.027383474458930617
+          },
+          "nmi": {
+            "mean": 0.3536674849607011,
+            "sample_sd": 0.013633662465148624
+          },
+          "rare_primary_f1": {
+            "mean": 0.10803127221037669,
+            "sample_sd": 0.18711565227467616
+          },
+          "rare_secondary_f1": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      {
+        "dataset": "D1",
+        "method": "SpaGCN",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.21469743710941544,
+            "sample_sd": 0.04823457676540585
+          },
+          "nmi": {
+            "mean": 0.28772669207224955,
+            "sample_sd": 0.052016930877500075
+          },
+          "rare_primary_f1": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          },
+          "rare_secondary_f1": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      {
+        "dataset": "Breast",
+        "method": "GraphST",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.665759343639044,
+            "sample_sd": 0.024563563116487518
+          },
+          "nmi": {
+            "mean": 0.708887424060404,
+            "sample_sd": 0.01469753553046312
+          },
+          "rare_primary_f1": {
+            "mean": 0.3142744527098357,
+            "sample_sd": 0.11574215443740718
+          },
+          "rare_secondary_f1": {
+            "mean": 0.08203025395734886,
+            "sample_sd": 0.039390366493899494
+          }
+        }
+      },
+      {
+        "dataset": "Breast",
+        "method": "SpaGCN",
+        "n_runs": 3,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.5942935025956797,
+            "sample_sd": 0.0128153090868209
+          },
+          "nmi": {
+            "mean": 0.6661965236070033,
+            "sample_sd": 0.01234845524917746
+          },
+          "rare_primary_f1": {
+            "mean": 0.1618411660729845,
+            "sample_sd": 0.0874238231352813
+          },
+          "rare_secondary_f1": {
+            "mean": 0.021561911143186493,
+            "sample_sd": 0.034126519549658646
+          }
+        }
+      },
+      {
+        "dataset": "A1",
+        "method": "SpatialGlue",
+        "resolution": 0.9,
+        "n_runs": 3,
+        "n_predictions_independently_recounted": 45,
+        "mean_sample_sd": {
+          "ari": {
+            "mean": 0.2315357303922959,
+            "sample_sd": 0.010992283596504887
+          },
+          "nmi": {
+            "mean": 0.3725724418923431,
+            "sample_sd": 0.014355939351783512
+          },
+          "rare_primary_f1": {
+            "mean": 0.12513897430592638,
+            "sample_sd": 0.08957572972378758
+          },
+          "rare_secondary_f1": {
+            "mean": 0.13841492952656562,
+            "sample_sd": 0.09830617884939204
+          },
+          "per_rare_type": {
+            "follicle": {
+              "recall": {
+                "mean": 0.003472222222222222,
+                "sample_sd": 0.006014065304058602
+              },
+              "f1": {
+                "mean": 0.000892458723784025,
+                "sample_sd": 0.00154578385325201
+              },
+              "rare_cluster_enrichment": {
+                "mean": 0.01858252261478068,
+                "sample_sd": 0.0321858733015978
+              }
+            },
+            "hilum": {
+              "recall": {
+                "mean": 0.6811594202898551,
+                "sample_sd": 0.4769415267218648
+              },
+              "f1": {
+                "mean": 0.058286910764591894,
+                "sample_sd": 0.042349388926488256
+              },
+              "rare_cluster_enrichment": {
+                "mean": 4.619687951759646,
+                "sample_sd": 3.3720290729262565
+              }
+            },
+            "medulla vessels": {
+              "recall": {
+                "mean": 0.23333333333333334,
+                "sample_sd": 0.16313976625376578
+              },
+              "f1": {
+                "mean": 0.06497792371150514,
+                "sample_sd": 0.051754840449040995
+              },
+              "rare_cluster_enrichment": {
+                "mean": 1.6515307859060893,
+                "sample_sd": 1.3445038171032608
+              }
+            },
+            "subcapsular sinus": {
+              "recall": {
+                "mean": 0.1872146118721461,
+                "sample_sd": 0.28940551374412465
+              },
+              "f1": {
+                "mean": 0.0389511879364732,
+                "sample_sd": 0.05748381147878646
+              },
+              "rare_cluster_enrichment": {
+                "mean": 1.0390939358018456,
+                "sample_sd": 1.521785769150753
+              }
+            },
+            "trabeculae": {
+              "recall": {
+                "mean": 0.375,
+                "sample_sd": 0.33071891388307384
+              },
+              "f1": {
+                "mean": 0.01111877500344875,
+                "sample_sd": 0.009745837500025048
+              },
+              "rare_cluster_enrichment": {
+                "mean": 2.4590871593559767,
+                "sample_sd": 2.157200649151587
+              }
+            }
+          }
+        }
+      }
+    ],
+    "positive_recovery_control_status": "EXECUTED_WITH_EVIDENCE",
+    "positive_recovery_control_outcome": "PARTIAL_MULTI_DOMAIN_RECOVERY",
+    "positive_recovery_control_resolution": 0.9
+  }
 }

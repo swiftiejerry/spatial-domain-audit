@@ -1,0 +1,270 @@
+{
+  "run_id": "Astar_seed0",
+  "section": "D1",
+  "stage": "P2",
+  "seed": 0,
+  "n_spots": 3359,
+  "n_genes": null,
+  "runtime_sec": null,
+  "model_metrics": null,
+  "independent_recount": {
+    "n_spots": 3359,
+    "n_clusters": 5,
+    "predicted_partition_sizes": {
+      "n_clusters": 5,
+      "n_spots": 3359,
+      "minimum_cluster_size": 264,
+      "minimum_cluster_fraction": 0.07859481988687109,
+      "minimum_cluster_percent": 7.85948198868711,
+      "maximum_cluster_size": 1183,
+      "cluster_sizes": [
+        {
+          "cluster_label": "0",
+          "spot_count": 1183,
+          "fraction": 0.35218815123548675
+        },
+        {
+          "cluster_label": "1",
+          "spot_count": 1056,
+          "fraction": 0.31437927954748435
+        },
+        {
+          "cluster_label": "2",
+          "spot_count": 537,
+          "fraction": 0.15986900863352188
+        },
+        {
+          "cluster_label": "3",
+          "spot_count": 319,
+          "fraction": 0.0949687406966359
+        },
+        {
+          "cluster_label": "4",
+          "spot_count": 264,
+          "fraction": 0.07859481988687109
+        }
+      ]
+    },
+    "ari": 0.1600022939656973,
+    "nmi_arithmetic": 0.2448452678282749,
+    "rare_primary": {
+      "definition": "reference domain size <=5% and predicted cluster size <=5%",
+      "rare_reference_labels": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rare_prediction_clusters": [],
+      "reference_rare_spots": 308,
+      "predicted_rare_spots": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 308,
+      "tn": 3051,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eligible_small_cluster_count": 0,
+      "eligible_small_spot_count": 0,
+      "eligible_small_reference_rare_spot_count": 0,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "reference_rare_fraction_in_eligible_small_clusters": null,
+      "eligible_small_cluster_rare_enrichment": null,
+      "eligible_small_clusters": [],
+      "per_rare_domain_hits": {
+        "follicle": 0,
+        "hilum": 0,
+        "medulla vessels": 0,
+        "subcapsular sinus": 0,
+        "trabeculae": 0
+      }
+    },
+    "rare_secondary": {
+      "definition": "reference domain size <5% and predicted cluster size <4.5%",
+      "rare_reference_labels": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rare_prediction_clusters": [],
+      "reference_rare_spots": 308,
+      "predicted_rare_spots": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 308,
+      "tn": 3051,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eligible_small_cluster_count": 0,
+      "eligible_small_spot_count": 0,
+      "eligible_small_reference_rare_spot_count": 0,
+      "whole_slide_rare_fraction": 0.09169395653468294,
+      "reference_rare_fraction_in_eligible_small_clusters": null,
+      "eligible_small_cluster_rare_enrichment": null,
+      "eligible_small_clusters": [],
+      "per_rare_domain_hits": {
+        "follicle": 0,
+        "hilum": 0,
+        "medulla vessels": 0,
+        "subcapsular sinus": 0,
+        "trabeculae": 0
+      }
+    },
+    "boundary": {
+      "f1": 0.5972742405326675,
+      "precision": 0.5220989450709349,
+      "recall": 0.6977394263490521,
+      "n_undirected_edges": 18572,
+      "truth_positive_edges": 8228,
+      "predicted_positive_edges": 10996
+    },
+    "initial_partition_consistency": {
+      "ari_pred_vs_initial": 0.22369079768727324,
+      "mapping": [
+        {
+          "predicted_label": "0",
+          "reference_label": "1",
+          "overlap": 579
+        },
+        {
+          "predicted_label": "1",
+          "reference_label": "0",
+          "overlap": 793
+        },
+        {
+          "predicted_label": "2",
+          "reference_label": "4",
+          "overlap": 102
+        },
+        {
+          "predicted_label": "3",
+          "reference_label": "3",
+          "overlap": 4
+        },
+        {
+          "predicted_label": "4",
+          "reference_label": "2",
+          "overlap": 227
+        }
+      ],
+      "matched_count": 1705,
+      "changed_count": 1654,
+      "changed_fraction": 0.49240845489729085
+    },
+    "initial_partition_metrics": {
+      "n_clusters": 5,
+      "partition_sizes": {
+        "n_clusters": 5,
+        "n_spots": 3359,
+        "minimum_cluster_size": 209,
+        "minimum_cluster_fraction": 0.06222089907710628,
+        "minimum_cluster_percent": 6.222089907710628,
+        "maximum_cluster_size": 1471,
+        "cluster_sizes": [
+          {
+            "cluster_label": "0",
+            "spot_count": 1471,
+            "fraction": 0.43792795474843704
+          },
+          {
+            "cluster_label": "1",
+            "spot_count": 1017,
+            "fraction": 0.3027686811551057
+          },
+          {
+            "cluster_label": "2",
+            "spot_count": 356,
+            "fraction": 0.10598392378684132
+          },
+          {
+            "cluster_label": "3",
+            "spot_count": 306,
+            "fraction": 0.09109854123250967
+          },
+          {
+            "cluster_label": "4",
+            "spot_count": 209,
+            "fraction": 0.06222089907710628
+          }
+        ]
+      },
+      "ari_to_reference": 0.25865593414725446,
+      "nmi_arithmetic_to_reference": 0.3155104247589569,
+      "rare_primary": {
+        "definition": "reference domain size <=5% and predicted cluster size <=5%",
+        "rare_reference_labels": [
+          "2",
+          "3",
+          "6",
+          "8",
+          "9"
+        ],
+        "rare_prediction_clusters": [],
+        "reference_rare_spots": 308,
+        "predicted_rare_spots": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 308,
+        "tn": 3051,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "eligible_small_cluster_count": 0,
+        "eligible_small_spot_count": 0,
+        "eligible_small_reference_rare_spot_count": 0,
+        "whole_slide_rare_fraction": 0.09169395653468294,
+        "reference_rare_fraction_in_eligible_small_clusters": null,
+        "eligible_small_cluster_rare_enrichment": null,
+        "eligible_small_clusters": [],
+        "per_rare_domain_hits": {
+          "follicle": 0,
+          "hilum": 0,
+          "medulla vessels": 0,
+          "subcapsular sinus": 0,
+          "trabeculae": 0
+        }
+      },
+      "rare_secondary": {
+        "definition": "reference domain size <5% and predicted cluster size <4.5%",
+        "rare_reference_labels": [
+          "2",
+          "3",
+          "6",
+          "8",
+          "9"
+        ],
+        "rare_prediction_clusters": [],
+        "reference_rare_spots": 308,
+        "predicted_rare_spots": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 308,
+        "tn": 3051,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "eligible_small_cluster_count": 0,
+        "eligible_small_spot_count": 0,
+        "eligible_small_reference_rare_spot_count": 0,
+        "whole_slide_rare_fraction": 0.09169395653468294,
+        "reference_rare_fraction_in_eligible_small_clusters": null,
+        "eligible_small_cluster_rare_enrichment": null,
+        "eligible_small_clusters": [],
+        "per_rare_domain_hits": {
+          "follicle": 0,
+          "hilum": 0,
+          "medulla vessels": 0,
+          "subcapsular sinus": 0,
+          "trabeculae": 0
+        }
+      }
+    }
+  },
+  "recount_status": "CHECKED_GRAPH_DIFFERENCE_EXPLAINED",
+  "reference_scope": "Conditional on the supplied D1 lab labels; D1 is a second section in the same study."
+}

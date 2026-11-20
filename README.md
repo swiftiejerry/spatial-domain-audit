@@ -25,9 +25,9 @@ effects become measurable:
 This repository packages the modular Python audit library
 (`spatial_domain_audit`), paired fixed-target and prototype-refresh HGT
 implementations built over the frozen upstream `scFormer` baseline, protocol
-configurations, and CPU-verifiable benchmark outputs for Human Lymph Node Visium
-section A1 (`3,484` spots, `18,085` genes, `10` supplied reference domains with
-`5` rare domains totaling `8.0%` of spots).
+configurations, and CPU-verifiable results for Human Lymph Node Visium sections
+A1 and D1. A1 contains `3,484` spots and `18,085` genes with ten supplied
+reference domains, five of which account for `8.0%` of spots.
 
 ## Construct-Validity Findings on Human Lymph Node A1
 
@@ -52,9 +52,62 @@ parameter initialization:
 | `rare-F1 (<=5%)` | `+0.0592 +/- 0.0986` | Non-consistent (`+0.1730 / 0.0000 / +0.0046`) |
 
 Under prototype-refresh dynamic clustering (`C - A`, default basis), ARI fell by
-`-0.1966 +/- 0.0340` (`NMI -0.2047 +/- 0.0231`, `rare-F1 +0.0594 +/- 0.0262`)
-while near-collinear warm-up prototypes kept the confidence gate shut in seeds
-`1` and `42` (`0.00057`, `0.00000`, `0.00000` confident fraction at initialization).
+`-0.1966 +/- 0.0340` (`NMI -0.2047 +/- 0.0231`, `rare-F1 +0.0594 +/- 0.0262`).
+The initial confident fraction was `0.00057`, `0.00000`, and `0.00000` across
+seeds `0`, `1`, and `42`. In seed `0`, the logged confident fraction later rose
+to `0.899--0.906`, while one refresh record showed only one occupied cluster
+before reseeding. The historical trainer used all assigned spots for centroid
+updates, so these runs do not test a confident-only update.
+
+The same aligned HGTConv comparison on D1, a second section from the same
+lymph-node study, changed ARI by `-0.0411 +/- 0.0124`, NMI by
+`-0.0550 +/- 0.0166`, and boundary-F1 by `-0.0137 +/- 0.0069` when the spatial
+relation was added. The relation-mean `LightweightHeteroEncoder` comparison on
+A1 showed no consistent ARI gain from observed spatial edges. Mean ARI was
+`0.2087 +/- 0.0068` for expression-only, `0.2090 +/- 0.0156` for observed
+edges, and `0.2069 +/- 0.0010` for coordinate-permuted edges. These are
+three-seed, within-study summaries conditional on the supplied labels.
+
+The registered `B0_holdout` arm removes training-time spatial edges touching
+the leftmost 20% of spots, then restores the full graph for inference. On that
+697-spot region, the conditional rare-F1 values were `0.000`, `0.155`, and
+`0.000` for seeds `0`, `1`, and `42`. The whole-section values were `0.000`,
+`0.084`, and `0.000`. This is a within-section spatial holdout, not independent
+section validation.
+
+GraphST and SpaGCN were each run for seeds 0, 1, and 42 on A1, D1, and a breast
+section. Both use label-blind model inputs and fixed decoder settings, with
+reference labels joined after prediction. Their results are conditional on the
+supplied labels and describe three sections, including one second lymph-node
+section from the same study and one breast section. They do not establish
+cohort-level performance.
+
+| Section | Method | ARI | NMI | Primary rare-F1 |
+| --- | --- | ---: | ---: | ---: |
+| A1 | GraphST | `0.2810 +/- 0.0291` | `0.4000 +/- 0.0151` | `0.1182 +/- 0.2047` |
+| A1 | SpaGCN | `0.2384 +/- 0.0076` | `0.3541 +/- 0.0226` | `0.0000 +/- 0.0000` |
+| D1 | GraphST | `0.2647 +/- 0.0274` | `0.3537 +/- 0.0136` | `0.1080 +/- 0.1871` |
+| D1 | SpaGCN | `0.2147 +/- 0.0482` | `0.2877 +/- 0.0520` | `0.0000 +/- 0.0000` |
+| Breast | GraphST | `0.6658 +/- 0.0246` | `0.7089 +/- 0.0147` | `0.3143 +/- 0.1157` |
+| Breast | SpaGCN | `0.5943 +/- 0.0128` | `0.6662 +/- 0.0123` | `0.1618 +/- 0.0874` |
+
+The breast secondary rare-F1 (`<5%` reference and `<4.5%` predicted) is
+`0.0820 +/- 0.0394` for GraphST and `0.0216 +/- 0.0341` for SpaGCN. A standalone
+CPU recount matched the saved values for all 18 predictions.
+
+SpatialGlue was run on the paired A1 RNA and protein features for seeds 0, 1,
+and 42. The released 30-dimensional RNA and protein feature matrices were used
+as model inputs. The corresponding raw RNA and ADT objects were checked for
+exact spot-order and coordinate alignment. All 45 predictions from the
+label-blind Leiden sweep (resolutions 0.1--1.5) matched an independent CPU
+recount. At resolution 0.9, ARI was `0.2315 +/- 0.0110`, NMI was
+`0.3726 +/- 0.0144`, and primary rare-F1 was `0.1251 +/- 0.0896`. Each seed
+captured more than one non-follicle rare reference in its sub-threshold
+clusters, while follicle recall stayed at or below `0.0104`. This is partial
+multi-domain recovery conditional on the supplied A1 annotation, whose
+revision history remains unresolved. STAGATE remains unrun. Per-seed configs,
+predictions, scores, and recount status are indexed in `experiments/results.json`
+under `external_methods`.
 
 ## Repository Layout
 
@@ -79,9 +132,10 @@ src/spatial_domain_audit/
     fixed_target_trainer.py   # Fixed-target HGT trainer (2 or 3 relations + halo isolation)
     prototype_trainer.py      # Warm-up + confidence-gated prototype clustering trainer
     training_loops.py         # Lightweight full-graph reference loops
-    common.py                 # Seeding, SHA-256 verification, shared batch/graph contract helpers
+    common.py                 # Seeding and shared batch/graph contract helpers
 scripts/
   verify_saved_outputs.py     # CPU-only verification over saved run partitions (no GPU/H5AD needed)
+  audit_external_graphst.py  # Independent CPU recount of the A1 GraphST predictions
   audit_target_movement.py    # Check 1 CLI: Hungarian alignment churn & small-cluster enrichment
   audit_attainability.py      # Check 2 CLI: S(10, 5) partition merge bound & Leiden frontier
   audit_edge_retention.py     # Check 3a CLI: Sampler edge retention & halo compactness audit
@@ -152,14 +206,17 @@ python scripts/audit_representation.py
 
 ## Scope and Methodological Boundaries
 
-- All empirical measurements cover a single 10x Genomics Visium human lymph-node
-  section across three seeds (`0`, `1`, `42`) using RNA counts alone.
+- HGTConv measurements cover A1 and the second within-study section D1. The
+  relation-mean encoder and spatial holdout were evaluated on A1. Each arm uses
+  three seeds (`0`, `1`, `42`). These measurements use RNA counts alone.
 - Reference agreement and rare-domain endpoints depend on the supplied
   `obs['final_annot']` annotation field; see
   [docs/DATA_PROVENANCE.md](docs/DATA_PROVENANCE.md) for provenance details.
-- Results falsify only the specific evaluated configurations (unweighted
-  $k=10$ spatial relation under relation-mean / multi-head HGT and stated
-  prototype-refresh hyperparameters), not spatial graph methods or dynamic
+- The aligned `A*`/`B0` comparison used an eight-head, three-layer `HGTConv`
+  encoder with `kl_only=True`. A separate relation-mean
+  `LightweightHeteroEncoder` comparison was evaluated on A1. The historical
+  prototype runs used all assigned spots for centroid updates. Results apply
+  only to the evaluated configurations, not spatial graph methods or dynamic
   clustering in general.
 
 ## Attribution & License
@@ -168,7 +225,7 @@ python scripts/audit_representation.py
   et al., *Advanced Biotechnology* 2026, DOI: `10.1007/s44307-026-00121-y`)
   stored under `third_party/scFormer/`.
 - **Dataset Source**: Processed human lymph-node Visium section
-  `Dataset11_Human_Lymph_Node_A1` from the SpatialGlue release (GEO:
-  `GSE263617`; Zenodo: `10.5281/zenodo.7879713` / `10.5281/zenodo.10362607`).
+  `Dataset11_Human_Lymph_Node_A1` from the SpatialGlue release, linked to GEO
+  accession `GSE263617`.
 - **License**: New audit and extension modules are released under the
   [MIT License](LICENSE).

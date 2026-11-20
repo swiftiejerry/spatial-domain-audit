@@ -1,0 +1,23 @@
+{
+  "run_id": "B0_mean_seed1",
+  "seed": 1,
+  "stage": "P2 relation-mean encoder comparison",
+  "epochs": 30,
+  "spatial_relation": true,
+  "ari": 0.1913812301437068,
+  "nmi": 0.2829953349136276,
+  "rare_f1": 0.0,
+  "rare_f1_secondary": 0.0,
+  "n_clusters": 5,
+  "runtime_sec": 85.45285654067993,
+  "encoder": "LightweightHeteroEncoder",
+  "layout": "observed",
+  "source_scope": "A1 supplied labels; descriptive single-section comparison",
+  "saved_evaluation_independently_recounted": true,
+  "retained_public_artifacts": [
+    "config.json",
+    "evaluation.json",
+    "metrics.json",
+    "pred.npy"
+  ]
+}

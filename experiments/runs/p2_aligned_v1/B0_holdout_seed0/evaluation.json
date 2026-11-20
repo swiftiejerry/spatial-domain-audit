@@ -1,0 +1,658 @@
+{
+  "n_spots": 3484,
+  "n_clusters": 5,
+  "ari": 0.1905792866061162,
+  "nmi": 0.28468055840713913,
+  "rare_primary": {
+    "tp": 0,
+    "fp": 89,
+    "fn": 280,
+    "tn": 3115,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "definition": "truth class share <= 5%; predicted cluster share <= 5%",
+    "true_rare_labels": [
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "predicted_rare_clusters": [
+      4
+    ],
+    "true_rare_count": 280,
+    "predicted_rare_count": 89,
+    "rare_absolute_hits": 0,
+    "whole_slide_rare_fraction": 0.08036739380022963,
+    "rare_fraction_in_predicted_rare_clusters": 0.0,
+    "enrichment": 0.0,
+    "per_true_rare_class_capture": [
+      {
+        "truth_label": 2,
+        "support": 96,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 3,
+        "support": 23,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 6,
+        "support": 80,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 8,
+        "support": 73,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 9,
+        "support": 8,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      }
+    ]
+  },
+  "rare_secondary": {
+    "tp": 0,
+    "fp": 89,
+    "fn": 280,
+    "tn": 3115,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "definition": "truth class share < 5%; predicted cluster share < 4.5%",
+    "true_rare_labels": [
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "predicted_rare_clusters": [
+      4
+    ],
+    "true_rare_count": 280,
+    "predicted_rare_count": 89,
+    "rare_absolute_hits": 0,
+    "whole_slide_rare_fraction": 0.08036739380022963,
+    "rare_fraction_in_predicted_rare_clusters": 0.0,
+    "enrichment": 0.0,
+    "per_true_rare_class_capture": [
+      {
+        "truth_label": 2,
+        "support": 96,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 3,
+        "support": 23,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 6,
+        "support": 80,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 8,
+        "support": 73,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      },
+      {
+        "truth_label": 9,
+        "support": 8,
+        "hits_in_predicted_rare_clusters": 0,
+        "capture_recall": 0.0
+      }
+    ]
+  },
+  "cluster_sizes": [
+    {
+      "label": 0,
+      "size": 1399,
+      "fraction": 0.4015499425947187,
+      "is_rare_primary": false,
+      "is_rare_secondary": false,
+      "true_rare_count_primary": 95,
+      "true_rare_fraction_primary": 0.06790564689063616,
+      "rare_enrichment_primary": 0.844940263453487,
+      "true_rare_count_secondary": 95,
+      "true_rare_fraction_secondary": 0.06790564689063616,
+      "rare_enrichment_secondary": 0.844940263453487
+    },
+    {
+      "label": 1,
+      "size": 1101,
+      "fraction": 0.31601607347876004,
+      "is_rare_primary": false,
+      "is_rare_secondary": false,
+      "true_rare_count_primary": 67,
+      "true_rare_fraction_primary": 0.06085376930063579,
+      "rare_enrichment_primary": 0.7571947580121967,
+      "true_rare_count_secondary": 67,
+      "true_rare_fraction_secondary": 0.06085376930063579,
+      "rare_enrichment_secondary": 0.7571947580121967
+    },
+    {
+      "label": 2,
+      "size": 538,
+      "fraction": 0.15442020665901263,
+      "is_rare_primary": false,
+      "is_rare_secondary": false,
+      "true_rare_count_primary": 100,
+      "true_rare_fraction_primary": 0.18587360594795538,
+      "rare_enrichment_primary": 2.3127987254381304,
+      "true_rare_count_secondary": 100,
+      "true_rare_fraction_secondary": 0.18587360594795538,
+      "rare_enrichment_secondary": 2.3127987254381304
+    },
+    {
+      "label": 3,
+      "size": 357,
+      "fraction": 0.10246842709529276,
+      "is_rare_primary": false,
+      "is_rare_secondary": false,
+      "true_rare_count_primary": 18,
+      "true_rare_fraction_primary": 0.05042016806722689,
+      "rare_enrichment_primary": 0.6273709483793517,
+      "true_rare_count_secondary": 18,
+      "true_rare_fraction_secondary": 0.05042016806722689,
+      "rare_enrichment_secondary": 0.6273709483793517
+    },
+    {
+      "label": 4,
+      "size": 89,
+      "fraction": 0.025545350172215844,
+      "is_rare_primary": true,
+      "is_rare_secondary": true,
+      "true_rare_count_primary": 0,
+      "true_rare_fraction_primary": 0.0,
+      "rare_enrichment_primary": 0.0,
+      "true_rare_count_secondary": 0,
+      "true_rare_fraction_secondary": 0.0,
+      "rare_enrichment_secondary": 0.0
+    }
+  ],
+  "hungarian": {
+    "mapping": [
+      {
+        "predicted_label": 0,
+        "reference_label": 5,
+        "overlap": 554
+      },
+      {
+        "predicted_label": 1,
+        "reference_label": 4,
+        "overlap": 636
+      },
+      {
+        "predicted_label": 2,
+        "reference_label": 1,
+        "overlap": 341
+      },
+      {
+        "predicted_label": 3,
+        "reference_label": 7,
+        "overlap": 163
+      },
+      {
+        "predicted_label": 4,
+        "reference_label": 2,
+        "overlap": 0
+      }
+    ],
+    "unmatched_predicted_labels": [],
+    "accuracy": 0.4862227324913892,
+    "macro_f1": 0.20891439451586638,
+    "per_class": [
+      {
+        "tp": 0,
+        "fp": 0,
+        "fn": 202,
+        "tn": 3282,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 0,
+        "name": "capsule",
+        "support": 202,
+        "predicted_count": 0,
+        "is_rare_primary": false,
+        "is_rare_secondary": false
+      },
+      {
+        "tp": 341,
+        "fp": 197,
+        "fn": 381,
+        "tn": 2565,
+        "precision": 0.6338289962825279,
+        "recall": 0.47229916897506924,
+        "f1": 0.5412698412698412,
+        "truth_label": 1,
+        "name": "cortex",
+        "support": 722,
+        "predicted_count": 538,
+        "is_rare_primary": false,
+        "is_rare_secondary": false
+      },
+      {
+        "tp": 0,
+        "fp": 89,
+        "fn": 96,
+        "tn": 3299,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 2,
+        "name": "follicle",
+        "support": 96,
+        "predicted_count": 89,
+        "is_rare_primary": true,
+        "is_rare_secondary": true
+      },
+      {
+        "tp": 0,
+        "fp": 0,
+        "fn": 23,
+        "tn": 3461,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 3,
+        "name": "hilum",
+        "support": 23,
+        "predicted_count": 0,
+        "is_rare_primary": true,
+        "is_rare_secondary": true
+      },
+      {
+        "tp": 636,
+        "fp": 465,
+        "fn": 530,
+        "tn": 1853,
+        "precision": 0.5776566757493188,
+        "recall": 0.5454545454545454,
+        "f1": 0.5610939567710631,
+        "truth_label": 4,
+        "name": "medulla cords",
+        "support": 1166,
+        "predicted_count": 1101,
+        "is_rare_primary": false,
+        "is_rare_secondary": false
+      },
+      {
+        "tp": 554,
+        "fp": 845,
+        "fn": 240,
+        "tn": 1845,
+        "precision": 0.39599714081486775,
+        "recall": 0.6977329974811083,
+        "f1": 0.5052439580483357,
+        "truth_label": 5,
+        "name": "medulla sinuses",
+        "support": 794,
+        "predicted_count": 1399,
+        "is_rare_primary": false,
+        "is_rare_secondary": false
+      },
+      {
+        "tp": 0,
+        "fp": 0,
+        "fn": 80,
+        "tn": 3404,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 6,
+        "name": "medulla vessels",
+        "support": 80,
+        "predicted_count": 0,
+        "is_rare_primary": true,
+        "is_rare_secondary": true
+      },
+      {
+        "tp": 163,
+        "fp": 194,
+        "fn": 157,
+        "tn": 2970,
+        "precision": 0.4565826330532213,
+        "recall": 0.509375,
+        "f1": 0.4815361890694239,
+        "truth_label": 7,
+        "name": "pericapsular adipose tissue",
+        "support": 320,
+        "predicted_count": 357,
+        "is_rare_primary": false,
+        "is_rare_secondary": false
+      },
+      {
+        "tp": 0,
+        "fp": 0,
+        "fn": 73,
+        "tn": 3411,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 8,
+        "name": "subcapsular sinus",
+        "support": 73,
+        "predicted_count": 0,
+        "is_rare_primary": true,
+        "is_rare_secondary": true
+      },
+      {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "tn": 3476,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "truth_label": 9,
+        "name": "trabeculae",
+        "support": 8,
+        "predicted_count": 0,
+        "is_rare_primary": true,
+        "is_rare_secondary": true
+      }
+    ]
+  },
+  "spatial": {
+    "n_undirected_edges": 19312,
+    "boundary": {
+      "tp": 4505,
+      "fp": 4088,
+      "fn": 3795,
+      "tn": 6924,
+      "precision": 0.5242639357616665,
+      "recall": 0.5427710843373494,
+      "f1": 0.5333570117800273,
+      "truth_positive_edges": 8300,
+      "predicted_positive_edges": 8593
+    },
+    "boundary_mixing": {
+      "truth_cross_fraction": 0.42978458989229495,
+      "predicted_cross_fraction": 0.44495650372825185,
+      "erased_true_boundary_fraction": 0.4572289156626506,
+      "truth_crossing_within_predicted_cluster_fraction": 0.3540442205429611,
+      "false_predicted_boundary_fraction": 0.47573606423833353
+    },
+    "connectivity": [
+      {
+        "label": 0,
+        "size": 1399,
+        "n_components": 29,
+        "component_sizes_descending": [
+          1228,
+          64,
+          44,
+          8,
+          8,
+          5,
+          5,
+          5,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_component_fraction": 0.8777698355968548,
+        "isolated_spot_count": 14
+      },
+      {
+        "label": 1,
+        "size": 1101,
+        "n_components": 38,
+        "component_sizes_descending": [
+          984,
+          44,
+          8,
+          7,
+          6,
+          5,
+          5,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_component_fraction": 0.8937329700272479,
+        "isolated_spot_count": 24
+      },
+      {
+        "label": 2,
+        "size": 538,
+        "n_components": 35,
+        "component_sizes_descending": [
+          287,
+          144,
+          41,
+          15,
+          6,
+          6,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_component_fraction": 0.533457249070632,
+        "isolated_spot_count": 21
+      },
+      {
+        "label": 3,
+        "size": 357,
+        "n_components": 53,
+        "component_sizes_descending": [
+          99,
+          41,
+          28,
+          19,
+          14,
+          14,
+          12,
+          10,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          5,
+          5,
+          5,
+          5,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_component_fraction": 0.2773109243697479,
+        "isolated_spot_count": 24
+      },
+      {
+        "label": 4,
+        "size": 89,
+        "n_components": 8,
+        "component_sizes_descending": [
+          52,
+          16,
+          10,
+          6,
+          2,
+          1,
+          1,
+          1
+        ],
+        "largest_component_fraction": 0.5842696629213483,
+        "isolated_spot_count": 3
+      }
+    ],
+    "size_weighted_largest_component_fraction": 0.7606199770378875,
+    "isolated_spot_fraction_within_predicted_clusters": 0.02468427095292767,
+    "graph_source": "coordinate_knn_undirected_union",
+    "k": 10
+  },
+  "assignment_churn": {
+    "changed_count": 1264,
+    "fraction": 0.36280137772675086,
+    "n_spots": 3484,
+    "ari": 0.34454631577997386,
+    "mapping": [
+      {
+        "predicted_label": 0,
+        "reference_label": 1,
+        "overlap": 826
+      },
+      {
+        "predicted_label": 1,
+        "reference_label": 0,
+        "overlap": 791
+      },
+      {
+        "predicted_label": 2,
+        "reference_label": 2,
+        "overlap": 418
+      },
+      {
+        "predicted_label": 3,
+        "reference_label": 3,
+        "overlap": 185
+      },
+      {
+        "predicted_label": 4,
+        "reference_label": 4,
+        "overlap": 0
+      }
+    ],
+    "unmatched_predicted_labels": []
+  },
+  "embedding": {
+    "n_spots": 3484,
+    "dimension": 104,
+    "effective_rank": 3.6951447351685514,
+    "centered_total_sum_squares": 54.825697023677975,
+    "zero_norm_spot_count": 0,
+    "knn_k": 10,
+    "knn_purity": 0.5024397244546498,
+    "chance": 0.22046148969011695,
+    "chance_without_self": 0.22023767731276697,
+    "same_class_cosine": 0.9998394979878767,
+    "different_class_cosine": 0.9996861663132974,
+    "class_separation": 0.00015333167457931562,
+    "spatial_neighbor_cosine_mean": 0.9998447880827142,
+    "spatial_neighbor_squared_distance_mean": 0.01744585205999923
+  }
+}

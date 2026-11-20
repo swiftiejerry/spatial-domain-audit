@@ -1,0 +1,269 @@
+{
+  "scope": "Within-section spatial holdout, conditional on the supplied reference labels",
+  "holdout_rule": "Leftmost ceil(20% of spots) by x-coordinate; row index breaks coordinate ties",
+  "rare_rule": "Reference classes and predicted clusters are defined by their whole-section share <= 5%, then scored within each region",
+  "n_spots": 3484,
+  "n_holdout_spots": 697,
+  "arms": {
+    "Astar": {
+      "0": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.20576622591758295,
+          "nmi": 0.2842728274816857,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 22
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.41656722506433175,
+          "nmi": 0.29540588818932745,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      },
+      "1": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.19762258311068098,
+          "nmi": 0.27170028685905606,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 44
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.40830061363541775,
+          "nmi": 0.3127324241986538,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      },
+      "42": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.18770360248521645,
+          "nmi": 0.26931234794045966,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 48
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.40469025943434817,
+          "nmi": 0.2892637143404107,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      }
+    },
+    "B0": {
+      "0": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.06128274755966432,
+          "nmi": 0.1135720377795462,
+          "rare_f1": 0.17302798982188294,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 113
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.01891825415010435,
+          "nmi": 0.049242340742982824,
+          "rare_f1": 0.23703703703703705,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 49
+        }
+      },
+      "1": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.1470135842102322,
+          "nmi": 0.2218338491431139,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 0
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.20639080176478833,
+          "nmi": 0.21794668013995155,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      },
+      "42": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.029767027463103838,
+          "nmi": 0.06668775955846712,
+          "rare_f1": 0.004618937644341801,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 153
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.009930257175123162,
+          "nmi": 0.02942319390323049,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      }
+    },
+    "B0_holdout": {
+      "0": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.1905792866061162,
+          "nmi": 0.28468055840713913,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 89
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.21640385960050393,
+          "nmi": 0.2812211222980734,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      },
+      "1": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.18560833142170496,
+          "nmi": 0.2554756414997463,
+          "rare_f1": 0.08421052631578947,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 195
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.38732416107501666,
+          "nmi": 0.2900051855045913,
+          "rare_f1": 0.15517241379310345,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 30
+        }
+      },
+      "42": {
+        "whole_section": {
+          "n_spots": 3484,
+          "ari": 0.12817074527884553,
+          "nmi": 0.2138023578210507,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 280,
+          "predicted_rare_spots": 0
+        },
+        "leftmost_20_percent": {
+          "n_spots": 697,
+          "ari": 0.23105761276537856,
+          "nmi": 0.21913993795161285,
+          "rare_f1": 0.0,
+          "reference_rare_spots": 86,
+          "predicted_rare_spots": 0
+        }
+      }
+    }
+  },
+  "mean_and_sample_sd": {
+    "Astar": {
+      "whole_section": {
+        "ari": {
+          "mean": 0.19703080383782678,
+          "sample_sd": 0.009045841218245197
+        },
+        "nmi": {
+          "mean": 0.2750951540937338,
+          "sample_sd": 0.00803727750433423
+        },
+        "rare_f1": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "leftmost_20_percent": {
+        "ari": {
+          "mean": 0.40985269937803254,
+          "sample_sd": 0.006088703126140569
+        },
+        "nmi": {
+          "mean": 0.299134008909464,
+          "sample_sd": 0.01217042516432902
+        },
+        "rare_f1": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    "B0": {
+      "whole_section": {
+        "ari": {
+          "mean": 0.07935445307766678,
+          "sample_sd": 0.06067642600311465
+        },
+        "nmi": {
+          "mean": 0.13403121549370908,
+          "sample_sd": 0.0795707907646178
+        },
+        "rare_f1": {
+          "mean": 0.05921564248874158,
+          "sample_sd": 0.09859143700317126
+        }
+      },
+      "leftmost_20_percent": {
+        "ari": {
+          "mean": 0.0784131043633386,
+          "sample_sd": 0.11092301067198969
+        },
+        "nmi": {
+          "mean": 0.09887073826205496,
+          "sample_sd": 0.10359782621245038
+        },
+        "rare_f1": {
+          "mean": 0.07901234567901234,
+          "sample_sd": 0.13685339714124464
+        }
+      }
+    },
+    "B0_holdout": {
+      "whole_section": {
+        "ari": {
+          "mean": 0.16811945443555557,
+          "sample_sd": 0.03468576251615225
+        },
+        "nmi": {
+          "mean": 0.25131951924264534,
+          "sample_sd": 0.03562140990671795
+        },
+        "rare_f1": {
+          "mean": 0.028070175438596492,
+          "sample_sd": 0.04861897003702111
+        }
+      },
+      "leftmost_20_percent": {
+        "ari": {
+          "mean": 0.27826187781363304,
+          "sample_sd": 0.09473446755586888
+        },
+        "nmi": {
+          "mean": 0.26345541525142585,
+          "sample_sd": 0.03862882457228937
+        },
+        "rare_f1": {
+          "mean": 0.05172413793103448,
+          "sample_sd": 0.08958883487425229
+        }
+      }
+    }
+  }
+}

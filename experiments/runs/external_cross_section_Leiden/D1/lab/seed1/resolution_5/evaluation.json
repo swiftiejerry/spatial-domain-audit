@@ -1,0 +1,2319 @@
+{
+  "seed": 1,
+  "resolution": 5.0,
+  "n_clusters": 80,
+  "ari": 0.045042714448944574,
+  "nmi": 0.26327245242660247,
+  "reference_class_counts": {
+    "capsule": 187,
+    "cortex": 569,
+    "follicle": 86,
+    "hilum": 27,
+    "medulla cords": 1090,
+    "medulla sinuses": 924,
+    "medulla vessel": 96,
+    "pericapsular adipose tissue": 281,
+    "subcapsular sinus": 86,
+    "trabeculae": 13
+  },
+  "reference_rare_classes_below_5_percent": [
+    "follicle",
+    "hilum",
+    "medulla vessel",
+    "subcapsular sinus",
+    "trabeculae"
+  ],
+  "reference_rare_union_share": 0.09169395653468294,
+  "reference_rare_union_is_small": true,
+  "primary_predicted_cluster_threshold_percent": 5.0,
+  "rare_union_at_primary_threshold": {
+    "threshold_percent": 5.0,
+    "n_small_clusters": 80,
+    "n_spots_in_small_clusters": 3359,
+    "rare_spots_in_small_clusters": 308,
+    "rare_share_in_small_clusters": 0.09169395653468294,
+    "rare_enrichment_over_section": 1.0,
+    "rare_precision": 0.09169395653468294,
+    "rare_recall": 1.0,
+    "rare_f1": 0.1679847286610308
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold_percent": 1.0,
+      "n_small_clusters": 43,
+      "n_spots_in_small_clusters": 1025,
+      "rare_spots_in_small_clusters": 73,
+      "rare_share_in_small_clusters": 0.07121951219512195,
+      "rare_enrichment_over_section": 0.7767089008552422,
+      "rare_precision": 0.07121951219512195,
+      "rare_recall": 0.237012987012987,
+      "rare_f1": 0.10952738184546136
+    },
+    {
+      "threshold_percent": 1.5,
+      "n_small_clusters": 58,
+      "n_spots_in_small_clusters": 1655,
+      "rare_spots_in_small_clusters": 117,
+      "rare_share_in_small_clusters": 0.07069486404833837,
+      "rare_enrichment_over_section": 0.7709871699297681,
+      "rare_precision": 0.07069486404833837,
+      "rare_recall": 0.37987012987012986,
+      "rare_f1": 0.11920529801324503
+    },
+    {
+      "threshold_percent": 2.0,
+      "n_small_clusters": 66,
+      "n_spots_in_small_clusters": 2127,
+      "rare_spots_in_small_clusters": 139,
+      "rare_share_in_small_clusters": 0.06535025858015985,
+      "rare_enrichment_over_section": 0.7126997356193406,
+      "rare_precision": 0.06535025858015985,
+      "rare_recall": 0.4512987012987013,
+      "rare_f1": 0.11416837782340862
+    },
+    {
+      "threshold_percent": 2.5,
+      "n_small_clusters": 73,
+      "n_spots_in_small_clusters": 2641,
+      "rare_spots_in_small_clusters": 199,
+      "rare_share_in_small_clusters": 0.07535024611889436,
+      "rare_enrichment_over_section": 0.8217580412771629,
+      "rare_precision": 0.07535024611889436,
+      "rare_recall": 0.6461038961038961,
+      "rare_f1": 0.134961003730078
+    },
+    {
+      "threshold_percent": 3.0,
+      "n_small_clusters": 76,
+      "n_spots_in_small_clusters": 2910,
+      "rare_spots_in_small_clusters": 220,
+      "rare_share_in_small_clusters": 0.07560137457044673,
+      "rare_enrichment_over_section": 0.8244968090328915,
+      "rare_precision": 0.07560137457044673,
+      "rare_recall": 0.7142857142857143,
+      "rare_f1": 0.13673088875077688
+    },
+    {
+      "threshold_percent": 3.5,
+      "n_small_clusters": 79,
+      "n_spots_in_small_clusters": 3235,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09520865533230294,
+      "rare_enrichment_over_section": 1.0383307573415765,
+      "rare_precision": 0.09520865533230294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.17386395709850408
+    },
+    {
+      "threshold_percent": 4.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 4.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 5.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 5.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 6.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 6.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 7.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 7.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 8.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 8.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 9.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 9.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 10.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 10.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 11.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 11.5,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    },
+    {
+      "threshold_percent": 12.0,
+      "n_small_clusters": 80,
+      "n_spots_in_small_clusters": 3359,
+      "rare_spots_in_small_clusters": 308,
+      "rare_share_in_small_clusters": 0.09169395653468294,
+      "rare_enrichment_over_section": 1.0,
+      "rare_precision": 0.09169395653468294,
+      "rare_recall": 1.0,
+      "rare_f1": 0.1679847286610308
+    }
+  ],
+  "per_reference_rare_class_at_primary_threshold": {
+    "follicle": {
+      "support": 86,
+      "reference_share": 0.025602857993450433,
+      "precision": 0.025602857993450433,
+      "recall": 1.0,
+      "f1": 0.04992743105950653,
+      "spots_in_predicted_small_clusters": 86,
+      "max_cluster_enrichment": 20.214300285597716
+    },
+    "hilum": {
+      "support": 27,
+      "reference_share": 0.008038106579339089,
+      "precision": 0.008038106579339089,
+      "recall": 1.0,
+      "f1": 0.01594802126402835,
+      "spots_in_predicted_small_clusters": 27,
+      "max_cluster_enrichment": 23.439076757917338
+    },
+    "medulla vessel": {
+      "support": 96,
+      "reference_share": 0.02857993450431676,
+      "precision": 0.02857993450431676,
+      "recall": 1.0,
+      "f1": 0.05557163531114327,
+      "spots_in_predicted_small_clusters": 96,
+      "max_cluster_enrichment": 8.747395833333334
+    },
+    "subcapsular sinus": {
+      "support": 86,
+      "reference_share": 0.025602857993450433,
+      "precision": 0.025602857993450433,
+      "recall": 1.0,
+      "f1": 0.04992743105950653,
+      "spots_in_predicted_small_clusters": 86,
+      "max_cluster_enrichment": 9.76453488372093
+    },
+    "trabeculae": {
+      "support": 13,
+      "reference_share": 0.003870199464126228,
+      "precision": 0.003870199464126228,
+      "recall": 1.0,
+      "f1": 0.00771055753262159,
+      "spots_in_predicted_small_clusters": 13,
+      "max_cluster_enrichment": 13.250493096646943
+    }
+  },
+  "small_clusters_at_primary_threshold": [
+    {
+      "cluster_id": 77,
+      "n_spots": 8,
+      "section_share": 0.0023816612086930635,
+      "rare_spots": 1,
+      "rare_share": 0.125,
+      "rare_enrichment_over_section": 1.3632305194805194,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 4,
+          "within_cluster_share": 0.5
+        },
+        {
+          "label": "cortex",
+          "spots": 3,
+          "within_cluster_share": 0.375
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 1,
+          "within_cluster_share": 0.125
+        }
+      ]
+    },
+    {
+      "cluster_id": 76,
+      "n_spots": 9,
+      "section_share": 0.0026793688597796963,
+      "rare_spots": 1,
+      "rare_share": 0.1111111111111111,
+      "rare_enrichment_over_section": 1.2117604617604616,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 6,
+          "within_cluster_share": 0.6666666666666666
+        },
+        {
+          "label": "medulla cords",
+          "spots": 2,
+          "within_cluster_share": 0.2222222222222222
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 1,
+          "within_cluster_share": 0.1111111111111111
+        }
+      ]
+    },
+    {
+      "cluster_id": 75,
+      "n_spots": 14,
+      "section_share": 0.004167907115212861,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 9,
+          "within_cluster_share": 0.6428571428571429
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 5,
+          "within_cluster_share": 0.35714285714285715
+        }
+      ]
+    },
+    {
+      "cluster_id": 74,
+      "n_spots": 15,
+      "section_share": 0.004465614766299494,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 8,
+          "within_cluster_share": 0.5333333333333333
+        },
+        {
+          "label": "medulla cords",
+          "spots": 6,
+          "within_cluster_share": 0.4
+        },
+        {
+          "label": "cortex",
+          "spots": 1,
+          "within_cluster_share": 0.06666666666666667
+        }
+      ]
+    },
+    {
+      "cluster_id": 73,
+      "n_spots": 16,
+      "section_share": 0.004763322417386127,
+      "rare_spots": 3,
+      "rare_share": 0.1875,
+      "rare_enrichment_over_section": 2.044845779220779,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 9,
+          "within_cluster_share": 0.5625
+        },
+        {
+          "label": "cortex",
+          "spots": 3,
+          "within_cluster_share": 0.1875
+        },
+        {
+          "label": "follicle",
+          "spots": 1,
+          "within_cluster_share": 0.0625
+        }
+      ]
+    },
+    {
+      "cluster_id": 70,
+      "n_spots": 17,
+      "section_share": 0.00506103006847276,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 9,
+          "within_cluster_share": 0.5294117647058824
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.4117647058823529
+        },
+        {
+          "label": "pericapsular adipose tissue",
+          "spots": 1,
+          "within_cluster_share": 0.058823529411764705
+        }
+      ]
+    },
+    {
+      "cluster_id": 71,
+      "n_spots": 17,
+      "section_share": 0.00506103006847276,
+      "rare_spots": 2,
+      "rare_share": 0.11764705882352941,
+      "rare_enrichment_over_section": 1.2830404889228417,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 9,
+          "within_cluster_share": 0.5294117647058824
+        },
+        {
+          "label": "medulla cords",
+          "spots": 3,
+          "within_cluster_share": 0.17647058823529413
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 2,
+          "within_cluster_share": 0.11764705882352941
+        }
+      ]
+    },
+    {
+      "cluster_id": 72,
+      "n_spots": 17,
+      "section_share": 0.00506103006847276,
+      "rare_spots": 1,
+      "rare_share": 0.058823529411764705,
+      "rare_enrichment_over_section": 0.6415202444614209,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 8,
+          "within_cluster_share": 0.47058823529411764
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 7,
+          "within_cluster_share": 0.4117647058823529
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 1,
+          "within_cluster_share": 0.058823529411764705
+        }
+      ]
+    },
+    {
+      "cluster_id": 68,
+      "n_spots": 19,
+      "section_share": 0.0056564453706460256,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 11,
+          "within_cluster_share": 0.5789473684210527
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 7,
+          "within_cluster_share": 0.3684210526315789
+        },
+        {
+          "label": "cortex",
+          "spots": 1,
+          "within_cluster_share": 0.05263157894736842
+        }
+      ]
+    },
+    {
+      "cluster_id": 69,
+      "n_spots": 19,
+      "section_share": 0.0056564453706460256,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 12,
+          "within_cluster_share": 0.631578947368421
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 5,
+          "within_cluster_share": 0.2631578947368421
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.05263157894736842
+        }
+      ]
+    },
+    {
+      "cluster_id": 65,
+      "n_spots": 20,
+      "section_share": 0.005954153021732658,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 13,
+          "within_cluster_share": 0.65
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.35
+        }
+      ]
+    },
+    {
+      "cluster_id": 66,
+      "n_spots": 20,
+      "section_share": 0.005954153021732658,
+      "rare_spots": 2,
+      "rare_share": 0.1,
+      "rare_enrichment_over_section": 1.0905844155844155,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 8,
+          "within_cluster_share": 0.4
+        },
+        {
+          "label": "capsule",
+          "spots": 6,
+          "within_cluster_share": 0.3
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.1
+        }
+      ]
+    },
+    {
+      "cluster_id": 63,
+      "n_spots": 21,
+      "section_share": 0.006251860672819291,
+      "rare_spots": 3,
+      "rare_share": 0.14285714285714285,
+      "rare_enrichment_over_section": 1.557977736549165,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 13,
+          "within_cluster_share": 0.6190476190476191
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.14285714285714285
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.09523809523809523
+        }
+      ]
+    },
+    {
+      "cluster_id": 64,
+      "n_spots": 21,
+      "section_share": 0.006251860672819291,
+      "rare_spots": 2,
+      "rare_share": 0.09523809523809523,
+      "rare_enrichment_over_section": 1.03865182436611,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 16,
+          "within_cluster_share": 0.7619047619047619
+        },
+        {
+          "label": "cortex",
+          "spots": 3,
+          "within_cluster_share": 0.14285714285714285
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.09523809523809523
+        }
+      ]
+    },
+    {
+      "cluster_id": 59,
+      "n_spots": 22,
+      "section_share": 0.006549568323905924,
+      "rare_spots": 2,
+      "rare_share": 0.09090909090909091,
+      "rare_enrichment_over_section": 0.9914403778040142,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 10,
+          "within_cluster_share": 0.45454545454545453
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 10,
+          "within_cluster_share": 0.45454545454545453
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 2,
+          "within_cluster_share": 0.09090909090909091
+        }
+      ]
+    },
+    {
+      "cluster_id": 60,
+      "n_spots": 22,
+      "section_share": 0.006549568323905924,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 16,
+          "within_cluster_share": 0.7272727272727273
+        },
+        {
+          "label": "medulla cords",
+          "spots": 6,
+          "within_cluster_share": 0.2727272727272727
+        }
+      ]
+    },
+    {
+      "cluster_id": 61,
+      "n_spots": 22,
+      "section_share": 0.006549568323905924,
+      "rare_spots": 2,
+      "rare_share": 0.09090909090909091,
+      "rare_enrichment_over_section": 0.9914403778040142,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 13,
+          "within_cluster_share": 0.5909090909090909
+        },
+        {
+          "label": "medulla cords",
+          "spots": 5,
+          "within_cluster_share": 0.22727272727272727
+        },
+        {
+          "label": "capsule",
+          "spots": 2,
+          "within_cluster_share": 0.09090909090909091
+        }
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "n_spots": 22,
+      "section_share": 0.006549568323905924,
+      "rare_spots": 2,
+      "rare_share": 0.09090909090909091,
+      "rare_enrichment_over_section": 0.9914403778040142,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 11,
+          "within_cluster_share": 0.5
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 8,
+          "within_cluster_share": 0.36363636363636365
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.09090909090909091
+        }
+      ]
+    },
+    {
+      "cluster_id": 58,
+      "n_spots": 23,
+      "section_share": 0.006847275974992557,
+      "rare_spots": 1,
+      "rare_share": 0.043478260869565216,
+      "rare_enrichment_over_section": 0.47416713721061543,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 7,
+          "within_cluster_share": 0.30434782608695654
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.30434782608695654
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 7,
+          "within_cluster_share": 0.30434782608695654
+        }
+      ]
+    },
+    {
+      "cluster_id": 54,
+      "n_spots": 24,
+      "section_share": 0.00714498362607919,
+      "rare_spots": 5,
+      "rare_share": 0.20833333333333334,
+      "rare_enrichment_over_section": 2.272050865800866,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 15,
+          "within_cluster_share": 0.625
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 5,
+          "within_cluster_share": 0.20833333333333334
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.125
+        }
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "n_spots": 24,
+      "section_share": 0.00714498362607919,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 17,
+          "within_cluster_share": 0.7083333333333334
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.16666666666666666
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.125
+        }
+      ]
+    },
+    {
+      "cluster_id": 57,
+      "n_spots": 24,
+      "section_share": 0.00714498362607919,
+      "rare_spots": 1,
+      "rare_share": 0.041666666666666664,
+      "rare_enrichment_over_section": 0.4544101731601731,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 13,
+          "within_cluster_share": 0.5416666666666666
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 9,
+          "within_cluster_share": 0.375
+        },
+        {
+          "label": "hilum",
+          "spots": 1,
+          "within_cluster_share": 0.041666666666666664
+        }
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "n_spots": 25,
+      "section_share": 0.007442691277165823,
+      "rare_spots": 2,
+      "rare_share": 0.08,
+      "rare_enrichment_over_section": 0.8724675324675325,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 16,
+          "within_cluster_share": 0.64
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.16
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.12
+        }
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "n_spots": 26,
+      "section_share": 0.007740398928252456,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 18,
+          "within_cluster_share": 0.6923076923076923
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 6,
+          "within_cluster_share": 0.23076923076923078
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.038461538461538464
+        }
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "n_spots": 26,
+      "section_share": 0.007740398928252456,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 12,
+          "within_cluster_share": 0.46153846153846156
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 11,
+          "within_cluster_share": 0.4230769230769231
+        },
+        {
+          "label": "capsule",
+          "spots": 2,
+          "within_cluster_share": 0.07692307692307693
+        }
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "n_spots": 26,
+      "section_share": 0.007740398928252456,
+      "rare_spots": 2,
+      "rare_share": 0.07692307692307693,
+      "rare_enrichment_over_section": 0.8389110889110889,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 14,
+          "within_cluster_share": 0.5384615384615384
+        },
+        {
+          "label": "cortex",
+          "spots": 6,
+          "within_cluster_share": 0.23076923076923078
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.11538461538461539
+        }
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "n_spots": 27,
+      "section_share": 0.008038106579339089,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 23,
+          "within_cluster_share": 0.8518518518518519
+        },
+        {
+          "label": "medulla cords",
+          "spots": 3,
+          "within_cluster_share": 0.1111111111111111
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.037037037037037035
+        }
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "n_spots": 27,
+      "section_share": 0.008038106579339089,
+      "rare_spots": 1,
+      "rare_share": 0.037037037037037035,
+      "rare_enrichment_over_section": 0.4039201539201539,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 24,
+          "within_cluster_share": 0.8888888888888888
+        },
+        {
+          "label": "medulla cords",
+          "spots": 1,
+          "within_cluster_share": 0.037037037037037035
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 1,
+          "within_cluster_share": 0.037037037037037035
+        }
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "n_spots": 27,
+      "section_share": 0.008038106579339089,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 15,
+          "within_cluster_share": 0.5555555555555556
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 11,
+          "within_cluster_share": 0.4074074074074074
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.037037037037037035
+        }
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "n_spots": 28,
+      "section_share": 0.008335814230425722,
+      "rare_spots": 7,
+      "rare_share": 0.25,
+      "rare_enrichment_over_section": 2.726461038961039,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 9,
+          "within_cluster_share": 0.32142857142857145
+        },
+        {
+          "label": "medulla cords",
+          "spots": 9,
+          "within_cluster_share": 0.32142857142857145
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 7,
+          "within_cluster_share": 0.25
+        }
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "n_spots": 28,
+      "section_share": 0.008335814230425722,
+      "rare_spots": 4,
+      "rare_share": 0.14285714285714285,
+      "rare_enrichment_over_section": 1.557977736549165,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 15,
+          "within_cluster_share": 0.5357142857142857
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 7,
+          "within_cluster_share": 0.25
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 3,
+          "within_cluster_share": 0.10714285714285714
+        }
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "n_spots": 28,
+      "section_share": 0.008335814230425722,
+      "rare_spots": 7,
+      "rare_share": 0.25,
+      "rare_enrichment_over_section": 2.726461038961039,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 13,
+          "within_cluster_share": 0.4642857142857143
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 7,
+          "within_cluster_share": 0.25
+        },
+        {
+          "label": "cortex",
+          "spots": 7,
+          "within_cluster_share": 0.25
+        }
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "n_spots": 29,
+      "section_share": 0.008633521881512354,
+      "rare_spots": 1,
+      "rare_share": 0.034482758620689655,
+      "rare_enrichment_over_section": 0.37606359158083297,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 15,
+          "within_cluster_share": 0.5172413793103449
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 8,
+          "within_cluster_share": 0.27586206896551724
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.13793103448275862
+        }
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "n_spots": 29,
+      "section_share": 0.008633521881512354,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 16,
+          "within_cluster_share": 0.5517241379310345
+        },
+        {
+          "label": "medulla cords",
+          "spots": 8,
+          "within_cluster_share": 0.27586206896551724
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.13793103448275862
+        }
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "n_spots": 29,
+      "section_share": 0.008633521881512354,
+      "rare_spots": 1,
+      "rare_share": 0.034482758620689655,
+      "rare_enrichment_over_section": 0.37606359158083297,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 19,
+          "within_cluster_share": 0.6551724137931034
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 7,
+          "within_cluster_share": 0.2413793103448276
+        },
+        {
+          "label": "cortex",
+          "spots": 1,
+          "within_cluster_share": 0.034482758620689655
+        }
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "n_spots": 30,
+      "section_share": 0.008931229532598988,
+      "rare_spots": 4,
+      "rare_share": 0.13333333333333333,
+      "rare_enrichment_over_section": 1.4541125541125541,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 13,
+          "within_cluster_share": 0.43333333333333335
+        },
+        {
+          "label": "cortex",
+          "spots": 10,
+          "within_cluster_share": 0.3333333333333333
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.1
+        }
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "n_spots": 30,
+      "section_share": 0.008931229532598988,
+      "rare_spots": 2,
+      "rare_share": 0.06666666666666667,
+      "rare_enrichment_over_section": 0.7270562770562771,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 19,
+          "within_cluster_share": 0.6333333333333333
+        },
+        {
+          "label": "medulla cords",
+          "spots": 8,
+          "within_cluster_share": 0.26666666666666666
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 1,
+          "within_cluster_share": 0.03333333333333333
+        }
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "n_spots": 31,
+      "section_share": 0.00922893718368562,
+      "rare_spots": 3,
+      "rare_share": 0.0967741935483871,
+      "rare_enrichment_over_section": 1.0554042731462085,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 15,
+          "within_cluster_share": 0.4838709677419355
+        },
+        {
+          "label": "medulla cords",
+          "spots": 11,
+          "within_cluster_share": 0.3548387096774194
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 3,
+          "within_cluster_share": 0.0967741935483871
+        }
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "n_spots": 32,
+      "section_share": 0.009526644834772254,
+      "rare_spots": 2,
+      "rare_share": 0.0625,
+      "rare_enrichment_over_section": 0.6816152597402597,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 17,
+          "within_cluster_share": 0.53125
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 6,
+          "within_cluster_share": 0.1875
+        },
+        {
+          "label": "cortex",
+          "spots": 5,
+          "within_cluster_share": 0.15625
+        }
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "n_spots": 32,
+      "section_share": 0.009526644834772254,
+      "rare_spots": 2,
+      "rare_share": 0.0625,
+      "rare_enrichment_over_section": 0.6816152597402597,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 16,
+          "within_cluster_share": 0.5
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 9,
+          "within_cluster_share": 0.28125
+        },
+        {
+          "label": "capsule",
+          "spots": 3,
+          "within_cluster_share": 0.09375
+        }
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "n_spots": 33,
+      "section_share": 0.009824352485858886,
+      "rare_spots": 3,
+      "rare_share": 0.09090909090909091,
+      "rare_enrichment_over_section": 0.9914403778040142,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 13,
+          "within_cluster_share": 0.3939393939393939
+        },
+        {
+          "label": "capsule",
+          "spots": 7,
+          "within_cluster_share": 0.21212121212121213
+        },
+        {
+          "label": "medulla cords",
+          "spots": 5,
+          "within_cluster_share": 0.15151515151515152
+        }
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "n_spots": 33,
+      "section_share": 0.009824352485858886,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 24,
+          "within_cluster_share": 0.7272727272727273
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 5,
+          "within_cluster_share": 0.15151515151515152
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.12121212121212122
+        }
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "n_spots": 33,
+      "section_share": 0.009824352485858886,
+      "rare_spots": 4,
+      "rare_share": 0.12121212121212122,
+      "rare_enrichment_over_section": 1.3219205037386856,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 23,
+          "within_cluster_share": 0.696969696969697
+        },
+        {
+          "label": "medulla cords",
+          "spots": 5,
+          "within_cluster_share": 0.15151515151515152
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.06060606060606061
+        }
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "n_spots": 35,
+      "section_share": 0.010419767788032152,
+      "rare_spots": 2,
+      "rare_share": 0.05714285714285714,
+      "rare_enrichment_over_section": 0.623191094619666,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 17,
+          "within_cluster_share": 0.4857142857142857
+        },
+        {
+          "label": "medulla cords",
+          "spots": 13,
+          "within_cluster_share": 0.37142857142857144
+        },
+        {
+          "label": "capsule",
+          "spots": 2,
+          "within_cluster_share": 0.05714285714285714
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "n_spots": 36,
+      "section_share": 0.010717475439118785,
+      "rare_spots": 1,
+      "rare_share": 0.027777777777777776,
+      "rare_enrichment_over_section": 0.3029401154401154,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 19,
+          "within_cluster_share": 0.5277777777777778
+        },
+        {
+          "label": "medulla cords",
+          "spots": 14,
+          "within_cluster_share": 0.3888888888888889
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 1,
+          "within_cluster_share": 0.027777777777777776
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "n_spots": 37,
+      "section_share": 0.011015183090205419,
+      "rare_spots": 4,
+      "rare_share": 0.10810810810810811,
+      "rare_enrichment_over_section": 1.179010179010179,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 26,
+          "within_cluster_share": 0.7027027027027027
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 4,
+          "within_cluster_share": 0.10810810810810811
+        },
+        {
+          "label": "cortex",
+          "spots": 4,
+          "within_cluster_share": 0.10810810810810811
+        }
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "n_spots": 37,
+      "section_share": 0.011015183090205419,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 26,
+          "within_cluster_share": 0.7027027027027027
+        },
+        {
+          "label": "cortex",
+          "spots": 10,
+          "within_cluster_share": 0.2702702702702703
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 1,
+          "within_cluster_share": 0.02702702702702703
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "n_spots": 39,
+      "section_share": 0.011610598392378685,
+      "rare_spots": 2,
+      "rare_share": 0.05128205128205128,
+      "rare_enrichment_over_section": 0.5592740592740593,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 33,
+          "within_cluster_share": 0.8461538461538461
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.07692307692307693
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.02564102564102564
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "n_spots": 39,
+      "section_share": 0.011610598392378685,
+      "rare_spots": 4,
+      "rare_share": 0.10256410256410256,
+      "rare_enrichment_over_section": 1.1185481185481185,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 16,
+          "within_cluster_share": 0.41025641025641024
+        },
+        {
+          "label": "cortex",
+          "spots": 13,
+          "within_cluster_share": 0.3333333333333333
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 6,
+          "within_cluster_share": 0.15384615384615385
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "n_spots": 41,
+      "section_share": 0.01220601369455195,
+      "rare_spots": 4,
+      "rare_share": 0.0975609756097561,
+      "rare_enrichment_over_section": 1.0639847956921127,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 24,
+          "within_cluster_share": 0.5853658536585366
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.17073170731707318
+        },
+        {
+          "label": "capsule",
+          "spots": 5,
+          "within_cluster_share": 0.12195121951219512
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "n_spots": 42,
+      "section_share": 0.012503721345638583,
+      "rare_spots": 2,
+      "rare_share": 0.047619047619047616,
+      "rare_enrichment_over_section": 0.519325912183055,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 27,
+          "within_cluster_share": 0.6428571428571429
+        },
+        {
+          "label": "medulla cords",
+          "spots": 10,
+          "within_cluster_share": 0.23809523809523808
+        },
+        {
+          "label": "capsule",
+          "spots": 2,
+          "within_cluster_share": 0.047619047619047616
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "n_spots": 44,
+      "section_share": 0.013099136647811848,
+      "rare_spots": 3,
+      "rare_share": 0.06818181818181818,
+      "rare_enrichment_over_section": 0.7435802833530105,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 25,
+          "within_cluster_share": 0.5681818181818182
+        },
+        {
+          "label": "medulla cords",
+          "spots": 16,
+          "within_cluster_share": 0.36363636363636365
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 3,
+          "within_cluster_share": 0.06818181818181818
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "n_spots": 45,
+      "section_share": 0.013396844298898482,
+      "rare_spots": 7,
+      "rare_share": 0.15555555555555556,
+      "rare_enrichment_over_section": 1.6964646464646465,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 25,
+          "within_cluster_share": 0.5555555555555556
+        },
+        {
+          "label": "cortex",
+          "spots": 13,
+          "within_cluster_share": 0.28888888888888886
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 7,
+          "within_cluster_share": 0.15555555555555556
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "n_spots": 46,
+      "section_share": 0.013694551949985114,
+      "rare_spots": 7,
+      "rare_share": 0.15217391304347827,
+      "rare_enrichment_over_section": 1.6595849802371543,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 27,
+          "within_cluster_share": 0.5869565217391305
+        },
+        {
+          "label": "medulla cords",
+          "spots": 10,
+          "within_cluster_share": 0.21739130434782608
+        },
+        {
+          "label": "follicle",
+          "spots": 5,
+          "within_cluster_share": 0.10869565217391304
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "n_spots": 46,
+      "section_share": 0.013694551949985114,
+      "rare_spots": 3,
+      "rare_share": 0.06521739130434782,
+      "rare_enrichment_over_section": 0.7112507058159232,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 27,
+          "within_cluster_share": 0.5869565217391305
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 13,
+          "within_cluster_share": 0.2826086956521739
+        },
+        {
+          "label": "cortex",
+          "spots": 3,
+          "within_cluster_share": 0.06521739130434782
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "n_spots": 46,
+      "section_share": 0.013694551949985114,
+      "rare_spots": 1,
+      "rare_share": 0.021739130434782608,
+      "rare_enrichment_over_section": 0.23708356860530772,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 37,
+          "within_cluster_share": 0.8043478260869565
+        },
+        {
+          "label": "cortex",
+          "spots": 5,
+          "within_cluster_share": 0.10869565217391304
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 3,
+          "within_cluster_share": 0.06521739130434782
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "n_spots": 48,
+      "section_share": 0.01428996725215838,
+      "rare_spots": 2,
+      "rare_share": 0.041666666666666664,
+      "rare_enrichment_over_section": 0.4544101731601731,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 23,
+          "within_cluster_share": 0.4791666666666667
+        },
+        {
+          "label": "medulla cords",
+          "spots": 18,
+          "within_cluster_share": 0.375
+        },
+        {
+          "label": "cortex",
+          "spots": 3,
+          "within_cluster_share": 0.0625
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "n_spots": 49,
+      "section_share": 0.014587674903245014,
+      "rare_spots": 2,
+      "rare_share": 0.04081632653061224,
+      "rare_enrichment_over_section": 0.44513649615690426,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 37,
+          "within_cluster_share": 0.7551020408163265
+        },
+        {
+          "label": "medulla cords",
+          "spots": 9,
+          "within_cluster_share": 0.1836734693877551
+        },
+        {
+          "label": "cortex",
+          "spots": 1,
+          "within_cluster_share": 0.02040816326530612
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "n_spots": 51,
+      "section_share": 0.01518309020541828,
+      "rare_spots": 5,
+      "rare_share": 0.09803921568627451,
+      "rare_enrichment_over_section": 1.0692004074357015,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 39,
+          "within_cluster_share": 0.7647058823529411
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 5,
+          "within_cluster_share": 0.09803921568627451
+        },
+        {
+          "label": "cortex",
+          "spots": 5,
+          "within_cluster_share": 0.09803921568627451
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "n_spots": 53,
+      "section_share": 0.015778505507591543,
+      "rare_spots": 3,
+      "rare_share": 0.05660377358490566,
+      "rare_enrichment_over_section": 0.6173119333496692,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 22,
+          "within_cluster_share": 0.41509433962264153
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 20,
+          "within_cluster_share": 0.37735849056603776
+        },
+        {
+          "label": "cortex",
+          "spots": 6,
+          "within_cluster_share": 0.11320754716981132
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "n_spots": 54,
+      "section_share": 0.016076213158678177,
+      "rare_spots": 1,
+      "rare_share": 0.018518518518518517,
+      "rare_enrichment_over_section": 0.20196007696007695,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 27,
+          "within_cluster_share": 0.5
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 18,
+          "within_cluster_share": 0.3333333333333333
+        },
+        {
+          "label": "cortex",
+          "spots": 7,
+          "within_cluster_share": 0.12962962962962962
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "n_spots": 57,
+      "section_share": 0.01696933611193808,
+      "rare_spots": 6,
+      "rare_share": 0.10526315789473684,
+      "rare_enrichment_over_section": 1.1479835953520163,
+      "top_reference_labels": [
+        {
+          "label": "capsule",
+          "spots": 40,
+          "within_cluster_share": 0.7017543859649122
+        },
+        {
+          "label": "pericapsular adipose tissue",
+          "spots": 8,
+          "within_cluster_share": 0.14035087719298245
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 5,
+          "within_cluster_share": 0.08771929824561403
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "n_spots": 59,
+      "section_share": 0.017564751414111342,
+      "rare_spots": 2,
+      "rare_share": 0.03389830508474576,
+      "rare_enrichment_over_section": 0.36968963240149677,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 50,
+          "within_cluster_share": 0.847457627118644
+        },
+        {
+          "label": "medulla cords",
+          "spots": 6,
+          "within_cluster_share": 0.1016949152542373
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 2,
+          "within_cluster_share": 0.03389830508474576
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "n_spots": 65,
+      "section_share": 0.01935099732063114,
+      "rare_spots": 2,
+      "rare_share": 0.03076923076923077,
+      "rare_enrichment_over_section": 0.33556443556443555,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 33,
+          "within_cluster_share": 0.5076923076923077
+        },
+        {
+          "label": "cortex",
+          "spots": 25,
+          "within_cluster_share": 0.38461538461538464
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 4,
+          "within_cluster_share": 0.06153846153846154
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "n_spots": 66,
+      "section_share": 0.01964870497171777,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 47,
+          "within_cluster_share": 0.7121212121212122
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 10,
+          "within_cluster_share": 0.15151515151515152
+        },
+        {
+          "label": "cortex",
+          "spots": 9,
+          "within_cluster_share": 0.13636363636363635
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "n_spots": 67,
+      "section_share": 0.019946412622804405,
+      "rare_spots": 3,
+      "rare_share": 0.04477611940298507,
+      "rare_enrichment_over_section": 0.4883213801124249,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 54,
+          "within_cluster_share": 0.8059701492537313
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.1044776119402985
+        },
+        {
+          "label": "capsule",
+          "spots": 3,
+          "within_cluster_share": 0.04477611940298507
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "n_spots": 68,
+      "section_share": 0.02024412027389104,
+      "rare_spots": 1,
+      "rare_share": 0.014705882352941176,
+      "rare_enrichment_over_section": 0.16038006111535522,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 51,
+          "within_cluster_share": 0.75
+        },
+        {
+          "label": "medulla cords",
+          "spots": 14,
+          "within_cluster_share": 0.20588235294117646
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "n_spots": 68,
+      "section_share": 0.02024412027389104,
+      "rare_spots": 3,
+      "rare_share": 0.04411764705882353,
+      "rare_enrichment_over_section": 0.48114018334606573,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 44,
+          "within_cluster_share": 0.6470588235294118
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 21,
+          "within_cluster_share": 0.3088235294117647
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 2,
+          "within_cluster_share": 0.029411764705882353
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "n_spots": 69,
+      "section_share": 0.020541827924977673,
+      "rare_spots": 23,
+      "rare_share": 0.3333333333333333,
+      "rare_enrichment_over_section": 3.635281385281385,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 15,
+          "within_cluster_share": 0.21739130434782608
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 14,
+          "within_cluster_share": 0.2028985507246377
+        },
+        {
+          "label": "hilum",
+          "spots": 13,
+          "within_cluster_share": 0.18840579710144928
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "n_spots": 74,
+      "section_share": 0.022030366180410838,
+      "rare_spots": 5,
+      "rare_share": 0.06756756756756757,
+      "rare_enrichment_over_section": 0.7368813618813619,
+      "top_reference_labels": [
+        {
+          "label": "pericapsular adipose tissue",
+          "spots": 38,
+          "within_cluster_share": 0.5135135135135135
+        },
+        {
+          "label": "capsule",
+          "spots": 30,
+          "within_cluster_share": 0.40540540540540543
+        },
+        {
+          "label": "trabeculae",
+          "spots": 3,
+          "within_cluster_share": 0.04054054054054054
+        }
+      ]
+    },
+    {
+      "cluster_id": 79,
+      "n_spots": 74,
+      "section_share": 0.022030366180410838,
+      "rare_spots": 9,
+      "rare_share": 0.12162162162162163,
+      "rare_enrichment_over_section": 1.3263864513864514,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 47,
+          "within_cluster_share": 0.6351351351351351
+        },
+        {
+          "label": "medulla cords",
+          "spots": 11,
+          "within_cluster_share": 0.14864864864864866
+        },
+        {
+          "label": "medulla vessel",
+          "spots": 8,
+          "within_cluster_share": 0.10810810810810811
+        }
+      ]
+    },
+    {
+      "cluster_id": 78,
+      "n_spots": 78,
+      "section_share": 0.02322119678475737,
+      "rare_spots": 19,
+      "rare_share": 0.24358974358974358,
+      "rare_enrichment_over_section": 2.6565517815517814,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 51,
+          "within_cluster_share": 0.6538461538461539
+        },
+        {
+          "label": "follicle",
+          "spots": 16,
+          "within_cluster_share": 0.20512820512820512
+        },
+        {
+          "label": "medulla cords",
+          "spots": 6,
+          "within_cluster_share": 0.07692307692307693
+        }
+      ]
+    },
+    {
+      "cluster_id": 67,
+      "n_spots": 83,
+      "section_share": 0.02470973504019053,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 76,
+          "within_cluster_share": 0.9156626506024096
+        },
+        {
+          "label": "capsule",
+          "spots": 3,
+          "within_cluster_share": 0.03614457831325301
+        },
+        {
+          "label": "medulla cords",
+          "spots": 2,
+          "within_cluster_share": 0.024096385542168676
+        }
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "n_spots": 84,
+      "section_share": 0.025007442691277165,
+      "rare_spots": 3,
+      "rare_share": 0.03571428571428571,
+      "rare_enrichment_over_section": 0.38949443413729123,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 73,
+          "within_cluster_share": 0.8690476190476191
+        },
+        {
+          "label": "medulla cords",
+          "spots": 7,
+          "within_cluster_share": 0.08333333333333333
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 2,
+          "within_cluster_share": 0.023809523809523808
+        }
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "n_spots": 92,
+      "section_share": 0.027389103899970228,
+      "rare_spots": 18,
+      "rare_share": 0.1956521739130435,
+      "rare_enrichment_over_section": 2.1337521174477696,
+      "top_reference_labels": [
+        {
+          "label": "medulla sinuses",
+          "spots": 37,
+          "within_cluster_share": 0.40217391304347827
+        },
+        {
+          "label": "capsule",
+          "spots": 20,
+          "within_cluster_share": 0.21739130434782608
+        },
+        {
+          "label": "subcapsular sinus",
+          "spots": 18,
+          "within_cluster_share": 0.1956521739130435
+        }
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "n_spots": 93,
+      "section_share": 0.027686811551056862,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "cortex",
+          "spots": 92,
+          "within_cluster_share": 0.989247311827957
+        },
+        {
+          "label": "capsule",
+          "spots": 1,
+          "within_cluster_share": 0.010752688172043012
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "n_spots": 105,
+      "section_share": 0.03125930336409646,
+      "rare_spots": 8,
+      "rare_share": 0.0761904761904762,
+      "rare_enrichment_over_section": 0.8309214594928881,
+      "top_reference_labels": [
+        {
+          "label": "pericapsular adipose tissue",
+          "spots": 81,
+          "within_cluster_share": 0.7714285714285715
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 12,
+          "within_cluster_share": 0.11428571428571428
+        },
+        {
+          "label": "hilum",
+          "spots": 6,
+          "within_cluster_share": 0.05714285714285714
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "n_spots": 106,
+      "section_share": 0.03155701101518309,
+      "rare_spots": 15,
+      "rare_share": 0.14150943396226415,
+      "rare_enrichment_over_section": 1.5432798333741728,
+      "top_reference_labels": [
+        {
+          "label": "medulla cords",
+          "spots": 52,
+          "within_cluster_share": 0.49056603773584906
+        },
+        {
+          "label": "medulla sinuses",
+          "spots": 23,
+          "within_cluster_share": 0.2169811320754717
+        },
+        {
+          "label": "cortex",
+          "spots": 14,
+          "within_cluster_share": 0.1320754716981132
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "n_spots": 114,
+      "section_share": 0.03393867222387616,
+      "rare_spots": 65,
+      "rare_share": 0.5701754385964912,
+      "rare_enrichment_over_section": 6.218244474823422,
+      "top_reference_labels": [
+        {
+          "label": "follicle",
+          "spots": 59,
+          "within_cluster_share": 0.5175438596491229
+        },
+        {
+          "label": "cortex",
+          "spots": 24,
+          "within_cluster_share": 0.21052631578947367
+        },
+        {
+          "label": "capsule",
+          "spots": 15,
+          "within_cluster_share": 0.13157894736842105
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "n_spots": 124,
+      "section_share": 0.03691574873474248,
+      "rare_spots": 0,
+      "rare_share": 0.0,
+      "rare_enrichment_over_section": 0.0,
+      "top_reference_labels": [
+        {
+          "label": "pericapsular adipose tissue",
+          "spots": 122,
+          "within_cluster_share": 0.9838709677419355
+        },
+        {
+          "label": "capsule",
+          "spots": 2,
+          "within_cluster_share": 0.016129032258064516
+        }
+      ]
+    }
+  ]
+}

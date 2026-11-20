@@ -34,7 +34,7 @@ from spatial_domain_audit.graph.topz_normalized import (  # noqa: E402
     deterministic_topz_batch_select,
     selection_edge_count,
 )
-from spatial_domain_audit.training.common import file_sha256, seed_all  # noqa: E402
+from spatial_domain_audit.training.common import seed_all  # noqa: E402
 from spatial_domain_audit.training.fixed_target_trainer import (  # noqa: E402
     FixedTargetConfig,
     FixedTargetTrainer,
@@ -222,7 +222,6 @@ def main() -> int:
         "epochs": args.epochs,
         "protocol": {
             "path": args.protocol_file.name,
-            "sha256": file_sha256(args.protocol_file),
             "argv": sys.argv,
         },
         "common_input": {

@@ -1,0 +1,748 @@
+{
+  "method": "SpaGCN",
+  "dataset": "Breast",
+  "seed": 0,
+  "n_spots": 3798,
+  "n_clusters": 10,
+  "ari": 0.6068525825679225,
+  "nmi": 0.6573331947565345,
+  "label_join": "exact observation-ID join after prediction; labels were not present in model AnnData",
+  "reference_label_scope": "breast_label",
+  "evaluation": {
+    "n_spots": 3798,
+    "n_clusters": 10,
+    "ari": 0.6068525825679225,
+    "nmi": 0.6573331947565345,
+    "rare_primary": {
+      "tp": 186,
+      "fp": 3,
+      "fn": 1365,
+      "tn": 2244,
+      "precision": 0.9841269841269841,
+      "recall": 0.11992263056092843,
+      "f1": 0.21379310344827587,
+      "definition": "truth class share <= 5%; predicted cluster share <= 5%",
+      "true_rare_labels": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "predicted_rare_clusters": [
+        8
+      ],
+      "true_rare_count": 1551,
+      "predicted_rare_count": 189,
+      "rare_absolute_hits": 186,
+      "whole_slide_rare_fraction": 0.40837282780410744,
+      "rare_fraction_in_predicted_rare_clusters": 0.9841269841269841,
+      "enrichment": 2.409873814129133,
+      "per_true_rare_class_capture": [
+        {
+          "truth_label": 0,
+          "support": 135,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 1,
+          "support": 28,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 3,
+          "support": 161,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 4,
+          "support": 139,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 6,
+          "support": 74,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 7,
+          "support": 46,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 9,
+          "support": 53,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 12,
+          "support": 163,
+          "hits_in_predicted_rare_clusters": 92,
+          "capture_recall": 0.5644171779141104
+        },
+        {
+          "truth_label": 13,
+          "support": 127,
+          "hits_in_predicted_rare_clusters": 81,
+          "capture_recall": 0.6377952755905512
+        },
+        {
+          "truth_label": 15,
+          "support": 165,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 16,
+          "support": 159,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 17,
+          "support": 50,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 18,
+          "support": 69,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 19,
+          "support": 182,
+          "hits_in_predicted_rare_clusters": 13,
+          "capture_recall": 0.07142857142857142
+        }
+      ]
+    },
+    "rare_secondary": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1551,
+      "tn": 2247,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "definition": "truth class share < 5%; predicted cluster share < 4.5%",
+      "true_rare_labels": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "predicted_rare_clusters": [],
+      "true_rare_count": 1551,
+      "predicted_rare_count": 0,
+      "rare_absolute_hits": 0,
+      "whole_slide_rare_fraction": 0.40837282780410744,
+      "rare_fraction_in_predicted_rare_clusters": null,
+      "enrichment": null,
+      "per_true_rare_class_capture": [
+        {
+          "truth_label": 0,
+          "support": 135,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 1,
+          "support": 28,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 3,
+          "support": 161,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 4,
+          "support": 139,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 6,
+          "support": 74,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 7,
+          "support": 46,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 9,
+          "support": 53,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 12,
+          "support": 163,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 13,
+          "support": 127,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 15,
+          "support": 165,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 16,
+          "support": 159,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 17,
+          "support": 50,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 18,
+          "support": 69,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        },
+        {
+          "truth_label": 19,
+          "support": 182,
+          "hits_in_predicted_rare_clusters": 0,
+          "capture_recall": 0.0
+        }
+      ]
+    },
+    "cluster_sizes": [
+      {
+        "label": 0,
+        "size": 620,
+        "fraction": 0.16324381253291206,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 195,
+        "true_rare_fraction_primary": 0.31451612903225806,
+        "rare_enrichment_primary": 0.7701690896611967,
+        "true_rare_count_secondary": 195,
+        "true_rare_fraction_secondary": 0.31451612903225806,
+        "rare_enrichment_secondary": 0.7701690896611967
+      },
+      {
+        "label": 1,
+        "size": 427,
+        "fraction": 0.1124275934702475,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 85,
+        "true_rare_fraction_primary": 0.1990632318501171,
+        "rare_enrichment_primary": 0.4874546451107316,
+        "true_rare_count_secondary": 85,
+        "true_rare_fraction_secondary": 0.1990632318501171,
+        "rare_enrichment_secondary": 0.4874546451107316
+      },
+      {
+        "label": 2,
+        "size": 481,
+        "fraction": 0.1266456029489205,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 50,
+        "true_rare_fraction_primary": 0.10395010395010396,
+        "rare_enrichment_primary": 0.25454706305770136,
+        "true_rare_count_secondary": 50,
+        "true_rare_fraction_secondary": 0.10395010395010396,
+        "rare_enrichment_secondary": 0.25454706305770136
+      },
+      {
+        "label": 3,
+        "size": 421,
+        "fraction": 0.11084781463928384,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 39,
+        "true_rare_fraction_primary": 0.09263657957244656,
+        "rare_enrichment_primary": 0.22684315229925983,
+        "true_rare_count_secondary": 39,
+        "true_rare_fraction_secondary": 0.09263657957244656,
+        "rare_enrichment_secondary": 0.22684315229925983
+      },
+      {
+        "label": 4,
+        "size": 466,
+        "fraction": 0.12269615587151132,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 37,
+        "true_rare_fraction_primary": 0.07939914163090128,
+        "rare_enrichment_primary": 0.1944280721561335,
+        "true_rare_count_secondary": 37,
+        "true_rare_fraction_secondary": 0.07939914163090128,
+        "rare_enrichment_secondary": 0.1944280721561335
+      },
+      {
+        "label": 5,
+        "size": 332,
+        "fraction": 0.08741442864665613,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 306,
+        "true_rare_fraction_primary": 0.9216867469879518,
+        "rare_enrichment_primary": 2.256973736338002,
+        "true_rare_count_secondary": 306,
+        "true_rare_fraction_secondary": 0.9216867469879518,
+        "rare_enrichment_secondary": 2.256973736338002
+      },
+      {
+        "label": 6,
+        "size": 315,
+        "fraction": 0.08293838862559241,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 260,
+        "true_rare_fraction_primary": 0.8253968253968254,
+        "rare_enrichment_primary": 2.0211844892695954,
+        "true_rare_count_secondary": 260,
+        "true_rare_fraction_secondary": 0.8253968253968254,
+        "rare_enrichment_secondary": 2.0211844892695954
+      },
+      {
+        "label": 7,
+        "size": 199,
+        "fraction": 0.05239599789362823,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 192,
+        "true_rare_fraction_primary": 0.964824120603015,
+        "rare_enrichment_primary": 2.362606067085913,
+        "true_rare_count_secondary": 192,
+        "true_rare_fraction_secondary": 0.964824120603015,
+        "rare_enrichment_secondary": 2.362606067085913
+      },
+      {
+        "label": 8,
+        "size": 189,
+        "fraction": 0.04976303317535545,
+        "is_rare_primary": true,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 186,
+        "true_rare_fraction_primary": 0.9841269841269841,
+        "rare_enrichment_primary": 2.409873814129133,
+        "true_rare_count_secondary": 186,
+        "true_rare_fraction_secondary": 0.9841269841269841,
+        "rare_enrichment_secondary": 2.409873814129133
+      },
+      {
+        "label": 9,
+        "size": 348,
+        "fraction": 0.09162717219589257,
+        "is_rare_primary": false,
+        "is_rare_secondary": false,
+        "true_rare_count_primary": 201,
+        "true_rare_fraction_primary": 0.5775862068965517,
+        "rare_enrichment_primary": 1.414360034682852,
+        "true_rare_count_secondary": 201,
+        "true_rare_fraction_secondary": 0.5775862068965517,
+        "rare_enrichment_secondary": 1.414360034682852
+      }
+    ],
+    "hungarian": {
+      "mapping": [
+        {
+          "predicted_label": 0,
+          "reference_label": 5,
+          "overlap": 363
+        },
+        {
+          "predicted_label": 1,
+          "reference_label": 2,
+          "overlap": 342
+        },
+        {
+          "predicted_label": 2,
+          "reference_label": 10,
+          "overlap": 430
+        },
+        {
+          "predicted_label": 3,
+          "reference_label": 8,
+          "overlap": 378
+        },
+        {
+          "predicted_label": 4,
+          "reference_label": 11,
+          "overlap": 398
+        },
+        {
+          "predicted_label": 5,
+          "reference_label": 0,
+          "overlap": 133
+        },
+        {
+          "predicted_label": 6,
+          "reference_label": 15,
+          "overlap": 145
+        },
+        {
+          "predicted_label": 7,
+          "reference_label": 3,
+          "overlap": 153
+        },
+        {
+          "predicted_label": 8,
+          "reference_label": 12,
+          "overlap": 92
+        },
+        {
+          "predicted_label": 9,
+          "reference_label": 14,
+          "overlap": 79
+        }
+      ],
+      "unmatched_predicted_labels": [],
+      "accuracy": 0.6616640337019484,
+      "macro_f1": 0.3573375725707518,
+      "per_class": [
+        {
+          "tp": 133,
+          "fp": 199,
+          "fn": 2,
+          "tn": 3464,
+          "precision": 0.4006024096385542,
+          "recall": 0.9851851851851852,
+          "f1": 0.569593147751606,
+          "truth_label": 0,
+          "name": "DCIS/LCIS_1",
+          "support": 135,
+          "predicted_count": 332,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "tn": 3770,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 1,
+          "name": "DCIS/LCIS_2",
+          "support": 28,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 342,
+          "fp": 85,
+          "fn": 22,
+          "tn": 3349,
+          "precision": 0.8009367681498829,
+          "recall": 0.9395604395604396,
+          "f1": 0.8647281921618205,
+          "truth_label": 2,
+          "name": "DCIS/LCIS_3",
+          "support": 364,
+          "predicted_count": 427,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 153,
+          "fp": 46,
+          "fn": 8,
+          "tn": 3591,
+          "precision": 0.7688442211055276,
+          "recall": 0.9503105590062112,
+          "f1": 0.85,
+          "truth_label": 3,
+          "name": "DCIS/LCIS_4",
+          "support": 161,
+          "predicted_count": 199,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 139,
+          "tn": 3659,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 4,
+          "name": "DCIS/LCIS_5",
+          "support": 139,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 363,
+          "fp": 257,
+          "fn": 48,
+          "tn": 3130,
+          "precision": 0.5854838709677419,
+          "recall": 0.8832116788321168,
+          "f1": 0.7041707080504365,
+          "truth_label": 5,
+          "name": "Healthy_1",
+          "support": 411,
+          "predicted_count": 620,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 74,
+          "tn": 3724,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 6,
+          "name": "Healthy_2",
+          "support": 74,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "tn": 3752,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 7,
+          "name": "IDC_1",
+          "support": 46,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 378,
+          "fp": 43,
+          "fn": 5,
+          "tn": 3372,
+          "precision": 0.8978622327790974,
+          "recall": 0.9869451697127938,
+          "f1": 0.9402985074626866,
+          "truth_label": 8,
+          "name": "IDC_2",
+          "support": 383,
+          "predicted_count": 421,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 53,
+          "tn": 3745,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 9,
+          "name": "IDC_3",
+          "support": 53,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 430,
+          "fp": 51,
+          "fn": 12,
+          "tn": 3305,
+          "precision": 0.893970893970894,
+          "recall": 0.9728506787330317,
+          "f1": 0.9317443120260022,
+          "truth_label": 10,
+          "name": "IDC_4",
+          "support": 442,
+          "predicted_count": 481,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 398,
+          "fp": 68,
+          "fn": 51,
+          "tn": 3281,
+          "precision": 0.8540772532188842,
+          "recall": 0.8864142538975501,
+          "f1": 0.8699453551912568,
+          "truth_label": 11,
+          "name": "IDC_5",
+          "support": 449,
+          "predicted_count": 466,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 92,
+          "fp": 97,
+          "fn": 71,
+          "tn": 3538,
+          "precision": 0.48677248677248675,
+          "recall": 0.5644171779141104,
+          "f1": 0.5227272727272727,
+          "truth_label": 12,
+          "name": "IDC_6",
+          "support": 163,
+          "predicted_count": 189,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 127,
+          "tn": 3671,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 13,
+          "name": "IDC_7",
+          "support": 127,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 79,
+          "fp": 269,
+          "fn": 119,
+          "tn": 3331,
+          "precision": 0.22701149425287356,
+          "recall": 0.398989898989899,
+          "f1": 0.2893772893772894,
+          "truth_label": 14,
+          "name": "Tumor_edge_1",
+          "support": 198,
+          "predicted_count": 348,
+          "is_rare_primary": false,
+          "is_rare_secondary": false
+        },
+        {
+          "tp": 145,
+          "fp": 170,
+          "fn": 20,
+          "tn": 3463,
+          "precision": 0.4603174603174603,
+          "recall": 0.8787878787878788,
+          "f1": 0.6041666666666666,
+          "truth_label": 15,
+          "name": "Tumor_edge_2",
+          "support": 165,
+          "predicted_count": 315,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 159,
+          "tn": 3639,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 16,
+          "name": "Tumor_edge_3",
+          "support": 159,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 50,
+          "tn": 3748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 17,
+          "name": "Tumor_edge_4",
+          "support": 50,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 69,
+          "tn": 3729,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 18,
+          "name": "Tumor_edge_5",
+          "support": 69,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        },
+        {
+          "tp": 0,
+          "fp": 0,
+          "fn": 182,
+          "tn": 3616,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "truth_label": 19,
+          "name": "Tumor_edge_6",
+          "support": 182,
+          "predicted_count": 0,
+          "is_rare_primary": true,
+          "is_rare_secondary": true
+        }
+      ]
+    }
+  }
+}

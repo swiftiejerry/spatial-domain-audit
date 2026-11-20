@@ -21,6 +21,7 @@ from spatial_domain_audit.audit.metrics import (  # noqa: E402
     evaluate_partition,
     paired_difference_summary,
 )
+from audit_external_graphst import verify as verify_external_graphst  # noqa: E402
 
 REF_NPZ = ROOT / "data" / "reference" / "A1_reference.npz"
 SPATIAL_EDGES = ROOT / "data" / "reference" / "spatial_edges_k10.npy"
@@ -92,6 +93,7 @@ def main() -> int:
                 )
 
     print("\nVerification passed.")
+    verify_external_graphst()
     return 0
 
 

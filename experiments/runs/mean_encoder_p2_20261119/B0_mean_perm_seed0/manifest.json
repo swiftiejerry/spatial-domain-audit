@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "run_id": "B0_mean_perm_seed0",
+  "artifacts": [
+    "config.json",
+    "evaluation.json",
+    "metrics.json",
+    "pred.npy"
+  ],
+  "omitted_artifacts": "Checkpoints, embeddings, private input data, and intermediate arrays remain in the private experiment archive."
+}

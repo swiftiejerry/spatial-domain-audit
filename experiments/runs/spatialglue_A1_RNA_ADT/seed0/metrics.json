@@ -1,0 +1,1110 @@
+{
+  "method": "SpatialGlue",
+  "dataset": "A1",
+  "seed": 0,
+  "scope": "Conditional evaluation against supplied final_annot labels after prediction.",
+  "label_access_during_fit_or_decoding": false,
+  "reference_annotation_lineage": "Unresolved; final_annot differs from lab_lynn at 59 spots.",
+  "independent_recount_status": "CHECKED_MATCH_15_OF_15_RESOLUTIONS",
+  "independent_recount_method": "scikit-learn ARI/NMI and direct binary-mask rare-F1 calculations; project metric helper not imported.",
+  "scores_by_resolution": [
+    {
+      "resolution": 0.1,
+      "n_spots": 3484,
+      "n_clusters": 3,
+      "ari": 0.25681344788307836,
+      "nmi": 0.34760293013609883,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.1.npy"
+    },
+    {
+      "resolution": 0.2,
+      "n_spots": 3484,
+      "n_clusters": 4,
+      "ari": 0.2925385397618007,
+      "nmi": 0.377220754360914,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.2.npy"
+    },
+    {
+      "resolution": 0.3,
+      "n_spots": 3484,
+      "n_clusters": 4,
+      "ari": 0.29122060419707035,
+      "nmi": 0.37444641015489605,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.3.npy"
+    },
+    {
+      "resolution": 0.4,
+      "n_spots": 3484,
+      "n_clusters": 5,
+      "ari": 0.2708453842139878,
+      "nmi": 0.35780762350285755,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.4.npy"
+    },
+    {
+      "resolution": 0.5,
+      "n_spots": 3484,
+      "n_clusters": 6,
+      "ari": 0.2905397538257917,
+      "nmi": 0.38258258823023245,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.5.npy"
+    },
+    {
+      "resolution": 0.6,
+      "n_spots": 3484,
+      "n_clusters": 7,
+      "ari": 0.2843695142187469,
+      "nmi": 0.3869622499668516,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.6.npy"
+    },
+    {
+      "resolution": 0.7,
+      "n_spots": 3484,
+      "n_clusters": 9,
+      "ari": 0.26958384373606653,
+      "nmi": 0.38652156682510674,
+      "rare_f1_primary_le_5pct": 0.0,
+      "rare_f1_secondary_lt_4_5pct": 0.0,
+      "n_predicted_rare_spots_primary": 0,
+      "eligible_predicted_clusters_primary": [],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": null
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.7.npy"
+    },
+    {
+      "resolution": 0.8,
+      "n_spots": 3484,
+      "n_clusters": 10,
+      "ari": 0.24693437328063403,
+      "nmi": 0.36665308243768535,
+      "rare_f1_primary_le_5pct": 0.004750593824228029,
+      "rare_f1_secondary_lt_4_5pct": 0.004750593824228029,
+      "n_predicted_rare_spots_primary": 141,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 8,
+          "n_spots": 93,
+          "share": 0.026693455797933408
+        },
+        {
+          "label": 9,
+          "n_spots": 48,
+          "share": 0.013777267508610792
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 1,
+          "precision": 0.0070921985815602835,
+          "recall": 0.0125,
+          "f1": 0.00904977375565611,
+          "rare_cluster_enrichment": 0.30886524822695033
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.8.npy"
+    },
+    {
+      "resolution": 0.9,
+      "n_spots": 3484,
+      "n_clusters": 12,
+      "ari": 0.22286458885958021,
+      "nmi": 0.36471133281829893,
+      "rare_f1_primary_le_5pct": 0.16853932584269662,
+      "rare_f1_secondary_lt_4_5pct": 0.16853932584269662,
+      "n_predicted_rare_spots_primary": 432,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 96,
+          "share": 0.027554535017221583
+        },
+        {
+          "label": 3,
+          "n_spots": 68,
+          "share": 0.01951779563719862
+        },
+        {
+          "label": 10,
+          "n_spots": 154,
+          "share": 0.04420206659012629
+        },
+        {
+          "label": 11,
+          "n_spots": 114,
+          "share": 0.032721010332950634
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.05092592592592592,
+          "recall": 0.9565217391304348,
+          "f1": 0.0967032967032967,
+          "rare_cluster_enrichment": 7.714170692431561
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 31,
+          "precision": 0.07175925925925926,
+          "recall": 0.3875,
+          "f1": 0.12109375,
+          "rare_cluster_enrichment": 3.1251157407407404
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 3,
+          "precision": 0.006944444444444444,
+          "recall": 0.0410958904109589,
+          "f1": 0.01188118811881188,
+          "rare_cluster_enrichment": 0.3314307458143075
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 4,
+          "precision": 0.009259259259259259,
+          "recall": 0.5,
+          "f1": 0.01818181818181818,
+          "rare_cluster_enrichment": 4.032407407407407
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_0.9.npy"
+    },
+    {
+      "resolution": 1.0,
+      "n_spots": 3484,
+      "n_clusters": 13,
+      "ari": 0.2049555380213576,
+      "nmi": 0.3610588288847757,
+      "rare_f1_primary_le_5pct": 0.1437125748502994,
+      "rare_f1_secondary_lt_4_5pct": 0.17061611374407584,
+      "n_predicted_rare_spots_primary": 722,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 113,
+          "share": 0.03243398392652124
+        },
+        {
+          "label": 3,
+          "n_spots": 100,
+          "share": 0.02870264064293915
+        },
+        {
+          "label": 4,
+          "n_spots": 66,
+          "share": 0.01894374282433984
+        },
+        {
+          "label": 10,
+          "n_spots": 158,
+          "share": 0.04535017221584386
+        },
+        {
+          "label": 11,
+          "n_spots": 154,
+          "share": 0.04420206659012629
+        },
+        {
+          "label": 12,
+          "n_spots": 131,
+          "share": 0.037600459242250285
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.030470914127423823,
+          "recall": 0.9565217391304348,
+          "f1": 0.05906040268456376,
+          "rare_cluster_enrichment": 4.615681079128026
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 31,
+          "precision": 0.04293628808864266,
+          "recall": 0.3875,
+          "f1": 0.0773067331670823,
+          "rare_cluster_enrichment": 1.8698753462603876
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 14,
+          "precision": 0.019390581717451522,
+          "recall": 0.1917808219178082,
+          "f1": 0.03522012578616352,
+          "rare_cluster_enrichment": 0.9254354342959056
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 5,
+          "precision": 0.006925207756232687,
+          "recall": 0.625,
+          "f1": 0.0136986301369863,
+          "rare_cluster_enrichment": 3.015927977839335
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.0.npy"
+    },
+    {
+      "resolution": 1.1,
+      "n_spots": 3484,
+      "n_clusters": 13,
+      "ari": 0.19907173362897512,
+      "nmi": 0.360252283427147,
+      "rare_f1_primary_le_5pct": 0.15415821501014199,
+      "rare_f1_secondary_lt_4_5pct": 0.19306184012066366,
+      "n_predicted_rare_spots_primary": 706,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 134,
+          "share": 0.038461538461538464
+        },
+        {
+          "label": 3,
+          "n_spots": 48,
+          "share": 0.013777267508610792
+        },
+        {
+          "label": 4,
+          "n_spots": 46,
+          "share": 0.01320321469575201
+        },
+        {
+          "label": 10,
+          "n_spots": 163,
+          "share": 0.046785304247990815
+        },
+        {
+          "label": 11,
+          "n_spots": 160,
+          "share": 0.045924225028702644
+        },
+        {
+          "label": 12,
+          "n_spots": 155,
+          "share": 0.044489092996555686
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.031161473087818695,
+          "recall": 0.9565217391304348,
+          "f1": 0.06035665294924554,
+          "rare_cluster_enrichment": 4.7202857494765365
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 35,
+          "precision": 0.049575070821529746,
+          "recall": 0.4375,
+          "f1": 0.089058524173028,
+          "rare_cluster_enrichment": 2.15899433427762
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 14,
+          "precision": 0.019830028328611898,
+          "recall": 0.1917808219178082,
+          "f1": 0.03594351732991014,
+          "rare_cluster_enrichment": 0.9464084752997788
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 5,
+          "precision": 0.007082152974504249,
+          "recall": 0.625,
+          "f1": 0.014005602240896359,
+          "rare_cluster_enrichment": 3.0842776203966005
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.1.npy"
+    },
+    {
+      "resolution": 1.2,
+      "n_spots": 3484,
+      "n_clusters": 15,
+      "ari": 0.19647206013583626,
+      "nmi": 0.35925274914836164,
+      "rare_f1_primary_le_5pct": 0.1556997219647822,
+      "rare_f1_secondary_lt_4_5pct": 0.1556997219647822,
+      "n_predicted_rare_spots_primary": 799,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 111,
+          "share": 0.031859931113662456
+        },
+        {
+          "label": 3,
+          "n_spots": 104,
+          "share": 0.029850746268656716
+        },
+        {
+          "label": 4,
+          "n_spots": 71,
+          "share": 0.020378874856486796
+        },
+        {
+          "label": 5,
+          "n_spots": 63,
+          "share": 0.018082663605051664
+        },
+        {
+          "label": 6,
+          "n_spots": 22,
+          "share": 0.006314580941446613
+        },
+        {
+          "label": 12,
+          "n_spots": 156,
+          "share": 0.04477611940298507
+        },
+        {
+          "label": 13,
+          "n_spots": 155,
+          "share": 0.044489092996555686
+        },
+        {
+          "label": 14,
+          "n_spots": 117,
+          "share": 0.033582089552238806
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 2,
+          "precision": 0.0025031289111389237,
+          "recall": 0.020833333333333332,
+          "f1": 0.004469273743016759,
+          "rare_cluster_enrichment": 0.09084272006675011
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.02753441802252816,
+          "recall": 0.9565217391304348,
+          "f1": 0.05352798053527981,
+          "rare_cluster_enrichment": 4.170865756108179
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 35,
+          "precision": 0.04380475594493116,
+          "recall": 0.4375,
+          "f1": 0.07963594994311718,
+          "rare_cluster_enrichment": 1.907697121401752
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 20,
+          "precision": 0.025031289111389236,
+          "recall": 0.273972602739726,
+          "f1": 0.04587155963302752,
+          "rare_cluster_enrichment": 1.1946439899189056
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 5,
+          "precision": 0.006257822277847309,
+          "recall": 0.625,
+          "f1": 0.012391573729863693,
+          "rare_cluster_enrichment": 2.7252816020025032
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.2.npy"
+    },
+    {
+      "resolution": 1.3,
+      "n_spots": 3484,
+      "n_clusters": 17,
+      "ari": 0.1763188809923243,
+      "nmi": 0.3570541718499661,
+      "rare_f1_primary_le_5pct": 0.15706051873198848,
+      "rare_f1_secondary_lt_4_5pct": 0.15706051873198848,
+      "n_predicted_rare_spots_primary": 1108,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 134,
+          "share": 0.038461538461538464
+        },
+        {
+          "label": 3,
+          "n_spots": 133,
+          "share": 0.03817451205510907
+        },
+        {
+          "label": 4,
+          "n_spots": 131,
+          "share": 0.037600459242250285
+        },
+        {
+          "label": 5,
+          "n_spots": 100,
+          "share": 0.02870264064293915
+        },
+        {
+          "label": 6,
+          "n_spots": 71,
+          "share": 0.020378874856486796
+        },
+        {
+          "label": 7,
+          "n_spots": 66,
+          "share": 0.01894374282433984
+        },
+        {
+          "label": 8,
+          "n_spots": 27,
+          "share": 0.007749712973593571
+        },
+        {
+          "label": 14,
+          "n_spots": 156,
+          "share": 0.04477611940298507
+        },
+        {
+          "label": 15,
+          "n_spots": 155,
+          "share": 0.044489092996555686
+        },
+        {
+          "label": 16,
+          "n_spots": 135,
+          "share": 0.03874856486796785
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 14,
+          "precision": 0.01263537906137184,
+          "recall": 0.14583333333333334,
+          "f1": 0.023255813953488375,
+          "rare_cluster_enrichment": 0.4585589651022864
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.019855595667870037,
+          "recall": 0.9565217391304348,
+          "f1": 0.038903625110521665,
+          "rare_cluster_enrichment": 3.0076911002982265
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 41,
+          "precision": 0.03700361010830325,
+          "recall": 0.5125,
+          "f1": 0.06902356902356903,
+          "rare_cluster_enrichment": 1.6115072202166063
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 26,
+          "precision": 0.023465703971119134,
+          "recall": 0.3561643835616438,
+          "f1": 0.04403048264182896,
+          "rare_cluster_enrichment": 1.119924830621631
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 6,
+          "precision": 0.005415162454873646,
+          "recall": 0.75,
+          "f1": 0.01075268817204301,
+          "rare_cluster_enrichment": 2.3583032490974727
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.3.npy"
+    },
+    {
+      "resolution": 1.4,
+      "n_spots": 3484,
+      "n_clusters": 18,
+      "ari": 0.15980258345737103,
+      "nmi": 0.3453833465039476,
+      "rare_f1_primary_le_5pct": 0.14558689717925385,
+      "rare_f1_secondary_lt_4_5pct": 0.06666666666666667,
+      "n_predicted_rare_spots_primary": 819,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 162,
+          "share": 0.04649827784156142
+        },
+        {
+          "label": 3,
+          "n_spots": 157,
+          "share": 0.045063145809414465
+        },
+        {
+          "label": 4,
+          "n_spots": 143,
+          "share": 0.041044776119402986
+        },
+        {
+          "label": 5,
+          "n_spots": 129,
+          "share": 0.037026406429391506
+        },
+        {
+          "label": 6,
+          "n_spots": 118,
+          "share": 0.0338691159586682
+        },
+        {
+          "label": 7,
+          "n_spots": 48,
+          "share": 0.013777267508610792
+        },
+        {
+          "label": 8,
+          "n_spots": 42,
+          "share": 0.012055109070034443
+        },
+        {
+          "label": 9,
+          "n_spots": 20,
+          "share": 0.0057405281285878304
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.026862026862026864,
+          "recall": 0.9565217391304348,
+          "f1": 0.052256532066508314,
+          "rare_cluster_enrichment": 4.0690131124913735
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 39,
+          "precision": 0.047619047619047616,
+          "recall": 0.4875,
+          "f1": 0.08676307007786428,
+          "rare_cluster_enrichment": 2.0738095238095235
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 14,
+          "precision": 0.017094017094017096,
+          "recall": 0.1917808219178082,
+          "f1": 0.03139013452914798,
+          "rare_cluster_enrichment": 0.8158295281582955
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 5,
+          "precision": 0.006105006105006105,
+          "recall": 0.625,
+          "f1": 0.012091898428053204,
+          "rare_cluster_enrichment": 2.6587301587301586
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.4.npy"
+    },
+    {
+      "resolution": 1.5,
+      "n_spots": 3484,
+      "n_clusters": 19,
+      "ari": 0.14354847215667002,
+      "nmi": 0.3445215682063456,
+      "rare_f1_primary_le_5pct": 0.13227091633466134,
+      "rare_f1_secondary_lt_4_5pct": 0.06196581196581197,
+      "n_predicted_rare_spots_primary": 975,
+      "eligible_predicted_clusters_primary": [
+        {
+          "label": 2,
+          "n_spots": 162,
+          "share": 0.04649827784156142
+        },
+        {
+          "label": 3,
+          "n_spots": 157,
+          "share": 0.045063145809414465
+        },
+        {
+          "label": 4,
+          "n_spots": 142,
+          "share": 0.04075774971297359
+        },
+        {
+          "label": 5,
+          "n_spots": 135,
+          "share": 0.03874856486796785
+        },
+        {
+          "label": 6,
+          "n_spots": 122,
+          "share": 0.03501722158438576
+        },
+        {
+          "label": 7,
+          "n_spots": 118,
+          "share": 0.0338691159586682
+        },
+        {
+          "label": 8,
+          "n_spots": 49,
+          "share": 0.014064293915040185
+        },
+        {
+          "label": 9,
+          "n_spots": 48,
+          "share": 0.013777267508610792
+        },
+        {
+          "label": 10,
+          "n_spots": 42,
+          "share": 0.012055109070034443
+        }
+      ],
+      "per_rare_type": {
+        "follicle": {
+          "support": 96,
+          "true_positive_in_predicted_rare_clusters": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "rare_cluster_enrichment": 0.0
+        },
+        "hilum": {
+          "support": 23,
+          "true_positive_in_predicted_rare_clusters": 22,
+          "precision": 0.022564102564102566,
+          "recall": 0.9565217391304348,
+          "f1": 0.04408817635270541,
+          "rare_cluster_enrichment": 3.4179710144927538
+        },
+        "medulla vessels": {
+          "support": 80,
+          "true_positive_in_predicted_rare_clusters": 42,
+          "precision": 0.043076923076923075,
+          "recall": 0.525,
+          "f1": 0.07962085308056871,
+          "rare_cluster_enrichment": 1.876
+        },
+        "subcapsular sinus": {
+          "support": 73,
+          "true_positive_in_predicted_rare_clusters": 14,
+          "precision": 0.014358974358974359,
+          "recall": 0.1917808219178082,
+          "f1": 0.026717557251908396,
+          "rare_cluster_enrichment": 0.6852968036529681
+        },
+        "trabeculae": {
+          "support": 8,
+          "true_positive_in_predicted_rare_clusters": 5,
+          "precision": 0.005128205128205128,
+          "recall": 0.625,
+          "f1": 0.01017293997965412,
+          "rare_cluster_enrichment": 2.2333333333333334
+        }
+      },
+      "independent_recount_match": true,
+      "prediction_file": "pred_res_1.5.npy"
+    }
+  ]
+}

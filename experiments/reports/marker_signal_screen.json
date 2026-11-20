@@ -1,11 +1,10 @@
 {
-  "description": "Per-domain marker screen. Wilcoxon over the full gene ranking (not a truncated pool), normalize_total(1e4) then log1p, group by the annotated domain. A domain's marker must pass all three criteria: adjusted p < 0.05, in-domain detection >= 0.60, and in-domain/out-of-domain detection ratio >= 2.0.",
+  "description": "Full-ranking Wilcoxon marker screen across all genes (normalize_total 1e4 + log1p).",
   "criteria": {
     "pvals_adj": "< 0.05",
     "pts_in": ">= 0.60",
     "pts_in_over_pts_rest": ">= 2.0"
   },
-  "threshold_robustness": "Lowering the detection threshold from 0.60 to 0.50 does not change the verdict for the three domains that fail: subcapsular sinus peaks at 0.48, medulla vessels at a 1.87-fold ratio, and trabeculae fails on multiple-testing correction regardless of the threshold.",
   "domains": [
     {
       "domain": "follicle",
@@ -18,12 +17,18 @@
       "pvals_adj": 3.334504553764788e-41,
       "pts_in": 0.8958333333333334,
       "pts_rest": 0.08146399055489964,
+      "detection_ratio": 10.996678743961354,
       "mean_log1p_in": 1.733649492263794,
       "mean_log1p_all": 0.1708226501941681,
       "fold_vs_tissue_mean": 10.148826811275997,
       "stable": true,
+      "tier": 1,
       "second_choice": "CLU",
-      "tier": 1
+      "reason": "",
+      "n_domain": 96,
+      "top_n_hits": 45,
+      "top_n_precision": 0.46875,
+      "top_n_enrichment": 17.01171875
     },
     {
       "domain": "medulla vessels",
@@ -36,12 +41,18 @@
       "pvals_adj": 0.008061265896985895,
       "pts_in": 0.575,
       "pts_rest": 0.3078730904817861,
+      "detection_ratio": 1.8676526717557251,
       "mean_log1p_in": 1.0627679824829102,
       "mean_log1p_all": 0.5318646430969238,
       "fold_vs_tissue_mean": 1.9981925782745398,
       "stable": false,
+      "tier": 2,
       "second_choice": "ACTA2",
-      "tier": 2
+      "reason": "no gene met all three criteria; selected highest detection-ratio significant gene with pts_in >= 0.30",
+      "n_domain": 80,
+      "top_n_hits": 5,
+      "top_n_precision": 0.0625,
+      "top_n_enrichment": 2.721875
     },
     {
       "domain": "subcapsular sinus",
@@ -54,12 +65,18 @@
       "pvals_adj": 0.0027199525964547028,
       "pts_in": 0.4794520547945205,
       "pts_rest": 0.16212254470829668,
+      "detection_ratio": 2.9573435061557136,
       "mean_log1p_in": 0.887373149394989,
       "mean_log1p_all": 0.28815674781799316,
       "fold_vs_tissue_mean": 3.0794807205260226,
       "stable": false,
+      "tier": 2,
       "second_choice": "FN1",
-      "tier": 2
+      "reason": "no gene met all three criteria; selected highest detection-ratio significant gene with pts_in >= 0.30",
+      "n_domain": 73,
+      "top_n_hits": 7,
+      "top_n_precision": 0.0958904109589041,
+      "top_n_enrichment": 4.576468380559205
     },
     {
       "domain": "hilum",
@@ -72,12 +89,18 @@
       "pvals_adj": 0.020640228787102567,
       "pts_in": 0.6956521739130435,
       "pts_rest": 0.3002022536839064,
+      "detection_ratio": 2.3172783194543247,
       "mean_log1p_in": 1.6798650026321411,
       "mean_log1p_all": 0.5218778848648071,
       "fold_vs_tissue_mean": 3.2188852054294492,
       "stable": true,
+      "tier": 1,
       "second_choice": "MCAM",
-      "tier": 1
+      "reason": "",
+      "n_domain": 23,
+      "top_n_hits": 2,
+      "top_n_precision": 0.08695652173913043,
+      "top_n_enrichment": 13.172022684310019
     },
     {
       "domain": "trabeculae",
@@ -90,13 +113,18 @@
       "pvals_adj": 1.0,
       "pts_in": 1.0,
       "pts_rest": 0.371403912543153,
+      "detection_ratio": 2.6924864446165766,
       "mean_log1p_in": 1.8600249290466309,
       "mean_log1p_all": 0.6328136324882507,
       "fold_vs_tissue_mean": 2.939293393116283,
       "stable": false,
+      "tier": 3,
       "second_choice": "MGP",
-      "tier": 3
+      "reason": "no gene reached pvals_adj < 0.05; selected rank-1 gene",
+      "n_domain": 8,
+      "top_n_hits": 0,
+      "top_n_precision": 0.0,
+      "top_n_enrichment": 0.0
     }
-  ],
-  "spatial_specificity_note": "Passing the three statistical criteria is not the same as localizing the domain. Follicle's CXCL13 is spatially specific: the top-expressing spots fall inside the domain (45 of the top 96, against a 2.76% domain share, i.e. 17x random). Hilum's COL1A2 passes the criteria but is not spatially specific: collagen is high across the entire capsule, so only 2 of the top 23 expressing spots fall inside hilum. The report therefore treats only follicle as having an unambiguous marker. trabeculae has pts_in = 1.0 on 8 spots, which is meaningless at that size and fails multiple-testing correction (adjusted p = 1.0)."
+  ]
 }
