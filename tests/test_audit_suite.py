@@ -96,7 +96,7 @@ def test_metrics_alignment_and_paired_contrasts() -> None:
     assert churn["changed_count"] == 0
     assert np.array_equal(align_labels_to_reference(permuted, truth), truth)
 
-    ev = evaluate_partition(permuted, truth, initial_labels=truth)
+    ev = evaluate_partition(permuted, truth, initial_labels=truth, knn_k=10)
     assert abs(ev["ari"] - 1.0) < 1e-12
     assert ev["rare_primary"]["f1"] == 1.0
 

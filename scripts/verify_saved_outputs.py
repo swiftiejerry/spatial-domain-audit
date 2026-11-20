@@ -50,6 +50,7 @@ def main() -> int:
                 spatial_edges=edges,
                 coordinates=coords,
                 class_names=names.tolist(),
+                knn_k=10,
             )
             aligned_metrics[(arm, seed)] = res
             churn_frac = res["assignment_churn"]["fraction"] if "assignment_churn" in res else 0.0
@@ -85,7 +86,7 @@ def main() -> int:
                 pred = np.load(rdir / "pred.npy")
                 pseudo = np.load(rdir / "leiden_pseudolabels.npy")
                 churn = assignment_churn(pred, pseudo)
-                ev = evaluate_partition(pred, truth, class_names=names.tolist())
+                ev = evaluate_partition(pred, truth, class_names=names.tolist(), knn_k=10)
                 print(
                     f"    arm {arm} seed={seed:>2}: moved={churn['changed_count']:>2}/{churn['n_spots']} "
                     f"ARI_vs_pseudo={churn['ari']:.4f} ARI={ev['ari']:.4f} "

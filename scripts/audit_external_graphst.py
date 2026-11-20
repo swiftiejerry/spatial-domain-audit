@@ -27,7 +27,7 @@ def verify() -> None:
         run_dir = ROOT / "experiments" / "runs" / "external_A1_GraphST" / f"seed{seed}"
         prediction = np.load(run_dir / "pred.npy", allow_pickle=False).reshape(-1)
         saved = json.loads((run_dir / "metrics.json").read_text(encoding="utf-8"))
-        result = evaluate_partition(prediction, truth)
+        result = evaluate_partition(prediction, truth, knn_k=10)
         values = {
             "ari": result["ari"],
             "nmi": result["nmi"],

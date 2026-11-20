@@ -336,7 +336,7 @@ def embedding_diagnostics(
     embedding: object,
     truth: object,
     *,
-    knn_k: int = 15,
+    knn_k: int = 10,
     spatial_edges: object | None = None,
 ) -> dict[str, Any]:
     """Measure embedding rank, cosine class separation, and k-NN purity."""
@@ -411,7 +411,7 @@ def evaluate_partition(
     embedding: object | None = None,
     class_names: Mapping[int, str] | Sequence[str] | None = None,
     spatial_k: int = 10,
-    knn_k: int = 15,
+    knn_k: int = 10,
 ) -> dict[str, Any]:
     """Compute complete clustering, rare-domain, boundary, and movement diagnostics."""
     pred, labels = _codes(predicted, "predicted"), _codes(truth, "truth")
